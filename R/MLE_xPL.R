@@ -21,8 +21,10 @@
 #' and the number of iterations taken by the Newton Raphson algorithm to reach convergence (or maxIter if not converged).
 #'
 #' @export
+#'
+#' @family dichotomous functions
 
-xPL_MLE <- function(ipar, u, st_th=0,crit=.001,maxIter = 100, minTheta=-10, maxTheta=10){
+MLE_xPL <- function(ipar, u, st_th=0,crit=.001,maxIter = 100, minTheta=-10, maxTheta=10){
   nItems <- nrow(ipar)
   if(length(u) != nItems) stop("Unequal number of items and responses")
   delta <- 10 # initialize difference at unrealistic value

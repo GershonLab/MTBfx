@@ -10,12 +10,10 @@
 #' the slope and relevant thresholds. As is required by the GRM model, there will be K-1 thresholds.
 #' Additional columns are allowed (e.g., for an item identifier or for number of categories with that item)
 #' provided that the column name is not "a" and does not contain "CB" in it.
-#'
 #' @param thetaGrid A vector of theta estimates at which the test information will be calculated.
 #' The thetaGrid is not provided by default, insofar as it expected to be passed by the GRM engine
 #' to the function. But if this function is intended to be used alone, a reasonable thetaGrid would
 #' be a sequence from -4 to +4 incremented by 0.01 (which is the PROMIS defaults).
-#'
 #' @param maxCat An integer for the maximum number of categories across all items in the bank.
 #'
 #' @return A list is returned with two elements. The first is an array with dimensions for the length of the thetaGrid,
@@ -28,7 +26,7 @@
 
 
 
-matrixInfoCalc <- function(ipar,thetaGrid,maxCat){
+matrixInfoGRM <- function(ipar,thetaGrid,maxCat){
   require(tidyverse)
   probDiff <- array(0,dim=c(length(thetaGrid),nrow(ipar),maxCat))
   matrixInfo <- matrix(0,nrow=length(thetaGrid),ncol=nrow(ipar))

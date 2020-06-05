@@ -70,6 +70,8 @@
 #' And the final element is restating the seed value used to initialize the RNG for exposure control.
 #'
 #' @export
+#'
+#' @family dichotomous functions
 
 
 dichotomousEngine <- function(iparFull, uFull, calib, lastAdmin, targetProb=0.5, minNI=20, maxNI=35, maxSE=0.4,

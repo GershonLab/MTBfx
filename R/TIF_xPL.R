@@ -14,6 +14,8 @@
 #' The second element of the list is a vector the same length as thetaGrid. It is the test information function estimated at each point along the thetaGrid.
 #'
 #' @export
+#'
+#' @family dichotomous functions
 
 
 
