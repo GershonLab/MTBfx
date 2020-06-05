@@ -21,3 +21,10 @@ This function takes parameters from a dichotomous item bank and a target theta e
 It calculates the item information at the target theta values (using the xPL_TIF function),
 and organizes the items from maximum to minimum information provided.
 }
+\seealso{
+Other dichotomous functions: 
+\code{\link{dichotomousEngine}()},
+\code{\link{xPL_MLE}()},
+\code{\link{xPL_TIF}()}
+}
+\concept{dichotomous functions}

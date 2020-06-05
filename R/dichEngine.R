@@ -1,7 +1,7 @@
 #' MTB Dichotomous Engine
 #'
 #' This function is a wrapper to simulate the dichotomous engine programmed within MobileToolbox.
-#' It utilizes MI_xPL and xPL_TIF functions for item selection and the xPL_MLE function for scoring.
+#' It utilizes MI_xPL and TIF_xPL functions for item selection and the MLE_xPL function for scoring.
 #' The dichotomous engine includes functionality for using experimental items (every 5th item, provided experimental items are available),
 #' exposure control with the Sympson-Hetter or Modified Davey-Parshall method,
 #' excluding items administered on a previous run (for retest scenarios), and exporting interim steps to the console, if requested.
@@ -9,31 +9,24 @@
 #' @param iparFull A matrix with rows for items and three columns. The first column is the slope,
 #' the second is the intercept (not the threshold),
 #' and the third is the guessing parameter (on the original scale, not on the logit scale).
-#'
 #' @param uFull A vector of response strings, coded 0 for incorrect and 1 for correct.
 #' The length of this vector must be equal to the number of items in the item bank.
-#'
 #' @param calib A vector of length nItems indicating whether an item is experimental (=0) or calibrated (=1).
 #' Only calibrated items are utilized in scoring. Experimental (or uncalibrated) items are administered every 5 items as available.
-#'
 #' @param lastAdmin A logical vector of length nItems indicating whether an item was administered (=TRUE) during the previous test session
 #' or if it was unadministered (=FALSE) and thus available for the current test session. If this is not provided, it defaults to all FALSE
 #' (i.e., no items were administered last time and thus all items are avialable this time).
-#'
 #' @param targetProb The target probability for a correct answer. Admissible values are from 0.01 to 0.99. The optimally-targeted items is
 #' at 0.50 (50% probability of correct responding). This is the default value, but many tests within MobileToolbox override this to 0.65
 #' or something similar, in which case the respondent is more likely to get the correct answer.
-#'
 #' @param minNI Minimum number of items to administer. Defaults to 20.
 #' @param maxNI Maximum number of items to administer. Defaults to 35.
 #' @param maxSE Maximum SE for variable-length CATs. Defaults to 0.4 (or approximately a reliability of 0.85)
 #' @param nonML_se The standard error to report when the maximum likelihood score estimate is undefined.
-#' Note that the xPL_MLE function returns Inf in these cases, and it is overridden only for reporting purposes.
+#' Note that the MLE_xPL function returns Inf in these cases, and it is overridden only for reporting purposes.
 #' The default value for this is 99.
-#'
 #' @param stepVal In cases when the MLE score is undefined, this parameter defines how far the theta estimate should be incremented
 #' (positively if all correct, negatively if all incorrect) for the next item. Default is 0.75 logits.
-#'
 #' @param minTheta Minimum allowable theta. Defaults to -10.
 #' @param maxTheta Maximum allowable theta. Defaults to +10.
 #' @param exp.cont This is a symmetric exposure control matrix of dimensions nItems by nItems. Acceptable values are between 0 and 1.
@@ -41,7 +34,6 @@
 #' are equal to 1 but the diagonal is between 0 and 1, this is equal to the Sympson-Hetter method for exposure control, or what
 #' has been referred to as unconditional exposure control. If the off-diagonals are also between 0 and 1, the lowest off-diagonal for an administered item
 #' is multiplied by the diagonal value to get a conditional exposure control value. This is a modification of the Davey-Parshall method.
-#'
 #' @param startTheta The theta value at which item selection for this person should begin. Defaults to 0.
 #' @param maxCycles Maximum number of cycles for the Newton Raphson method for MLE scoring.
 #' @param critScore Convergence criterion for the Newton Raphson method for MLE scoring.
@@ -70,9 +62,11 @@
 #' And the final element is restating the seed value used to initialize the RNG for exposure control.
 #'
 #' @export
+#'
+#' @family dichotomous functions
 
 
-dichotomousEngine <- function(iparFull, uFull, calib, lastAdmin, targetProb=0.5, minNI=20, maxNI=35, maxSE=0.4,
+dichEngine <- function(iparFull, uFull, calib, lastAdmin, targetProb=0.5, minNI=20, maxNI=35, maxSE=0.4,
                        nonML_se=99, stepVal=0.75, minTheta=-10, maxTheta=10, exp.cont, startTheta=0,
                        maxCycles=100, critScore=5e-4, seedval=12345, verbose=F){
   set.seed(seedval)
@@ -134,7 +128,7 @@ dichotomousEngine <- function(iparFull, uFull, calib, lastAdmin, targetProb=0.5,
       }
       admin.ItemID <- c(admin.ItemID, test.item[length(test.item)])                    # record administered item
       resp <- c(resp, uFull[admin.ItemID[length(admin.ItemID)]])
-      tmp <- xPL_MLE(ipar=iparFull[admin.ItemID,], u=resp, crit=critScore, maxIter=maxCycles, minTheta=minTheta, maxTheta=maxTheta)
+      tmp <- MLE_xPL(ipar=iparFull[admin.ItemID,], u=resp, crit=critScore, maxIter=maxCycles, minTheta=minTheta, maxTheta=maxTheta)
       if(is.infinite(tmp$Theta)){
         interimScores[(nGiven+1),] <- c(ifelse(interimScores[nGiven,'Theta'] + sign(tmp$Theta)*stepVal < minTheta, minTheta,
                                                ifelse(interimScores[nGiven,'Theta'] + sign(tmp$Theta)*stepVal > maxTheta, maxTheta,
@@ -194,7 +188,7 @@ dichotomousEngine <- function(iparFull, uFull, calib, lastAdmin, targetProb=0.5,
         }
         admin.ItemID <- c(admin.ItemID, test.item[length(test.item)])                    # record administered item
         resp <- c(resp, u_Split[['1']][admin.ItemID[length(admin.ItemID)]])
-        tmp <- xPL_MLE(ipar=ipar_Split[['1']][admin.ItemID[which(admin_type == 'Calibrated')],],
+        tmp <- MLE_xPL(ipar=ipar_Split[['1']][admin.ItemID[which(admin_type == 'Calibrated')],],
                        u=resp[which(admin_type == 'Calibrated')],
                        crit=critScore, maxIter=maxCycles, minTheta=minTheta, maxTheta=maxTheta)
         if(is.infinite(tmp$Theta)){
