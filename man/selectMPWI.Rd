@@ -7,7 +7,7 @@
 selectMPWI(matrixInfo, currentProbGrid, nItems)
 }
 \arguments{
-\item{matrixInfo}{This is the information matrix for the item bank calulated using the matrixInfoCalc() function.
+\item{matrixInfo}{This is the information matrix for the item bank calulated using the matrixInfoGRM() function.
 The information matrix should have been called by the GRM engine prior to item selection. But if used alone,
 this will need to be applied.}
 
@@ -25,5 +25,5 @@ This function is utilized by the GRM engine to select the next item using the MP
 item selection method. It is called within the engine, but can be used independently, if so desired.
 }
 \seealso{
-matrixInfoCalc
+matrixInfoGRM
 }

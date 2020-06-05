@@ -19,7 +19,7 @@
 
 
 
-xPL_TIF <- function(ipar,thetaGrid=seq(-4.5,4.5,.1)){
+TIF_xPL <- function(ipar,thetaGrid=seq(-4.5,4.5,.1)){
   nItems <- nrow(ipar)
   item.info <- matrix(rep(0, length(thetaGrid)*nItems), nrow=length(thetaGrid), ncol=nItems)
   test.info <- rep(0, length(thetaGrid))
