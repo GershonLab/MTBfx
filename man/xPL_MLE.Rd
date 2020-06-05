@@ -2,10 +2,17 @@
 % Please edit documentation in R/MLE_xPL.R
 \name{xPL_MLE}
 \alias{xPL_MLE}
-\title{xPL MLE}
+\title{Dichotmous MLE}
 \usage{
-xPL_MLE(ipar, u, st_th = 0, crit = 0.001, maxIter = 100,
-  minTheta = -10, maxTheta = 10)
+xPL_MLE(
+  ipar,
+  u,
+  st_th = 0,
+  crit = 0.001,
+  maxIter = 100,
+  minTheta = -10,
+  maxTheta = 10
+)
 }
 \arguments{
 \item{ipar}{A matrix with rows for items and three columns. The first column is the slope,
@@ -33,5 +40,6 @@ and the number of iterations taken by the Newton Raphson algorithm to reach conv
 \description{
 This function calculates the maximum likelihood estimate for dichotomous items. It is based off of the code provided in Baker and Kim 2017.
 However, it includes modifications for slope/intercept (as opposed to slope/threshold) parameterization,
-though it maintains original-scale guessing parameterization.
+though it maintains original-scale guessing parameterization. It supports the Rasch/1PL, 2PL, and 3PL models provided that
+they are appropriately parameterized for this function.
 }

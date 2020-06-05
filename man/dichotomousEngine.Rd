@@ -4,11 +4,26 @@
 \alias{dichotomousEngine}
 \title{MTB Dichotomous Engine}
 \usage{
-dichotomousEngine(iparFull, uFull, calib, lastAdmin, targetProb = 0.5,
-  minNI = 20, maxNI = 35, maxSE = 0.4, nonML_se = 99,
-  stepVal = 0.75, minTheta = -10, maxTheta = 10, exp.cont,
-  startTheta = 0, maxCycles = 100, critScore = 5e-04,
-  seedval = 12345, verbose = F)
+dichotomousEngine(
+  iparFull,
+  uFull,
+  calib,
+  lastAdmin,
+  targetProb = 0.5,
+  minNI = 20,
+  maxNI = 35,
+  maxSE = 0.4,
+  nonML_se = 99,
+  stepVal = 0.75,
+  minTheta = -10,
+  maxTheta = 10,
+  exp.cont,
+  startTheta = 0,
+  maxCycles = 100,
+  critScore = 5e-04,
+  seedval = 12345,
+  verbose = F
+)
 }
 \arguments{
 \item{iparFull}{A matrix with rows for items and three columns. The first column is the slope,

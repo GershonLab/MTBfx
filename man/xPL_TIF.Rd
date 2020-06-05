@@ -14,6 +14,12 @@ and the third is the guessing parameter (on the original scale, not on the logit
 \item{thetaGrid}{A vector of theta estimates at which the test information will be calculated.
 This defaults to a vector from -4.5 to 4.5, incremented by 0.1.}
 }
+\value{
+This function returns a list. The first element is a matrix with the item information.
+The thetaGrid forms the rows, and the number of items forms the columns.
+The second element of the list is a vector the same length as thetaGrid. It is the test information function estimated at each point along the thetaGrid.
+}
 \description{
-This function calculates the test information function for an item bank
+This function calculates the test information function for an item bank.
+It supports the Rasch/1PL, 2PL, and 3PL models provided that they are appropriately parameterized for this function.
 }
