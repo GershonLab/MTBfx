@@ -23,6 +23,8 @@
 #' information for each item calculated along the theta grid.
 #'
 #' @export
+#'
+#' @family  GRM_CAT functions
 
 
 
