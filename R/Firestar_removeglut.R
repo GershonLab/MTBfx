@@ -1,5 +1,3 @@
-# firestar function to hack and determine where inconsistencies are
-
 # ---------------------------------------------------------------
 # randomly defining variables
 # ---------------------------------------------------------------
@@ -15,25 +13,28 @@
  Firestar_removeglut <- function (filename.ipar = file.choose(),
                                   filename.resp = "",
                        filename.content = "", ncc = 1, filename.theta = "", model = "GRM",
-                       D = 1, simulateTheta = F, popDist = "NORMAL", popPar = c(0, 1),
+                       D = 1, simulateTheta = F,
+                       #popDist = "NORMAL", popPar = c(0, 1),
                        nSimulee = 1000, eapFullLength = T,
                        maxCat = 5,
                        minTheta = -3, maxTheta = 3, inc = 0.1, minNI = 4, maxNI = 12,
                        maxSE = 0.3, topN = 1,
                        exposure.control = F,
                        stopSE = 0.01,
-                       continueSE = 0.03, min.SE.change = 0, extreme.response.check = "N",
-                       max.extreme.response = 4, ni.available = 1000,
+                       continueSE = 0.03, min.SE.change = 0,# extreme.response.check = "N",
+                       max.extreme.response = 4,
                        selection.method = "MPWI", interim.Theta = "EAP",
-                       shrinkageCorrection = FALSE, se.method = 1, first.item.selection = 1,
+                      # shrinkageCorrection = FALSE,
+                       se.method = 1, first.item.selection = 1,
                        first.at.theta = 0, first.item = 1, show.theta.audit.trail = T,
                        #plot.usage = F, plot.info = F, plot.prob = F,
                        add.final.theta = F,
-                       bank.diagnosis = F, prior.dist = 1, prior.mean = 0, prior.sd = 1,
-                       file.items.used = "", file.theta.history = "", file.se.history = "",
-                       file.final.theta.se = "", file.other.thetas = "", file.likelihood.dist = "",
-                       file.posterior.dist = "", file.matrix.info = "", file.full.length.theta = "",
-                       file.selected.item.resp = "")
+                       bank.diagnosis = F, prior.dist = 1, prior.mean = 0, prior.sd = 1 #,
+                      # file.items.used = "", file.theta.history = "", file.se.history = "",
+                      # file.final.theta.se = "", file.other.thetas = "", file.likelihood.dist = "",
+                      # file.posterior.dist = "", file.matrix.info = "", file.full.length.theta = "",
+                      # file.selected.item.resp = ""
+                      )
  {
 call <- match.call()
 
@@ -45,135 +46,136 @@ item.par <- read.csv(filename.ipar, sep = ",", header = FALSE,
 # number of items
 ni <- nrow(item.par)
 
+content.balancing = F
 # code about whether to perform exposure control or content balancing
- if (exposure.control)
-   exposure.rate <- numeric(ni)
-   content.balancing <- FALSE
- if (ncc > 1 && filename.content != "" && !(toupper(selection.method) %in%
-                                            c("SEQ", "TSB"))) {
-   target.content.dist <- as.numeric(read.csv(filename.content,
-                                             header = FALSE, nrows = 1))
-   if (all(target.content.dist == 0))
-     warning("WARNING: all values in target content distribution are zero\n:content balancing not used")
-   content.cat <- read.csv(filename.content, header = FALSE,
-                           skip = 1)[[2]]
-   if (abs(sum(target.content.dist) - 1) > 0.1)
-     warning("WARNING: the sum of content proportions should add up to 1.0\n:content balancing not used")
-   else if (length(target.content.dist) != ncc)
-     warning("WARNING: the number of content categories (ncc) does not match the number of target proportions in the content control file\n:content balancing not used")
-   else if (length(content.cat) != ni)
-     warning("WARNING: the number of records in the content control file does not match the number of items in the bank\n:content balancing not used")
-   else {
-     if (maxNI > sum(content.cat %in% which(target.content.dist >
-                                            0)))
-       warning("WARNING: maxNI cannot be larger than the sum of items where target.content.dist > 0")
-     overall.content.freq <- numeric(ncc)
-     content.balancing <- TRUE
-   }
- }
- next.content <- function() {
-   available.content <- which(target.content.dist > 0 &
-                                as.numeric(tapply(items.available, content.cat,
-                                                  sum) > 0))
-   idx <- which.max(target.content.dist[available.content] -
-                      current.content.dist[available.content])
-   return(available.content[idx])
- }
- update.content.dist <- function() {
-   idx <- content.cat[item.selected]
-   current.content.freq[idx] <<- current.content.freq[idx] +
-     1
-   overall.content.freq[idx] <<- overall.content.freq[idx] +
-     1
-   current.content.dist <<- current.content.freq/ni.given
- }
-genResp <- function(n, Par) {
-  if (toupper(popDist) == "NORMAL") {
-    theta <- rnorm(n) * popPar[2] + popPar[1]
-  }
-  else if (toupper(popDist) == "UNIFORM") {
-    theta <- runif(n, popPar[1], popPar[2])
-  }
-  else if (toupper(popDist) == "GRID") {
-    theta <- rep(popPar, each = nSimulee)
-  }
-  else {
-    stop("invalid option specified for popDist")
-  }
-  ni <- dim(Par)[1]
-  ncat <- Par$NCAT
-  nq <- length(theta)
-  resp <- matrix(1, nq, ni)
-  pp <- array(0, c(nq, ni, maxCat))
-  if (model == "GRM") {
-    for (i in 1:ni) {
-      ncat <- Par[i, "NCAT"]
-      a <- Par[i, "a"]
-      cb <- Par[i, paste("cb", 1:(ncat - 1), sep = "")]
-      if (is.unsorted(cb)) {
-        stop(paste("item", i, "has disordinal category parameters\n"))
-      }
-      if (any(is.na(cb))) {
-        stop(paste("item", i, "has missing category parameter(s)\n"))
-      }
-      ps <- matrix(0, nq, ncat + 1)
-      ps[, 1] <- 1
-      ps[, ncat + 1] <- 0
-      for (k in 1:(ncat - 1)) {
-        ps[, k + 1] <- 1/(1 + exp(-D * a * (theta -
-                                              cb[[k]])))
-      }
-      for (k in 1:ncat) {
-        pp[, i, k] = ps[, k] - ps[, k + 1]
-      }
-    }
-  }
-  # else if (model == "GPCM") {
-  #   for (i in 1:ni) {
-  #     ncat <- Par[i, "NCAT"]
-  #     a <- Par[i, "a"]
-  #     cb <- unlist(Par[i, paste("cb", 1:(ncat - 1),
-  #                               sep = "")])
-  #     cb <- c(0, cb)
-  #     zz <- matrix(0, nq, ncat)
-  #     sdsum <- 0
-  #     den <- rep(0, nq)
-  #     for (k in 1:ncat) {
-  #       sdsum <- sdsum + cb[k]
-  #       zz[, k] <- exp(D * a * (k * theta - sdsum))
-  #       den <- den + zz[, k]
-  #     }
-  #     for (k in 1:ncat) {
-  #       pp[, i, k] <- zz[, k]/den
-  #     }
-  #   }
-  # }
-  random <- matrix(runif(nq * ni), nq, ni)
-  for (i in 1:ni) {
-    ncat <- Par[i, "NCAT"]
-    sump <- numeric(nq)
-    for (k in 1:(ncat - 1)) {
-      sump <- sump + pp[, i, k]
-      resp[, i] <- ifelse(random[, i] > sump, resp[,
-                                                   i] + 1, resp[, i] + 0)
-    }
-  }
-  out <- data.frame(resp, theta)
-  names(out) <- c(paste("R", 1:ni, sep = ""), "theta")
-  return(out)
-}
-if (filename.resp != "" && simulateTheta == FALSE) {
+ # if (exposure.control)
+ #   exposure.rate <- numeric(ni)
+ #   content.balancing <- FALSE
+ # if (ncc > 1 && filename.content != "" && !(toupper(selection.method) %in%
+ #                                            c("SEQ", "TSB"))) {
+ #   target.content.dist <- as.numeric(read.csv(filename.content,
+ #                                             header = FALSE, nrows = 1))
+ #   if (all(target.content.dist == 0))
+ #     warning("WARNING: all values in target content distribution are zero\n:content balancing not used")
+ #   content.cat <- read.csv(filename.content, header = FALSE,
+ #                           skip = 1)[[2]]
+ #   if (abs(sum(target.content.dist) - 1) > 0.1)
+ #     warning("WARNING: the sum of content proportions should add up to 1.0\n:content balancing not used")
+ #   else if (length(target.content.dist) != ncc)
+ #     warning("WARNING: the number of content categories (ncc) does not match the number of target proportions in the content control file\n:content balancing not used")
+ #   else if (length(content.cat) != ni)
+ #     warning("WARNING: the number of records in the content control file does not match the number of items in the bank\n:content balancing not used")
+ #   else {
+ #     if (maxNI > sum(content.cat %in% which(target.content.dist >
+ #                                            0)))
+ #       warning("WARNING: maxNI cannot be larger than the sum of items where target.content.dist > 0")
+ #     overall.content.freq <- numeric(ncc)
+ #     content.balancing <- TRUE
+ #   }
+ # }
+ # next.content <- function() {
+ #   available.content <- which(target.content.dist > 0 &
+ #                                as.numeric(tapply(items.available, content.cat,
+ #                                                  sum) > 0))
+ #   idx <- which.max(target.content.dist[available.content] -
+ #                      current.content.dist[available.content])
+ #   return(available.content[idx])
+ # }
+ # update.content.dist <- function() {
+ #   idx <- content.cat[item.selected]
+ #   current.content.freq[idx] <<- current.content.freq[idx] +
+ #     1
+ #   overall.content.freq[idx] <<- overall.content.freq[idx] +
+ #     1
+ #   current.content.dist <<- current.content.freq/ni.given
+ # }
+# genResp <- function(n, Par) {
+#   if (toupper(popDist) == "NORMAL") {
+#     theta <- rnorm(n) * popPar[2] + popPar[1]
+#   }
+#   else if (toupper(popDist) == "UNIFORM") {
+#     theta <- runif(n, popPar[1], popPar[2])
+#   }
+#   else if (toupper(popDist) == "GRID") {
+#     theta <- rep(popPar, each = nSimulee)
+#   }
+#   else {
+#     stop("invalid option specified for popDist")
+#   }
+#   ni <- dim(Par)[1]
+#   ncat <- Par$NCAT
+#   nq <- length(theta)
+#   resp <- matrix(1, nq, ni)
+#   pp <- array(0, c(nq, ni, maxCat))
+#   if (model == "GRM") {
+#     for (i in 1:ni) {
+#       ncat <- Par[i, "NCAT"]
+#       a <- Par[i, "a"]
+#       cb <- Par[i, paste("cb", 1:(ncat - 1), sep = "")]
+#       if (is.unsorted(cb)) {
+#         stop(paste("item", i, "has disordinal category parameters\n"))
+#       }
+#       if (any(is.na(cb))) {
+#         stop(paste("item", i, "has missing category parameter(s)\n"))
+#       }
+#       ps <- matrix(0, nq, ncat + 1)
+#       ps[, 1] <- 1
+#       ps[, ncat + 1] <- 0
+#       for (k in 1:(ncat - 1)) {
+#         ps[, k + 1] <- 1/(1 + exp(-D * a * (theta -
+#                                               cb[[k]])))
+#       }
+#       for (k in 1:ncat) {
+#         pp[, i, k] = ps[, k] - ps[, k + 1]
+#       }
+#     }
+#   }
+#   # else if (model == "GPCM") {
+#   #   for (i in 1:ni) {
+#   #     ncat <- Par[i, "NCAT"]
+#   #     a <- Par[i, "a"]
+#   #     cb <- unlist(Par[i, paste("cb", 1:(ncat - 1),
+#   #                               sep = "")])
+#   #     cb <- c(0, cb)
+#   #     zz <- matrix(0, nq, ncat)
+#   #     sdsum <- 0
+#   #     den <- rep(0, nq)
+#   #     for (k in 1:ncat) {
+#   #       sdsum <- sdsum + cb[k]
+#   #       zz[, k] <- exp(D * a * (k * theta - sdsum))
+#   #       den <- den + zz[, k]
+#   #     }
+#   #     for (k in 1:ncat) {
+#   #       pp[, i, k] <- zz[, k]/den
+#   #     }
+#   #   }
+#   # }
+#   random <- matrix(runif(nq * ni), nq, ni)
+#   for (i in 1:ni) {
+#     ncat <- Par[i, "NCAT"]
+#     sump <- numeric(nq)
+#     for (k in 1:(ncat - 1)) {
+#       sump <- sump + pp[, i, k]
+#       resp[, i] <- ifelse(random[, i] > sump, resp[,
+#                                                    i] + 1, resp[, i] + 0)
+#     }
+#   }
+#   out <- data.frame(resp, theta)
+#   names(out) <- c(paste("R", 1:ni, sep = ""), "theta")
+#   return(out)
+# }
+#if (filename.resp != "" && simulateTheta == FALSE) {
   resp.data <- read.csv(filename.resp, sep = ",", header = FALSE,
                         col.names = paste("R", 1:ni, sep = ""))
   resp.matrix <- data.matrix(resp.data)
   true.theta <- NA
-}
-else if (!is.na(nSimulee) && nSimulee > 0) {
-  resp.data <- genResp(nSimulee, item.par)
-  true.theta <- resp.data$theta
-  resp.matrix <- data.matrix(resp.data[paste("R", 1:ni,
-                                             sep = "")])
-}
+# }
+# else if (!is.na(nSimulee) && nSimulee > 0) {
+#   resp.data <- genResp(nSimulee, item.par)
+#   true.theta <- resp.data$theta
+#   resp.matrix <- data.matrix(resp.data[paste("R", 1:ni,
+#                                              sep = "")])
+# }
 theta <- seq(minTheta, maxTheta, inc)
 nq = length(theta)
 if (first.item.selection == 2 && first.at.theta >= minTheta &&
@@ -267,13 +269,13 @@ calcFullLengthEAP <- function() {
                                           nq, byrow = TRUE) - matrix(EAP, nExaminees, nq))^2)/rowSums(posterior))
   return(data.frame(theta = EAP, SE = SEM))
 }
-if (!(filename.theta == "") & eapFullLength == FALSE) {
-  ext.theta <- read.csv(filename.theta, sep = ",", header = F,
-                        col.names = "theta")
-}
-else {
+#if (!(filename.theta == "") & eapFullLength == FALSE) {
+ # ext.theta <- read.csv(filename.theta, sep = ",", header = F,
+  #                      col.names = "theta")
+#}
+#else {
   ext.theta <- calcFullLengthEAP()
-}
+#}
 calcInfo <- function(th) {
   info <- numeric(ni)
   available <- items.available
@@ -329,267 +331,267 @@ calcInfo <- function(th) {
   # }
    return(info)
 }
-calc.Loc.info <- function(th) {
-  info <- numeric(ni)
-  avg <- function(...) mean(..., na.rm = TRUE)
-  loc <- apply(CB, 1, avg)
-  available <- items.available
-  if (content.balancing)
-    available <- items.available & (content.cat == next.content())
-  for (i in 1:ni) {
-    if (available[i] == TRUE) {
-      p <- 1/(1 + exp(-D * DISC[i] * (th - loc[i])))
-      q <- 1 - p
-      info[i] <- D^2 * DISC[i]^2 * p * q
-    }
-  }
-  return(info)
-}
-calc.LW.info <- function(lk) {
-  info <- numeric(ni)
-  info <- apply(matrix.info * lk, 2, sum)
-  info[items.available == FALSE] <- 0
-  if (content.balancing)
-    info[content.cat != next.content()] <- 0
-  return(info)
-}
+# calc.Loc.info <- function(th) {
+#   info <- numeric(ni)
+#   avg <- function(...) mean(..., na.rm = TRUE)
+#   loc <- apply(CB, 1, avg)
+#   available <- items.available
+#   if (content.balancing)
+#     available <- items.available & (content.cat == next.content())
+#   for (i in 1:ni) {
+#     if (available[i] == TRUE) {
+#       p <- 1/(1 + exp(-D * DISC[i] * (th - loc[i])))
+#       q <- 1 - p
+#       info[i] <- D^2 * DISC[i]^2 * p * q
+#     }
+#   }
+#   return(info)
+# }
+#calc.LW.info <- function(lk) {
+ # info <- numeric(ni)
+ # info <- apply(matrix.info * lk, 2, sum)
+ # info[items.available == FALSE] <- 0
+ # if (content.balancing)
+ #   info[content.cat != next.content()] <- 0
+ # return(info)
+#}
 calc.PW.info <- function(pos) {
   info <- numeric(ni)
   info <- apply(matrix.info * pos, 2, sum)
   info[items.available == FALSE] <- 0
-  if (content.balancing)
-    info[content.cat != next.content()] <- 0
+ # if (content.balancing)
+ #   info[content.cat != next.content()] <- 0
   return(info)
 }
-calc.Expected.Info <- function(pos, current.theta) {
-  info <- numeric(ni)
-  available <- items.available
-  if (content.balancing)
-    available <- items.available & (content.cat == next.content())
-  for (i in 1:ni) {
-    if (available[i] == TRUE) {
-      ncat <- NCAT[i]
-      a <- DISC[i]
-      cb <- unlist(CB[i, ])
-      EAP.k <- numeric(ncat)
-      wt <- numeric(ncat)
-      for (k in 1:ncat) {
-        posterior.k <- pos * pp[, i, k]
-        wt[k] <- sum(posterior.k)
-        EAP.k[k] <- sum(posterior.k * theta)/sum(posterior.k)
-      }
-      wt <- wt/sum(wt)
-      if (model == "GRM") {
-        ps <- numeric(ncat + 1)
-        ps[1] <- 1
-        ps[ncat + 1] <- 0
-        for (r in 1:ncat) {
-          info.r <- 0
-          prob <- numeric(ncat)
-          for (k in 1:(ncat - 1)) {
-            ps[k + 1] <- 1/(1 + exp(-D * a * (EAP.k[r] -
-                                                cb[k])))
-          }
-          for (k in 1:ncat) {
-            prob[k] <- ps[k] - ps[k + 1]
-            info.r <- info.r + (D * a * (ps[k] * (1 -
-                                                    ps[k]) - ps[k + 1] * (1 - ps[k + 1])))^2/prob[k]
-          }
-          info[i] <- info[i] + wt[r] * info.r
-        }
-      }
-  #     else if (model == "GPCM") {
-  #       cb <- c(0, cb)
-  #       for (r in 1:ncat) {
-  #         prob <- numeric(ncat)
-  #         zz <- numeric(ncat)
-  #         sdsum <- 0
-  #         den <- 0
-  #         for (k in 1:ncat) {
-  #           sdsum <- sdsum + cb[k]
-  #           zz[k] <- exp(D * DISC[i] * (k * EAP.k[r] -
-  #                                         sdsum))
-  #           den <- den + zz[k]
-  #         }
-  #         AX <- 0
-  #         BX <- 0
-  #         for (k in 1:ncat) {
-  #           prob[k] <- zz[k]/den
-  #           AX <- AX + k^2 * prob[k]
-  #           BX <- BX + k * prob[k]
-  #         }
-  #         info.r <- D^2 * DISC[i]^2 * (AX - BX^2)
-  #         info[i] <- info[i] + wt[r] * info.r
-  #       }
-  #     }
-  #   }
-  # }
-  return(info)
-}
-calc.Expected.Var <- function(pos, current.theta) {
-  epv <- numeric(ni)
-  available <- items.available
-  if (content.balancing)
-    available <- items.available & (content.cat == next.content())
-  for (i in 1:ni) {
-    if (available[i] == TRUE) {
-      ncat <- NCAT[i]
-      wt <- numeric(ncat)
-      EAP.k <- numeric(ncat)
-      for (k in 1:ncat) {
-        posterior.k <- pos * pp[, i, k]
-        EAP.k[k] <- sum(posterior.k * theta)/sum(posterior.k)
-        wt[k] <- sum(posterior.k)
-        epv[i] <- epv[i] + wt[k] * sum(posterior.k *
-                                         (theta - EAP.k[k])^2)/sum(posterior.k)
-      }
-      epv[i] <- 1/epv[i]^2
-    }
-  }
-  return(epv)
-}
-calc.MI <- function(pos) {
-  MI <- numeric(ni)
-  available <- items.available
-  if (content.balancing)
-    available <- items.available & (content.cat == next.content())
-  for (i in 1:ni) {
-    if (available[i] == TRUE) {
-      ncat <- NCAT[i]
-      p <- numeric(ncat)
-      posterior.k <- matrix(NA, ncat, length(pos))
-      for (k in 1:ncat) {
-        posterior.k[k, ] <- pos * pp[, i, k]
-        p[k] <- sum(posterior.k[k, ])
-      }
-      p <- p/sum(p)
-      for (k in 1:ncat) {
-        MI[i] <- MI[i] + sum(posterior.k[k, ] * log(posterior.k[k,
-                                                                ]/(pos * p[k])))
-      }
-    }
-  }
-  return(MI)
-}
-calc.Predicted.PSD <- function(pos, current.theta) {
-  ppsd <- rep(NA, ni)
-  available <- items.available
-  if (content.balancing)
-    available <- items.available & (content.cat == next.content())
-  for (i in 1:ni) {
-    if (available[i] == TRUE) {
-      ncat <- NCAT[i]
-      wt <- numeric(ncat)
-      EAP.k <- numeric(ncat)
-      posterior.k <- matrix(NA, nq, ncat)
-      for (k in 1:ncat) {
-        posterior.k[, k] <- pos * pp[, i, k]
-        wt[k] <- sum(pp[, i, k] * pos/sum(pos))
-      }
-      wt <- wt/sum(wt)
-      ppsd[i] <- 0
-      for (k in 1:ncat) {
-        EAP.k[k] <- sum(posterior.k[, k] * theta)/sum(posterior.k[,
-                                                                  k])
-        ppsd[i] <- ppsd[i] + wt[k] * sqrt(sum(pos *
-                                                pp[, i, k] * (theta - EAP.k[k])^2)/sum(pos *
-                                                                                         pp[, i, k]))
-      }
-    }
-  }
-  return(ppsd)
-}
-calc.Expected.PW.Info <- function(pos, current.theta) {
-  info <- numeric(ni)
-  available <- items.available
-  if (content.balancing)
-    available <- items.available & (content.cat == next.content())
-  for (i in 1:ni) {
-    if (available[i] == TRUE) {
-      ncat <- NCAT[i]
-      wt <- numeric(ncat)
-      info.i <- matrix.info[, i]
-      info.k <- numeric(ncat)
-      for (k in 1:ncat) {
-        posterior.k <- pos * pp[, i, k]/sum(pos *
-                                              pp[, i, k])
-        info.k[k] <- sum(info.i * posterior.k)
-        wt[k] <- sum(pos * pp[, i, k])
-      }
-      wt <- wt/sum(wt)
-      info[i] <- sum(info.k * wt)
-    }
-  }
-  return(info)
-}
-prep.info.ext.theta <- function() {
-  pp <- matrix(0, nExaminees, maxCat)
-  matrix.info <- matrix(0, nExaminees, ni)
-  if (model == "GRM") {
-    for (i in 1:ni) {
-      ps <- matrix(0, nExaminees, NCAT[i] + 1)
-      ps[, 1] <- 1
-      ps[, NCAT[i] + 1] <- 0
-      for (k in 1:(NCAT[i] - 1)) {
-        ps[, k + 1] <- 1/(1 + exp(-D * DISC[i] * (ext.theta[[1]] -
-                                                    CB[i, k])))
-      }
-      pp[, 1] <- 1 - ps[, 1]
-      pp[, NCAT[i]] <- ps[, NCAT[i]]
-      for (k in 1:NCAT[i]) {
-        pp[, k] = ps[, k] - ps[, k + 1]
-        matrix.info[, i] <- matrix.info[, i] + (D *
-                                                  DISC[i] * (ps[, k] * (1 - ps[, k]) - ps[,
-                                                                                          k + 1] * (1 - ps[, k + 1])))^2/pp[, k]
-      }
-    }
-  }
-  # else if (model == "GPCM") {
-  #   for (i in 1:ni) {
-  #     cb <- unlist(CB[i, ])
-  #     cb <- c(0, cb)
-  #     zz <- matrix(0, nExaminees, NCAT[i])
-  #     sdsum <- 0
-  #     den <- rep(0, nExaminees)
-  #     for (k in 1:NCAT[i]) {
-  #       sdsum <- sdsum + cb[k]
-  #       zz[, k] <- exp(D * DISC[i] * (k * ext.theta[[1]] -
-  #                                       sdsum))
-  #       den <- den + zz[, k]
-  #     }
-  #     AX <- rep(0, nExaminees)
-  #     BX <- rep(0, nExaminees)
-  #     for (k in 1:NCAT[i]) {
-  #       pp[, k] <- zz[, k]/den
-  #       AX <- AX + k^2 * pp[, k]
-  #       BX <- BX + k * pp[, k]
-  #     }
-  #     matrix.info[, i] <- D^2 * DISC[i]^2 * (AX -
-  #                                              BX^2)
-  #   }
-  # }
-  return(matrix.info)
-}
+# calc.Expected.Info <- function(pos, current.theta) {
+#   info <- numeric(ni)
+#   available <- items.available
+#   if (content.balancing)
+#     available <- items.available & (content.cat == next.content())
+#   for (i in 1:ni) {
+#     if (available[i] == TRUE) {
+#       ncat <- NCAT[i]
+#       a <- DISC[i]
+#       cb <- unlist(CB[i, ])
+#       EAP.k <- numeric(ncat)
+#       wt <- numeric(ncat)
+#       for (k in 1:ncat) {
+#         posterior.k <- pos * pp[, i, k]
+#         wt[k] <- sum(posterior.k)
+#         EAP.k[k] <- sum(posterior.k * theta)/sum(posterior.k)
+#       }
+#       wt <- wt/sum(wt)
+#       if (model == "GRM") {
+#         ps <- numeric(ncat + 1)
+#         ps[1] <- 1
+#         ps[ncat + 1] <- 0
+#         for (r in 1:ncat) {
+#           info.r <- 0
+#           prob <- numeric(ncat)
+#           for (k in 1:(ncat - 1)) {
+#             ps[k + 1] <- 1/(1 + exp(-D * a * (EAP.k[r] -
+#                                                 cb[k])))
+#           }
+#           for (k in 1:ncat) {
+#             prob[k] <- ps[k] - ps[k + 1]
+#             info.r <- info.r + (D * a * (ps[k] * (1 -
+#                                                     ps[k]) - ps[k + 1] * (1 - ps[k + 1])))^2/prob[k]
+#           }
+#           info[i] <- info[i] + wt[r] * info.r
+#         }
+#       }
+#       # else if (model == "GPCM") {
+#       #   cb <- c(0, cb)
+#       #   for (r in 1:ncat) {
+#       #     prob <- numeric(ncat)
+#       #     zz <- numeric(ncat)
+#       #     sdsum <- 0
+#       #     den <- 0
+#       #     for (k in 1:ncat) {
+#       #       sdsum <- sdsum + cb[k]
+#       #       zz[k] <- exp(D * DISC[i] * (k * EAP.k[r] -
+#       #                                     sdsum))
+#       #       den <- den + zz[k]
+#       #     }
+#       #     AX <- 0
+#       #     BX <- 0
+#       #     for (k in 1:ncat) {
+#       #       prob[k] <- zz[k]/den
+#       #       AX <- AX + k^2 * prob[k]
+#       #       BX <- BX + k * prob[k]
+#       #     }
+#       #     info.r <- D^2 * DISC[i]^2 * (AX - BX^2)
+#       #     info[i] <- info[i] + wt[r] * info.r
+#       #   }
+#       # }
+#     }
+#   }
+#   return(info)
+# }
+# calc.Expected.Var <- function(pos, current.theta) {
+#   epv <- numeric(ni)
+#   available <- items.available
+#   if (content.balancing)
+#     available <- items.available & (content.cat == next.content())
+#   for (i in 1:ni) {
+#     if (available[i] == TRUE) {
+#       ncat <- NCAT[i]
+#       wt <- numeric(ncat)
+#       EAP.k <- numeric(ncat)
+#       for (k in 1:ncat) {
+#         posterior.k <- pos * pp[, i, k]
+#         EAP.k[k] <- sum(posterior.k * theta)/sum(posterior.k)
+#         wt[k] <- sum(posterior.k)
+#         epv[i] <- epv[i] + wt[k] * sum(posterior.k *
+#                                          (theta - EAP.k[k])^2)/sum(posterior.k)
+#       }
+#       epv[i] <- 1/epv[i]^2
+#     }
+#   }
+#   return(epv)
+# }
+# calc.MI <- function(pos) {
+#   MI <- numeric(ni)
+#   available <- items.available
+#   if (content.balancing)
+#     available <- items.available & (content.cat == next.content())
+#   for (i in 1:ni) {
+#     if (available[i] == TRUE) {
+#       ncat <- NCAT[i]
+#       p <- numeric(ncat)
+#       posterior.k <- matrix(NA, ncat, length(pos))
+#       for (k in 1:ncat) {
+#         posterior.k[k, ] <- pos * pp[, i, k]
+#         p[k] <- sum(posterior.k[k, ])
+#       }
+#       p <- p/sum(p)
+#       for (k in 1:ncat) {
+#         MI[i] <- MI[i] + sum(posterior.k[k, ] * log(posterior.k[k,
+#                                                                 ]/(pos * p[k])))
+#       }
+#     }
+#   }
+#   return(MI)
+# }
+# calc.Predicted.PSD <- function(pos, current.theta) {
+#   ppsd <- rep(NA, ni)
+#   available <- items.available
+#   if (content.balancing)
+#     available <- items.available & (content.cat == next.content())
+#   for (i in 1:ni) {
+#     if (available[i] == TRUE) {
+#       ncat <- NCAT[i]
+#       wt <- numeric(ncat)
+#       EAP.k <- numeric(ncat)
+#       posterior.k <- matrix(NA, nq, ncat)
+#       for (k in 1:ncat) {
+#         posterior.k[, k] <- pos * pp[, i, k]
+#         wt[k] <- sum(pp[, i, k] * pos/sum(pos))
+#       }
+#       wt <- wt/sum(wt)
+#       ppsd[i] <- 0
+#       for (k in 1:ncat) {
+#         EAP.k[k] <- sum(posterior.k[, k] * theta)/sum(posterior.k[,
+#                                                                   k])
+#         ppsd[i] <- ppsd[i] + wt[k] * sqrt(sum(pos *
+#                                                 pp[, i, k] * (theta - EAP.k[k])^2)/sum(pos *
+#                                                                                          pp[, i, k]))
+#       }
+#     }
+#   }
+#   return(ppsd)
+# }
+# calc.Expected.PW.Info <- function(pos, current.theta) {
+#   info <- numeric(ni)
+#   available <- items.available
+#   if (content.balancing)
+#     available <- items.available & (content.cat == next.content())
+#   for (i in 1:ni) {
+#     if (available[i] == TRUE) {
+#       ncat <- NCAT[i]
+#       wt <- numeric(ncat)
+#       info.i <- matrix.info[, i]
+#       info.k <- numeric(ncat)
+#       for (k in 1:ncat) {
+#         posterior.k <- pos * pp[, i, k]/sum(pos *
+#                                               pp[, i, k])
+#         info.k[k] <- sum(info.i * posterior.k)
+#         wt[k] <- sum(pos * pp[, i, k])
+#       }
+#       wt <- wt/sum(wt)
+#       info[i] <- sum(info.k * wt)
+#     }
+#   }
+#   return(info)
+# }
+# prep.info.ext.theta <- function() {
+#   pp <- matrix(0, nExaminees, maxCat)
+#   matrix.info <- matrix(0, nExaminees, ni)
+#   if (model == "GRM") {
+#     for (i in 1:ni) {
+#       ps <- matrix(0, nExaminees, NCAT[i] + 1)
+#       ps[, 1] <- 1
+#       ps[, NCAT[i] + 1] <- 0
+#       for (k in 1:(NCAT[i] - 1)) {
+#         ps[, k + 1] <- 1/(1 + exp(-D * DISC[i] * (ext.theta[[1]] -
+#                                                     CB[i, k])))
+#       }
+#       pp[, 1] <- 1 - ps[, 1]
+#       pp[, NCAT[i]] <- ps[, NCAT[i]]
+#       for (k in 1:NCAT[i]) {
+#         pp[, k] = ps[, k] - ps[, k + 1]
+#         matrix.info[, i] <- matrix.info[, i] + (D *
+#                                                   DISC[i] * (ps[, k] * (1 - ps[, k]) - ps[,
+#                                                                                           k + 1] * (1 - ps[, k + 1])))^2/pp[, k]
+#       }
+#     }
+#   }
+#   # else if (model == "GPCM") {
+#   #   for (i in 1:ni) {
+#   #     cb <- unlist(CB[i, ])
+#   #     cb <- c(0, cb)
+#   #     zz <- matrix(0, nExaminees, NCAT[i])
+#   #     sdsum <- 0
+#   #     den <- rep(0, nExaminees)
+#   #     for (k in 1:NCAT[i]) {
+#   #       sdsum <- sdsum + cb[k]
+#   #       zz[, k] <- exp(D * DISC[i] * (k * ext.theta[[1]] -
+#   #                                       sdsum))
+#   #       den <- den + zz[, k]
+#   #     }
+#   #     AX <- rep(0, nExaminees)
+#   #     BX <- rep(0, nExaminees)
+#   #     for (k in 1:NCAT[i]) {
+#   #       pp[, k] <- zz[, k]/den
+#   #       AX <- AX + k^2 * pp[, k]
+#   #       BX <- BX + k * pp[, k]
+#   #     }
+#   #     matrix.info[, i] <- D^2 * DISC[i]^2 * (AX -
+#   #                                              BX^2)
+#   #   }
+#   # }
+#   return(matrix.info)
+# }
 select.maxInfo <- function() {
-  if (exposure.control) {
-    if (ni.given == 0) {
-      item.selected <- info.index[sample(ni.available,
-                                         1)]
-      exposure.rate[item.selected] <<- exposure.rate[item.selected] +
-        1
-    }
-    else {
-      rc <- runif(ni, max = max(array.info))
-      rc[items.available == FALSE] <- 0
-      rel <- 1 - se.history[j, ni.given]^2
-      w.array.info <- rel * (1 - exposure.rate/j) *
-        array.info + (1 - rel) * rc
-      item.selected <- order(w.array.info, decreasing = TRUE)[1]
-      exposure.rate[item.selected] <<- exposure.rate[item.selected] +
-        1
-    }
-  }
-  else {
+  # if (exposure.control) {
+  #   if (ni.given == 0) {
+  #     item.selected <- info.index[sample(ni.available,
+  #                                        1)]
+  #     exposure.rate[item.selected] <<- exposure.rate[item.selected] +
+  #       1
+  #   }
+  #   else {
+  #     rc <- runif(ni, max = max(array.info))
+  #     rc[items.available == FALSE] <- 0
+  #     rel <- 1 - se.history[j, ni.given]^2
+  #     w.array.info <- rel * (1 - exposure.rate/j) *
+  #       array.info + (1 - rel) * rc
+  #     item.selected <- order(w.array.info, decreasing = TRUE)[1]
+  #     exposure.rate[item.selected] <<- exposure.rate[item.selected] +
+  #       1
+  #   }
+  # }
+#  else {
     if (ni.available >= topN) {
       item.selected <- info.index[sample(topN, 1)]
     }
@@ -597,7 +599,7 @@ select.maxInfo <- function() {
       item.selected <- info.index[sample(ni.available,
                                          1)]
     }
-  }
+ # }
   return(item.selected)
 }
 calcSE <- function(examinee, ngiven, th) {
@@ -664,15 +666,15 @@ calcEAP <- function(examinee, ngiven) {
   else if (se.method == 2) {
     SEM <- calcSE(examinee, ngiven, EAP)
   }
-  if (shrinkageCorrection) {
-    EAP <- EAP * (1 + SEM^2)
-    if (se.method == 1) {
-      SEM <- 1/(sqrt(1/SEM^2 - 1/prior.sd))
-    }
-    else if (se.method == 2) {
-      SEM <- calcSE(examinee, ngiven, EAP)
-    }
-  }
+  # if (shrinkageCorrection) {
+  #   EAP <- EAP * (1 + SEM^2)
+  #   if (se.method == 1) {
+  #     SEM <- 1/(sqrt(1/SEM^2 - 1/prior.sd))
+  #   }
+  #   else if (se.method == 2) {
+  #     SEM <- calcSE(examinee, ngiven, EAP)
+  #   }
+  # }
   return(list(THETA = EAP, SEM = SEM, LH = LH, posterior = posterior))
 }
 calcMLE <- function(examinee, ngiven, maxIter = 50, crit = 1e-04) {
@@ -1016,37 +1018,37 @@ calc.e.score <- function(th) {
 #          pch = c(16, 10, 21), bg = "white", col = c("red",
 #                                                     "black", "black"))
 # }
-check.extreme.response <- function() {
+#check.extreme.response <- function() {
   flag <- FALSE
-  if (toupper(extreme.response.check) %in% c("L", "R",
-                                             "H", "E")) {
-    if (ni.given == max.extreme.response) {
-      resp.string <- paste0(selected.item.resp[j,
-                                               1:ni.given], collapse = "")
-      if (toupper(extreme.response.check) == "L") {
-        if (resp.string == paste0(rep(1, ni.given),
-                                  collapse = "")) {
-          flag <- TRUE
-        }
-      }
-      else if (toupper(extreme.response.check) %in%
-               c("R", "H")) {
-        if (resp.string == paste0(NCAT[items.used[j,
-                                                  1:ni.given]], collapse = "")) {
-          flag <- TRUE
-        }
-      }
-      else {
-        if (resp.string == paste0(rep(1, ni.given),
-                                  collapse = "") || resp.string == paste0(NCAT[items.used[j,
-                                                                                          1:ni.given]], collapse = "")) {
-          flag <- TRUE
-        }
-      }
-    }
-  }
-  return(flag)
-}
+ # if (toupper(extreme.response.check) %in% c("L", "R",
+  #                                           "H", "E")) {
+ #   if (ni.given == max.extreme.response) {
+  #    resp.string <- paste0(selected.item.resp[j,
+  #                                             1:ni.given], collapse = "")
+#       if (toupper(extreme.response.check) == "L") {
+#         if (resp.string == paste0(rep(1, ni.given),
+#                                   collapse = "")) {
+#           flag <- TRUE
+#         }
+#       }
+#       else if (toupper(extreme.response.check) %in%
+#                c("R", "H")) {
+#         if (resp.string == paste0(NCAT[items.used[j,
+#                                                   1:ni.given]], collapse = "")) {
+#           flag <- TRUE
+#         }
+#       }
+#       else {
+#         if (resp.string == paste0(rep(1, ni.given),
+#                                   collapse = "") || resp.string == paste0(NCAT[items.used[j,
+#                                                                                           1:ni.given]], collapse = "")) {
+#           flag <- TRUE
+#         }
+#       }
+#     }
+#   }
+#   return(flag)
+# }
 check.SE.change <- function() {
   flag <- FALSE
   if (min.SE.change > 0 && ni.given >= minNI && ni.given >=
@@ -1059,8 +1061,8 @@ check.SE.change <- function() {
   }
   return(flag)
 }
-if (Sys.info()["sysname"] == "Windows")
-  windows(record = T)
+#if (Sys.info()["sysname"] == "Windows")
+ # windows(record = T)
 #if (toupper(selection.method) == "MFI") {
 #   for (j in 1:nExaminees) {
 #     critMet <- FALSE
@@ -1249,7 +1251,7 @@ if (toupper(selection.method) == "MPWI") {
       se.history[j, ni.given] <- estimates$SEM
       theta.current <- estimates$THETA
       if (ni.given >= max.to.administer || (estimates$SEM <=
-                                            maxSE && ni.given >= minNI) || check.extreme.response() ||
+                                            maxSE && ni.given >= minNI) || #check.extreme.response() ||
           check.SE.change()) {
         critMet <- TRUE
         theta.CAT[j] <- estimates$THETA
@@ -2027,8 +2029,7 @@ out <- list(call = call, mean.nia = mean.nia,
             item.par = item.par, resp = resp.matrix, items.used = items.used,
             theta.history = theta.history, se.history = se.history,
             selected.item.resp = selected.item.resp, final.theta.se = final.theta.se,
-            likelihood.dist = LH.matrix,
-            posterior.dist = posterior.matrix,
+            likelihood.dist = LH.matrix, posterior.dist = posterior.matrix,
             matrix.info = matrix.info)
 return(out)
 }
