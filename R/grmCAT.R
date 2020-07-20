@@ -14,7 +14,8 @@
 #' @param prevSD estimated SD from prior CAT administration
 #' @param muEAP Estimated A Posterior mean. Defaults to NULL.
 #' @param sdEAP Estimated A Posterior SD. Defaults to NULL.
-#' @param scoreCumulativeDiffuse
+#' @param scoreCumulativeDiffuse Logical to indicate whether the theta grid should be modified prior to administering the first item based
+#' on the final score estimate from the previous administration. Defaults to TRUE.
 #' @param start_item First item to start the CAT engine.
 #' @param minNI Minimum number of items to administer. Defaults to 4.
 #' @param maxSD Maximum SD. Defaults to 0.3.
@@ -39,13 +40,26 @@
 #'                   NCAT = 5)
 #' simulate responses
 #' set.seed(22416)
-#' # 10 participants and their responses from the three items
+#' # 20 participants and their responses from the three items
 #' resp <- round(matrix(runif(30, 1, 5), 20, 3))
 #'
 #' # run
 #' grmCAT_output <- grmCAT(ipar, resp,minTheta=-6,maxTheta=6,nQpts=121,prevTheta=NULL,
 #' prevSD=NULL,muEAP=0,sdEAP=3,scoreCumulativeDiffuse=TRUE,
 #' start_item=0,minNI=4,maxSD=0.3,maxNI=8,deltaSD=0.01)
+#'
+#' # set scoreCumulativeDiffuse = T and prevTheta = 1
+#' grmCAT_sCD_true <- grmCAT(ipar, resp,minTheta=-6,maxTheta=6,nQpts=121,prevTheta=1,
+#' prevSD=NULL,muEAP=0,sdEAP=3,scoreCumulativeDiffuse=TRUE,
+#' start_item=0,minNI=4,maxSD=0.3,maxNI=8,deltaSD=0.01)
+#'
+#' grmCAT_sCD_false <- grmCAT(ipar, resp,minTheta=-6,maxTheta=6,nQpts=121,prevTheta=1,
+#' prevSD=NULL,muEAP=0,sdEAP=3,scoreCumulativeDiffuse=FALSE,
+#' start_item=0,minNI=4,maxSD=0.3,maxNI=8,deltaSD=0.01)
+#'
+#'# changing the scoreCumulativeDiffuse option does not change item selection
+#'# theta estimates should generally be very close, if not identical
+#'  grmCAT_sCD_true$finalTheta; grmCAT_sCD_false$finalTheta
 #'
 #' @export
 #'
