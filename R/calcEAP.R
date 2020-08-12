@@ -24,6 +24,16 @@
 #' The second element is the estimated theta score using the EAP scoring method. The final element is the standard deviation
 #' of the probability grid, which provides an index for the reliability of the score estimate.
 #'
+#' @example
+#' #
+#' sdEAP <- 3
+#' thetaGrid <- seq(-4, 4, length.out=121)
+#' muEAP <- 0
+#' currentProbGrid <- 1/(sdEAP * sqrt(2*pi))*exp((-(thetaGrid - muEAP)^2)/(2*sdEAP^2))
+#'
+#' # run
+#' currentProbGrid(currentProbGrid = currentProbGrid, i_resp = 1, probDiff = , thetaGrid = thetaGrid)
+#'
 #' @export
 #'
 #' @family  GRM_CAT functions
