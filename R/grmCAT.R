@@ -1,7 +1,7 @@
 #' MTB Graded Response Model Engine
 #'
 #' This function is a wrapper to simulate the graded response model engine programmed within MobileToolbox.
-#' It utilizes matrixInfoCalc, selectMPWI, and calcEAP funtions for item selection and scoring.
+#' It utilizes matrixInfoGRM, selectMPWI, and calcEAP funtions for item selection and scoring.
 #'
 #' @param ipar An item parameter matrix in slope/threshold format. Each item is on a separate line.
 #' The column names should be "a" and "CB1" through "CB#" for
@@ -39,28 +39,44 @@
 #'                   CB3 = c(0.17, -1.19,  -0.52),
 #'                   CB4 = c(0.653, -0.551,  0.036),
 #'                   NCAT = 5)
-#' simulate responses
+#' #simulate responses
 #' set.seed(22416)
 #' # 20 participants and their responses from the three items
-#' resp <- round(matrix(stats::runif(30, 1, 5), 20, 3))
+#' resp <- round(matrix(stats::runif(20*3, 1, 5), 20, 3))
 #'
+#' Currently grmCAT is NOT vectorized and only 1 participant can be run at a time (unless using apply)
 #' # run
-#' grmCAT_output <- grmCAT(ipar, resp,minTheta=-6,maxTheta=6,nQpts=121,prevTheta=NULL,
+#' grmCAT_output <- grmCAT(ipar, resp[,1],minTheta=-6,maxTheta=6,nQpts=121,prevTheta=NULL,
 #' prevSD=NULL,muEAP=0,sdEAP=3,scoreCumulativeDiffuse=TRUE,
 #' start_item=0,minNI=4,maxSD=0.3,maxNI=8,deltaSD=0.01)
 #'
 #' # set scoreCumulativeDiffuse = T and prevTheta = 1
-#' grmCAT_sCD_true <- grmCAT(ipar, resp,minTheta=-6,maxTheta=6,nQpts=121,prevTheta=1,
+#' grmCAT_sCD_true <- grmCAT(ipar, resp[,1],minTheta=-6,maxTheta=6,nQpts=121,prevTheta=1,
 #' prevSD=NULL,muEAP=0,sdEAP=3,scoreCumulativeDiffuse=TRUE,
 #' start_item=0,minNI=4,maxSD=0.3,maxNI=8,deltaSD=0.01)
 #'
-#' grmCAT_sCD_false <- grmCAT(ipar, resp,minTheta=-6,maxTheta=6,nQpts=121,prevTheta=1,
+#' grmCAT_sCD_false <- grmCAT(ipar, resp[,1],minTheta=-6,maxTheta=6,nQpts=121,prevTheta=1,
 #' prevSD=NULL,muEAP=0,sdEAP=3,scoreCumulativeDiffuse=FALSE,
 #' start_item=0,minNI=4,maxSD=0.3,maxNI=8,deltaSD=0.01)
 #'
-#'# changing the scoreCumulativeDiffuse option does not change item selection
-#'# theta estimates should generally be very close, if not identical
+#' # changing the scoreCumulativeDiffuse option does not change item selection with only three items
+#' # theta estimates should generally be very close, if not identical
 #'  grmCAT_sCD_true$finalTheta; grmCAT_sCD_false$finalTheta
+#'
+#' # or with apply
+#' #' allResp <- apply(resp,1, function(y) grmCAT(ipar, resp=y))
+#'
+#'
+#'  #### Using the PROMIS Pediatric Strength Impact item bank
+#'  set.seed(542)
+#' # 5 participants with random responses to all 12 items
+#' data(iparPedImp)
+#' respSI <- round(matrix(stats::runif(12*5, 1, 5), 5, 12))
+#' grm_out1 <- apply(respSI,1,function(y) grmCAT(ipar=iparPedImp[,2:7], resp=y,
+#' minTheta=-4, maxTheta=4, nQpts=81,minNI=5,maxNI=12)) # PROMIS Peds defaults
+#'
+#' table(sapply(grm_out1, function(y) nrow(y$scoreHistory)-1)) # all participants got 5 items
+#' table(sapply(grm_out1, function(y) y$scoreHistory$itemAdminHistory))
 #'
 #' @export
 #'
@@ -73,7 +89,7 @@ grmCAT <- function(ipar, resp,minTheta=-6,maxTheta=6,nQpts=121,prevTheta=NULL,
   nItems <- nrow(ipar)
   thetaGrid <- seq(minTheta,maxTheta,length.out=nQpts)
   maxCat <- max(ipar$NCAT)
-  useprobs <- matrixInfoCalc(ipar,thetaGrid,maxCat)
+  useprobs <- matrixInfoGRM(ipar,thetaGrid,maxCat)
   if(!scoreCumulativeDiffuse | (scoreCumulativeDiffuse & is.null(prevTheta))){
     currentProbGrid <- 1/(sdEAP * sqrt(2*pi))*exp((-(thetaGrid - muEAP)^2)/(2*sdEAP^2))
   } else {
