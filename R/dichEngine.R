@@ -105,7 +105,7 @@ dichEngine <- function(iparFull, uFull, calib, lastAdmin, targetProb=0.5, minNI=
                       as.character(nGiven), "\t","Max Info Order", "\t",paste0("V",iiorder), fill=TRUE)
       for(c in 1:length(iiorder)){
         test.item <- c(test.item,iiorder[c])                                           # add the current test item to the test item vector
-        rnd.exp <- c(rnd.exp, runif(n=1, min=0, max=1))                                # randomly draw an exposure value and add to that vector
+        rnd.exp <- c(rnd.exp, stats::runif(n=1, min=0, max=1))                                # randomly draw an exposure value and add to that vector
         if(nGiven == 1){                                                               # calculate the exposure control value and add it to that vector
           test.exp <- c(test.exp, exp.cont[test.item[length(test.item)],
                                            test.item[length(test.item)]])

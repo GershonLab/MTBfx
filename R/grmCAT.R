@@ -28,7 +28,8 @@
 #' the items administered, the chosen response category score, and the theta/sd history. The fourth and fifth
 #' elements are the probability differences array and the item information matrix,
 #' both of which are calculated by the the matrixInfoGRM function.
-#' @example
+#'
+#' @examples
 #' # define item parameter bank; number of rows is the number of columns
 #' # a = item slope; CB1 to CB# = category bins/thresholds for response; NCAT = number of categories for item
 #'
@@ -41,7 +42,7 @@
 #' simulate responses
 #' set.seed(22416)
 #' # 20 participants and their responses from the three items
-#' resp <- round(matrix(runif(30, 1, 5), 20, 3))
+#' resp <- round(matrix(stats::runif(30, 1, 5), 20, 3))
 #'
 #' # run
 #' grmCAT_output <- grmCAT(ipar, resp,minTheta=-6,maxTheta=6,nQpts=121,prevTheta=NULL,

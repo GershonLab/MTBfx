@@ -21,7 +21,8 @@
 #' and is the difference between adjacent categories on a category-by-category basis. The second element is a
 #' matrix with dimensions the length of the thetaGrid by the number of items. It is called matrixInfo and contains the
 #' information for each item calculated along the theta grid.
-#' @example
+#'
+#' @examples
 #' # define item parameter bank; number of rows is the number of columns
 #' # a = item slope; CB1 to CB# = category bins/thresholds for response; NCAT = number of categories for item
 #' ipar <- data.frame(a = c(3.53, 2.99, 3.10),
@@ -35,19 +36,24 @@
 #' # maximum number of categories across all items
 #' maxCat <- max(ipar$NCAT)
 #' # run
-#' matrixInfoCalc(ipar = ipar, thetaGrid = thetaGrid, maxCat = maxCat)
+#' ex_info <- matrixInfoGRM(ipar = ipar, thetaGrid = thetaGrid, maxCat = maxCat)
+#' names(ex_info)
+#' ex_info$matrixInfo
 #'
 #' @export
+#' @importFrom stringr str_detect
+#' @importFrom magrittr %>%
 #'
 #' @family  GRM_CAT functions
 
 
 
 matrixInfoGRM <- function(ipar,thetaGrid,maxCat){
-  require(tidyverse)
+  requireNamespace("stringr", quietly = TRUE)
+  requireNamespace("magrittr", quietly = TRUE)
   probDiff <- array(0,dim=c(length(thetaGrid),nrow(ipar),maxCat))
   matrixInfo <- matrix(0,nrow=length(thetaGrid),ncol=nrow(ipar))
-  CB <- ipar[,str_detect(colnames(ipar),'CB')] %>% as.data.frame()
+  CB <- ipar[,stringr::str_detect(colnames(ipar),'CB')] %>% as.data.frame()
   for(i in 1:nrow(ipar)){
     pStar <- matrix(NA,nrow=length(thetaGrid),ncol=(1+ipar$NCAT[i]))
     pStar[,1] <- 1
