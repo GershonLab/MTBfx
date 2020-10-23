@@ -12,7 +12,7 @@ The information matrix should have been called by the GRM engine prior to item s
 this will need to be applied.}
 
 \item{currentProbGrid}{The probability grid must be supplied to weight the item information matrix.
-It may be the normal density (e.g., if no items have been calculated), or  it may be the density of the current EAP score estimate.}
+It may be the normal density (e.g., if no items have been calculated), or it may be the density of the current EAP score estimate.}
 
 \item{nItems}{The number of items in the item bank.}
 }
@@ -25,5 +25,9 @@ This function is utilized by the GRM engine to select the next item using the MP
 item selection method. It is called within the engine, but can be used independently, if so desired.
 }
 \seealso{
-matrixInfoGRM
+Other GRM_CAT functions: 
+\code{\link{calcEAP}()},
+\code{\link{grmCAT}()},
+\code{\link{matrixInfoGRM}()}
 }
+\concept{GRM_CAT functions}

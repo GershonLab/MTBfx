@@ -13,10 +13,6 @@
 #' @return After running MPWI item selection, a vector is returned equal in length to the number of items in the item bank.
 #' The values are item information (across all categories) weighted by the current probability grid.
 #'
-#' @example
-#'
-#' matrixInfo <- matrixInfoCalc(ipar = ipar, thetaGrid = thetaGrid, maxCat = maxCat)
-#'
 #' @export
 #'
 #' @family  GRM_CAT functions

@@ -24,7 +24,7 @@
 #' The second element is the estimated theta score using the EAP scoring method. The final element is the standard deviation
 #' of the probability grid, which provides an index for the reliability of the score estimate.
 #'
-#' @example
+#' @examples
 #' #
 #' sdEAP <- 3
 #' thetaGrid <- seq(-4, 4, length.out=121)

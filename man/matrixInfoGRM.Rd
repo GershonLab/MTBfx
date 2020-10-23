@@ -29,7 +29,33 @@ information for each item calculated along the theta grid.
 }
 \description{
 This function is used with the MobileToolbox GRM engine for item selection. The item parameters
-need to be in slope/threshold parameterization. Then this fucntion is called by the GRM engine
+need to be in slope/threshold parameterization. Then this function is called by the GRM engine
 prior to administering items to calculate the information matrix, which can then be used
 by the maximum posterior weighted information item selection procedure.
 }
+\examples{
+# define item parameter bank; number of rows is the number of columns
+# a = item slope; CB1 to CB# = category bins/thresholds for response; NCAT = number of categories for item
+ipar <- data.frame(a = c(3.53, 2.99, 3.10),
+                  CB1 = c(-2.79, -1.18, -2.12),
+                  CB2 = c(-1.85, -0.499, -1.27),
+                  CB3 = c(-1.19, 0.17, -0.52),
+                  CB4 = c(-0.551, 0.653, 0.036),
+                  NCAT = 5)
+# define the lower and upper bounds of theta
+thetaGrid <- seq(-4, 4, length.out=121)
+# maximum number of categories across all items
+maxCat <- max(ipar$NCAT)
+# run
+ex_info <- matrixInfoGRM(ipar = ipar, thetaGrid = thetaGrid, maxCat = maxCat)
+names(ex_info)
+ex_info$matrixInfo
+
+}
+\seealso{
+Other GRM_CAT functions: 
+\code{\link{calcEAP}()},
+\code{\link{grmCAT}()},
+\code{\link{selectMPWI}()}
+}
+\concept{GRM_CAT functions}
