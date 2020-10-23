@@ -7,7 +7,7 @@
 #' The information matrix should have been called by the GRM engine prior to item selection. But if used alone,
 #' this will need to be applied.
 #' @param currentProbGrid The probability grid must be supplied to weight the item information matrix.
-#' It may be the normal density (e.g., if no items have been calculated), or  it may be the density of the current EAP score estimate.
+#' It may be the normal density (e.g., if no items have been calculated), or it may be the density of the current EAP score estimate.
 #' @param nItems The number of items in the item bank.
 #'
 #' @return After running MPWI item selection, a vector is returned equal in length to the number of items in the item bank.
