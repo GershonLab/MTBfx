@@ -30,3 +30,16 @@
 #' }
 "iparEDDep"
 
+#' Item Parameters for the Dichotomous Mobile Toolbox Spelling Item Bank
+#'
+#' A dataset of IRT calibrations using slope-intercept parameterization for the 2-parameter logistic model. There are 498 items scored correct/incorrect, several of which are experimental items.
+#'
+#' @format
+#'  \describe{
+#'   \item{stepID}{Step Identifier}
+#'   \item{a}{Slope}
+#'   \item{d}{Intercept}
+#'   \item{g}{Pseudo-guessing}
+#'   \item{Experimental}{Indicator for Experimental Status}
+#'}
+"spellPars"

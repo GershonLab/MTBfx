@@ -31,8 +31,8 @@
 #' muEAP <- 0
 #' currentProbGrid <- 1/(sdEAP * sqrt(2*pi))*exp((-(thetaGrid - muEAP)^2)/(2*sdEAP^2))
 #'
-#' # run
-#' currentProbGrid(currentProbGrid = currentProbGrid, i_resp = 1, probDiff = , thetaGrid = thetaGrid)
+#' # not run
+#' # calcEAP(currentProbGrid = currentProbGrid, i_resp = 1, probDiff = , thetaGrid = thetaGrid)
 #'
 #' @export
 #'
