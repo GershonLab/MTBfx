@@ -83,7 +83,8 @@ set.seed(22416)
 # 20 participants and their responses from the three items
 resp <- round(matrix(stats::runif(20*3, 1, 5), 20, 3))
 
-Currently grmCAT is NOT vectorized and only 1 participant can be run at a time (unless using apply)
+# Currently grmCAT is NOT vectorized and only 1 participant can be run at a time (unless using apply)
+
 # run
 grmCAT_output <- grmCAT(ipar, resp[,1],minTheta=-6,maxTheta=6,nQpts=121,prevTheta=NULL,
 prevSD=NULL,muEAP=0,sdEAP=3,scoreCumulativeDiffuse=TRUE,
