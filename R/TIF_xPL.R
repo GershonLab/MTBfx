@@ -20,6 +20,7 @@
 
 
 TIF_xPL <- function(ipar,thetaGrid=seq(-4.5,4.5,.1)){
+  if(tibble::is_tibble(ipar)) ipar <- as.data.frame(ipar)
   nItems <- nrow(ipar)
   item.info <- matrix(rep(0, length(thetaGrid)*nItems), nrow=length(thetaGrid), ncol=nItems)
   test.info <- rep(0, length(thetaGrid))
@@ -27,12 +28,12 @@ TIF_xPL <- function(ipar,thetaGrid=seq(-4.5,4.5,.1)){
     if(ipar[i,3] == 0){
       P <- 1/(1+exp(-(ipar[i,2]+ipar[i,1]*thetaGrid)))
       Q <- 1 - P
-      item.info[,i] <- ipar[i,1]^2 * P * Q
+      item.info[,i] <- as.numeric(ipar[i,1]^2 * P * Q)
       test.info <- test.info + item.info[,i]
     } else {
       Pstar <- 1/(1+exp(-(ipar[i,2]+ipar[i,1]*thetaGrid)))
       P <- ipar[i,3] + (1-ipar[i,3]) * Pstar
-      item.info[,i] <- ipar[i,1]^2 * P * (1 - P) * (Pstar/P)^2
+      item.info[,i] <- as.numeric(ipar[i,1]^2 * P * (1 - P) * (Pstar/P)^2)
       test.info <- test.info + item.info[,i]
     }
   }

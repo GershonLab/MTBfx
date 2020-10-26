@@ -41,5 +41,6 @@
 #'   \item{d}{Intercept}
 #'   \item{g}{Pseudo-guessing}
 #'   \item{Experimental}{Indicator for Experimental Status}
+#'   \item{calib}{An alternative method to represent experimental status where 0=experimental and 1=calibrated}
 #'}
 "spellPars"
