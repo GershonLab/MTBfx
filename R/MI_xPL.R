@@ -18,7 +18,7 @@
 maxInfo_xPL <- function(iparFull, targTheta){
   ItemInfo <- TIF_xPL(iparFull, thetaGrid=targTheta)
 
-  ItemOrder <- order(ItemInfo$item.info, decreasing=TRUE)
+  ItemOrder <- order(ItemInfo$itemInfo, decreasing=TRUE)
 
   return(ItemOrder)
 }
