@@ -103,22 +103,80 @@ As is evident, the CAT is not guaranteed to arrive at an unbiased theta estimate
 
 Next we will utilize all 1000 of the simulees. We will do this twice - once with everyone starting at 0, and a second time with generating theta values binned into 4 groups and a start value chosen for each group.
 
+### Starting at 0
+
 ```{r sim1000}
 
-sim1000 <- list()
-for(i in 1:nrow(resp1000)){
-  sim1000[[i]] <- dichEngine(iparFull = spellPars[,2:4], uFull=resp1000[i,], calib=spellPars$calib,
-                        targetProb=.5, minNI=15, maxNI=50, maxSE=.387, nonML_se = 99,
-                        stepVal = .75, minTheta=-6, maxTheta=6, exp.cont=exp_cont_mat, startTheta = 1,
-                        maxCycle=100, critScore=5e-4, seedval=((i*3)^2), verbose=F)
-}
+resp_wSeed <- cbind(resp1000, seq(from=23, by=32, length.out = nrow(resp1000)))
+
+# this takes a while to run
+sim1000 <- apply(resp_wSeed, 1, 
+                 function(y) dichEngine(iparFull = spellPars[,2:4], 
+                                        uFull=y[1:(length(y)-1)], calib=spellPars$calib,
+                                        targetProb=.5, minNI=15, maxNI=50, maxSE=.387, 
+                                        nonML_se = 99,stepVal = .75, minTheta=-6, maxTheta=6, 
+                                        exp.cont=exp_cont_mat, startTheta = 1,maxCycle=100, 
+                                        critScore=5e-4, seedval=y[length(y)], verbose=F))
+
+
 
 # extract estimated final score and plot against generating score
 
 estTheta <- sapply(sim1000, function(y) y$Theta)
-plot(estTheta, genTheta, xlab="Estimated", ylab="Generating",main="Score Recovery\nStart Item at Theta=0")
+plot(estTheta, genTheta, xlab="Estimated", ylab="Generating",
+     pch="*",main="Score Recovery\nStart Item at Theta=0")
 abline(0,1, col='red')
+text(x=-5, y=2, pos=4, paste("RMSD = ", round(sqrt(mean((genTheta - estTheta)^2)),3),
+                             '\nICC = ', round(irr::icc(cbind(estTheta,genTheta), 
+                                                        'oneway','agreement')$value, 3)))
+
+plot(estTheta, sapply(sim1000, function(y) y$nGiven), xlab="Estimated",
+     ylab="Number of Items Administered", main="Item Usage\nStart Item at Theta=0", pch="*")
+# description of number of items administered:
+psych::describe(sapply(sim1000, function(y) y$nGiven), fast=T)
 
 ```
 
+### Binned Starting Points
 
+```{r sim1000_altStart}
+
+# add a new seed value, and a start value
+resp_wSeed_andStart <- cbind(resp1000, seq(from=52, by=18, length.out = nrow(resp1000)), 
+                             ifelse(dplyr::between(genTheta, -Inf, -1.5), -2,
+                                    ifelse(dplyr::between(genTheta,-1.5, 0), -1,
+                                           ifelse(dplyr::between(genTheta, 0, 1.5), 1,
+                                                  ifelse(dplyr::between(genTheta, 1.5, Inf), 2, 0)))))
+
+table(resp_wSeed_andStart[,ncol(resp_wSeed_andStart)])
+
+# this takes a while to run
+sim1000_diffStart <- apply(resp_wSeed_andStart, 1, 
+                           function(y) dichEngine(iparFull = spellPars[,2:4], uFull=y[1:(length(y)-2)],
+                                                  calib=spellPars$calib,targetProb=.5, minNI=15, 
+                                                  maxNI=50, maxSE=.387, nonML_se = 99,stepVal = .75, 
+                                                  minTheta=-6, maxTheta=6,exp.cont=exp_cont_mat, 
+                                                  startTheta = y[length(y)],maxCycle=100,
+                                                  critScore=5e-4, seedval=y[(length(y)-1)], verbose=F))
+
+
+
+# extract estimated final score and plot against generating score
+
+estTheta_diffStart <- sapply(sim1000_diffStart, function(y) y$Theta)
+plot(estTheta_diffStart, genTheta, xlab="Estimated", ylab="Generating",
+     pch="*",main="Score Recovery\nVarying Start Item")
+abline(0,1, col='red')
+text(x=-5, y=2, pos=4, paste("RMSD = ", round(sqrt(mean((genTheta - estTheta_diffStart)^2)),3),
+                             '\nICC = ', round(irr::icc(cbind(estTheta_diffStart,genTheta),
+                                                        'oneway','agreement')$value, 3)))
+
+plot(estTheta_diffStart, sapply(sim1000_diffStart, function(y) y$nGiven), xlab="Estimated",
+     ylab="Number of Items Administered", main="Item Usage\nVarying Start Item", pch="*")
+
+# description of number of items administered:
+psych::describe(sapply(sim1000_diffStart, function(y) y$nGiven), fast=T)
+
+```
+
+The median number of items is the same (and the minimum of what was allowed by the CAT). The mean is slightly larger here than when starting at 0, which was unexpected, but is small and thus should not be over-interpreted. __Of the simulees, `r length(which(sapply(sim1000_diffStart, function(y) y$nGiven) == 15))/10`% finished within the minimum number of items allowed by the simulation - that is, 15 items.
