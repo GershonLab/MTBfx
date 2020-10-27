@@ -25,6 +25,7 @@
 #' @family dichotomous functions
 
 MLE_xPL <- function(ipar, u, st_th=0,crit=.001,maxIter = 100, minTheta=-10, maxTheta=10){
+  if(tibble::is_tibble(ipar)) ipar <- as.data.frame(ipar)
   nItems <- nrow(ipar)
   if(length(u) != nItems) stop("Unequal number of items and responses")
   delta <- 10 # initialize difference at unrealistic value

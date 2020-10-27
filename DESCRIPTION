@@ -5,9 +5,15 @@ Version: 0.1.0
 Authors@R: c(person("Aaron", "Kaat", email = "aaron.kaat@northwestern.edu", role = c("aut", "cre")), person("Emily","Ho",role='ctb'), person("Jordan","Stoeger", role='ctb'))
 Description: This set of functions includes code for verifying the engines utilized by MobileToolbox and for conducting post-processing after data are collected and transferred to Synapse for storage. It is intended primarily for code development and sharing, in order to enable users external to the MTB development team to access the necessary files.
 Imports: stringr, stats, magrittr
+Suggests: 
+    mirt,
+    mirtCAT,
+    knitr,
+    rmarkdown
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
 Depends: 
     R (>= 2.10)
+VignetteBuilder: knitr

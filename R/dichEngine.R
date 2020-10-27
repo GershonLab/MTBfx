@@ -69,6 +69,7 @@
 dichEngine <- function(iparFull, uFull, calib, lastAdmin, targetProb=0.5, minNI=20, maxNI=35, maxSE=0.4,
                        nonML_se=99, stepVal=0.75, minTheta=-10, maxTheta=10, exp.cont, startTheta=0,
                        maxCycles=100, critScore=5e-4, seedval=12345, verbose=F){
+  if(tibble::is_tibble(iparFull)) iparFull <- as.data.frame(iparFull)
   set.seed(seedval)
   nItems <- nrow(iparFull)
   if(!"a" %in% colnames(iparFull)) iparFull$a <- rep(1, nItems)

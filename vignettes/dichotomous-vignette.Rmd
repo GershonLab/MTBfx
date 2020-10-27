@@ -1,0 +1,182 @@
+---
+title: "dichotomous-vignette"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{dichotomous-vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(MTBfx)
+```
+
+
+# Example Utilization of the Dichotomous Engine
+
+This is an example that uses the spellPars dataset (and included set of item parameters) to run the dichotomous engine. This includes subfunctions accessed by the dichotomous engine.
+
+Note - at the time of writing this vignette, the dichotomous engine as programmed herein is __not__ vectorized, and as such, it cannot be given multiple full bank responses and run once. Rather, as is shown in the vignette, to run multiple simulees, the code must be run using an apply function.
+
+## Simulation Setup
+
+The MTBfx setup does not include the ability to simulate full-bank responses. Rather, it assumes that a CAT is being simulated from a full bank. In order to examine how this works without existing full-bank data, we will use the data simulation functions from the _mirt_ package. Likewise, we will contrast the dichotomous engine run herein with the CAT simulation code available within the _mirtCAT_ package later.
+
+```{r, simSet}
+
+data("spellPars")
+
+head(spellPars)
+
+# the dichotomous engine also requires a matrix of exposure control values.
+# the diagonal is the unconditional exposure value, while the off-diagonals
+# are the conditional exposure values. For this simulation, we will use
+# no conditional exposure control, and set the unconditional value to 0.6.
+
+exp_cont_mat <- matrix(1, nrow=nrow(spellPars), ncol=nrow(spellPars), 
+                       dimnames = list(spellPars$stepID, spellPars$stepID))
+diag(exp_cont_mat) <- .6
+
+# view a portion of this matrix
+exp_cont_mat[1:10,1:10]
+
+# simulate theta values against which to evaluate score recovery
+set.seed(1026)
+genTheta <- matrix(sort(rnorm(1000,0,1)),ncol=1)
+
+#simulate responses
+resp1000 <- mirt::simdata(a=spellPars$a, d=spellPars$d, itemtype = '2PL', Theta=genTheta)
+
+# view a subset of the simulated full-bank data, with the generating theta values
+cbind(resp1000[c(1:10,991:1000),c(1:10,495:ncol(resp1000))],genTheta[c(1:10,991:1000)])
+
+```
+
+We have generated 1000 responses to all 498 items. The generating theta values were drawn from a standard normal distribution, with an observed range of `r min(genTheta)` to `r max(genTheta)`. 
+
+## Simulate One Respondent
+
+First we will simulate a CAT for one respondent, with three different starting values. In order to prevent floor or ceiling effects, we will use the median simulee simulee. We will set the minimum numer of items to 15, the maximum to 50, and an interim stopping value when the reliability is approximately 0.85 (i.e., SE < 0.387).
+
+```{r, exOne}
+
+# simulation 1 - examinee = 500 start theta = 0
+
+cat("The generating theta value used for these three simulations is ",genTheta[500,])
+
+sim500st0 <- dichEngine(iparFull = spellPars[,2:4], uFull=resp1000[500,], calib=spellPars$calib,
+                        targetProb=.5, minNI=15, maxNI=50, maxSE=.387, nonML_se = 99,
+                        stepVal = .75, minTheta=-6, maxTheta=6, exp.cont=exp_cont_mat, startTheta = 0,
+                        maxCycle=100, critScore=5e-4, seedval=4314, verbose=F)
+sim500stNeg1 <- dichEngine(iparFull = spellPars[,2:4], uFull=resp1000[500,], calib=spellPars$calib,
+                        targetProb=.5, minNI=15, maxNI=50, maxSE=.387, nonML_se = 99,
+                        stepVal = .75, minTheta=-6, maxTheta=6, exp.cont=exp_cont_mat, startTheta = -1,
+                        maxCycle=100, critScore=5e-4, seedval=4432, verbose=F)
+sim500stPos1 <- dichEngine(iparFull = spellPars[,2:4], uFull=resp1000[500,], calib=spellPars$calib,
+                        targetProb=.5, minNI=15, maxNI=50, maxSE=.387, nonML_se = 99,
+                        stepVal = .75, minTheta=-6, maxTheta=6, exp.cont=exp_cont_mat, startTheta = 1,
+                        maxCycle=100, critScore=5e-4, seedval=556213, verbose=F)
+
+comp500 <- tibble::tibble(startTheta=c(-1,0,1),
+                          nGiven=c(sim500stNeg1$nGiven, sim500st0$nGiven, sim500stPos1$nGiven),
+                          nConsidered=c(nrow(sim500stNeg1$itemConsideration),
+                                        nrow(sim500st0$itemConsideration),
+                                        nrow(sim500stPos1$itemConsideration)),
+                          generating=genTheta[500,],
+                          estimated=c(sim500stNeg1$Theta, sim500st0$Theta, sim500stPos1$Theta),
+                          SE=c(sim500stNeg1$SEM, sim500st0$SEM, sim500stPos1$SEM))
+
+knitr::kable(comp500, caption="Example Recovery with Three Starting Points", digits=3)
+
+```
+
+As is evident, the CAT is not guaranteed to arrive at an unbiased theta estimate. In these simulations, the same full-bank response string was used, but the estimated theta varied by up to a half SD, in which case the generating value was beyond 1 SE of the estimated score. 
+
+## Simulating All Respondents
+
+Next we will utilize all 1000 of the simulees. We will do this twice - once with everyone starting at 0, and a second time with generating theta values binned into 4 groups and a start value chosen for each group.
+
+### Starting at 0
+
+```{r sim1000}
+
+resp_wSeed <- cbind(resp1000, seq(from=23, by=32, length.out = nrow(resp1000)))
+
+# this takes a while to run
+sim1000 <- apply(resp_wSeed, 1, 
+                 function(y) dichEngine(iparFull = spellPars[,2:4], 
+                                        uFull=y[1:(length(y)-1)], calib=spellPars$calib,
+                                        targetProb=.5, minNI=15, maxNI=50, maxSE=.387, 
+                                        nonML_se = 99,stepVal = .75, minTheta=-6, maxTheta=6, 
+                                        exp.cont=exp_cont_mat, startTheta = 1,maxCycle=100, 
+                                        critScore=5e-4, seedval=y[length(y)], verbose=F))
+
+
+
+# extract estimated final score and plot against generating score
+
+estTheta <- sapply(sim1000, function(y) y$Theta)
+plot(estTheta, genTheta, xlab="Estimated", ylab="Generating",
+     pch="*",main="Score Recovery\nStart Item at Theta=0")
+abline(0,1, col='red')
+text(x=-5, y=2, pos=4, paste("RMSD = ", round(sqrt(mean((genTheta - estTheta)^2)),3),
+                             '\nICC = ', round(irr::icc(cbind(estTheta,genTheta), 
+                                                        'oneway','agreement')$value, 3)))
+
+plot(estTheta, sapply(sim1000, function(y) y$nGiven), xlab="Estimated",
+     ylab="Number of Items Administered", main="Item Usage\nStart Item at Theta=0", pch="*")
+# description of number of items administered:
+psych::describe(sapply(sim1000, function(y) y$nGiven), fast=T)
+
+```
+
+### Binned Starting Points
+
+```{r sim1000_altStart}
+
+# add a new seed value, and a start value
+resp_wSeed_andStart <- cbind(resp1000, seq(from=52, by=18, length.out = nrow(resp1000)), 
+                             ifelse(dplyr::between(genTheta, -Inf, -1.5), -2,
+                                    ifelse(dplyr::between(genTheta,-1.5, 0), -1,
+                                           ifelse(dplyr::between(genTheta, 0, 1.5), 1,
+                                                  ifelse(dplyr::between(genTheta, 1.5, Inf), 2, 0)))))
+
+table(resp_wSeed_andStart[,ncol(resp_wSeed_andStart)])
+
+# this takes a while to run
+sim1000_diffStart <- apply(resp_wSeed_andStart, 1, 
+                           function(y) dichEngine(iparFull = spellPars[,2:4], uFull=y[1:(length(y)-2)],
+                                                  calib=spellPars$calib,targetProb=.5, minNI=15, 
+                                                  maxNI=50, maxSE=.387, nonML_se = 99,stepVal = .75, 
+                                                  minTheta=-6, maxTheta=6,exp.cont=exp_cont_mat, 
+                                                  startTheta = y[length(y)],maxCycle=100,
+                                                  critScore=5e-4, seedval=y[(length(y)-1)], verbose=F))
+
+
+
+# extract estimated final score and plot against generating score
+
+estTheta_diffStart <- sapply(sim1000_diffStart, function(y) y$Theta)
+plot(estTheta_diffStart, genTheta, xlab="Estimated", ylab="Generating",
+     pch="*",main="Score Recovery\nVarying Start Item")
+abline(0,1, col='red')
+text(x=-5, y=2, pos=4, paste("RMSD = ", round(sqrt(mean((genTheta - estTheta_diffStart)^2)),3),
+                             '\nICC = ', round(irr::icc(cbind(estTheta_diffStart,genTheta),
+                                                        'oneway','agreement')$value, 3)))
+
+plot(estTheta_diffStart, sapply(sim1000_diffStart, function(y) y$nGiven), xlab="Estimated",
+     ylab="Number of Items Administered", main="Item Usage\nVarying Start Item", pch="*")
+
+# description of number of items administered:
+psych::describe(sapply(sim1000_diffStart, function(y) y$nGiven), fast=T)
+
+```
+
+The median number of items is the same (and the minimum of what was allowed by the CAT). The mean is slightly larger here than when starting at 0, which was unexpected, but is small and thus should not be over-interpreted. __Of the simulees, `r length(which(sapply(sim1000_diffStart, function(y) y$nGiven) == 15))/10`% finished within the minimum number of items allowed by the simulation - that is, 15 items.

@@ -16,9 +16,10 @@
 #' @family dichotomous functions
 
 maxInfo_xPL <- function(iparFull, targTheta){
+  if(tibble::is_tibble(iparFull)) iparFull <- as.data.frame(iparFull)
   ItemInfo <- TIF_xPL(iparFull, thetaGrid=targTheta)
 
-  ItemOrder <- order(ItemInfo$item.info, decreasing=TRUE)
+  ItemOrder <- order(ItemInfo$itemInfo, decreasing=TRUE)
 
   return(ItemOrder)
 }

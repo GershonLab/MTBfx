@@ -13,7 +13,7 @@
 #' @param thetaGrid A vector of theta estimates at which the test information will be calculated.
 #' The thetaGrid is not provided by default, insofar as it expected to be passed by the GRM engine
 #' to the function. But if this function is intended to be used alone, a reasonable thetaGrid would
-#' be a sequence from -4 to +4 incremented by 0.01 (which is the PROMIS defaults).
+#' be a sequence from -4 to +4 incremented by 0.01 (which is the PROMIS default).
 #' @param maxCat An integer for the maximum number of categories across all items in the bank.
 #'
 #' @return A list is returned with two elements. The first is an array with dimensions for the length of the thetaGrid,
