@@ -115,11 +115,7 @@ sim1000 <- apply(resp_wSeed, 1,
                                         uFull=y[1:(length(y)-1)], calib=spellPars$calib,
                                         targetProb=.5, minNI=15, maxNI=50, maxSE=.387, 
                                         nonML_se = 99,stepVal = .75, minTheta=-6, maxTheta=6, 
-<<<<<<< HEAD
                                         exp.cont=exp_cont_mat, startTheta = 0,maxCycle=100, 
-=======
-                                        exp.cont=exp_cont_mat, startTheta = 1,maxCycle=100, 
->>>>>>> 9766288c2c7111216162d514bba9837c3e7aab3b
                                         critScore=5e-4, seedval=y[length(y)], verbose=F))
 
 
@@ -138,7 +134,6 @@ plot(estTheta, sapply(sim1000, function(y) y$nGiven), xlab="Estimated",
      ylab="Number of Items Administered", main="Item Usage\nStart Item at Theta=0", pch="*")
 # description of number of items administered:
 psych::describe(sapply(sim1000, function(y) y$nGiven), fast=T)
-<<<<<<< HEAD
 
 ```
 
@@ -154,11 +149,9 @@ hist(itemsUsed_start0,breaks=498, xlab="Item Number", main="Simulation Starting 
 
 No item is used more than about 60%, which suggests that the item exposure rules are working. However, the center is overrepresented since everyone is starting around 0. 
 
-=======
 
 ```
 
->>>>>>> 9766288c2c7111216162d514bba9837c3e7aab3b
 ### Binned Starting Points
 
 ```{r sim1000_altStart}
@@ -200,7 +193,6 @@ plot(estTheta_diffStart, sapply(sim1000_diffStart, function(y) y$nGiven), xlab="
 psych::describe(sapply(sim1000_diffStart, function(y) y$nGiven), fast=T)
 
 ```
-<<<<<<< HEAD
 
 The median number of items is the same (and the minimum of what was allowed by the CAT). The mean is slightly larger here than when starting at 0, which was unexpected, but is small and thus should not be over-interpreted. __Of the simulees, `r length(which(sapply(sim1000_diffStart, function(y) y$nGiven) == 15))/10`% finished within the minimum number of items allowed by the simulation__ - that is, 15 items.
 
@@ -215,7 +207,5 @@ hist(itemsUsed_startVarious,breaks=498, xlab="Item Number", main="Simulation wit
 ```
 
 No item is used more than about 50%, which suggests that the item exposure rules are working. Additionally, there isn't one item that is exceedingly large.
-=======
 
-The median number of items is the same (and the minimum of what was allowed by the CAT). The mean is slightly larger here than when starting at 0, which was unexpected, but is small and thus should not be over-interpreted. __Of the simulees, `r length(which(sapply(sim1000_diffStart, function(y) y$nGiven) == 15))/10`% finished within the minimum number of items allowed by the simulation - that is, 15 items.
->>>>>>> 9766288c2c7111216162d514bba9837c3e7aab3b
+The median number of items is the same (and the minimum of what was allowed by the CAT). The mean is slightly larger here than when starting at 0, which was unexpected, but is small and thus should not be over-interpreted. __Of the simulees, `r length(which(sapply(sim1000_diffStart, function(y) y$nGiven) == 15))/10`% finished within the minimum number of items allowed by the simulation__ -- that is, 15 items.
