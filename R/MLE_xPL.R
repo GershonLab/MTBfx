@@ -69,6 +69,9 @@ MLE_xPL <- function(ipar, u, st_th=0,crit=.001,maxIter = 100, minTheta=-10, maxT
       # cat(P,"\t",div1,"\t",div2,"\t",th_1,"\t", niter, "\t","\n")
     }
     output <- data.frame(Theta=th_1,SEM=sqrt(-1/div2),iter=niter)
+    if(niter >= maxIter){
+      output <- data.frame(Theta=st_th,SEM=sqrt(-1/div2),iter=niter)
+    }
   }
   return(output)
 }
