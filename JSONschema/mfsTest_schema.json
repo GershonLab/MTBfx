@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/akaat/MTBfx/JSONschema/mfsTest_schema.json",
+  "title": "Schema for MFS taskData",
+  "description": "Mobile Toolbox Memory for Sequences taskData JSON draft 7 schema",
+  "type": "object",
+  "properties":{
+	  "type":{
+		  "type": "string",
+		  "description": "The serialization for this MFS administration"
+	  },
+	  "testVersion": {
+		  "description": "The version of MFS administered in this record. Note that this is a number stored as a string",
+		  "type": "string"
+	  },
+	  "userInteractions": {
+		  "type": "array",
+		  "description": "Record of screen progression, UI event, and button actions on a step-by-step basis within MFS",
+		  "properties":{
+			  "items":{
+				 "anyOf": [
+				 {
+					 "type": "object",
+					 "description": "Event records by screen",
+					 "required": ["stepIdentifier","timestamp","controlEvent","identifier"],
+					 "properties": {
+						 "stepIdentifier": {
+							 "type": "string",
+							 "description": "The unique identifier for this step (also referred to as an item) on which the user interaction event occurred."
+						 },
+						 "timestamp": {
+							 "type": "string",
+							 "format": "date-time",
+							 "description": "The timestamp when an event occurred, following ISO 8601 formatting conventions"
+						},
+						"controlEvent":{
+							"type":"string",
+							"description": "The type of interaction being recorded",
+							"$comment": "This may need to be switched to an array with enumerated values limiting the options to available controlEvent: 'stepBegins','interrupted','resumed','uiEnabled','touchDown','touchUpInside','touchUpOutside','keypress','setSelection' -- note that these include controlEvent options from other MTB measures as well."
+						},
+						"identifier": {
+							"type": "string",
+							"description": "The button on the screen with which the user interacted",
+							"default": ""
+						}
+					 },
+					 "additionalProperties": "false"
+				 }
+				]
+			  }
+		  }
+	  },
+	  "taskStatus":{
+		"type": "string",
+		"description": "status for MFS administration",
+		"$comment": "This may need to be switched to an array with enumerated values limiting the options to 'complete','willNotComplete','partiallyComplete' etc."
+	  },
+	  "locale":{
+		  "type": "string",
+		  "description": "The region and language configuration of the phone at the time of administration"
+	  },
+	  "startDate": {
+		  "type": "string",
+		  "format": "date-time",
+		  "description": "ISO 8601 format for the time MFS began (overall)"
+	  },
+	  "endDate": {
+		  "type": "string",
+		  "format": "date-time",
+		  "description": "ISO 8601 format for the time MFS ended (overall)"
+	  }
+  },
+  "required": ["type","testVersion","userInteractions","taskStatus","locale","startDate","endDate"]
+}
