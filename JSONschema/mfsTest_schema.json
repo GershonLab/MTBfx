@@ -1,0 +1,8 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/akaat/MTBfx/JSONschema/mfsTest_schema.json",
+  "title": "Schema for MFS taskData",
+  "description": "Mobile Toolbox Memory for Sequences taskData JSON draft 7 schema",
+  "type": "object"
+
+}
