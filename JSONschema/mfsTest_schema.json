@@ -57,7 +57,8 @@
 	  },
 	  "locale":{
 		  "type": "string",
-		  "description": "The region and language configuration of the phone at the time of administration"
+		  "description": "The region and language configuration of the phone at the time of administration",
+		  "default": "en-us"
 	  },
 	  "startDate": {
 		  "type": "string",
