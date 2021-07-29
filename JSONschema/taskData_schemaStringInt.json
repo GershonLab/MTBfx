@@ -1,0 +1,10 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/akaat/MTBfx/blob/master/JSONschema/taskData_schemaStringInt.json",
+  "title": "Response=String Score=Int Schema",
+  "description": "This schema includes all elements for MTB measures that follows a response=string score=int data type. It has required elements common to all measures, and optional elements related to the dichotomous CAT engine. Note that it frequently references the external sharedSchema.json file for definitions.",
+  "type": "object",
+  "properties":{
+
+  }
+}
