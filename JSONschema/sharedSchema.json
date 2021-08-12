@@ -50,6 +50,16 @@
 	    "type": "boolean",
 	    "default": false,
 	    "description": "An indicator for whether this item is a practice item [TRUE] or a live item [FALSE]."
+	  },
+	  "wasInterrupted": {
+	    "type": "boolean",
+	    "default": false,
+	    "description": "An indicator for whether an interruption occurred on this item."
+	  },
+	  "taskRunUUID":{
+	    "type": "string",
+	    "format": "uuid",
+	    "description": "This is a global identifier"
 	  }
   }
 }
