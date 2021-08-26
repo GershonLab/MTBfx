@@ -22,7 +22,7 @@
 	  },
 	  "taskName": {
 	    "type": "array",
-	    "description": "This is the test/task name as administered. Insofar as this schema is restricted to MFS, it should be constant",
+	    "description": "This is the test/task name as administered.",
 	    "maxItems": 1,
 	    "$comment": "The enumerated values will need to be updated when the next version of the tasks are released.",
 	    "items":{
