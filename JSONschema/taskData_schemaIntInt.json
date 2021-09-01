@@ -52,6 +52,7 @@
 	            "startDate": {"$ref": "sharedSchema_option2.json#/definitions/timemarks"},
 	            "endDate": {"$ref": "sharedSchema_option2.json#/definitions/timemarks"},
 	            "practice": {"$ref": "sharedSchema_option2.json#/definitions/practice"},
+	            "instruction": {"$ref": "sharedSchema_option2.json#/definitions/instructions"},
 	            "wasInterrupted": {"$ref": "sharedSchema_option2.json#/definitions/wasInterrupted"},
 	            "score": {"$ref": "sharedSchema_option2.json#/definitions/itemScore"},
 	            "position":{
@@ -85,6 +86,7 @@
 	            "startDate": {"$ref": "sharedSchema_option2.json#/definitions/timemarks"},
 	            "endDate": {"$ref": "sharedSchema_option2.json#/definitions/timemarks"},
 	            "practice": {"$ref": "sharedSchema_option2.json#/definitions/practice"},
+	            "instruction": {"$ref": "sharedSchema_option2.json#/definitions/instructions"},
 	            "wasInterrupted": {"$ref": "sharedSchema_option2.json#/definitions/wasInterrupted"},
 	            "score": {"$ref": "sharedSchema_option2.json#/definitions/itemScore"},
 	            "position":{
@@ -138,6 +140,7 @@
 	            "startDate": {"$ref": "sharedSchema_option2.json#/definitions/timemarks"},
 	            "endDate": {"$ref": "sharedSchema_option2.json#/definitions/timemarks"},
 	            "practice": {"$ref": "sharedSchema_option2.json#/definitions/practice"},
+	            "instruction": {"$ref": "sharedSchema_option2.json#/definitions/instructions"},
 	            "wasInterrupted": {"$ref": "sharedSchema_option2.json#/definitions/wasInterrupted"},
 	            "score": {"$ref": "sharedSchema_option2.json#/definitions/itemScore"},
 	            "position":{
@@ -171,6 +174,7 @@
 	            "startDate": {"$ref": "sharedSchema_option2.json#/definitions/timemarks"},
 	            "endDate": {"$ref": "sharedSchema_option2.json#/definitions/timemarks"},
 	            "practice": {"$ref": "sharedSchema_option2.json#/definitions/practice"},
+	            "instruction": {"$ref": "sharedSchema_option2.json#/definitions/instructions"},
 	            "wasInterrupted": {"$ref": "sharedSchema_option2.json#/definitions/wasInterrupted"},
 	            "score": {"$ref": "sharedSchema_option2.json#/definitions/itemScore"},
 	            "position":{
@@ -205,5 +209,5 @@
   },
   "additionalProperties": true,
   "$comment": "The additionalProperties element is currently true to allow for the dichotomous engine additional elements, but will be changed in future versions.",
-  "required": ["steps","testVersion","userInteractions","taskStatus","locale","startDate","endDate","taskName","stepHistory","taskRunUUID","schemaIdentifier","scores"]
+  "required": ["steps","testVersion","userInteractions","taskStatus","locale","startDate","endDate","taskName","stepHistory","schemaIdentifier"]
 }
