@@ -3,10 +3,10 @@
 \docType{data}
 \name{iparPedImp}
 \alias{iparPedImp}
-\title{Item Parameters for the PROMIS Pediatric Strength Impact Item Bank}
+\title{Item Parameters for the PROMIS Pediatric Strength Impact Item Bank.}
 \format{
 \describe{
- \item{itemID}{PROMIS ItemID}
+ \item{itemID}{Item Identifier}
  \item{a}{slope}
  \item{CB1}{Threshold (or category boundary) 1}
  \item{CB2}{Threshold (or category boundary) 2}
@@ -19,6 +19,6 @@
 iparPedImp
 }
 \description{
-A dataset of IRT calibrations using slope-threshold parameterization for the graded response model. There are 12 items with 5 response categories each. This item bank was chosen because it has several items with extremely large slopes, which have caused problems for item selection algorithms in the past.
+A dataset of IRT calibrations using slope-threshold parameterization for the graded response model. There are 10 items with 5 response categories each. This item bank has several extremely high slopes, which can pose problems for CAT engines.
 }
 \keyword{datasets}

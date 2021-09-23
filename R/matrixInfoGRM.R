@@ -53,7 +53,7 @@ matrixInfoGRM <- function(ipar,thetaGrid,maxCat){
   requireNamespace("magrittr", quietly = TRUE)
   probDiff <- array(0,dim=c(length(thetaGrid),nrow(ipar),maxCat))
   matrixInfo <- matrix(0,nrow=length(thetaGrid),ncol=nrow(ipar))
-  CB <- ipar[,stringr::str_detect(colnames(ipar),'CB')] %>% as.data.frame()
+  CB <- ipar[,stringr::str_detect(toupper(colnames(ipar)),'CB')] %>% as.data.frame()
   for(i in 1:nrow(ipar)){
     pStar <- matrix(NA,nrow=length(thetaGrid),ncol=(1+ipar$NCAT[i]))
     pStar[,1] <- 1

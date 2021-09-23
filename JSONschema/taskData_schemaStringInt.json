@@ -1,0 +1,199 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/akaat/MTBfx/blob/K1off/JSONschema/taskData_schemaStringInt.json",
+  "title": "Response=String Score=Int Schema",
+  "description": "This schema includes all elements for MTB measures that follows a response=string score=int data type. It has required elements common to all measures, and optional elements related to the dichotomous CAT engine. Note that it frequently references the external sharedSchema.json file for definitions.",
+  "type": "object",
+  "properties":{
+    "testVersion": {"$ref": "sharedSchema.json#/definitions/testVersion"},
+    "taskStatus": {"$ref": "sharedSchema.json#/definitions/taskStatus"},
+    "locale": {"$ref": "sharedSchema.json#/definitions/locale"},
+    "startDate": {"$ref": "sharedSchema.json#/definitions/timemarks"},
+    "endDate": {"$ref": "sharedSchema.json#/definitions/timemarks"},
+    "taskRunUUID": {"$ref": "sharedSchema.json#/definitions/taskRunUUID"},
+    "userInteractions": {"$ref": "sharedSchema.json#/definitions/userInteractions"},
+    "schemaIdentifier": {"$ref": "sharedSchema.json#/definitions/schemaIdentifier"},
+    "consideredSteps": {"$ref": "sharedSchema.json#/definitions/consideredSteps"},
+    "administeredSteps": {"$ref": "sharedSchema.json#/definitions/administeredSteps"},
+    "scores": {"$ref": "sharedSchema.json#/definitions/scores"},
+    "type":{
+      "type": "string",
+      "description": "The serialization for this task"
+	  },
+	  "taskName": {
+	    "type": "string",
+	    "description": "This is the test/task name as administered. It will be automatically provided as part of metadata and as such is not enumerated herein"
+	  },
+	  "steps": {
+	    "type": "array",
+	    "description": "This records all of the items/steps administered during this assessment. It records the response and score",
+	    "additionalItems": false,
+	    "items":{
+	      "anyOf":[
+	        {
+	          "type": "object",
+	          "description": "A record for each item administered in this assessment using the standard item selection engine.",
+	          "properties":{
+	            "type":{
+	              "type": "string",
+	              "description": "The type of result this is",
+	              "examples":["spellingStepresult","mfsStepResult","mssStepResult"]
+	            },
+	            "identifier": {
+	              "type": "string",
+	              "description": "This is the stepID, and should be redundant with `stepIdentifier` used in  `userInteractions` and the `identifier` used in `stepHistory` elements."
+	            },
+	            "startDate": {"$ref": "sharedSchema.json#/definitions/timemarks"},
+	            "endDate": {"$ref": "sharedSchema.json#/definitions/timemarks"},
+	            "practice": {"$ref": "sharedSchema.json#/definitions/practice"},
+	            "responseTime": {"$ref": "sharedSchema.json#/definitions/responseTime"},
+	            "wasInterrupted": {"$ref": "sharedSchema.json#/definitions/wasInterrupted"},
+	            "score": {"$ref": "sharedSchema.json#/definitions/itemScore"},
+	            "position":{
+	              "type": "integer",
+	              "minimum": 1,
+	              "description": "The order of screen/step progression for this administration"
+	            },
+	            "response": {
+	              "type": "string",
+	              "description": "This is the string-int schema, whereby the response is a string and the score is an integer. The string length is not defined."
+	            }
+	          },
+	          "additionalProperties": false,
+	          "required": ["type","identifier","startDate","endDate","position"]
+	        },
+	        {
+	          "type": "object",
+	          "description": "A record for each item administered in this assessment using the dichotomous engine.",
+	          "properties":{
+	            "type":{
+	              "type": "string",
+	              "description": "The type of result this is",
+	              "examples":["spellingStepresult","mfsStepResult","mssStepResult"]
+	            },
+	            "identifier": {
+	              "type": "string",
+	              "description": "This is the stepID, and should be redundant with `stepIdentifier` used in  `userInteractions` and the `identifier` used in `stepHistory` elements."
+	            },
+	            "startDate": {"$ref": "sharedSchema.json#/definitions/timemarks"},
+	            "endDate": {"$ref": "sharedSchema.json#/definitions/timemarks"},
+	            "practice": {"$ref": "sharedSchema.json#/definitions/practice"},
+	            "responseTime": {"$ref": "sharedSchema.json#/definitions/responseTime"},
+	            "wasInterrupted": {"$ref": "sharedSchema.json#/definitions/wasInterrupted"},
+	            "score": {"$ref": "sharedSchema.json#/definitions/itemScore"},
+	            "position":{
+	              "type": "integer",
+	              "minimum": 1,
+	              "description": "The order of screen/step progression for this administration"
+	            },
+	            "response": {
+	              "type": "string",
+	              "description": "This is the string-int schema, whereby the response is a string and the score is an integer. The string length is not defined."
+	            },
+	            "theta":{
+	              "type": "number",
+	              "default": 0,
+	              "description": "This is the theta value AFTER administering this step."
+	            },
+	            "se":{
+	              "type": "number",
+	              "description": "This is the standard error associated with the theta estimate AFTER administering this step. The default value is the starting value that initializes the dichotomous engine. It must be positive.",
+	              "default": 99,
+	              "minimum": 0.0
+	            }
+	          },
+	          "additionalProperties": false,
+	          "required": ["type","identifier","startDate","endDate","practice","wasInterrupted","position", "theta","se"]
+	        }
+	      ]
+	    }
+	  },
+	  "stepHistory": {
+	    "type": "array",
+	    "description": "This records all of the items/steps administered presented or considered during this assessment. It records the response and score if an examinee got to that point; it also records items that may not have been completed, e.g. due to an interruption. It is identical to or a superset of the `steps` field.",
+	    "additionalItems": false,
+	    "items":{
+	      "anyOf":[
+	        {
+	          "type": "object",
+	          "description": "A record for each item administered in this assessment using the standard item selection engine.",
+	          "properties":{
+	            "type":{
+	              "type": "string",
+	              "description": "The type of result this is",
+	              "examples":["spellingStepresult","mfsStepResult","mssStepResult"]
+	            },
+	            "identifier": {
+	              "type": "string",
+	              "description": "This is the stepID, and should be redundant with `stepIdentifier` used in  `userInteractions` and the `identifier` used in `stepHistory` elements."
+	            },
+	            "startDate": {"$ref": "sharedSchema.json#/definitions/timemarks"},
+	            "endDate": {"$ref": "sharedSchema.json#/definitions/timemarks"},
+	            "responseTime": {"$ref": "sharedSchema.json#/definitions/responseTime"},
+	            "practice": {"$ref": "sharedSchema.json#/definitions/practice"},
+	            "wasInterrupted": {"$ref": "sharedSchema.json#/definitions/wasInterrupted"},
+	            "score": {"$ref": "sharedSchema.json#/definitions/itemScore"},
+	            "position":{
+	              "type": "integer",
+	              "minimum": 1,
+	              "description": "The order of screen/step progression for this administration"
+	            },
+	            "response": {
+	              "type": "string",
+	              "description": "This is the string-int schema, whereby the response is a string and the score is an integer. The string length is not defined."
+	            }
+	          },
+	          "additionalProperties": false,
+	          "required": ["type","identifier","startDate","endDate"]
+	        },
+	        {
+	          "type": "object",
+	          "description": "A record for each item administered in this assessment using the dichotomous engine.",
+	          "properties":{
+	            "type":{
+	              "type": "string",
+	              "description": "The type of result this is",
+	              "examples":["spellingStepresult","mfsStepResult","mssStepResult"]
+	            },
+	            "identifier": {
+	              "type": "string",
+	              "description": "This is the stepID, and should be redundant with `stepIdentifier` used in  `userInteractions` and the `identifier` used in `stepHistory` elements."
+	            },
+	            "startDate": {"$ref": "sharedSchema.json#/definitions/timemarks"},
+	            "endDate": {"$ref": "sharedSchema.json#/definitions/timemarks"},
+	            "responseTime": {"$ref": "sharedSchema.json#/definitions/responseTime"},
+	            "practice": {"$ref": "sharedSchema.json#/definitions/practice"},
+	            "wasInterrupted": {"$ref": "sharedSchema.json#/definitions/wasInterrupted"},
+	            "score": {"$ref": "sharedSchema.json#/definitions/itemScore"},
+	            "position":{
+	              "type": "integer",
+	              "minimum": 1,
+	              "description": "The order of screen/step progression for this administration"
+	            },
+	            "response": {
+	              "type": "string",
+	              "description": "This is the string-int schema, whereby the response is a string and the score is an integer. The string length is not defined."
+	            },
+	            "theta":{
+	              "type": "number",
+	              "default": 0,
+	              "description": "This is the theta value AFTER administering this step."
+	            },
+	            "se":{
+	              "type": "number",
+	              "description": "This is the standard error associated with the theta estimate AFTER administering this step. The default value is the starting value that initializes the dichotomous engine. It must be positive.",
+	              "default": 99,
+	              "minimum": 0.0
+	            }
+	          },
+	          "additionalProperties": false,
+	          "required": ["type","identifier","startDate","endDate","practice","wasInterrupted","theta","se"]
+	        }
+	      ]
+	    }
+	  }
+  },
+  "additionalProperties": true,
+  "$comment": "The additionalProperties element is currently true to allow for the dichotomous engine additional elements, but will be changed in future versions.",
+  "required": ["steps","testVersion","userInteractions","taskStatus","locale","startDate","endDate","taskName","stepHistory","schemaIdentifier"]
+}
