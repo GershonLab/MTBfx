@@ -30,13 +30,9 @@
 	    ]
 	  },
 	  "locale":{
-	    "type": "array",
-	    "maxItems": 1,
-	    "description": "localization for the phone on which the task was administered",
-	    "items":[
-	      {"type": "string"},
-	      {"enum": ["en-us","es-us"]}
-	    ]
+	    "type": "string",
+	    "description": "localization for the phone on which the task was administered - note that this is metadata passed by the app and thus not enumerated herein",
+	    "default": "en-us"
 	  },
 	  "userInteractions":{
 	    "type": "array",
@@ -51,10 +47,11 @@
 	              "type": "string",
 	              "description": "This is the `stepIdentifier`, and should be redundant with `identifier` used in  `steps` and `stepHistory` elements"
 	            },
-	            "timestamp":{
+	            "responseTime": {"$ref": "#/definitions/responseTime"},
+	            "timestamp": {"$ref": "#/definitions/timemarks"},
+	            "value": {
 	              "type": "string",
-	              "format": "date-time",
-	              "description": "The timestamp when an event occurred, following ISO 8601 formatting conventions"
+	              "description" : "The button touched on the screen, used optionally for some measures."
 	            },
 	            "controlEvent":{
 	              "type": "array",
@@ -65,13 +62,13 @@
 	                {"enum": ["stepBegins","interrupted","resumed","uiEnabled","touchDown","touchUpInside","touchUpOutside","keypress","setSelection"]}
 	                ]
 	            },
-	            "interactionIdentifier":{
+	            "userInteractionIdentifier":{
 	              "type": "string",
 	              "description": "This was formerly called `identifier`, but has been renamed for clarity. It is the UI element with which the person is interacting."
 	            }
 	          },
 	          "additionalProperties": false,
-	          "required": ["stepIdentifier","timestamp","controlEvent","interactionIdentifier"]
+	          "required": ["stepIdentifier","timestamp","controlEvent","userInteractionIdentifier"]
 	        },
 	        {
 	          "type": "object",
@@ -81,11 +78,7 @@
 	              "type": "string",
 	              "description": "This is the `stepIdentifier`, and should be redundant with `identifier` used in  `steps` and `stepHistory` elements. FOR PICTURE SEQUENCE MEMORY, this is an individual image on the screen, not the screen name as a whole."
 	            },
-	            "timestamp":{
-	              "type": "string",
-	              "format": "date-time",
-	              "description": "The timestamp when an event occurred, following ISO 8601 formatting conventions"
-	            },
+	            "timestamp": {"$ref": "#/definitions/timemarks"},
 	            "controlEvent":{
 	              "type": "array",
 	              "maxItems": 1,
@@ -95,7 +88,7 @@
 	                {"enum": ["stepBegins","interrupted","resumed","uiEnabled","touchDown","touchUpInside","touchUpOutside","keypress","setSelection"]}
 	              ]
 	            },
-	            "interactionIdentifier":{
+	            "userInteractionIdentifier":{
 	              "type": "string",
 	              "description": "This was formerly called `identifier`, but has been renamed for clarity. It is the UI element with which the person is interacting."
 	            },
@@ -109,7 +102,7 @@
 	            }
 	          },
 	          "additionalProperties": false,
-	          "required": ["stepIdentifier","timestamp","controlEvent","interactionIdentifier","parent","parentStepIdentifier"]
+	          "required": ["stepIdentifier","timestamp","controlEvent","userInteractionIdentifier","parent","parentStepIdentifier"]
 	        }
 	      ]
 	    }
@@ -121,6 +114,12 @@
 	    "maximum": 1,
 	    "description": "The score is an indicator for whether an item is correct and thus scored as 1 or incorrect and scored as 0."
 	  },
+	  "responseTime":{
+	    "type": "number",
+	    "default": 0,
+	    "minimum": 0,
+	    "description": "Time, in milliseconds, for a response to occur"
+	  },
 	  "practice": {
 	    "type": "boolean",
 	    "default": false,
@@ -130,7 +129,8 @@
 	    "type": "boolean",
 	    "default": false,
 	    "description": "An indicator for whether this item is an instructional item [TRUE] or a practice or live item [FALSE]."
-	  },	  "wasInterrupted": {
+	  },
+	  "wasInterrupted": {
 	    "type": "boolean",
 	    "default": false,
 	    "description": "An indicator for whether an interruption occurred on this item."
@@ -140,13 +140,9 @@
 	    "description": "This is a series of key-value pairs for scores calculated on-device. These are task-specific and as such not specified herein (or at least not yet)."
 	  },
 	  "schemaIdentifier":{
-	    "type": "array",
+	    "type": "string",
 	    "description": "this is the identifier for the unique schema. It is currently an array with length one, but will eventually be a hyperlink stored as a string, which points to the relevant JSON schema.",
-	    "maxItems": 1,
-	    "$comment": "This will eventually be enumerated for the relevant URLs.",
-	    "items": [
-	      {"type": "string"}
-	    ]
+	    "$comment": "This will eventually be enumerated for the relevant URLs."
 	  },
 	  "consideredSteps":{
 	    "type": "array",
@@ -186,6 +182,8 @@
 	    "additionalItems": false,
 	    "items":[
 	      {
+	      "anyOf": [
+	        {
 	        "type": "object",
 	        "description": "A record for each item administered in this assessment using the dichotomous engine.",
 	        "properties":{
@@ -198,11 +196,7 @@
 	              "type": "string",
 	              "description": "This is the stepID, and should be redundant with `stepIdentifier` used in  `userInteractions` and the `identifier` used in `steps` and `stepHistory` elements."
 	            },
-	            "startDate": {
-	              "type": "string",
-	              "format": "date-time",
-	              "description": "The timestamp when an event occurred, following ISO 8601 formatting conventions"
-	            },
+	            "startDate": {"$ref": "#/definitions/timemarks"},
 	            "endDate": {"$ref": "#/definitions/timemarks"},
 	            "practice": {"$ref": "#/definitions/practice"},
 	            "wasInterrupted": {"$ref": "#/definitions/wasInterrupted"},
@@ -212,7 +206,6 @@
 	              "minimum": 1,
 	              "description": "The order of screen/step progression for this administration"
 	            },
-	            "$comment": "Note: the field `response` is often included in this object, but is not specified in the shared schema elements insofar as it may be a string or an integer depending on the test and we do not want to respecify it in the stringInt or intInt schemas given that the information is already there in `steps` and `stepHistory`.",
 	            "theta":{
 	              "type": "number",
 	              "default": 0,
@@ -227,6 +220,8 @@
 	          },
 	          "additionalProperties": true
 	      }
+	      ]
+	  }
 	      ]
 	  }
   }
