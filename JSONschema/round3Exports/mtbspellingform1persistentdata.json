@@ -1,0 +1,81 @@
+{
+  "administrationState" : {
+    "isCompleteRun" : true,
+    "theta" : -0.39985857104276173,
+    "administeredStepsFromLatestCompletedRun" : [
+      {
+        "theta" : -0.75,
+        "score" : 0,
+        "se" : 99,
+        "identifier" : "179_discipline",
+        "response" : "disciplene"
+      },
+      {
+        "theta" : -1.5,
+        "score" : 0,
+        "se" : 99,
+        "response" : "rutine",
+        "identifier" : "456_routine"
+      },
+      {
+        "theta" : -0.9244173519753568,
+        "score" : 1,
+        "se" : 0.5636261408463007,
+        "response" : "exposure",
+        "identifier" : "221_exposure"
+      },
+      {
+        "theta" : -1.180666875209336,
+        "score" : 0,
+        "se" : 0.5183954773062356,
+        "identifier" : "60_bacteria",
+        "response" : "bateria"
+      },
+      {
+        "theta" : -1.180666875209336,
+        "score" : 1,
+        "se" : 0.5183954773062356,
+        "response" : "honor",
+        "identifier" : "285_honor"
+      },
+      {
+        "theta" : -0.8964604254138301,
+        "score" : 1,
+        "se" : 0.4218124692572587,
+        "identifier" : "434_recognition",
+        "response" : "recognition"
+      },
+      {
+        "theta" : -0.7505635618724878,
+        "score" : 1,
+        "se" : 0.3845391020935247,
+        "identifier" : "117_chemistry",
+        "response" : "chemistry"
+      },
+      {
+        "theta" : -0.5533062877650953,
+        "score" : 1,
+        "se" : 0.3645784641333021,
+        "identifier" : "50_autumn",
+        "response" : "autumn"
+      },
+      {
+        "theta" : -0.39985857104276173,
+        "score" : 1,
+        "se" : 0.3510048408828096,
+        "identifier" : "491_spaghetti",
+        "response" : "spaghetti"
+      },
+      {
+        "theta" : -0.39985857104276173,
+        "score" : 0,
+        "se" : 0.3510048408828096,
+        "identifier" : "660_statuesque",
+        "response" : "statuascue"
+      }
+    ],
+    "administeredStepsFromRunInProgress" : [
+
+    ]
+  }
+}

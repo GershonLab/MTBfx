@@ -240,7 +240,7 @@
        "oneOf": [
          {
             "type": "object",
-            "description": "A record for each item administered in this assessment using the standard item selection engine, with Integer-Integer response-score models",
+            "description": "Generic step fields with NO response element, frequently used for instruction and transition screens",
             "properties":{
                "type":{"$ref": "#/definitions/stepResultType"},
                "identifier": {"$ref": "#/definitions/stepIdentifier"},
@@ -287,7 +287,7 @@
          },
          {
             "type": "object",
-            "description": "A record for each item administered in this assessment using the standard item selection engine, with Integer-Integer response-score models",
+            "description": "A record for each item administered in this assessment using the standard item selection engine, with String-Integer response-score models",
             "properties":{
                "type":{"$ref": "#/definitions/stepResultType"},
                "identifier": {"$ref": "#/definitions/stepIdentifier"},
@@ -299,9 +299,6 @@
                "score": {"$ref": "#/definitions/itemScore"},
                "responseTime": {"$ref": "#/definitions/responseTime"},
                "position": {"$ref": "#/definitions/position"},
-               "failRuleSection":{"$ref": "#/definitions/failRuleSection"},
-               "stepGroup":{"$ref": "#/definitions/stepGroup"},
-               "anticipationError":{"$ref": "#/definitions/anticipationError"},
                "section": {"$ref": "#/definitions/section"},
                "response": {"$ref": "#/definitions/responseStr"}
             },
@@ -310,7 +307,7 @@
          },
          {
             "type": "object",
-            "description": "A record for each item administered in this assessment using the standard item selection engine, with Integer-Integer response-score models",
+            "description": "A record for each item administered in this assessment for PSM, with Integer-Integer response-score models",
             "properties":{
                "type":{"$ref": "#/definitions/stepResultType"},
                "identifier": {"$ref": "#/definitions/stepIdentifier"},
@@ -329,12 +326,12 @@
                "adjacentPairScoreName":{"$ref": "#/definitions/psmScoreName"},
                "parentStepIdentifier": {"$ref": "#/definitions/stepIdentifier"}
             },
-            "required": ["type","identifier","startDate","endDate","position","didTimeout"],
+            "required": ["type","identifier","startDate","endDate","position"],
             "additionalProperties": false
          },
          {
             "type": "object",
-            "description": "A record for each item administered in this assessment using the standard item selection engine, with Integer-Integer response-score models",
+            "description": "A record for each item administered in this assessment using the dichotomous item selection engine, with Integer-Integer response-score models",
             "properties":{
                "type":{"$ref": "#/definitions/stepResultType"},
                "identifier": {"$ref": "#/definitions/stepIdentifier"},
@@ -355,7 +352,7 @@
          },
          {
             "type": "object",
-            "description": "A record for each item administered in this assessment using the standard item selection engine, with Integer-Integer response-score models",
+            "description": "A record for each item administered in this assessment using the dichotomous item selection engine, with String-Integer response-score models",
             "properties":{
                "type":{"$ref": "#/definitions/stepResultType"},
                "identifier": {"$ref": "#/definitions/stepIdentifier"},
@@ -385,7 +382,7 @@
        "oneOf": [
          {
             "type": "object",
-            "description": "A record for each item administered in this assessment using the standard item selection engine, with Integer-Integer response-score models",
+            "description": "Generic step fields with NO response element, frequently used for instruction and transition screens",
             "properties":{
                "type":{"$ref": "#/definitions/stepResultType"},
                "identifier": {"$ref": "#/definitions/stepIdentifier"},
@@ -432,7 +429,7 @@
          },
          {
             "type": "object",
-            "description": "A record for each item administered in this assessment using the standard item selection engine, with Integer-Integer response-score models",
+            "description": "A record for each item administered in this assessment using the standard item selection engine, with String-Integer response-score models",
             "properties":{
                "type":{"$ref": "#/definitions/stepResultType"},
                "identifier": {"$ref": "#/definitions/stepIdentifier"},
@@ -444,10 +441,6 @@
                "score": {"$ref": "#/definitions/itemScore"},
                "responseTime": {"$ref": "#/definitions/responseTime"},
                "position": {"$ref": "#/definitions/position"},
-               "failRuleSection":{"$ref": "#/definitions/failRuleSection"},
-               "stepGroup":{"$ref": "#/definitions/stepGroup"},
-               "anticipationError":{"$ref": "#/definitions/anticipationError"},
-               "section": {"$ref": "#/definitions/section"},
                "response": {"$ref": "#/definitions/responseStr"}
             },
             "required": ["type","identifier","startDate","endDate","response"],
@@ -455,7 +448,7 @@
          },
          {
             "type": "object",
-            "description": "A record for each item administered in this assessment using the standard item selection engine, with Integer-Integer response-score models",
+            "description": "A record for each item administered in this assessment for PSM, with Integer-Integer response-score models",
             "properties":{
                "type":{"$ref": "#/definitions/stepResultType"},
                "identifier": {"$ref": "#/definitions/stepIdentifier"},
@@ -474,12 +467,12 @@
                "adjacentPairScoreName":{"$ref": "#/definitions/psmScoreName"},
                "parentStepIdentifier": {"$ref": "#/definitions/stepIdentifier"}
             },
-            "required": ["type","identifier","startDate","endDate","didTimeout"],
+            "required": ["type","identifier","startDate","endDate"],
             "additionalProperties": false
          },
          {
             "type": "object",
-            "description": "A record for each item administered in this assessment using the standard item selection engine, with Integer-Integer response-score models",
+            "description": "A record for each item administered in this assessment using the dichotomous item selection engine, with Integer-Integer response-score models",
             "properties":{
                "type":{"$ref": "#/definitions/stepResultType"},
                "identifier": {"$ref": "#/definitions/stepIdentifier"},
@@ -500,7 +493,7 @@
          },
          {
             "type": "object",
-            "description": "A record for each item administered in this assessment using the standard item selection engine, with Integer-Integer response-score models",
+            "description": "A record for each item administered in this assessment using the dichotomous item selection engine, with Integer-Integer response-score models",
             "properties":{
                "type":{"$ref": "#/definitions/stepResultType"},
                "identifier": {"$ref": "#/definitions/stepIdentifier"},
@@ -524,6 +517,6 @@
    }
  },
  "additionalProperties": false,
- "required": ["startDate","endDate","taskStatus","schemaIdentifier","testVersion","userInteractions","steps","stepHistory"],
+ "required": ["startDate","endDate","taskStatus","schemaIdentifier","testVersion","userInteractions","steps","stepHistory", "taskRunUUID"],
  "$comment": "The additional properties field is set to FALSE so that extra elements are not allowed. All required portions of a test occur in all exports. It is expected that taskRunUUID will be added to this list, and that eventually the fields `locale` and `taskName` will be removed as they will be recorded in the metaData export as opposed to herein."
 }
