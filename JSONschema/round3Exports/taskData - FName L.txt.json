@@ -1,0 +1,929 @@
+{
+  "locale" : "en_US",
+  "testVersion" : "1.2.0",
+  "endDate" : "2021-09-24T08:22:31.237-05:00",
+  "startDate" : "2021-09-24T08:21:08.459-05:00",
+  "steps" : [
+    {
+      "wasInterrupted" : false,
+      "position" : 1,
+      "endDate" : "2021-09-24T08:21:10.173-05:00",
+      "startDate" : "2021-09-24T08:21:08.462-05:00",
+      "identifier" : "NameEncoding_MTB_INSTR_01",
+      "practice" : false,
+      "type" : "fnameStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 2,
+      "endDate" : "2021-09-24T08:21:12.599-05:00",
+      "startDate" : "2021-09-24T08:21:10.174-05:00",
+      "identifier" : "NameEncoding_MTB_INSTR_02",
+      "practice" : false,
+      "type" : "fnameStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 3,
+      "endDate" : "2021-09-24T08:21:16.502-05:00",
+      "startDate" : "2021-09-24T08:21:12.601-05:00",
+      "identifier" : "NameEncoding_MTB_INSTR_03",
+      "practice" : false,
+      "type" : "fnameStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "position" : 4,
+      "endDate" : "2021-09-24T08:21:21.960-05:00",
+      "startDate" : "2021-09-24T08:21:16.504-05:00",
+      "wasInterrupted" : false,
+      "identifier" : "NameEncoding_PRAC_MTB_01",
+      "response" : 2,
+      "responseTime" : 1240,
+      "type" : "fnameStepResult",
+      "practice" : true
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 5,
+      "endDate" : "2021-09-24T08:21:23.033-05:00",
+      "startDate" : "2021-09-24T08:21:21.963-05:00",
+      "identifier" : "NameEncodingT_MTB_INSTR_01",
+      "practice" : false,
+      "type" : "fnameStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "position" : 6,
+      "endDate" : "2021-09-24T08:21:29.244-05:00",
+      "startDate" : "2021-09-24T08:21:23.647-05:00",
+      "wasInterrupted" : false,
+      "identifier" : "NameEncodingT_MTB_01_A",
+      "response" : 2,
+      "responseTime" : 606,
+      "type" : "fnameStepResult",
+      "practice" : false
+    },
+    {
+      "instruction" : false,
+      "position" : 7,
+      "endDate" : "2021-09-24T08:21:34.846-05:00",
+      "startDate" : "2021-09-24T08:21:29.246-05:00",
+      "wasInterrupted" : false,
+      "identifier" : "NameEncodingT_MTB_02_A",
+      "response" : 2,
+      "responseTime" : 621,
+      "type" : "fnameStepResult",
+      "practice" : false
+    },
+    {
+      "instruction" : false,
+      "position" : 8,
+      "endDate" : "2021-09-24T08:21:40.447-05:00",
+      "startDate" : "2021-09-24T08:21:34.848-05:00",
+      "wasInterrupted" : false,
+      "identifier" : "NameEncodingT_MTB_03_A",
+      "response" : 2,
+      "responseTime" : 421,
+      "type" : "fnameStepResult",
+      "practice" : false
+    },
+    {
+      "instruction" : false,
+      "position" : 9,
+      "endDate" : "2021-09-24T08:21:46.049-05:00",
+      "startDate" : "2021-09-24T08:21:40.450-05:00",
+      "wasInterrupted" : false,
+      "identifier" : "NameEncodingT_MTB_04_A",
+      "response" : 2,
+      "responseTime" : 271,
+      "type" : "fnameStepResult",
+      "practice" : false
+    },
+    {
+      "instruction" : false,
+      "position" : 10,
+      "endDate" : "2021-09-24T08:21:51.649-05:00",
+      "startDate" : "2021-09-24T08:21:46.051-05:00",
+      "wasInterrupted" : false,
+      "identifier" : "NameEncodingT_MTB_05_A",
+      "response" : 2,
+      "responseTime" : 571,
+      "type" : "fnameStepResult",
+      "practice" : false
+    },
+    {
+      "instruction" : false,
+      "position" : 11,
+      "endDate" : "2021-09-24T08:21:57.250-05:00",
+      "startDate" : "2021-09-24T08:21:51.652-05:00",
+      "wasInterrupted" : false,
+      "identifier" : "NameEncodingT_MTB_06_A",
+      "response" : 2,
+      "responseTime" : 271,
+      "type" : "fnameStepResult",
+      "practice" : false
+    },
+    {
+      "instruction" : false,
+      "position" : 12,
+      "endDate" : "2021-09-24T08:22:02.852-05:00",
+      "startDate" : "2021-09-24T08:21:57.253-05:00",
+      "wasInterrupted" : false,
+      "identifier" : "NameEncodingT_MTB_07_A",
+      "response" : 2,
+      "responseTime" : 288,
+      "type" : "fnameStepResult",
+      "practice" : false
+    },
+    {
+      "instruction" : false,
+      "position" : 13,
+      "endDate" : "2021-09-24T08:22:08.454-05:00",
+      "startDate" : "2021-09-24T08:22:02.854-05:00",
+      "wasInterrupted" : false,
+      "identifier" : "NameEncodingT_MTB_08_A",
+      "response" : 2,
+      "responseTime" : 606,
+      "type" : "fnameStepResult",
+      "practice" : false
+    },
+    {
+      "instruction" : false,
+      "position" : 14,
+      "endDate" : "2021-09-24T08:22:14.054-05:00",
+      "startDate" : "2021-09-24T08:22:08.456-05:00",
+      "wasInterrupted" : false,
+      "identifier" : "NameEncodingT_MTB_09_A",
+      "response" : 2,
+      "responseTime" : 388,
+      "type" : "fnameStepResult",
+      "practice" : false
+    },
+    {
+      "instruction" : false,
+      "position" : 15,
+      "endDate" : "2021-09-24T08:22:19.656-05:00",
+      "startDate" : "2021-09-24T08:22:14.056-05:00",
+      "wasInterrupted" : false,
+      "identifier" : "NameEncodingT_MTB_10_A",
+      "response" : 2,
+      "responseTime" : 321,
+      "type" : "fnameStepResult",
+      "practice" : false
+    },
+    {
+      "instruction" : false,
+      "position" : 16,
+      "endDate" : "2021-09-24T08:22:25.258-05:00",
+      "startDate" : "2021-09-24T08:22:19.658-05:00",
+      "wasInterrupted" : false,
+      "identifier" : "NameEncodingT_MTB_11_A",
+      "response" : 2,
+      "responseTime" : 256,
+      "type" : "fnameStepResult",
+      "practice" : false
+    },
+    {
+      "instruction" : false,
+      "position" : 17,
+      "endDate" : "2021-09-24T08:22:30.875-05:00",
+      "startDate" : "2021-09-24T08:22:25.260-05:00",
+      "wasInterrupted" : false,
+      "identifier" : "NameEncodingT_MTB_12_A",
+      "response" : 2,
+      "responseTime" : 323,
+      "type" : "fnameStepResult",
+      "practice" : false
+    }
+  ],
+  "taskName" : "FNAME Learning Form 1",
+  "userInteractions" : [
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "NameEncoding_MTB_INSTR_01",
+      "timestamp" : "2021-09-24T08:21:08.467-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NameEncoding_MTB_INSTR_01",
+      "timestamp" : "2021-09-24T08:21:08.475-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NameEncoding_MTB_INSTR_01",
+      "timestamp" : "2021-09-24T08:21:10.014-05:00",
+      "userInteractionIdentifier" : "View instructions"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NameEncoding_MTB_INSTR_01",
+      "timestamp" : "2021-09-24T08:21:10.164-05:00",
+      "userInteractionIdentifier" : "View instructions"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "NameEncoding_MTB_INSTR_02",
+      "timestamp" : "2021-09-24T08:21:10.190-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NameEncoding_MTB_INSTR_02",
+      "timestamp" : "2021-09-24T08:21:10.508-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NameEncoding_MTB_INSTR_02",
+      "timestamp" : "2021-09-24T08:21:12.480-05:00",
+      "userInteractionIdentifier" : ">"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NameEncoding_MTB_INSTR_02",
+      "timestamp" : "2021-09-24T08:21:12.597-05:00",
+      "userInteractionIdentifier" : ">"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NameEncoding_MTB_INSTR_03",
+      "timestamp" : "2021-09-24T08:21:12.607-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NameEncoding_MTB_INSTR_03",
+      "timestamp" : "2021-09-24T08:21:16.280-05:00",
+      "userInteractionIdentifier" : "Practice"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NameEncoding_MTB_INSTR_03",
+      "timestamp" : "2021-09-24T08:21:16.500-05:00",
+      "userInteractionIdentifier" : "Practice"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "NameEncoding_PRAC_MTB_01",
+      "timestamp" : "2021-09-24T08:21:16.509-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NameEncoding_PRAC_MTB_01",
+      "timestamp" : "2021-09-24T08:21:16.943-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NameEncoding_PRAC_MTB_01",
+      "timestamp" : "2021-09-24T08:21:18.199-05:00",
+      "userInteractionIdentifier" : "Hard"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NameEncoding_PRAC_MTB_01",
+      "timestamp" : "2021-09-24T08:21:18.364-05:00",
+      "userInteractionIdentifier" : "Hard"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_INSTR_01",
+      "timestamp" : "2021-09-24T08:21:21.966-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_INSTR_01",
+      "timestamp" : "2021-09-24T08:21:22.477-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_INSTR_01",
+      "timestamp" : "2021-09-24T08:21:22.681-05:00",
+      "userInteractionIdentifier" : "Start"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_INSTR_01",
+      "timestamp" : "2021-09-24T08:21:23.031-05:00",
+      "userInteractionIdentifier" : "Start"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_01_A",
+      "timestamp" : "2021-09-24T08:21:23.671-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_01_A",
+      "timestamp" : "2021-09-24T08:21:24.110-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_01_A",
+      "timestamp" : "2021-09-24T08:21:24.733-05:00",
+      "userInteractionIdentifier" : "Hard"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_01_A",
+      "timestamp" : "2021-09-24T08:21:24.798-05:00",
+      "userInteractionIdentifier" : "Hard"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_02_A",
+      "timestamp" : "2021-09-24T08:21:29.272-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_02_A",
+      "timestamp" : "2021-09-24T08:21:29.712-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_02_A",
+      "timestamp" : "2021-09-24T08:21:30.349-05:00",
+      "userInteractionIdentifier" : "Hard"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_02_A",
+      "timestamp" : "2021-09-24T08:21:30.465-05:00",
+      "userInteractionIdentifier" : "Hard"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_03_A",
+      "timestamp" : "2021-09-24T08:21:34.877-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_03_A",
+      "timestamp" : "2021-09-24T08:21:35.312-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_03_A",
+      "timestamp" : "2021-09-24T08:21:35.749-05:00",
+      "userInteractionIdentifier" : "Hard"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_03_A",
+      "timestamp" : "2021-09-24T08:21:35.849-05:00",
+      "userInteractionIdentifier" : "Hard"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_04_A",
+      "timestamp" : "2021-09-24T08:21:40.476-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_04_A",
+      "timestamp" : "2021-09-24T08:21:40.913-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_04_A",
+      "timestamp" : "2021-09-24T08:21:41.200-05:00",
+      "userInteractionIdentifier" : "Hard"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_04_A",
+      "timestamp" : "2021-09-24T08:21:41.350-05:00",
+      "userInteractionIdentifier" : "Hard"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_05_A",
+      "timestamp" : "2021-09-24T08:21:46.078-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_05_A",
+      "timestamp" : "2021-09-24T08:21:46.514-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_05_A",
+      "timestamp" : "2021-09-24T08:21:47.100-05:00",
+      "userInteractionIdentifier" : "Hard"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_05_A",
+      "timestamp" : "2021-09-24T08:21:47.217-05:00",
+      "userInteractionIdentifier" : "Hard"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_06_A",
+      "timestamp" : "2021-09-24T08:21:51.678-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_06_A",
+      "timestamp" : "2021-09-24T08:21:52.114-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_06_A",
+      "timestamp" : "2021-09-24T08:21:52.401-05:00",
+      "userInteractionIdentifier" : "Hard"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_06_A",
+      "timestamp" : "2021-09-24T08:21:52.568-05:00",
+      "userInteractionIdentifier" : "Hard"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_07_A",
+      "timestamp" : "2021-09-24T08:21:57.280-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_07_A",
+      "timestamp" : "2021-09-24T08:21:57.715-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_07_A",
+      "timestamp" : "2021-09-24T08:21:58.018-05:00",
+      "userInteractionIdentifier" : "Hard"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_07_A",
+      "timestamp" : "2021-09-24T08:21:58.185-05:00",
+      "userInteractionIdentifier" : "Hard"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_08_A",
+      "timestamp" : "2021-09-24T08:22:02.879-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_08_A",
+      "timestamp" : "2021-09-24T08:22:03.315-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_08_A",
+      "timestamp" : "2021-09-24T08:22:03.937-05:00",
+      "userInteractionIdentifier" : "Hard"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_08_A",
+      "timestamp" : "2021-09-24T08:22:04.037-05:00",
+      "userInteractionIdentifier" : "Hard"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_09_A",
+      "timestamp" : "2021-09-24T08:22:08.482-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_09_A",
+      "timestamp" : "2021-09-24T08:22:08.916-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_09_A",
+      "timestamp" : "2021-09-24T08:22:09.320-05:00",
+      "userInteractionIdentifier" : "Hard"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_09_A",
+      "timestamp" : "2021-09-24T08:22:09.438-05:00",
+      "userInteractionIdentifier" : "Hard"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_10_A",
+      "timestamp" : "2021-09-24T08:22:14.082-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_10_A",
+      "timestamp" : "2021-09-24T08:22:14.517-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_10_A",
+      "timestamp" : "2021-09-24T08:22:14.854-05:00",
+      "userInteractionIdentifier" : "Hard"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_10_A",
+      "timestamp" : "2021-09-24T08:22:14.987-05:00",
+      "userInteractionIdentifier" : "Hard"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_11_A",
+      "timestamp" : "2021-09-24T08:22:19.684-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_11_A",
+      "timestamp" : "2021-09-24T08:22:20.117-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_11_A",
+      "timestamp" : "2021-09-24T08:22:20.389-05:00",
+      "userInteractionIdentifier" : "Hard"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_11_A",
+      "timestamp" : "2021-09-24T08:22:20.537-05:00",
+      "userInteractionIdentifier" : "Hard"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_12_A",
+      "timestamp" : "2021-09-24T08:22:25.290-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_12_A",
+      "timestamp" : "2021-09-24T08:22:25.735-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_12_A",
+      "timestamp" : "2021-09-24T08:22:26.073-05:00",
+      "userInteractionIdentifier" : "Hard"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NameEncodingT_MTB_12_A",
+      "timestamp" : "2021-09-24T08:22:26.206-05:00",
+      "userInteractionIdentifier" : "Hard"
+    }
+  ],
+  "stepHistory" : [
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-24T08:21:10.173-05:00",
+      "startDate" : "2021-09-24T08:21:08.462-05:00",
+      "identifier" : "NameEncoding_MTB_INSTR_01",
+      "practice" : false,
+      "type" : "fnameStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-24T08:21:12.599-05:00",
+      "startDate" : "2021-09-24T08:21:10.174-05:00",
+      "identifier" : "NameEncoding_MTB_INSTR_02",
+      "practice" : false,
+      "type" : "fnameStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-24T08:21:16.502-05:00",
+      "startDate" : "2021-09-24T08:21:12.601-05:00",
+      "identifier" : "NameEncoding_MTB_INSTR_03",
+      "practice" : false,
+      "type" : "fnameStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-24T08:21:21.960-05:00",
+      "startDate" : "2021-09-24T08:21:16.504-05:00",
+      "identifier" : "NameEncoding_PRAC_MTB_01",
+      "practice" : true,
+      "responseTime" : 1240,
+      "response" : 2,
+      "type" : "fnameStepResult"
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-24T08:21:23.033-05:00",
+      "startDate" : "2021-09-24T08:21:21.963-05:00",
+      "identifier" : "NameEncodingT_MTB_INSTR_01",
+      "practice" : false,
+      "type" : "fnameStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-24T08:21:29.244-05:00",
+      "startDate" : "2021-09-24T08:21:23.647-05:00",
+      "identifier" : "NameEncodingT_MTB_01_A",
+      "practice" : false,
+      "responseTime" : 606,
+      "response" : 2,
+      "type" : "fnameStepResult"
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-24T08:21:34.846-05:00",
+      "startDate" : "2021-09-24T08:21:29.246-05:00",
+      "identifier" : "NameEncodingT_MTB_02_A",
+      "practice" : false,
+      "responseTime" : 621,
+      "response" : 2,
+      "type" : "fnameStepResult"
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-24T08:21:40.447-05:00",
+      "startDate" : "2021-09-24T08:21:34.848-05:00",
+      "identifier" : "NameEncodingT_MTB_03_A",
+      "practice" : false,
+      "responseTime" : 421,
+      "response" : 2,
+      "type" : "fnameStepResult"
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-24T08:21:46.049-05:00",
+      "startDate" : "2021-09-24T08:21:40.450-05:00",
+      "identifier" : "NameEncodingT_MTB_04_A",
+      "practice" : false,
+      "responseTime" : 271,
+      "response" : 2,
+      "type" : "fnameStepResult"
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-24T08:21:51.649-05:00",
+      "startDate" : "2021-09-24T08:21:46.051-05:00",
+      "identifier" : "NameEncodingT_MTB_05_A",
+      "practice" : false,
+      "responseTime" : 571,
+      "response" : 2,
+      "type" : "fnameStepResult"
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-24T08:21:57.250-05:00",
+      "startDate" : "2021-09-24T08:21:51.652-05:00",
+      "identifier" : "NameEncodingT_MTB_06_A",
+      "practice" : false,
+      "responseTime" : 271,
+      "response" : 2,
+      "type" : "fnameStepResult"
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-24T08:22:02.852-05:00",
+      "startDate" : "2021-09-24T08:21:57.253-05:00",
+      "identifier" : "NameEncodingT_MTB_07_A",
+      "practice" : false,
+      "responseTime" : 288,
+      "response" : 2,
+      "type" : "fnameStepResult"
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-24T08:22:08.454-05:00",
+      "startDate" : "2021-09-24T08:22:02.854-05:00",
+      "identifier" : "NameEncodingT_MTB_08_A",
+      "practice" : false,
+      "responseTime" : 606,
+      "response" : 2,
+      "type" : "fnameStepResult"
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-24T08:22:14.054-05:00",
+      "startDate" : "2021-09-24T08:22:08.456-05:00",
+      "identifier" : "NameEncodingT_MTB_09_A",
+      "practice" : false,
+      "responseTime" : 388,
+      "response" : 2,
+      "type" : "fnameStepResult"
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-24T08:22:19.656-05:00",
+      "startDate" : "2021-09-24T08:22:14.056-05:00",
+      "identifier" : "NameEncodingT_MTB_10_A",
+      "practice" : false,
+      "responseTime" : 321,
+      "response" : 2,
+      "type" : "fnameStepResult"
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-24T08:22:25.258-05:00",
+      "startDate" : "2021-09-24T08:22:19.658-05:00",
+      "identifier" : "NameEncodingT_MTB_11_A",
+      "practice" : false,
+      "responseTime" : 256,
+      "response" : 2,
+      "type" : "fnameStepResult"
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-24T08:22:30.875-05:00",
+      "startDate" : "2021-09-24T08:22:25.260-05:00",
+      "identifier" : "NameEncodingT_MTB_12_A",
+      "practice" : false,
+      "responseTime" : 323,
+      "response" : 2,
+      "type" : "fnameStepResult"
+    }
+  ],
+  "taskRunUUID" : "E8F0E0F6-0482-4043-9A5E-54AC5BEC6246",
+  "taskStatus" : [
+    "completed"
+  ],
+  "schemaIdentifier" : "FNAME_TaskData"
+}

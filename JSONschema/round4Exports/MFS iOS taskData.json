@@ -1,0 +1,3259 @@
+{
+  "locale" : "en_US",
+  "testVersion" : "1.2.0",
+  "endDate" : "2021-09-30T12:42:57.449-05:00",
+  "startDate" : "2021-09-30T12:37:21.743-05:00",
+  "steps" : [
+    {
+      "endDate" : "2021-09-30T12:37:25.535-05:00",
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-30T12:37:21.761-05:00",
+      "type" : "mssStepResult",
+      "position" : 1,
+      "identifier" : "MFS_welcome"
+    },
+    {
+      "position" : 2,
+      "endDate" : "2021-09-30T12:37:29.620-05:00",
+      "startDate" : "2021-09-30T12:37:25.536-05:00",
+      "identifier" : "MFS_Ins1",
+      "response" : "2",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "position" : 3,
+      "endDate" : "2021-09-30T12:37:36.915-05:00",
+      "startDate" : "2021-09-30T12:37:29.622-05:00",
+      "identifier" : "MFS_Ins2",
+      "response" : "2",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 1,
+      "endDate" : "2021-09-30T12:37:41.219-05:00",
+      "startDate" : "2021-09-30T12:37:36.926-05:00",
+      "position" : 4,
+      "identifier" : "MFS_P1",
+      "response" : "y-3",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "endDate" : "2021-09-30T12:37:54.369-05:00",
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-30T12:37:41.225-05:00",
+      "type" : "mssStepResult",
+      "position" : 5,
+      "identifier" : "MFS_P1_FEEDBACK"
+    },
+    {
+      "endDate" : "2021-09-30T12:39:34.279-05:00",
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-30T12:39:24.574-05:00",
+      "type" : "mssStepResult",
+      "position" : 6,
+      "identifier" : "MFS_P2_FEEDBACK"
+    },
+    {
+      "score" : 1,
+      "endDate" : "2021-09-30T12:39:24.567-05:00",
+      "startDate" : "2021-09-30T12:37:55.025-05:00",
+      "position" : 7,
+      "identifier" : "MFS_P2",
+      "response" : "q-z-8",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 1,
+      "endDate" : "2021-09-30T12:39:40.198-05:00",
+      "startDate" : "2021-09-30T12:39:34.924-05:00",
+      "position" : 8,
+      "identifier" : "MFS_2_1",
+      "response" : "c-9",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 1,
+      "endDate" : "2021-09-30T12:39:44.758-05:00",
+      "startDate" : "2021-09-30T12:39:40.199-05:00",
+      "position" : 9,
+      "identifier" : "MFS_2_2",
+      "response" : "r-4",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 1,
+      "endDate" : "2021-09-30T12:39:49.990-05:00",
+      "startDate" : "2021-09-30T12:39:44.759-05:00",
+      "position" : 10,
+      "identifier" : "MFS_2_3",
+      "response" : "z-3",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 1,
+      "endDate" : "2021-09-30T12:39:56.243-05:00",
+      "startDate" : "2021-09-30T12:39:49.991-05:00",
+      "position" : 11,
+      "identifier" : "MFS_3_1",
+      "response" : "b-z-2",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 1,
+      "endDate" : "2021-09-30T12:40:04.005-05:00",
+      "startDate" : "2021-09-30T12:39:56.243-05:00",
+      "position" : 12,
+      "identifier" : "MFS_3_2",
+      "response" : "a-s-5",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 1,
+      "endDate" : "2021-09-30T12:40:14.684-05:00",
+      "startDate" : "2021-09-30T12:40:04.006-05:00",
+      "position" : 13,
+      "identifier" : "MFS_3_3",
+      "response" : "q-y-1",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 1,
+      "endDate" : "2021-09-30T12:40:21.597-05:00",
+      "startDate" : "2021-09-30T12:40:14.685-05:00",
+      "position" : 14,
+      "identifier" : "MFS_3_4",
+      "response" : "s-6-8",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 1,
+      "endDate" : "2021-09-30T12:40:29.089-05:00",
+      "startDate" : "2021-09-30T12:40:21.598-05:00",
+      "position" : 15,
+      "identifier" : "MFS_3_5",
+      "response" : "s-2-4",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 1,
+      "endDate" : "2021-09-30T12:40:35.060-05:00",
+      "startDate" : "2021-09-30T12:40:29.090-05:00",
+      "position" : 16,
+      "identifier" : "MFS_3_6",
+      "response" : "x-1-9",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 1,
+      "endDate" : "2021-09-30T12:40:44.211-05:00",
+      "startDate" : "2021-09-30T12:40:35.061-05:00",
+      "position" : 17,
+      "identifier" : "MFS_4_1",
+      "response" : "b-z-1-6",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 1,
+      "endDate" : "2021-09-30T12:40:51.710-05:00",
+      "startDate" : "2021-09-30T12:40:44.212-05:00",
+      "position" : 18,
+      "identifier" : "MFS_4_2",
+      "response" : "a-b-5-8",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 1,
+      "endDate" : "2021-09-30T12:41:01.448-05:00",
+      "startDate" : "2021-09-30T12:40:51.710-05:00",
+      "position" : 19,
+      "identifier" : "MFS_4_3",
+      "response" : "r-y-2-4",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 1,
+      "endDate" : "2021-09-30T12:41:11.895-05:00",
+      "startDate" : "2021-09-30T12:41:01.449-05:00",
+      "position" : 20,
+      "identifier" : "MFS_5_1",
+      "response" : "b-c-q-1-6",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 1,
+      "endDate" : "2021-09-30T12:41:22.302-05:00",
+      "startDate" : "2021-09-30T12:41:11.896-05:00",
+      "position" : 21,
+      "identifier" : "MFS_5_2",
+      "response" : "a-s-y-4-9",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 0,
+      "endDate" : "2021-09-30T12:41:32.865-05:00",
+      "startDate" : "2021-09-30T12:41:22.303-05:00",
+      "position" : 22,
+      "identifier" : "MFS_5_3",
+      "response" : "c-q-x-6-9",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 1,
+      "endDate" : "2021-09-30T12:41:51.828-05:00",
+      "startDate" : "2021-09-30T12:41:32.866-05:00",
+      "position" : 23,
+      "identifier" : "MFS_6_1",
+      "response" : "r-y-z-1-2-9",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 0,
+      "endDate" : "2021-09-30T12:42:06.496-05:00",
+      "startDate" : "2021-09-30T12:41:51.829-05:00",
+      "position" : 24,
+      "identifier" : "MFS_6_2",
+      "response" : "a-c-r-1-4-7",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 0,
+      "endDate" : "2021-09-30T12:42:21.441-05:00",
+      "startDate" : "2021-09-30T12:42:06.497-05:00",
+      "position" : 25,
+      "identifier" : "MFS_6_3",
+      "response" : "c-r-y-z-2-3-8",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 0,
+      "endDate" : "2021-09-30T12:42:34.774-05:00",
+      "startDate" : "2021-09-30T12:42:21.442-05:00",
+      "position" : 26,
+      "identifier" : "MFS_7_1",
+      "response" : "a-c-y-1-7-9",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 0,
+      "endDate" : "2021-09-30T12:42:46.756-05:00",
+      "startDate" : "2021-09-30T12:42:34.775-05:00",
+      "position" : 27,
+      "identifier" : "MFS_7_2",
+      "response" : "q-a-1",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 0,
+      "endDate" : "2021-09-30T12:42:57.121-05:00",
+      "startDate" : "2021-09-30T12:42:46.757-05:00",
+      "position" : 28,
+      "identifier" : "MFS_7_3",
+      "response" : "q-a-2",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    }
+  ],
+  "taskName" : "MFS pilot 2",
+  "userInteractions" : [
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MFS_welcome",
+      "timestamp" : "2021-09-30T12:37:21.767-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MFS_welcome",
+      "timestamp" : "2021-09-30T12:37:21.788-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_welcome",
+      "timestamp" : "2021-09-30T12:37:25.397-05:00",
+      "userInteractionIdentifier" : "View instructions"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_welcome",
+      "timestamp" : "2021-09-30T12:37:25.531-05:00",
+      "userInteractionIdentifier" : "View instructions"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MFS_Ins1",
+      "timestamp" : "2021-09-30T12:37:25.547-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MFS_Ins1",
+      "timestamp" : "2021-09-30T12:37:25.877-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_Ins1",
+      "timestamp" : "2021-09-30T12:37:29.519-05:00",
+      "userInteractionIdentifier" : ">"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_Ins1",
+      "timestamp" : "2021-09-30T12:37:29.619-05:00",
+      "userInteractionIdentifier" : ">"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MFS_Ins2",
+      "timestamp" : "2021-09-30T12:37:29.632-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_Ins2",
+      "timestamp" : "2021-09-30T12:37:36.813-05:00",
+      "userInteractionIdentifier" : ">"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_Ins2",
+      "timestamp" : "2021-09-30T12:37:36.913-05:00",
+      "userInteractionIdentifier" : ">"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MFS_P1",
+      "timestamp" : "2021-09-30T12:37:36.948-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MFS_P1",
+      "timestamp" : "2021-09-30T12:37:39.590-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_P1",
+      "timestamp" : "2021-09-30T12:37:40.518-05:00",
+      "userInteractionIdentifier" : "y"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_P1",
+      "timestamp" : "2021-09-30T12:37:40.626-05:00",
+      "userInteractionIdentifier" : "y"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_P1",
+      "timestamp" : "2021-09-30T12:37:40.834-05:00",
+      "userInteractionIdentifier" : "3"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_P1",
+      "timestamp" : "2021-09-30T12:37:40.951-05:00",
+      "userInteractionIdentifier" : "3"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_P1",
+      "timestamp" : "2021-09-30T12:37:41.152-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_P1",
+      "timestamp" : "2021-09-30T12:37:41.218-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MFS_P1_FEEDBACK",
+      "timestamp" : "2021-09-30T12:37:41.249-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MFS_P1_FEEDBACK",
+      "timestamp" : "2021-09-30T12:37:41.784-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_P1_FEEDBACK",
+      "timestamp" : "2021-09-30T12:37:54.226-05:00",
+      "userInteractionIdentifier" : "Next"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_P1_FEEDBACK",
+      "timestamp" : "2021-09-30T12:37:54.367-05:00",
+      "userInteractionIdentifier" : "Next"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:37:55.052-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:37:58.710-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:37:58.719-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:38:05.148-05:00",
+      "userInteractionIdentifier" : "z"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:38:05.282-05:00",
+      "userInteractionIdentifier" : "z"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:38:05.916-05:00",
+      "userInteractionIdentifier" : "3"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:38:06.024-05:00",
+      "userInteractionIdentifier" : "3"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:38:06.717-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:38:06.842-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:38:06.861-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:38:06.861-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:38:06.861-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MFS_P2_FEEDBACK",
+      "timestamp" : "2021-09-30T12:38:06.873-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MFS_P2_FEEDBACK",
+      "timestamp" : "2021-09-30T12:38:07.411-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_P2_FEEDBACK",
+      "timestamp" : "2021-09-30T12:38:22.312-05:00",
+      "userInteractionIdentifier" : "Try again"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_P2_FEEDBACK",
+      "timestamp" : "2021-09-30T12:38:22.437-05:00",
+      "userInteractionIdentifier" : "Try again"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:38:35.012-05:00",
+      "userInteractionIdentifier" : "z"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:38:35.162-05:00",
+      "userInteractionIdentifier" : "z"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:38:35.563-05:00",
+      "userInteractionIdentifier" : "q"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:38:35.671-05:00",
+      "userInteractionIdentifier" : "q"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:38:36.547-05:00",
+      "userInteractionIdentifier" : "8"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:38:36.689-05:00",
+      "userInteractionIdentifier" : "8"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:38:37.040-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:38:37.156-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MFS_P2_FEEDBACK",
+      "timestamp" : "2021-09-30T12:38:37.184-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MFS_P2_FEEDBACK",
+      "timestamp" : "2021-09-30T12:38:37.725-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_P2_FEEDBACK",
+      "timestamp" : "2021-09-30T12:38:46.560-05:00",
+      "userInteractionIdentifier" : "Try again"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_P2_FEEDBACK",
+      "timestamp" : "2021-09-30T12:38:46.660-05:00",
+      "userInteractionIdentifier" : "Try again"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:38:56.648-05:00",
+      "userInteractionIdentifier" : "pauseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:38:56.648-05:00",
+      "userInteractionIdentifier" : "pauseButton"
+    },
+    {
+      "controlEvent" : [
+        "interrupted"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:38:56.776-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:38:57.908-05:00",
+      "userInteractionIdentifier" : "Review instructions"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:38:58.024-05:00",
+      "userInteractionIdentifier" : "Review instructions"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:39:00.161-05:00",
+      "userInteractionIdentifier" : "Resume"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:39:00.277-05:00",
+      "userInteractionIdentifier" : "Resume"
+    },
+    {
+      "controlEvent" : [
+        "resumed"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:39:01.307-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:39:04.630-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:39:04.637-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:39:06.669-05:00",
+      "userInteractionIdentifier" : "z"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:39:06.827-05:00",
+      "userInteractionIdentifier" : "z"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:39:08.104-05:00",
+      "userInteractionIdentifier" : "q"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:39:08.229-05:00",
+      "userInteractionIdentifier" : "q"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:39:08.746-05:00",
+      "userInteractionIdentifier" : "8"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:39:08.871-05:00",
+      "userInteractionIdentifier" : "8"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:39:09.539-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:39:09.664-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:39:09.676-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MFS_P2_FEEDBACK",
+      "timestamp" : "2021-09-30T12:39:09.692-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MFS_P2_FEEDBACK",
+      "timestamp" : "2021-09-30T12:39:10.213-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_P2_FEEDBACK",
+      "timestamp" : "2021-09-30T12:39:16.397-05:00",
+      "userInteractionIdentifier" : "Try again"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_P2_FEEDBACK",
+      "timestamp" : "2021-09-30T12:39:16.506-05:00",
+      "userInteractionIdentifier" : "Try again"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:39:22.647-05:00",
+      "userInteractionIdentifier" : "q"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:39:22.789-05:00",
+      "userInteractionIdentifier" : "q"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:39:23.248-05:00",
+      "userInteractionIdentifier" : "z"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:39:23.398-05:00",
+      "userInteractionIdentifier" : "z"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:39:23.865-05:00",
+      "userInteractionIdentifier" : "8"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:39:23.990-05:00",
+      "userInteractionIdentifier" : "8"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:39:24.450-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_P2",
+      "timestamp" : "2021-09-30T12:39:24.566-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MFS_P2_FEEDBACK",
+      "timestamp" : "2021-09-30T12:39:24.598-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MFS_P2_FEEDBACK",
+      "timestamp" : "2021-09-30T12:39:25.133-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_P2_FEEDBACK",
+      "timestamp" : "2021-09-30T12:39:34.178-05:00",
+      "userInteractionIdentifier" : "Start"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_P2_FEEDBACK",
+      "timestamp" : "2021-09-30T12:39:34.278-05:00",
+      "userInteractionIdentifier" : "Start"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MFS_2_1",
+      "timestamp" : "2021-09-30T12:39:34.946-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MFS_2_1",
+      "timestamp" : "2021-09-30T12:39:37.581-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_2_1",
+      "timestamp" : "2021-09-30T12:39:39.409-05:00",
+      "userInteractionIdentifier" : "c"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_2_1",
+      "timestamp" : "2021-09-30T12:39:39.576-05:00",
+      "userInteractionIdentifier" : "c"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_2_1",
+      "timestamp" : "2021-09-30T12:39:39.735-05:00",
+      "userInteractionIdentifier" : "9"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_2_1",
+      "timestamp" : "2021-09-30T12:39:39.851-05:00",
+      "userInteractionIdentifier" : "9"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_2_1",
+      "timestamp" : "2021-09-30T12:39:39.976-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_2_1",
+      "timestamp" : "2021-09-30T12:39:40.085-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MFS_2_2",
+      "timestamp" : "2021-09-30T12:39:40.219-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MFS_2_2",
+      "timestamp" : "2021-09-30T12:39:42.860-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_2_2",
+      "timestamp" : "2021-09-30T12:39:43.806-05:00",
+      "userInteractionIdentifier" : "r"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_2_2",
+      "timestamp" : "2021-09-30T12:39:43.931-05:00",
+      "userInteractionIdentifier" : "r"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_2_2",
+      "timestamp" : "2021-09-30T12:39:44.174-05:00",
+      "userInteractionIdentifier" : "4"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_2_2",
+      "timestamp" : "2021-09-30T12:39:44.257-05:00",
+      "userInteractionIdentifier" : "4"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_2_2",
+      "timestamp" : "2021-09-30T12:39:44.532-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_2_2",
+      "timestamp" : "2021-09-30T12:39:44.641-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MFS_2_3",
+      "timestamp" : "2021-09-30T12:39:44.780-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MFS_2_3",
+      "timestamp" : "2021-09-30T12:39:47.415-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_2_3",
+      "timestamp" : "2021-09-30T12:39:49.246-05:00",
+      "userInteractionIdentifier" : "z"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_2_3",
+      "timestamp" : "2021-09-30T12:39:49.363-05:00",
+      "userInteractionIdentifier" : "z"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_2_3",
+      "timestamp" : "2021-09-30T12:39:49.505-05:00",
+      "userInteractionIdentifier" : "3"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_2_3",
+      "timestamp" : "2021-09-30T12:39:49.613-05:00",
+      "userInteractionIdentifier" : "3"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_2_3",
+      "timestamp" : "2021-09-30T12:39:49.789-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_2_3",
+      "timestamp" : "2021-09-30T12:39:49.880-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MFS_3_1",
+      "timestamp" : "2021-09-30T12:39:50.012-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MFS_3_1",
+      "timestamp" : "2021-09-30T12:39:53.656-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_3_1",
+      "timestamp" : "2021-09-30T12:39:54.911-05:00",
+      "userInteractionIdentifier" : "b"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_3_1",
+      "timestamp" : "2021-09-30T12:39:55.020-05:00",
+      "userInteractionIdentifier" : "b"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_3_1",
+      "timestamp" : "2021-09-30T12:39:55.354-05:00",
+      "userInteractionIdentifier" : "z"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_3_1",
+      "timestamp" : "2021-09-30T12:39:55.478-05:00",
+      "userInteractionIdentifier" : "z"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_3_1",
+      "timestamp" : "2021-09-30T12:39:55.712-05:00",
+      "userInteractionIdentifier" : "2"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_3_1",
+      "timestamp" : "2021-09-30T12:39:55.779-05:00",
+      "userInteractionIdentifier" : "2"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_3_1",
+      "timestamp" : "2021-09-30T12:39:56.046-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_3_1",
+      "timestamp" : "2021-09-30T12:39:56.129-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MFS_3_2",
+      "timestamp" : "2021-09-30T12:39:56.264-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MFS_3_2",
+      "timestamp" : "2021-09-30T12:39:59.897-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_3_2",
+      "timestamp" : "2021-09-30T12:40:00.626-05:00",
+      "userInteractionIdentifier" : "a"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_3_2",
+      "timestamp" : "2021-09-30T12:40:00.801-05:00",
+      "userInteractionIdentifier" : "a"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_3_2",
+      "timestamp" : "2021-09-30T12:40:02.487-05:00",
+      "userInteractionIdentifier" : "s"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_3_2",
+      "timestamp" : "2021-09-30T12:40:02.578-05:00",
+      "userInteractionIdentifier" : "s"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_3_2",
+      "timestamp" : "2021-09-30T12:40:03.413-05:00",
+      "userInteractionIdentifier" : "5"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_3_2",
+      "timestamp" : "2021-09-30T12:40:03.496-05:00",
+      "userInteractionIdentifier" : "5"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_3_2",
+      "timestamp" : "2021-09-30T12:40:03.780-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_3_2",
+      "timestamp" : "2021-09-30T12:40:03.888-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MFS_3_3",
+      "timestamp" : "2021-09-30T12:40:04.029-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MFS_3_3",
+      "timestamp" : "2021-09-30T12:40:07.674-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_3_3",
+      "timestamp" : "2021-09-30T12:40:12.056-05:00",
+      "userInteractionIdentifier" : "q"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_3_3",
+      "timestamp" : "2021-09-30T12:40:12.148-05:00",
+      "userInteractionIdentifier" : "q"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_3_3",
+      "timestamp" : "2021-09-30T12:40:13.208-05:00",
+      "userInteractionIdentifier" : "y"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_3_3",
+      "timestamp" : "2021-09-30T12:40:13.325-05:00",
+      "userInteractionIdentifier" : "y"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_3_3",
+      "timestamp" : "2021-09-30T12:40:13.733-05:00",
+      "userInteractionIdentifier" : "1"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_3_3",
+      "timestamp" : "2021-09-30T12:40:13.833-05:00",
+      "userInteractionIdentifier" : "1"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_3_3",
+      "timestamp" : "2021-09-30T12:40:14.493-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_3_3",
+      "timestamp" : "2021-09-30T12:40:14.567-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MFS_3_4",
+      "timestamp" : "2021-09-30T12:40:14.706-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MFS_3_4",
+      "timestamp" : "2021-09-30T12:40:18.352-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_3_4",
+      "timestamp" : "2021-09-30T12:40:20.124-05:00",
+      "userInteractionIdentifier" : "s"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_3_4",
+      "timestamp" : "2021-09-30T12:40:20.249-05:00",
+      "userInteractionIdentifier" : "s"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_3_4",
+      "timestamp" : "2021-09-30T12:40:20.650-05:00",
+      "userInteractionIdentifier" : "6"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_3_4",
+      "timestamp" : "2021-09-30T12:40:20.758-05:00",
+      "userInteractionIdentifier" : "6"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_3_4",
+      "timestamp" : "2021-09-30T12:40:20.866-05:00",
+      "userInteractionIdentifier" : "8"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_3_4",
+      "timestamp" : "2021-09-30T12:40:20.991-05:00",
+      "userInteractionIdentifier" : "8"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_3_4",
+      "timestamp" : "2021-09-30T12:40:21.384-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_3_4",
+      "timestamp" : "2021-09-30T12:40:21.484-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MFS_3_5",
+      "timestamp" : "2021-09-30T12:40:21.616-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MFS_3_5",
+      "timestamp" : "2021-09-30T12:40:25.260-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_3_5",
+      "timestamp" : "2021-09-30T12:40:27.724-05:00",
+      "userInteractionIdentifier" : "s"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_3_5",
+      "timestamp" : "2021-09-30T12:40:27.849-05:00",
+      "userInteractionIdentifier" : "s"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_3_5",
+      "timestamp" : "2021-09-30T12:40:28.216-05:00",
+      "userInteractionIdentifier" : "2"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_3_5",
+      "timestamp" : "2021-09-30T12:40:28.307-05:00",
+      "userInteractionIdentifier" : "2"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_3_5",
+      "timestamp" : "2021-09-30T12:40:28.474-05:00",
+      "userInteractionIdentifier" : "4"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_3_5",
+      "timestamp" : "2021-09-30T12:40:28.533-05:00",
+      "userInteractionIdentifier" : "4"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_3_5",
+      "timestamp" : "2021-09-30T12:40:28.867-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_3_5",
+      "timestamp" : "2021-09-30T12:40:28.975-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MFS_3_6",
+      "timestamp" : "2021-09-30T12:40:29.112-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MFS_3_6",
+      "timestamp" : "2021-09-30T12:40:32.751-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_3_6",
+      "timestamp" : "2021-09-30T12:40:33.672-05:00",
+      "userInteractionIdentifier" : "x"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_3_6",
+      "timestamp" : "2021-09-30T12:40:33.805-05:00",
+      "userInteractionIdentifier" : "x"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_3_6",
+      "timestamp" : "2021-09-30T12:40:34.189-05:00",
+      "userInteractionIdentifier" : "1"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_3_6",
+      "timestamp" : "2021-09-30T12:40:34.264-05:00",
+      "userInteractionIdentifier" : "1"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_3_6",
+      "timestamp" : "2021-09-30T12:40:34.598-05:00",
+      "userInteractionIdentifier" : "9"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_3_6",
+      "timestamp" : "2021-09-30T12:40:34.714-05:00",
+      "userInteractionIdentifier" : "9"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_3_6",
+      "timestamp" : "2021-09-30T12:40:34.848-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_3_6",
+      "timestamp" : "2021-09-30T12:40:34.940-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MFS_4_1",
+      "timestamp" : "2021-09-30T12:40:35.083-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MFS_4_1",
+      "timestamp" : "2021-09-30T12:40:39.725-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_4_1",
+      "timestamp" : "2021-09-30T12:40:41.922-05:00",
+      "userInteractionIdentifier" : "b"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_4_1",
+      "timestamp" : "2021-09-30T12:40:42.047-05:00",
+      "userInteractionIdentifier" : "b"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_4_1",
+      "timestamp" : "2021-09-30T12:40:42.756-05:00",
+      "userInteractionIdentifier" : "z"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_4_1",
+      "timestamp" : "2021-09-30T12:40:42.881-05:00",
+      "userInteractionIdentifier" : "z"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_4_1",
+      "timestamp" : "2021-09-30T12:40:43.282-05:00",
+      "userInteractionIdentifier" : "1"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_4_1",
+      "timestamp" : "2021-09-30T12:40:43.373-05:00",
+      "userInteractionIdentifier" : "1"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_4_1",
+      "timestamp" : "2021-09-30T12:40:43.757-05:00",
+      "userInteractionIdentifier" : "6"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_4_1",
+      "timestamp" : "2021-09-30T12:40:43.849-05:00",
+      "userInteractionIdentifier" : "6"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_4_1",
+      "timestamp" : "2021-09-30T12:40:44.024-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_4_1",
+      "timestamp" : "2021-09-30T12:40:44.091-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MFS_4_2",
+      "timestamp" : "2021-09-30T12:40:44.236-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MFS_4_2",
+      "timestamp" : "2021-09-30T12:40:48.884-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_4_2",
+      "timestamp" : "2021-09-30T12:40:49.964-05:00",
+      "userInteractionIdentifier" : "a"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_4_2",
+      "timestamp" : "2021-09-30T12:40:50.072-05:00",
+      "userInteractionIdentifier" : "a"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_4_2",
+      "timestamp" : "2021-09-30T12:40:50.381-05:00",
+      "userInteractionIdentifier" : "b"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_4_2",
+      "timestamp" : "2021-09-30T12:40:50.489-05:00",
+      "userInteractionIdentifier" : "b"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_4_2",
+      "timestamp" : "2021-09-30T12:40:50.773-05:00",
+      "userInteractionIdentifier" : "5"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_4_2",
+      "timestamp" : "2021-09-30T12:40:50.848-05:00",
+      "userInteractionIdentifier" : "5"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_4_2",
+      "timestamp" : "2021-09-30T12:40:51.174-05:00",
+      "userInteractionIdentifier" : "8"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_4_2",
+      "timestamp" : "2021-09-30T12:40:51.274-05:00",
+      "userInteractionIdentifier" : "8"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_4_2",
+      "timestamp" : "2021-09-30T12:40:51.507-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_4_2",
+      "timestamp" : "2021-09-30T12:40:51.590-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MFS_4_3",
+      "timestamp" : "2021-09-30T12:40:51.731-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MFS_4_3",
+      "timestamp" : "2021-09-30T12:40:56.370-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_4_3",
+      "timestamp" : "2021-09-30T12:40:57.505-05:00",
+      "userInteractionIdentifier" : "r"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_4_3",
+      "timestamp" : "2021-09-30T12:40:57.638-05:00",
+      "userInteractionIdentifier" : "r"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_4_3",
+      "timestamp" : "2021-09-30T12:40:58.831-05:00",
+      "userInteractionIdentifier" : "y"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_4_3",
+      "timestamp" : "2021-09-30T12:40:58.941-05:00",
+      "userInteractionIdentifier" : "y"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_4_3",
+      "timestamp" : "2021-09-30T12:41:00.483-05:00",
+      "userInteractionIdentifier" : "2"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_4_3",
+      "timestamp" : "2021-09-30T12:41:00.566-05:00",
+      "userInteractionIdentifier" : "2"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_4_3",
+      "timestamp" : "2021-09-30T12:41:00.825-05:00",
+      "userInteractionIdentifier" : "4"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_4_3",
+      "timestamp" : "2021-09-30T12:41:00.925-05:00",
+      "userInteractionIdentifier" : "4"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_4_3",
+      "timestamp" : "2021-09-30T12:41:01.225-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_4_3",
+      "timestamp" : "2021-09-30T12:41:01.325-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MFS_5_1",
+      "timestamp" : "2021-09-30T12:41:01.470-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MFS_5_1",
+      "timestamp" : "2021-09-30T12:41:07.119-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_5_1",
+      "timestamp" : "2021-09-30T12:41:08.917-05:00",
+      "userInteractionIdentifier" : "b"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_5_1",
+      "timestamp" : "2021-09-30T12:41:09.041-05:00",
+      "userInteractionIdentifier" : "b"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_5_1",
+      "timestamp" : "2021-09-30T12:41:09.342-05:00",
+      "userInteractionIdentifier" : "c"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_5_1",
+      "timestamp" : "2021-09-30T12:41:09.450-05:00",
+      "userInteractionIdentifier" : "c"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_5_1",
+      "timestamp" : "2021-09-30T12:41:10.377-05:00",
+      "userInteractionIdentifier" : "q"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_5_1",
+      "timestamp" : "2021-09-30T12:41:10.486-05:00",
+      "userInteractionIdentifier" : "q"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_5_1",
+      "timestamp" : "2021-09-30T12:41:10.969-05:00",
+      "userInteractionIdentifier" : "1"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_5_1",
+      "timestamp" : "2021-09-30T12:41:11.060-05:00",
+      "userInteractionIdentifier" : "1"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_5_1",
+      "timestamp" : "2021-09-30T12:41:11.419-05:00",
+      "userInteractionIdentifier" : "6"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_5_1",
+      "timestamp" : "2021-09-30T12:41:11.494-05:00",
+      "userInteractionIdentifier" : "6"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_5_1",
+      "timestamp" : "2021-09-30T12:41:11.695-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_5_1",
+      "timestamp" : "2021-09-30T12:41:11.778-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MFS_5_2",
+      "timestamp" : "2021-09-30T12:41:11.919-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MFS_5_2",
+      "timestamp" : "2021-09-30T12:41:17.564-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_5_2",
+      "timestamp" : "2021-09-30T12:41:18.803-05:00",
+      "userInteractionIdentifier" : "a"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_5_2",
+      "timestamp" : "2021-09-30T12:41:18.918-05:00",
+      "userInteractionIdentifier" : "a"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_5_2",
+      "timestamp" : "2021-09-30T12:41:19.603-05:00",
+      "userInteractionIdentifier" : "s"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_5_2",
+      "timestamp" : "2021-09-30T12:41:19.736-05:00",
+      "userInteractionIdentifier" : "s"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_5_2",
+      "timestamp" : "2021-09-30T12:41:20.630-05:00",
+      "userInteractionIdentifier" : "y"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_5_2",
+      "timestamp" : "2021-09-30T12:41:20.754-05:00",
+      "userInteractionIdentifier" : "y"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_5_2",
+      "timestamp" : "2021-09-30T12:41:21.322-05:00",
+      "userInteractionIdentifier" : "4"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_5_2",
+      "timestamp" : "2021-09-30T12:41:21.405-05:00",
+      "userInteractionIdentifier" : "4"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_5_2",
+      "timestamp" : "2021-09-30T12:41:21.806-05:00",
+      "userInteractionIdentifier" : "9"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_5_2",
+      "timestamp" : "2021-09-30T12:41:21.897-05:00",
+      "userInteractionIdentifier" : "9"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_5_2",
+      "timestamp" : "2021-09-30T12:41:22.098-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_5_2",
+      "timestamp" : "2021-09-30T12:41:22.181-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MFS_5_3",
+      "timestamp" : "2021-09-30T12:41:22.322-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MFS_5_3",
+      "timestamp" : "2021-09-30T12:41:27.959-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_5_3",
+      "timestamp" : "2021-09-30T12:41:29.231-05:00",
+      "userInteractionIdentifier" : "c"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_5_3",
+      "timestamp" : "2021-09-30T12:41:29.339-05:00",
+      "userInteractionIdentifier" : "c"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_5_3",
+      "timestamp" : "2021-09-30T12:41:30.299-05:00",
+      "userInteractionIdentifier" : "q"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_5_3",
+      "timestamp" : "2021-09-30T12:41:30.423-05:00",
+      "userInteractionIdentifier" : "q"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_5_3",
+      "timestamp" : "2021-09-30T12:41:31.183-05:00",
+      "userInteractionIdentifier" : "x"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_5_3",
+      "timestamp" : "2021-09-30T12:41:31.316-05:00",
+      "userInteractionIdentifier" : "x"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_5_3",
+      "timestamp" : "2021-09-30T12:41:32.059-05:00",
+      "userInteractionIdentifier" : "6"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_5_3",
+      "timestamp" : "2021-09-30T12:41:32.150-05:00",
+      "userInteractionIdentifier" : "6"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_5_3",
+      "timestamp" : "2021-09-30T12:41:32.376-05:00",
+      "userInteractionIdentifier" : "9"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_5_3",
+      "timestamp" : "2021-09-30T12:41:32.460-05:00",
+      "userInteractionIdentifier" : "9"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_5_3",
+      "timestamp" : "2021-09-30T12:41:32.685-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_5_3",
+      "timestamp" : "2021-09-30T12:41:32.743-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MFS_6_1",
+      "timestamp" : "2021-09-30T12:41:32.882-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MFS_6_1",
+      "timestamp" : "2021-09-30T12:41:39.520-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_6_1",
+      "timestamp" : "2021-09-30T12:41:45.957-05:00",
+      "userInteractionIdentifier" : "r"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_6_1",
+      "timestamp" : "2021-09-30T12:41:46.074-05:00",
+      "userInteractionIdentifier" : "r"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_6_1",
+      "timestamp" : "2021-09-30T12:41:47.551-05:00",
+      "userInteractionIdentifier" : "y"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_6_1",
+      "timestamp" : "2021-09-30T12:41:47.667-05:00",
+      "userInteractionIdentifier" : "y"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_6_1",
+      "timestamp" : "2021-09-30T12:41:47.976-05:00",
+      "userInteractionIdentifier" : "z"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_6_1",
+      "timestamp" : "2021-09-30T12:41:48.076-05:00",
+      "userInteractionIdentifier" : "z"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_6_1",
+      "timestamp" : "2021-09-30T12:41:49.010-05:00",
+      "userInteractionIdentifier" : "1"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_6_1",
+      "timestamp" : "2021-09-30T12:41:49.078-05:00",
+      "userInteractionIdentifier" : "1"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_6_1",
+      "timestamp" : "2021-09-30T12:41:50.963-05:00",
+      "userInteractionIdentifier" : "2"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_6_1",
+      "timestamp" : "2021-09-30T12:41:51.037-05:00",
+      "userInteractionIdentifier" : "2"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_6_1",
+      "timestamp" : "2021-09-30T12:41:51.388-05:00",
+      "userInteractionIdentifier" : "9"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_6_1",
+      "timestamp" : "2021-09-30T12:41:51.471-05:00",
+      "userInteractionIdentifier" : "9"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_6_1",
+      "timestamp" : "2021-09-30T12:41:51.614-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_6_1",
+      "timestamp" : "2021-09-30T12:41:51.705-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MFS_6_2",
+      "timestamp" : "2021-09-30T12:41:51.851-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MFS_6_2",
+      "timestamp" : "2021-09-30T12:41:58.492-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_6_2",
+      "timestamp" : "2021-09-30T12:41:59.447-05:00",
+      "userInteractionIdentifier" : "a"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_6_2",
+      "timestamp" : "2021-09-30T12:41:59.580-05:00",
+      "userInteractionIdentifier" : "a"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_6_2",
+      "timestamp" : "2021-09-30T12:42:01.441-05:00",
+      "userInteractionIdentifier" : "c"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_6_2",
+      "timestamp" : "2021-09-30T12:42:01.541-05:00",
+      "userInteractionIdentifier" : "c"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_6_2",
+      "timestamp" : "2021-09-30T12:42:02.476-05:00",
+      "userInteractionIdentifier" : "r"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_6_2",
+      "timestamp" : "2021-09-30T12:42:02.592-05:00",
+      "userInteractionIdentifier" : "r"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_6_2",
+      "timestamp" : "2021-09-30T12:42:04.912-05:00",
+      "userInteractionIdentifier" : "1"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_6_2",
+      "timestamp" : "2021-09-30T12:42:04.970-05:00",
+      "userInteractionIdentifier" : "1"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_6_2",
+      "timestamp" : "2021-09-30T12:42:05.578-05:00",
+      "userInteractionIdentifier" : "4"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_6_2",
+      "timestamp" : "2021-09-30T12:42:05.654-05:00",
+      "userInteractionIdentifier" : "4"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_6_2",
+      "timestamp" : "2021-09-30T12:42:05.887-05:00",
+      "userInteractionIdentifier" : "7"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_6_2",
+      "timestamp" : "2021-09-30T12:42:05.937-05:00",
+      "userInteractionIdentifier" : "7"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_6_2",
+      "timestamp" : "2021-09-30T12:42:06.246-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_6_2",
+      "timestamp" : "2021-09-30T12:42:06.371-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MFS_6_3",
+      "timestamp" : "2021-09-30T12:42:06.518-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MFS_6_3",
+      "timestamp" : "2021-09-30T12:42:13.157-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_6_3",
+      "timestamp" : "2021-09-30T12:42:14.163-05:00",
+      "userInteractionIdentifier" : "q"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_6_3",
+      "timestamp" : "2021-09-30T12:42:14.229-05:00",
+      "userInteractionIdentifier" : "q"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_6_3",
+      "timestamp" : "2021-09-30T12:42:15.865-05:00",
+      "userInteractionIdentifier" : "Backspace"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_6_3",
+      "timestamp" : "2021-09-30T12:42:15.964-05:00",
+      "userInteractionIdentifier" : "Backspace"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_6_3",
+      "timestamp" : "2021-09-30T12:42:17.800-05:00",
+      "userInteractionIdentifier" : "c"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_6_3",
+      "timestamp" : "2021-09-30T12:42:17.883-05:00",
+      "userInteractionIdentifier" : "c"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_6_3",
+      "timestamp" : "2021-09-30T12:42:18.501-05:00",
+      "userInteractionIdentifier" : "r"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_6_3",
+      "timestamp" : "2021-09-30T12:42:18.567-05:00",
+      "userInteractionIdentifier" : "r"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_6_3",
+      "timestamp" : "2021-09-30T12:42:19.085-05:00",
+      "userInteractionIdentifier" : "y"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_6_3",
+      "timestamp" : "2021-09-30T12:42:19.202-05:00",
+      "userInteractionIdentifier" : "y"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_6_3",
+      "timestamp" : "2021-09-30T12:42:19.393-05:00",
+      "userInteractionIdentifier" : "z"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_6_3",
+      "timestamp" : "2021-09-30T12:42:19.493-05:00",
+      "userInteractionIdentifier" : "z"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_6_3",
+      "timestamp" : "2021-09-30T12:42:20.378-05:00",
+      "userInteractionIdentifier" : "2"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_6_3",
+      "timestamp" : "2021-09-30T12:42:20.469-05:00",
+      "userInteractionIdentifier" : "2"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_6_3",
+      "timestamp" : "2021-09-30T12:42:20.603-05:00",
+      "userInteractionIdentifier" : "3"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_6_3",
+      "timestamp" : "2021-09-30T12:42:20.678-05:00",
+      "userInteractionIdentifier" : "3"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_6_3",
+      "timestamp" : "2021-09-30T12:42:20.937-05:00",
+      "userInteractionIdentifier" : "8"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_6_3",
+      "timestamp" : "2021-09-30T12:42:21.037-05:00",
+      "userInteractionIdentifier" : "8"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_6_3",
+      "timestamp" : "2021-09-30T12:42:21.212-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_6_3",
+      "timestamp" : "2021-09-30T12:42:21.321-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MFS_7_1",
+      "timestamp" : "2021-09-30T12:42:21.461-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MFS_7_1",
+      "timestamp" : "2021-09-30T12:42:29.108-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_7_1",
+      "timestamp" : "2021-09-30T12:42:29.997-05:00",
+      "userInteractionIdentifier" : "a"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_7_1",
+      "timestamp" : "2021-09-30T12:42:30.121-05:00",
+      "userInteractionIdentifier" : "a"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_7_1",
+      "timestamp" : "2021-09-30T12:42:30.664-05:00",
+      "userInteractionIdentifier" : "c"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_7_1",
+      "timestamp" : "2021-09-30T12:42:30.755-05:00",
+      "userInteractionIdentifier" : "c"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_7_1",
+      "timestamp" : "2021-09-30T12:42:31.598-05:00",
+      "userInteractionIdentifier" : "y"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_7_1",
+      "timestamp" : "2021-09-30T12:42:31.740-05:00",
+      "userInteractionIdentifier" : "y"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_7_1",
+      "timestamp" : "2021-09-30T12:42:32.332-05:00",
+      "userInteractionIdentifier" : "1"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_7_1",
+      "timestamp" : "2021-09-30T12:42:32.424-05:00",
+      "userInteractionIdentifier" : "1"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_7_1",
+      "timestamp" : "2021-09-30T12:42:34.009-05:00",
+      "userInteractionIdentifier" : "7"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_7_1",
+      "timestamp" : "2021-09-30T12:42:34.126-05:00",
+      "userInteractionIdentifier" : "7"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_7_1",
+      "timestamp" : "2021-09-30T12:42:34.334-05:00",
+      "userInteractionIdentifier" : "9"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_7_1",
+      "timestamp" : "2021-09-30T12:42:34.442-05:00",
+      "userInteractionIdentifier" : "9"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_7_1",
+      "timestamp" : "2021-09-30T12:42:34.568-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_7_1",
+      "timestamp" : "2021-09-30T12:42:34.651-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MFS_7_2",
+      "timestamp" : "2021-09-30T12:42:34.791-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MFS_7_2",
+      "timestamp" : "2021-09-30T12:42:42.439-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_7_2",
+      "timestamp" : "2021-09-30T12:42:44.804-05:00",
+      "userInteractionIdentifier" : "q"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_7_2",
+      "timestamp" : "2021-09-30T12:42:44.929-05:00",
+      "userInteractionIdentifier" : "q"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_7_2",
+      "timestamp" : "2021-09-30T12:42:45.254-05:00",
+      "userInteractionIdentifier" : "a"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_7_2",
+      "timestamp" : "2021-09-30T12:42:45.346-05:00",
+      "userInteractionIdentifier" : "a"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_7_2",
+      "timestamp" : "2021-09-30T12:42:45.780-05:00",
+      "userInteractionIdentifier" : "1"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_7_2",
+      "timestamp" : "2021-09-30T12:42:45.880-05:00",
+      "userInteractionIdentifier" : "1"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_7_2",
+      "timestamp" : "2021-09-30T12:42:46.514-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_7_2",
+      "timestamp" : "2021-09-30T12:42:46.631-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MFS_7_3",
+      "timestamp" : "2021-09-30T12:42:46.779-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MFS_7_3",
+      "timestamp" : "2021-09-30T12:42:54.417-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_7_3",
+      "timestamp" : "2021-09-30T12:42:55.641-05:00",
+      "userInteractionIdentifier" : "q"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_7_3",
+      "timestamp" : "2021-09-30T12:42:55.791-05:00",
+      "userInteractionIdentifier" : "q"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_7_3",
+      "timestamp" : "2021-09-30T12:42:56.008-05:00",
+      "userInteractionIdentifier" : "a"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_7_3",
+      "timestamp" : "2021-09-30T12:42:56.108-05:00",
+      "userInteractionIdentifier" : "a"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_7_3",
+      "timestamp" : "2021-09-30T12:42:56.492-05:00",
+      "userInteractionIdentifier" : "2"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_7_3",
+      "timestamp" : "2021-09-30T12:42:56.558-05:00",
+      "userInteractionIdentifier" : "2"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MFS_7_3",
+      "timestamp" : "2021-09-30T12:42:56.893-05:00",
+      "userInteractionIdentifier" : "done"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MFS_7_3",
+      "timestamp" : "2021-09-30T12:42:56.993-05:00",
+      "userInteractionIdentifier" : "done"
+    }
+  ],
+  "stepHistory" : [
+    {
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-30T12:37:21.761-05:00",
+      "type" : "mssStepResult",
+      "identifier" : "MFS_welcome",
+      "endDate" : "2021-09-30T12:37:25.535-05:00"
+    },
+    {
+      "endDate" : "2021-09-30T12:37:29.620-05:00",
+      "wasInterrupted" : false,
+      "response" : "2",
+      "type" : "mssStepResult",
+      "identifier" : "MFS_Ins1",
+      "startDate" : "2021-09-30T12:37:25.536-05:00"
+    },
+    {
+      "endDate" : "2021-09-30T12:37:36.915-05:00",
+      "wasInterrupted" : false,
+      "response" : "2",
+      "type" : "mssStepResult",
+      "identifier" : "MFS_Ins2",
+      "startDate" : "2021-09-30T12:37:29.622-05:00"
+    },
+    {
+      "score" : 1,
+      "endDate" : "2021-09-30T12:37:41.219-05:00",
+      "startDate" : "2021-09-30T12:37:36.926-05:00",
+      "identifier" : "MFS_P1",
+      "response" : "y-3",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-30T12:37:41.225-05:00",
+      "type" : "mssStepResult",
+      "identifier" : "MFS_P1_FEEDBACK",
+      "endDate" : "2021-09-30T12:37:54.369-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-30T12:38:06.843-05:00",
+      "type" : "mssStepResult",
+      "identifier" : "MFS_P2_FEEDBACK",
+      "endDate" : "2021-09-30T12:38:22.438-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-30T12:38:37.156-05:00",
+      "type" : "mssStepResult",
+      "identifier" : "MFS_P2_FEEDBACK",
+      "endDate" : "2021-09-30T12:38:46.662-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-30T12:39:09.664-05:00",
+      "type" : "mssStepResult",
+      "identifier" : "MFS_P2_FEEDBACK",
+      "endDate" : "2021-09-30T12:39:16.507-05:00"
+    },
+    {
+      "score" : 1,
+      "endDate" : "2021-09-30T12:39:24.567-05:00",
+      "startDate" : "2021-09-30T12:37:55.025-05:00",
+      "identifier" : "MFS_P2",
+      "response" : "q-z-8",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-30T12:39:24.574-05:00",
+      "type" : "mssStepResult",
+      "identifier" : "MFS_P2_FEEDBACK",
+      "endDate" : "2021-09-30T12:39:34.279-05:00"
+    },
+    {
+      "score" : 1,
+      "endDate" : "2021-09-30T12:39:40.198-05:00",
+      "startDate" : "2021-09-30T12:39:34.924-05:00",
+      "identifier" : "MFS_2_1",
+      "response" : "c-9",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 1,
+      "endDate" : "2021-09-30T12:39:44.758-05:00",
+      "startDate" : "2021-09-30T12:39:40.199-05:00",
+      "identifier" : "MFS_2_2",
+      "response" : "r-4",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 1,
+      "endDate" : "2021-09-30T12:39:49.990-05:00",
+      "startDate" : "2021-09-30T12:39:44.759-05:00",
+      "identifier" : "MFS_2_3",
+      "response" : "z-3",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 1,
+      "endDate" : "2021-09-30T12:39:56.243-05:00",
+      "startDate" : "2021-09-30T12:39:49.991-05:00",
+      "identifier" : "MFS_3_1",
+      "response" : "b-z-2",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 1,
+      "endDate" : "2021-09-30T12:40:04.005-05:00",
+      "startDate" : "2021-09-30T12:39:56.243-05:00",
+      "identifier" : "MFS_3_2",
+      "response" : "a-s-5",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 1,
+      "endDate" : "2021-09-30T12:40:14.684-05:00",
+      "startDate" : "2021-09-30T12:40:04.006-05:00",
+      "identifier" : "MFS_3_3",
+      "response" : "q-y-1",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 1,
+      "endDate" : "2021-09-30T12:40:21.597-05:00",
+      "startDate" : "2021-09-30T12:40:14.685-05:00",
+      "identifier" : "MFS_3_4",
+      "response" : "s-6-8",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 1,
+      "endDate" : "2021-09-30T12:40:29.089-05:00",
+      "startDate" : "2021-09-30T12:40:21.598-05:00",
+      "identifier" : "MFS_3_5",
+      "response" : "s-2-4",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 1,
+      "endDate" : "2021-09-30T12:40:35.060-05:00",
+      "startDate" : "2021-09-30T12:40:29.090-05:00",
+      "identifier" : "MFS_3_6",
+      "response" : "x-1-9",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 1,
+      "endDate" : "2021-09-30T12:40:44.211-05:00",
+      "startDate" : "2021-09-30T12:40:35.061-05:00",
+      "identifier" : "MFS_4_1",
+      "response" : "b-z-1-6",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 1,
+      "endDate" : "2021-09-30T12:40:51.710-05:00",
+      "startDate" : "2021-09-30T12:40:44.212-05:00",
+      "identifier" : "MFS_4_2",
+      "response" : "a-b-5-8",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 1,
+      "endDate" : "2021-09-30T12:41:01.448-05:00",
+      "startDate" : "2021-09-30T12:40:51.710-05:00",
+      "identifier" : "MFS_4_3",
+      "response" : "r-y-2-4",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 1,
+      "endDate" : "2021-09-30T12:41:11.895-05:00",
+      "startDate" : "2021-09-30T12:41:01.449-05:00",
+      "identifier" : "MFS_5_1",
+      "response" : "b-c-q-1-6",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 1,
+      "endDate" : "2021-09-30T12:41:22.302-05:00",
+      "startDate" : "2021-09-30T12:41:11.896-05:00",
+      "identifier" : "MFS_5_2",
+      "response" : "a-s-y-4-9",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 0,
+      "endDate" : "2021-09-30T12:41:32.865-05:00",
+      "startDate" : "2021-09-30T12:41:22.303-05:00",
+      "identifier" : "MFS_5_3",
+      "response" : "c-q-x-6-9",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 1,
+      "endDate" : "2021-09-30T12:41:51.828-05:00",
+      "startDate" : "2021-09-30T12:41:32.866-05:00",
+      "identifier" : "MFS_6_1",
+      "response" : "r-y-z-1-2-9",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 0,
+      "endDate" : "2021-09-30T12:42:06.496-05:00",
+      "startDate" : "2021-09-30T12:41:51.829-05:00",
+      "identifier" : "MFS_6_2",
+      "response" : "a-c-r-1-4-7",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 0,
+      "endDate" : "2021-09-30T12:42:21.441-05:00",
+      "startDate" : "2021-09-30T12:42:06.497-05:00",
+      "identifier" : "MFS_6_3",
+      "response" : "c-r-y-z-2-3-8",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 0,
+      "endDate" : "2021-09-30T12:42:34.774-05:00",
+      "startDate" : "2021-09-30T12:42:21.442-05:00",
+      "identifier" : "MFS_7_1",
+      "response" : "a-c-y-1-7-9",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 0,
+      "endDate" : "2021-09-30T12:42:46.756-05:00",
+      "startDate" : "2021-09-30T12:42:34.775-05:00",
+      "identifier" : "MFS_7_2",
+      "response" : "q-a-1",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 0,
+      "endDate" : "2021-09-30T12:42:57.121-05:00",
+      "startDate" : "2021-09-30T12:42:46.757-05:00",
+      "identifier" : "MFS_7_3",
+      "response" : "q-a-2",
+      "type" : "mssStepResult",
+      "wasInterrupted" : false
+    }
+  ],
+  "taskRunUUID" : "4E0A2945-9F2C-4029-B24E-9DF832B4398B",
+  "taskStatus" : [
+    "completed"
+  ],
+  "schemaIdentifier" : "MTB_Memory_For_Sequences"
+}

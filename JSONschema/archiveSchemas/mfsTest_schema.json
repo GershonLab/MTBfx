@@ -1,0 +1,132 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/akaat/MTBfx/blob/master/JSONschema/mfsTest_schema.json",
+  "title": "Schema for MFS taskData",
+  "description": "Mobile Toolbox Memory for Sequences taskData JSON draft 7 schema",
+  "type": "object",
+  "definitions": {
+    "interact": {
+          "type": "array",
+          "description": "Record of screen progression, UI event, and button actions on a step-by-step basis within MFS",
+          "properties":{
+            "items":{
+              "anyOf": [
+                {
+                  "type": "object",
+                  "description": "Event records by screen",
+                  "required": ["stepIdentifier","timestamp","controlEvent","identifier"],
+                  "properties": {
+                    "stepIdentifier": {
+                      "type": "string",
+                      "description": "The unique identifier for this step (also referred to as an item) on which the user interaction event occurred."
+                    },
+                    "timestamp": { "$ref": "#/definitions/timemarks" },
+                    "controlEvent":{
+                      "type":"string",
+                      "description": "The type of interaction being recorded",
+                      "$comment": "This may need to be switched to an array with enumerated values limiting the options to available controlEvent: 'stepBegins','interrupted','resumed','uiEnabled','touchDown','touchUpInside','touchUpOutside','keypress','setSelection' -- note that these include controlEvent options from other MTB measures as well."
+                    },
+                    "identifier": {
+                      "type": "string",
+                      "description": "The button on the screen with which the user interacted",
+                      "default": ""
+                    }
+                  },
+                  "additionalProperties": false
+
+                }
+                ]
+            }
+          }
+    },
+    "timemarks":{
+      "type": "string",
+      "format": "date-time",
+      "description": "The timestamp when an event occurred, following ISO 8601 formatting conventions"
+    }
+  },
+  "properties":{
+	  "type":{
+		  "type": "string",
+		  "description": "The serialization for this MFS assessment"
+	  },
+	  "testVersion": {
+		  "description": "The version of MFS administered in this record. Note that this is a number stored as a string",
+		  "type": "string"
+	  },
+	  "userInteractions": { "$ref": "#/definitions/interact"},
+	  "taskStatus":{
+	    "type": "string",
+	    "description": "status for MFS administration",
+	    "$comment": "This may need to be switched to an array with enumerated values limiting the options to 'complete','willNotComplete','partiallyComplete' etc."
+	  },
+	  "locale":{
+	    "type": "string",
+		  "description": "The region and language configuration of the phone at the time of administration",
+		  "default": "en-us"
+	  },
+	  "startDate": {"$ref": "#/definitions/timemarks" },
+	  "endDate": {"$ref": "#/definitions/timemarks" },
+	  "taskName": {
+	    "type": "string",
+	    "description": "This is the test/task name as administered. Insofar as this schema is restricted to MFS, it should be constant",
+	    "default": "MFS pilot 2",
+	    "$comment": "This will eventually need to be renamed from the default. It should not include 'pilot' in its name"
+	  },
+	  "steps":{
+	    "type": "array",
+	    "description" : "This records all of the items/steps administered during this assessment. It records the interactions, response, and score to all events",
+	    "additionalItems": false,
+	    "items":{
+	      "anyOf": [
+	        {
+	          "type": "object",
+	          "description": "A record for each item administered in this assessment",
+	          "properties":{
+	            "type":{
+	              "type": "string",
+	              "description": "The serialization for this MFS steps"
+	            },
+	            "identifier": {
+	              "type": "string",
+	              "description": "the step ID for the current item/step",
+	              "$comment": "Eventually these could be restricted to the items on the test, but at this point that is not available"
+	            },
+	            "position":{
+	              "type": "integer",
+	              "minimum": 1,
+	              "description": "The order of screen/step progression for this administration"
+	            },
+	            "startDate": { "$ref": "#/definitions/timemarks" },
+	            "endDate": { "$ref": "#/definitions/timemarks" },
+	            "interactions": { "$ref": "#/definitions/interact" },
+	            "skipToIdentifier": {
+	              "type": "string",
+	              "description": "If a user skips ahead in the test, this will indicate where they were to go after the current step"
+	            },
+	            "response":{
+	              "type": "string",
+	              "description": "This is the string of characters that the examinee entered on this MFS step when they hit 'done'. The response is concatenated so that there if the response length included multiple characters, these are separated by a dash."
+	            },
+	            "score": {
+	              "type": "integer",
+	              "default": 1,
+	              "minimum": 0,
+	              "maximum": 1,
+	              "description": "The score is an indicator for whether an item is correct and thus scored as 1 or incorrect and scored as 0."
+	            },
+	            "practice": {
+	              "type": "boolean",
+	              "default": false,
+	              "description": "An indicator for whether this item is a practice item [TRUE] or a live item [FALSE]."
+	            }
+	          },
+	          "required": ["type","identifier","position","startDate","endDate","skipToIdentifier"],
+	          "additionalProperties": false
+	        }
+	      ]
+	    }
+	  }
+  },
+  "required": ["type","testVersion","userInteractions","taskStatus","locale","startDate","endDate", "taskName", "steps"]
+}

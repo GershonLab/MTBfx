@@ -1,0 +1,6334 @@
+{
+  "locale" : "en_US",
+  "scores" : {
+    "nAnticipationLive" : 0,
+    "rawScore" : 50,
+    "totalErrors" : 0,
+    "rateScore" : 1.6508966915554621,
+    "nAnticipationPractice" : 0
+  },
+  "endDate" : "2021-09-20T14:28:31.992-05:00",
+  "startDate" : "2021-09-20T14:25:45.419-05:00",
+  "steps" : [
+    {
+      "wasInterrupted" : false,
+      "position" : 1,
+      "endDate" : "2021-09-20T14:25:51.693-05:00",
+      "startDate" : "2021-09-20T14:25:45.424-05:00",
+      "identifier" : "I_0",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 2,
+      "endDate" : "2021-09-20T14:25:53.987-05:00",
+      "startDate" : "2021-09-20T14:25:51.693-05:00",
+      "identifier" : "I_1",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 3,
+      "endDate" : "2021-09-20T14:25:54.805-05:00",
+      "startDate" : "2021-09-20T14:25:53.988-05:00",
+      "identifier" : "I_2",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 4,
+      "endDate" : "2021-09-20T14:25:58.036-05:00",
+      "startDate" : "2021-09-20T14:25:54.806-05:00",
+      "identifier" : "I_3",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 5,
+      "endDate" : "2021-09-20T14:25:59.349-05:00",
+      "startDate" : "2021-09-20T14:25:58.039-05:00",
+      "identifier" : "P_1a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 6,
+      "endDate" : "2021-09-20T14:25:59.464-05:00",
+      "startDate" : "2021-09-20T14:25:59.350-05:00",
+      "identifier" : "P_1b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:26:00.223-05:00",
+      "startDate" : "2021-09-20T14:25:59.466-05:00",
+      "position" : 7,
+      "identifier" : "P_1c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 738,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 8,
+      "endDate" : "2021-09-20T14:26:04.798-05:00",
+      "startDate" : "2021-09-20T14:26:03.495-05:00",
+      "identifier" : "P_2a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 9,
+      "endDate" : "2021-09-20T14:26:04.915-05:00",
+      "startDate" : "2021-09-20T14:26:04.801-05:00",
+      "identifier" : "P_2b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:26:05.526-05:00",
+      "startDate" : "2021-09-20T14:26:04.921-05:00",
+      "position" : 10,
+      "identifier" : "P_2c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 590,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 11,
+      "endDate" : "2021-09-20T14:26:11.199-05:00",
+      "startDate" : "2021-09-20T14:26:08.676-05:00",
+      "identifier" : "P_3a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 12,
+      "endDate" : "2021-09-20T14:26:11.303-05:00",
+      "startDate" : "2021-09-20T14:26:11.201-05:00",
+      "identifier" : "P_3b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:26:12.058-05:00",
+      "startDate" : "2021-09-20T14:26:11.305-05:00",
+      "position" : 13,
+      "identifier" : "P_3c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 738,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 14,
+      "endDate" : "2021-09-20T14:26:15.767-05:00",
+      "startDate" : "2021-09-20T14:26:15.245-05:00",
+      "identifier" : "P_4a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 15,
+      "endDate" : "2021-09-20T14:26:15.887-05:00",
+      "startDate" : "2021-09-20T14:26:15.783-05:00",
+      "identifier" : "P_4b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:26:16.576-05:00",
+      "startDate" : "2021-09-20T14:26:15.890-05:00",
+      "position" : 16,
+      "identifier" : "P_4c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 671,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 17,
+      "endDate" : "2021-09-20T14:26:21.117-05:00",
+      "startDate" : "2021-09-20T14:26:19.846-05:00",
+      "identifier" : "P_5a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 18,
+      "endDate" : "2021-09-20T14:26:21.234-05:00",
+      "startDate" : "2021-09-20T14:26:21.120-05:00",
+      "identifier" : "P_5b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:26:22.026-05:00",
+      "startDate" : "2021-09-20T14:26:21.237-05:00",
+      "position" : 19,
+      "identifier" : "P_5c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 771,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 20,
+      "endDate" : "2021-09-20T14:26:26.075-05:00",
+      "startDate" : "2021-09-20T14:26:25.099-05:00",
+      "identifier" : "T_2L",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 21,
+      "endDate" : "2021-09-20T14:26:27.968-05:00",
+      "startDate" : "2021-09-20T14:26:26.685-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A01a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 22,
+      "endDate" : "2021-09-20T14:26:28.085-05:00",
+      "startDate" : "2021-09-20T14:26:27.971-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A01b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 23,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:26:28.088-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:26:28.894-05:00",
+      "identifier" : "A01c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 788,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 24,
+      "endDate" : "2021-09-20T14:26:29.635-05:00",
+      "startDate" : "2021-09-20T14:26:29.111-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A02a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 25,
+      "endDate" : "2021-09-20T14:26:29.752-05:00",
+      "startDate" : "2021-09-20T14:26:29.644-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A02b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 26,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:26:29.767-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:26:30.661-05:00",
+      "identifier" : "A02c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 887,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 27,
+      "endDate" : "2021-09-20T14:26:31.469-05:00",
+      "startDate" : "2021-09-20T14:26:30.945-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A03a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 28,
+      "endDate" : "2021-09-20T14:26:31.590-05:00",
+      "startDate" : "2021-09-20T14:26:31.488-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A03b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 29,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:26:31.594-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:26:32.194-05:00",
+      "identifier" : "A03c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 588,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 30,
+      "endDate" : "2021-09-20T14:26:32.986-05:00",
+      "startDate" : "2021-09-20T14:26:32.463-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A04a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 31,
+      "endDate" : "2021-09-20T14:26:33.102-05:00",
+      "startDate" : "2021-09-20T14:26:32.989-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A04b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 32,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:26:33.108-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:26:33.511-05:00",
+      "identifier" : "A04c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 388,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 33,
+      "endDate" : "2021-09-20T14:26:35.086-05:00",
+      "startDate" : "2021-09-20T14:26:33.814-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A05a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 34,
+      "endDate" : "2021-09-20T14:26:35.213-05:00",
+      "startDate" : "2021-09-20T14:26:35.110-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A05b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 35,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:26:35.219-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:26:35.913-05:00",
+      "identifier" : "A05c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 688,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 36,
+      "endDate" : "2021-09-20T14:26:36.886-05:00",
+      "startDate" : "2021-09-20T14:26:36.368-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A06a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 37,
+      "endDate" : "2021-09-20T14:26:37.003-05:00",
+      "startDate" : "2021-09-20T14:26:36.896-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A06b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 38,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:26:37.026-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:26:37.509-05:00",
+      "identifier" : "A06c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 478,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 39,
+      "endDate" : "2021-09-20T14:26:40.470-05:00",
+      "startDate" : "2021-09-20T14:26:37.946-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A07a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 40,
+      "endDate" : "2021-09-20T14:26:40.576-05:00",
+      "startDate" : "2021-09-20T14:26:40.474-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A07b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 41,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:26:40.580-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:26:41.161-05:00",
+      "identifier" : "A07c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 571,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 42,
+      "endDate" : "2021-09-20T14:26:44.070-05:00",
+      "startDate" : "2021-09-20T14:26:41.548-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A08a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 43,
+      "endDate" : "2021-09-20T14:26:44.203-05:00",
+      "startDate" : "2021-09-20T14:26:44.100-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A08b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 44,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:26:44.230-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:26:44.668-05:00",
+      "identifier" : "A08c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 427,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 45,
+      "endDate" : "2021-09-20T14:26:46.354-05:00",
+      "startDate" : "2021-09-20T14:26:45.038-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A09a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 46,
+      "endDate" : "2021-09-20T14:26:46.487-05:00",
+      "startDate" : "2021-09-20T14:26:46.384-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A09b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 47,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:26:46.515-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:26:47.204-05:00",
+      "identifier" : "A09c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 677,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 48,
+      "endDate" : "2021-09-20T14:26:48.838-05:00",
+      "startDate" : "2021-09-20T14:26:47.523-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A10a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 49,
+      "endDate" : "2021-09-20T14:26:48.971-05:00",
+      "startDate" : "2021-09-20T14:26:48.868-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A10b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 50,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:26:49.001-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:26:49.636-05:00",
+      "identifier" : "A10c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 623,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 51,
+      "endDate" : "2021-09-20T14:26:51.205-05:00",
+      "startDate" : "2021-09-20T14:26:49.890-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A11a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 52,
+      "endDate" : "2021-09-20T14:26:51.339-05:00",
+      "startDate" : "2021-09-20T14:26:51.236-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A11b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 53,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:26:51.369-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:26:52.069-05:00",
+      "identifier" : "A11c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 688,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 54,
+      "endDate" : "2021-09-20T14:26:53.739-05:00",
+      "startDate" : "2021-09-20T14:26:52.423-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A12a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 55,
+      "endDate" : "2021-09-20T14:26:53.892-05:00",
+      "startDate" : "2021-09-20T14:26:53.788-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A12b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 56,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:26:53.923-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:26:54.922-05:00",
+      "identifier" : "A12c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 986,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 57,
+      "endDate" : "2021-09-20T14:26:57.739-05:00",
+      "startDate" : "2021-09-20T14:26:55.172-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A13a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 58,
+      "endDate" : "2021-09-20T14:26:57.871-05:00",
+      "startDate" : "2021-09-20T14:26:57.769-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A13b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 59,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:26:57.904-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:26:59.053-05:00",
+      "identifier" : "A13c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 1137,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 60,
+      "endDate" : "2021-09-20T14:27:01.856-05:00",
+      "startDate" : "2021-09-20T14:26:59.290-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A14a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 61,
+      "endDate" : "2021-09-20T14:27:01.989-05:00",
+      "startDate" : "2021-09-20T14:27:01.886-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A14b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 62,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:27:02.021-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:27:02.571-05:00",
+      "identifier" : "A14c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 537,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 63,
+      "endDate" : "2021-09-20T14:27:03.490-05:00",
+      "startDate" : "2021-09-20T14:27:02.926-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A15a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 64,
+      "endDate" : "2021-09-20T14:27:03.626-05:00",
+      "startDate" : "2021-09-20T14:27:03.523-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A15b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 65,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:27:03.660-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:27:04.337-05:00",
+      "identifier" : "A15c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 666,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 66,
+      "endDate" : "2021-09-20T14:27:07.324-05:00",
+      "startDate" : "2021-09-20T14:27:04.760-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A16a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 67,
+      "endDate" : "2021-09-20T14:27:07.462-05:00",
+      "startDate" : "2021-09-20T14:27:07.359-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A16b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 68,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:27:07.496-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:27:08.105-05:00",
+      "identifier" : "A16c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 597,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 69,
+      "endDate" : "2021-09-20T14:27:09.758-05:00",
+      "startDate" : "2021-09-20T14:27:08.443-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A17a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 70,
+      "endDate" : "2021-09-20T14:27:09.900-05:00",
+      "startDate" : "2021-09-20T14:27:09.797-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A17b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 71,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:27:09.938-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:27:10.540-05:00",
+      "identifier" : "A17c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 590,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 72,
+      "endDate" : "2021-09-20T14:27:11.391-05:00",
+      "startDate" : "2021-09-20T14:27:10.821-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A18a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 73,
+      "endDate" : "2021-09-20T14:27:11.529-05:00",
+      "startDate" : "2021-09-20T14:27:11.427-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A18b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 74,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:27:11.565-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:27:12.205-05:00",
+      "identifier" : "A18c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 628,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 75,
+      "endDate" : "2021-09-20T14:27:13.791-05:00",
+      "startDate" : "2021-09-20T14:27:12.476-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A19a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 76,
+      "endDate" : "2021-09-20T14:27:13.932-05:00",
+      "startDate" : "2021-09-20T14:27:13.830-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A19b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 77,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:27:13.971-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:27:14.490-05:00",
+      "identifier" : "A19c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 506,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 78,
+      "endDate" : "2021-09-20T14:27:17.325-05:00",
+      "startDate" : "2021-09-20T14:27:14.760-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A20a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 79,
+      "endDate" : "2021-09-20T14:27:17.468-05:00",
+      "startDate" : "2021-09-20T14:27:17.366-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A20b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 80,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:27:17.506-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:27:18.006-05:00",
+      "identifier" : "A20c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 488,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 81,
+      "endDate" : "2021-09-20T14:27:19.009-05:00",
+      "startDate" : "2021-09-20T14:27:18.444-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A21a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 82,
+      "endDate" : "2021-09-20T14:27:19.156-05:00",
+      "startDate" : "2021-09-20T14:27:19.053-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A21b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 83,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:27:19.194-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:27:19.773-05:00",
+      "identifier" : "A21c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 567,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 84,
+      "endDate" : "2021-09-20T14:27:22.742-05:00",
+      "startDate" : "2021-09-20T14:27:20.176-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A22a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 85,
+      "endDate" : "2021-09-20T14:27:22.887-05:00",
+      "startDate" : "2021-09-20T14:27:22.784-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A22b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 86,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:27:22.927-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:27:23.357-05:00",
+      "identifier" : "A22c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 418,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 87,
+      "endDate" : "2021-09-20T14:27:26.260-05:00",
+      "startDate" : "2021-09-20T14:27:23.695-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A23a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 88,
+      "endDate" : "2021-09-20T14:27:26.404-05:00",
+      "startDate" : "2021-09-20T14:27:26.302-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A23b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 89,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:27:26.444-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:27:27.041-05:00",
+      "identifier" : "A23c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 585,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 90,
+      "endDate" : "2021-09-20T14:27:27.943-05:00",
+      "startDate" : "2021-09-20T14:27:27.377-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A24a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 91,
+      "endDate" : "2021-09-20T14:27:28.089-05:00",
+      "startDate" : "2021-09-20T14:27:27.987-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A24b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 92,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:27:28.130-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:27:28.591-05:00",
+      "identifier" : "A24c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 449,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 93,
+      "endDate" : "2021-09-20T14:27:29.577-05:00",
+      "startDate" : "2021-09-20T14:27:29.011-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A25a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 94,
+      "endDate" : "2021-09-20T14:27:29.724-05:00",
+      "startDate" : "2021-09-20T14:27:29.621-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A25b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 95,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:27:29.763-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:27:30.376-05:00",
+      "identifier" : "A25c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 601,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 96,
+      "endDate" : "2021-09-20T14:27:32.060-05:00",
+      "startDate" : "2021-09-20T14:27:30.746-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A26a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 97,
+      "endDate" : "2021-09-20T14:27:32.207-05:00",
+      "startDate" : "2021-09-20T14:27:32.105-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A26b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 98,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:27:32.248-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:27:32.925-05:00",
+      "identifier" : "A26c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 666,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 99,
+      "endDate" : "2021-09-20T14:27:34.494-05:00",
+      "startDate" : "2021-09-20T14:27:33.173-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A27a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 100,
+      "endDate" : "2021-09-20T14:27:34.641-05:00",
+      "startDate" : "2021-09-20T14:27:34.538-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A27b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 101,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:27:34.682-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:27:35.092-05:00",
+      "identifier" : "A27c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 398,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 102,
+      "endDate" : "2021-09-20T14:27:36.811-05:00",
+      "startDate" : "2021-09-20T14:27:35.495-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A28a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 103,
+      "endDate" : "2021-09-20T14:27:36.960-05:00",
+      "startDate" : "2021-09-20T14:27:36.857-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A28b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 104,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:27:37.000-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:27:37.508-05:00",
+      "identifier" : "A28c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 497,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 105,
+      "endDate" : "2021-09-20T14:27:39.211-05:00",
+      "startDate" : "2021-09-20T14:27:37.897-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A29a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 106,
+      "endDate" : "2021-09-20T14:27:39.361-05:00",
+      "startDate" : "2021-09-20T14:27:39.259-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A29b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 107,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:27:39.406-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:27:40.009-05:00",
+      "identifier" : "A29c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 591,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 108,
+      "endDate" : "2021-09-20T14:27:41.662-05:00",
+      "startDate" : "2021-09-20T14:27:40.345-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A30a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 109,
+      "endDate" : "2021-09-20T14:27:41.810-05:00",
+      "startDate" : "2021-09-20T14:27:41.708-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A30b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 110,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:27:41.850-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:27:42.478-05:00",
+      "identifier" : "A30c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 616,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 111,
+      "endDate" : "2021-09-20T14:27:43.278-05:00",
+      "startDate" : "2021-09-20T14:27:42.710-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A31a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 112,
+      "endDate" : "2021-09-20T14:27:43.428-05:00",
+      "startDate" : "2021-09-20T14:27:43.326-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A31b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 113,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:27:43.469-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:27:44.093-05:00",
+      "identifier" : "A31c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 613,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 114,
+      "endDate" : "2021-09-20T14:27:45.645-05:00",
+      "startDate" : "2021-09-20T14:27:44.329-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A32a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 115,
+      "endDate" : "2021-09-20T14:27:45.793-05:00",
+      "startDate" : "2021-09-20T14:27:45.691-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A32b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 116,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:27:45.834-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:27:46.277-05:00",
+      "identifier" : "A32c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 433,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 117,
+      "endDate" : "2021-09-20T14:27:49.179-05:00",
+      "startDate" : "2021-09-20T14:27:46.615-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A33a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 118,
+      "endDate" : "2021-09-20T14:27:49.325-05:00",
+      "startDate" : "2021-09-20T14:27:49.223-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A33b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 119,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:27:49.367-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:27:50.060-05:00",
+      "identifier" : "A33c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 682,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 120,
+      "endDate" : "2021-09-20T14:27:50.879-05:00",
+      "startDate" : "2021-09-20T14:27:50.311-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A34a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 121,
+      "endDate" : "2021-09-20T14:27:51.028-05:00",
+      "startDate" : "2021-09-20T14:27:50.926-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A34b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 122,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:27:51.069-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:27:52.112-05:00",
+      "identifier" : "A34c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 1031,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 123,
+      "endDate" : "2021-09-20T14:27:54.947-05:00",
+      "startDate" : "2021-09-20T14:27:52.382-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A35a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 124,
+      "endDate" : "2021-09-20T14:27:55.098-05:00",
+      "startDate" : "2021-09-20T14:27:54.996-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A35b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 125,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:27:55.142-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:27:55.894-05:00",
+      "identifier" : "A35c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 741,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 126,
+      "endDate" : "2021-09-20T14:27:56.714-05:00",
+      "startDate" : "2021-09-20T14:27:56.145-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A36a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 127,
+      "endDate" : "2021-09-20T14:27:56.871-05:00",
+      "startDate" : "2021-09-20T14:27:56.769-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A36b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 128,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:27:56.914-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:27:57.394-05:00",
+      "identifier" : "A36c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 469,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 129,
+      "endDate" : "2021-09-20T14:27:58.314-05:00",
+      "startDate" : "2021-09-20T14:27:57.747-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A37a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 130,
+      "endDate" : "2021-09-20T14:27:58.466-05:00",
+      "startDate" : "2021-09-20T14:27:58.364-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A37b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 131,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:27:58.507-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:27:59.113-05:00",
+      "identifier" : "A37c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 594,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 132,
+      "endDate" : "2021-09-20T14:27:59.981-05:00",
+      "startDate" : "2021-09-20T14:27:59.415-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A38a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 133,
+      "endDate" : "2021-09-20T14:28:00.138-05:00",
+      "startDate" : "2021-09-20T14:28:00.036-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A38b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 134,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:28:00.179-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:28:00.728-05:00",
+      "identifier" : "A38c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 538,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 135,
+      "endDate" : "2021-09-20T14:28:01.648-05:00",
+      "startDate" : "2021-09-20T14:28:01.083-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A39a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 136,
+      "endDate" : "2021-09-20T14:28:01.806-05:00",
+      "startDate" : "2021-09-20T14:28:01.704-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A39b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 137,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:28:01.851-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:28:02.361-05:00",
+      "identifier" : "A39c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 499,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 138,
+      "endDate" : "2021-09-20T14:28:03.281-05:00",
+      "startDate" : "2021-09-20T14:28:02.716-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A40a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 139,
+      "endDate" : "2021-09-20T14:28:03.436-05:00",
+      "startDate" : "2021-09-20T14:28:03.334-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A40b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 140,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:28:03.477-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:28:03.895-05:00",
+      "identifier" : "A40c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 406,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 141,
+      "endDate" : "2021-09-20T14:28:04.831-05:00",
+      "startDate" : "2021-09-20T14:28:04.266-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A41a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 142,
+      "endDate" : "2021-09-20T14:28:04.985-05:00",
+      "startDate" : "2021-09-20T14:28:04.883-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A41b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 143,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:28:05.027-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:28:05.697-05:00",
+      "identifier" : "A41c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 658,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 144,
+      "endDate" : "2021-09-20T14:28:07.265-05:00",
+      "startDate" : "2021-09-20T14:28:05.948-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A42a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 145,
+      "endDate" : "2021-09-20T14:28:07.423-05:00",
+      "startDate" : "2021-09-20T14:28:07.321-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A42b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 146,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:28:07.466-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:28:07.894-05:00",
+      "identifier" : "A42c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 418,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 147,
+      "endDate" : "2021-09-20T14:28:08.732-05:00",
+      "startDate" : "2021-09-20T14:28:08.165-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A43a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 148,
+      "endDate" : "2021-09-20T14:28:08.887-05:00",
+      "startDate" : "2021-09-20T14:28:08.785-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A43b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 149,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:28:08.931-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:28:09.597-05:00",
+      "identifier" : "A43c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 655,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 150,
+      "endDate" : "2021-09-20T14:28:11.165-05:00",
+      "startDate" : "2021-09-20T14:28:09.846-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A44a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 151,
+      "endDate" : "2021-09-20T14:28:11.317-05:00",
+      "startDate" : "2021-09-20T14:28:11.215-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A44b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 152,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:28:11.359-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:28:11.996-05:00",
+      "identifier" : "A44c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 626,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 153,
+      "endDate" : "2021-09-20T14:28:14.816-05:00",
+      "startDate" : "2021-09-20T14:28:12.247-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A45a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 154,
+      "endDate" : "2021-09-20T14:28:14.967-05:00",
+      "startDate" : "2021-09-20T14:28:14.866-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A45b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 155,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:28:15.008-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:28:15.665-05:00",
+      "identifier" : "A45c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 645,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 156,
+      "endDate" : "2021-09-20T14:28:18.516-05:00",
+      "startDate" : "2021-09-20T14:28:15.954-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A46a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 157,
+      "endDate" : "2021-09-20T14:28:18.666-05:00",
+      "startDate" : "2021-09-20T14:28:18.564-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A46b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 158,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:28:18.711-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:28:19.216-05:00",
+      "identifier" : "A46c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 494,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 159,
+      "endDate" : "2021-09-20T14:28:20.933-05:00",
+      "startDate" : "2021-09-20T14:28:19.619-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A47a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 160,
+      "endDate" : "2021-09-20T14:28:21.088-05:00",
+      "startDate" : "2021-09-20T14:28:20.986-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A47b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 161,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:28:21.131-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:28:21.664-05:00",
+      "identifier" : "A47c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 522,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 162,
+      "endDate" : "2021-09-20T14:28:24.684-05:00",
+      "startDate" : "2021-09-20T14:28:22.119-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A48a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 163,
+      "endDate" : "2021-09-20T14:28:24.840-05:00",
+      "startDate" : "2021-09-20T14:28:24.738-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A48b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 164,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:28:24.883-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:28:25.533-05:00",
+      "identifier" : "A48c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 638,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 165,
+      "endDate" : "2021-09-20T14:28:27.134-05:00",
+      "startDate" : "2021-09-20T14:28:25.818-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A49a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 166,
+      "endDate" : "2021-09-20T14:28:27.284-05:00",
+      "startDate" : "2021-09-20T14:28:27.182-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A49b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 167,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:28:27.325-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:28:27.998-05:00",
+      "identifier" : "A49c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 662,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 168,
+      "endDate" : "2021-09-20T14:28:30.868-05:00",
+      "startDate" : "2021-09-20T14:28:28.303-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A50a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 169,
+      "endDate" : "2021-09-20T14:28:31.025-05:00",
+      "startDate" : "2021-09-20T14:28:30.923-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A50b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 170,
+      "score" : 1,
+      "startDate" : "2021-09-20T14:28:31.068-05:00",
+      "stepGroup" : "setA",
+      "endDate" : "2021-09-20T14:28:31.715-05:00",
+      "identifier" : "A50c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 636,
+      "instruction" : false
+    }
+  ],
+  "taskName" : "Flanker Inhibitory Control",
+  "userInteractions" : [
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "I_0",
+      "timestamp" : "2021-09-20T14:25:45.432-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "I_0",
+      "timestamp" : "2021-09-20T14:25:45.956-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "I_0",
+      "timestamp" : "2021-09-20T14:25:51.551-05:00",
+      "userInteractionIdentifier" : "View instructions"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "I_0",
+      "timestamp" : "2021-09-20T14:25:51.684-05:00",
+      "userInteractionIdentifier" : "View instructions"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "I_1",
+      "timestamp" : "2021-09-20T14:25:51.712-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "I_1",
+      "timestamp" : "2021-09-20T14:25:51.724-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "I_1",
+      "timestamp" : "2021-09-20T14:25:53.834-05:00",
+      "userInteractionIdentifier" : ">"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "I_1",
+      "timestamp" : "2021-09-20T14:25:53.984-05:00",
+      "userInteractionIdentifier" : ">"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "I_2",
+      "timestamp" : "2021-09-20T14:25:53.995-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "I_2",
+      "timestamp" : "2021-09-20T14:25:54.703-05:00",
+      "userInteractionIdentifier" : ">"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "I_2",
+      "timestamp" : "2021-09-20T14:25:54.803-05:00",
+      "userInteractionIdentifier" : ">"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "I_3",
+      "timestamp" : "2021-09-20T14:25:54.813-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "I_3",
+      "timestamp" : "2021-09-20T14:25:57.918-05:00",
+      "userInteractionIdentifier" : ">"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "I_3",
+      "timestamp" : "2021-09-20T14:25:58.035-05:00",
+      "userInteractionIdentifier" : ">"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "P_1a",
+      "timestamp" : "2021-09-20T14:25:58.065-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "P_1a",
+      "timestamp" : "2021-09-20T14:25:58.075-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "P_1b",
+      "timestamp" : "2021-09-20T14:25:59.351-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "P_1c",
+      "timestamp" : "2021-09-20T14:25:59.467-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "P_1c",
+      "timestamp" : "2021-09-20T14:26:00.219-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "P_1c",
+      "timestamp" : "2021-09-20T14:26:00.303-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "P_2a",
+      "timestamp" : "2021-09-20T14:26:03.509-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "P_2a",
+      "timestamp" : "2021-09-20T14:26:03.522-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "P_2b",
+      "timestamp" : "2021-09-20T14:26:04.801-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "P_2c",
+      "timestamp" : "2021-09-20T14:26:04.921-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "P_2c",
+      "timestamp" : "2021-09-20T14:26:05.521-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "P_2c",
+      "timestamp" : "2021-09-20T14:26:05.621-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "P_3a",
+      "timestamp" : "2021-09-20T14:26:08.685-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "P_3a",
+      "timestamp" : "2021-09-20T14:26:08.694-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "P_3b",
+      "timestamp" : "2021-09-20T14:26:11.202-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "P_3c",
+      "timestamp" : "2021-09-20T14:26:11.305-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "P_3c",
+      "timestamp" : "2021-09-20T14:26:12.054-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "P_3c",
+      "timestamp" : "2021-09-20T14:26:12.205-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "P_4a",
+      "timestamp" : "2021-09-20T14:26:15.253-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "P_4a",
+      "timestamp" : "2021-09-20T14:26:15.262-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "P_4b",
+      "timestamp" : "2021-09-20T14:26:15.785-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "P_4c",
+      "timestamp" : "2021-09-20T14:26:15.890-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "P_4c",
+      "timestamp" : "2021-09-20T14:26:16.571-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "P_4c",
+      "timestamp" : "2021-09-20T14:26:16.722-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "P_5a",
+      "timestamp" : "2021-09-20T14:26:19.854-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "P_5a",
+      "timestamp" : "2021-09-20T14:26:19.863-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "P_5b",
+      "timestamp" : "2021-09-20T14:26:21.121-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "P_5c",
+      "timestamp" : "2021-09-20T14:26:21.237-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "P_5c",
+      "timestamp" : "2021-09-20T14:26:22.022-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "P_5c",
+      "timestamp" : "2021-09-20T14:26:22.173-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "T_2L",
+      "timestamp" : "2021-09-20T14:26:25.104-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "T_2L",
+      "timestamp" : "2021-09-20T14:26:25.618-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "T_2L",
+      "timestamp" : "2021-09-20T14:26:25.857-05:00",
+      "userInteractionIdentifier" : "Start"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "T_2L",
+      "timestamp" : "2021-09-20T14:26:26.073-05:00",
+      "userInteractionIdentifier" : "Start"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A01a",
+      "timestamp" : "2021-09-20T14:26:26.694-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A01a",
+      "timestamp" : "2021-09-20T14:26:26.701-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A01b",
+      "timestamp" : "2021-09-20T14:26:27.971-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A01c",
+      "timestamp" : "2021-09-20T14:26:28.088-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A01c",
+      "timestamp" : "2021-09-20T14:26:28.889-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A01c",
+      "timestamp" : "2021-09-20T14:26:29.005-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A02a",
+      "timestamp" : "2021-09-20T14:26:29.119-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A02a",
+      "timestamp" : "2021-09-20T14:26:29.126-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A02b",
+      "timestamp" : "2021-09-20T14:26:29.645-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A02c",
+      "timestamp" : "2021-09-20T14:26:29.768-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A02c",
+      "timestamp" : "2021-09-20T14:26:30.656-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A02c",
+      "timestamp" : "2021-09-20T14:26:30.839-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A03a",
+      "timestamp" : "2021-09-20T14:26:30.954-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A03a",
+      "timestamp" : "2021-09-20T14:26:30.960-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A03b",
+      "timestamp" : "2021-09-20T14:26:31.489-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A03c",
+      "timestamp" : "2021-09-20T14:26:31.594-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A03c",
+      "timestamp" : "2021-09-20T14:26:32.190-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A03c",
+      "timestamp" : "2021-09-20T14:26:32.358-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A04a",
+      "timestamp" : "2021-09-20T14:26:32.472-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A04a",
+      "timestamp" : "2021-09-20T14:26:32.479-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A04b",
+      "timestamp" : "2021-09-20T14:26:32.989-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A04c",
+      "timestamp" : "2021-09-20T14:26:33.109-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A04c",
+      "timestamp" : "2021-09-20T14:26:33.507-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A04c",
+      "timestamp" : "2021-09-20T14:26:33.708-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A05a",
+      "timestamp" : "2021-09-20T14:26:33.822-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A05a",
+      "timestamp" : "2021-09-20T14:26:33.829-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A05b",
+      "timestamp" : "2021-09-20T14:26:35.112-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A05c",
+      "timestamp" : "2021-09-20T14:26:35.220-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A05c",
+      "timestamp" : "2021-09-20T14:26:35.908-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A05c",
+      "timestamp" : "2021-09-20T14:26:36.262-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A06a",
+      "timestamp" : "2021-09-20T14:26:36.377-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A06a",
+      "timestamp" : "2021-09-20T14:26:36.384-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A06b",
+      "timestamp" : "2021-09-20T14:26:36.896-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A06c",
+      "timestamp" : "2021-09-20T14:26:37.027-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A06c",
+      "timestamp" : "2021-09-20T14:26:37.507-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A06c",
+      "timestamp" : "2021-09-20T14:26:37.840-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A07a",
+      "timestamp" : "2021-09-20T14:26:37.955-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A07a",
+      "timestamp" : "2021-09-20T14:26:37.962-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A07b",
+      "timestamp" : "2021-09-20T14:26:40.475-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A07c",
+      "timestamp" : "2021-09-20T14:26:40.580-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A07c",
+      "timestamp" : "2021-09-20T14:26:41.157-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A07c",
+      "timestamp" : "2021-09-20T14:26:41.442-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A08a",
+      "timestamp" : "2021-09-20T14:26:41.557-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A08a",
+      "timestamp" : "2021-09-20T14:26:41.563-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A08b",
+      "timestamp" : "2021-09-20T14:26:44.101-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A08c",
+      "timestamp" : "2021-09-20T14:26:44.230-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A08c",
+      "timestamp" : "2021-09-20T14:26:44.658-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A08c",
+      "timestamp" : "2021-09-20T14:26:44.925-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A09a",
+      "timestamp" : "2021-09-20T14:26:45.068-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A09a",
+      "timestamp" : "2021-09-20T14:26:45.085-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A09b",
+      "timestamp" : "2021-09-20T14:26:46.385-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A09c",
+      "timestamp" : "2021-09-20T14:26:46.515-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A09c",
+      "timestamp" : "2021-09-20T14:26:47.193-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A09c",
+      "timestamp" : "2021-09-20T14:26:47.410-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A10a",
+      "timestamp" : "2021-09-20T14:26:47.553-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A10a",
+      "timestamp" : "2021-09-20T14:26:47.569-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A10b",
+      "timestamp" : "2021-09-20T14:26:48.869-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A10c",
+      "timestamp" : "2021-09-20T14:26:49.002-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A10c",
+      "timestamp" : "2021-09-20T14:26:49.626-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A10c",
+      "timestamp" : "2021-09-20T14:26:49.777-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A11a",
+      "timestamp" : "2021-09-20T14:26:49.920-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A11a",
+      "timestamp" : "2021-09-20T14:26:49.936-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A11b",
+      "timestamp" : "2021-09-20T14:26:51.237-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A11c",
+      "timestamp" : "2021-09-20T14:26:51.370-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A11c",
+      "timestamp" : "2021-09-20T14:26:52.059-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A11c",
+      "timestamp" : "2021-09-20T14:26:52.309-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A12a",
+      "timestamp" : "2021-09-20T14:26:52.452-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A12a",
+      "timestamp" : "2021-09-20T14:26:52.469-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A12b",
+      "timestamp" : "2021-09-20T14:26:53.790-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A12c",
+      "timestamp" : "2021-09-20T14:26:53.924-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A12c",
+      "timestamp" : "2021-09-20T14:26:54.911-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A12c",
+      "timestamp" : "2021-09-20T14:26:55.059-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A13a",
+      "timestamp" : "2021-09-20T14:26:55.202-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A13a",
+      "timestamp" : "2021-09-20T14:26:55.220-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A13b",
+      "timestamp" : "2021-09-20T14:26:57.770-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A13c",
+      "timestamp" : "2021-09-20T14:26:57.905-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A13c",
+      "timestamp" : "2021-09-20T14:26:59.043-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A13c",
+      "timestamp" : "2021-09-20T14:26:59.178-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A14a",
+      "timestamp" : "2021-09-20T14:26:59.319-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A14a",
+      "timestamp" : "2021-09-20T14:26:59.336-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A14b",
+      "timestamp" : "2021-09-20T14:27:01.887-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A14c",
+      "timestamp" : "2021-09-20T14:27:02.022-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A14c",
+      "timestamp" : "2021-09-20T14:27:02.561-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A14c",
+      "timestamp" : "2021-09-20T14:27:02.812-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A15a",
+      "timestamp" : "2021-09-20T14:27:02.956-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A15a",
+      "timestamp" : "2021-09-20T14:27:02.974-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A15b",
+      "timestamp" : "2021-09-20T14:27:03.524-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A15c",
+      "timestamp" : "2021-09-20T14:27:03.660-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A15c",
+      "timestamp" : "2021-09-20T14:27:04.327-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A15c",
+      "timestamp" : "2021-09-20T14:27:04.646-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A16a",
+      "timestamp" : "2021-09-20T14:27:04.793-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A16a",
+      "timestamp" : "2021-09-20T14:27:04.809-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A16b",
+      "timestamp" : "2021-09-20T14:27:07.360-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A16c",
+      "timestamp" : "2021-09-20T14:27:07.497-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A16c",
+      "timestamp" : "2021-09-20T14:27:08.095-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A16c",
+      "timestamp" : "2021-09-20T14:27:08.329-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A17a",
+      "timestamp" : "2021-09-20T14:27:08.472-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A17a",
+      "timestamp" : "2021-09-20T14:27:08.489-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A17b",
+      "timestamp" : "2021-09-20T14:27:09.798-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A17c",
+      "timestamp" : "2021-09-20T14:27:09.939-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A17c",
+      "timestamp" : "2021-09-20T14:27:10.530-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A17c",
+      "timestamp" : "2021-09-20T14:27:10.711-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A18a",
+      "timestamp" : "2021-09-20T14:27:10.851-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A18a",
+      "timestamp" : "2021-09-20T14:27:10.868-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A18b",
+      "timestamp" : "2021-09-20T14:27:11.428-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A18c",
+      "timestamp" : "2021-09-20T14:27:11.566-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A18c",
+      "timestamp" : "2021-09-20T14:27:12.195-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A18c",
+      "timestamp" : "2021-09-20T14:27:12.362-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A19a",
+      "timestamp" : "2021-09-20T14:27:12.505-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A19a",
+      "timestamp" : "2021-09-20T14:27:12.522-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A19b",
+      "timestamp" : "2021-09-20T14:27:13.831-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A19c",
+      "timestamp" : "2021-09-20T14:27:13.972-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A19c",
+      "timestamp" : "2021-09-20T14:27:14.479-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A19c",
+      "timestamp" : "2021-09-20T14:27:14.647-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A20a",
+      "timestamp" : "2021-09-20T14:27:14.790-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A20a",
+      "timestamp" : "2021-09-20T14:27:14.808-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A20b",
+      "timestamp" : "2021-09-20T14:27:17.367-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A20c",
+      "timestamp" : "2021-09-20T14:27:17.507-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A20c",
+      "timestamp" : "2021-09-20T14:27:17.996-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A20c",
+      "timestamp" : "2021-09-20T14:27:18.331-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A21a",
+      "timestamp" : "2021-09-20T14:27:18.473-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A21a",
+      "timestamp" : "2021-09-20T14:27:18.489-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A21b",
+      "timestamp" : "2021-09-20T14:27:19.055-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A21c",
+      "timestamp" : "2021-09-20T14:27:19.195-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A21c",
+      "timestamp" : "2021-09-20T14:27:19.763-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A21c",
+      "timestamp" : "2021-09-20T14:27:20.063-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A22a",
+      "timestamp" : "2021-09-20T14:27:20.206-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A22a",
+      "timestamp" : "2021-09-20T14:27:20.223-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A22b",
+      "timestamp" : "2021-09-20T14:27:22.785-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A22c",
+      "timestamp" : "2021-09-20T14:27:22.928-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A22c",
+      "timestamp" : "2021-09-20T14:27:23.347-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A22c",
+      "timestamp" : "2021-09-20T14:27:23.581-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A23a",
+      "timestamp" : "2021-09-20T14:27:23.724-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A23a",
+      "timestamp" : "2021-09-20T14:27:23.741-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A23b",
+      "timestamp" : "2021-09-20T14:27:26.302-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A23c",
+      "timestamp" : "2021-09-20T14:27:26.444-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A23c",
+      "timestamp" : "2021-09-20T14:27:27.030-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A23c",
+      "timestamp" : "2021-09-20T14:27:27.263-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A24a",
+      "timestamp" : "2021-09-20T14:27:27.407-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A24a",
+      "timestamp" : "2021-09-20T14:27:27.425-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A24b",
+      "timestamp" : "2021-09-20T14:27:27.988-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A24c",
+      "timestamp" : "2021-09-20T14:27:28.130-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A24c",
+      "timestamp" : "2021-09-20T14:27:28.581-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A24c",
+      "timestamp" : "2021-09-20T14:27:28.897-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A25a",
+      "timestamp" : "2021-09-20T14:27:29.040-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A25a",
+      "timestamp" : "2021-09-20T14:27:29.057-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A25b",
+      "timestamp" : "2021-09-20T14:27:29.622-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A25c",
+      "timestamp" : "2021-09-20T14:27:29.764-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A25c",
+      "timestamp" : "2021-09-20T14:27:30.366-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A25c",
+      "timestamp" : "2021-09-20T14:27:30.632-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A26a",
+      "timestamp" : "2021-09-20T14:27:30.774-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A26a",
+      "timestamp" : "2021-09-20T14:27:30.791-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A26b",
+      "timestamp" : "2021-09-20T14:27:32.106-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A26c",
+      "timestamp" : "2021-09-20T14:27:32.248-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A26c",
+      "timestamp" : "2021-09-20T14:27:32.915-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A26c",
+      "timestamp" : "2021-09-20T14:27:33.064-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A27a",
+      "timestamp" : "2021-09-20T14:27:33.203-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A27a",
+      "timestamp" : "2021-09-20T14:27:33.220-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A27b",
+      "timestamp" : "2021-09-20T14:27:34.539-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A27c",
+      "timestamp" : "2021-09-20T14:27:34.683-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A27c",
+      "timestamp" : "2021-09-20T14:27:35.082-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A27c",
+      "timestamp" : "2021-09-20T14:27:35.381-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A28a",
+      "timestamp" : "2021-09-20T14:27:35.525-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A28a",
+      "timestamp" : "2021-09-20T14:27:35.541-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A28b",
+      "timestamp" : "2021-09-20T14:27:36.858-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A28c",
+      "timestamp" : "2021-09-20T14:27:37.001-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A28c",
+      "timestamp" : "2021-09-20T14:27:37.499-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A28c",
+      "timestamp" : "2021-09-20T14:27:37.783-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A29a",
+      "timestamp" : "2021-09-20T14:27:37.926-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A29a",
+      "timestamp" : "2021-09-20T14:27:37.943-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A29b",
+      "timestamp" : "2021-09-20T14:27:39.259-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A29c",
+      "timestamp" : "2021-09-20T14:27:39.406-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A29c",
+      "timestamp" : "2021-09-20T14:27:39.999-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A29c",
+      "timestamp" : "2021-09-20T14:27:40.232-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A30a",
+      "timestamp" : "2021-09-20T14:27:40.375-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A30a",
+      "timestamp" : "2021-09-20T14:27:40.392-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A30b",
+      "timestamp" : "2021-09-20T14:27:41.708-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A30c",
+      "timestamp" : "2021-09-20T14:27:41.850-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A30c",
+      "timestamp" : "2021-09-20T14:27:42.467-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A30c",
+      "timestamp" : "2021-09-20T14:27:42.600-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A31a",
+      "timestamp" : "2021-09-20T14:27:42.741-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A31a",
+      "timestamp" : "2021-09-20T14:27:42.757-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A31b",
+      "timestamp" : "2021-09-20T14:27:43.327-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A31c",
+      "timestamp" : "2021-09-20T14:27:43.469-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A31c",
+      "timestamp" : "2021-09-20T14:27:44.083-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A31c",
+      "timestamp" : "2021-09-20T14:27:44.217-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A32a",
+      "timestamp" : "2021-09-20T14:27:44.359-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A32a",
+      "timestamp" : "2021-09-20T14:27:44.376-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A32b",
+      "timestamp" : "2021-09-20T14:27:45.692-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A32c",
+      "timestamp" : "2021-09-20T14:27:45.834-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A32c",
+      "timestamp" : "2021-09-20T14:27:46.268-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A32c",
+      "timestamp" : "2021-09-20T14:27:46.501-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A33a",
+      "timestamp" : "2021-09-20T14:27:46.645-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A33a",
+      "timestamp" : "2021-09-20T14:27:46.663-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A33b",
+      "timestamp" : "2021-09-20T14:27:49.224-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A33c",
+      "timestamp" : "2021-09-20T14:27:49.367-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A33c",
+      "timestamp" : "2021-09-20T14:27:50.050-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A33c",
+      "timestamp" : "2021-09-20T14:27:50.201-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A34a",
+      "timestamp" : "2021-09-20T14:27:50.342-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A34a",
+      "timestamp" : "2021-09-20T14:27:50.360-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A34b",
+      "timestamp" : "2021-09-20T14:27:50.927-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A34c",
+      "timestamp" : "2021-09-20T14:27:51.070-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A34c",
+      "timestamp" : "2021-09-20T14:27:52.102-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A34c",
+      "timestamp" : "2021-09-20T14:27:52.268-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A35a",
+      "timestamp" : "2021-09-20T14:27:52.413-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A35a",
+      "timestamp" : "2021-09-20T14:27:52.430-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A35b",
+      "timestamp" : "2021-09-20T14:27:54.996-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A35c",
+      "timestamp" : "2021-09-20T14:27:55.142-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A35c",
+      "timestamp" : "2021-09-20T14:27:55.884-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A35c",
+      "timestamp" : "2021-09-20T14:27:56.033-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A36a",
+      "timestamp" : "2021-09-20T14:27:56.176-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A36a",
+      "timestamp" : "2021-09-20T14:27:56.193-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A36b",
+      "timestamp" : "2021-09-20T14:27:56.770-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A36c",
+      "timestamp" : "2021-09-20T14:27:56.914-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A36c",
+      "timestamp" : "2021-09-20T14:27:57.384-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A36c",
+      "timestamp" : "2021-09-20T14:27:57.634-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A37a",
+      "timestamp" : "2021-09-20T14:27:57.777-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A37a",
+      "timestamp" : "2021-09-20T14:27:57.794-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A37b",
+      "timestamp" : "2021-09-20T14:27:58.365-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A37c",
+      "timestamp" : "2021-09-20T14:27:58.508-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A37c",
+      "timestamp" : "2021-09-20T14:27:59.103-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A37c",
+      "timestamp" : "2021-09-20T14:27:59.301-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A38a",
+      "timestamp" : "2021-09-20T14:27:59.446-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A38a",
+      "timestamp" : "2021-09-20T14:27:59.464-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A38b",
+      "timestamp" : "2021-09-20T14:28:00.036-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A38c",
+      "timestamp" : "2021-09-20T14:28:00.180-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A38c",
+      "timestamp" : "2021-09-20T14:28:00.718-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A38c",
+      "timestamp" : "2021-09-20T14:28:00.969-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A39a",
+      "timestamp" : "2021-09-20T14:28:01.115-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A39a",
+      "timestamp" : "2021-09-20T14:28:01.130-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A39b",
+      "timestamp" : "2021-09-20T14:28:01.704-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A39c",
+      "timestamp" : "2021-09-20T14:28:01.851-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A39c",
+      "timestamp" : "2021-09-20T14:28:02.351-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A39c",
+      "timestamp" : "2021-09-20T14:28:02.601-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A40a",
+      "timestamp" : "2021-09-20T14:28:02.746-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A40a",
+      "timestamp" : "2021-09-20T14:28:02.762-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A40b",
+      "timestamp" : "2021-09-20T14:28:03.334-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A40c",
+      "timestamp" : "2021-09-20T14:28:03.478-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A40c",
+      "timestamp" : "2021-09-20T14:28:03.885-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A40c",
+      "timestamp" : "2021-09-20T14:28:04.152-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A41a",
+      "timestamp" : "2021-09-20T14:28:04.296-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A41a",
+      "timestamp" : "2021-09-20T14:28:04.312-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A41b",
+      "timestamp" : "2021-09-20T14:28:04.884-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A41c",
+      "timestamp" : "2021-09-20T14:28:05.028-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A41c",
+      "timestamp" : "2021-09-20T14:28:05.687-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A41c",
+      "timestamp" : "2021-09-20T14:28:05.836-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A42a",
+      "timestamp" : "2021-09-20T14:28:05.979-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A42a",
+      "timestamp" : "2021-09-20T14:28:05.996-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A42b",
+      "timestamp" : "2021-09-20T14:28:07.322-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A42c",
+      "timestamp" : "2021-09-20T14:28:07.467-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A42c",
+      "timestamp" : "2021-09-20T14:28:07.885-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A42c",
+      "timestamp" : "2021-09-20T14:28:08.052-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A43a",
+      "timestamp" : "2021-09-20T14:28:08.194-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A43a",
+      "timestamp" : "2021-09-20T14:28:08.212-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A43b",
+      "timestamp" : "2021-09-20T14:28:08.786-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A43c",
+      "timestamp" : "2021-09-20T14:28:08.932-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A43c",
+      "timestamp" : "2021-09-20T14:28:09.587-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A43c",
+      "timestamp" : "2021-09-20T14:28:09.737-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A44a",
+      "timestamp" : "2021-09-20T14:28:09.876-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A44a",
+      "timestamp" : "2021-09-20T14:28:09.893-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A44b",
+      "timestamp" : "2021-09-20T14:28:11.216-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A44c",
+      "timestamp" : "2021-09-20T14:28:11.360-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A44c",
+      "timestamp" : "2021-09-20T14:28:11.986-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A44c",
+      "timestamp" : "2021-09-20T14:28:12.136-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A45a",
+      "timestamp" : "2021-09-20T14:28:12.278-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A45a",
+      "timestamp" : "2021-09-20T14:28:12.294-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A45b",
+      "timestamp" : "2021-09-20T14:28:14.866-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A45c",
+      "timestamp" : "2021-09-20T14:28:15.009-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A45c",
+      "timestamp" : "2021-09-20T14:28:15.655-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A45c",
+      "timestamp" : "2021-09-20T14:28:15.842-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A46a",
+      "timestamp" : "2021-09-20T14:28:15.983-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A46a",
+      "timestamp" : "2021-09-20T14:28:15.999-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A46b",
+      "timestamp" : "2021-09-20T14:28:18.564-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A46c",
+      "timestamp" : "2021-09-20T14:28:18.711-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A46c",
+      "timestamp" : "2021-09-20T14:28:19.205-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A46c",
+      "timestamp" : "2021-09-20T14:28:19.505-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A47a",
+      "timestamp" : "2021-09-20T14:28:19.648-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A47a",
+      "timestamp" : "2021-09-20T14:28:19.665-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A47b",
+      "timestamp" : "2021-09-20T14:28:20.987-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A47c",
+      "timestamp" : "2021-09-20T14:28:21.131-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A47c",
+      "timestamp" : "2021-09-20T14:28:21.654-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A47c",
+      "timestamp" : "2021-09-20T14:28:22.005-05:00",
+      "userInteractionIdentifier" : "rightResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A48a",
+      "timestamp" : "2021-09-20T14:28:22.148-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A48a",
+      "timestamp" : "2021-09-20T14:28:22.165-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A48b",
+      "timestamp" : "2021-09-20T14:28:24.738-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A48c",
+      "timestamp" : "2021-09-20T14:28:24.884-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A48c",
+      "timestamp" : "2021-09-20T14:28:25.523-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A48c",
+      "timestamp" : "2021-09-20T14:28:25.705-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A49a",
+      "timestamp" : "2021-09-20T14:28:25.848-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A49a",
+      "timestamp" : "2021-09-20T14:28:25.864-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A49b",
+      "timestamp" : "2021-09-20T14:28:27.183-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A49c",
+      "timestamp" : "2021-09-20T14:28:27.325-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A49c",
+      "timestamp" : "2021-09-20T14:28:27.988-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A49c",
+      "timestamp" : "2021-09-20T14:28:28.188-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "A50a",
+      "timestamp" : "2021-09-20T14:28:28.331-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A50a",
+      "timestamp" : "2021-09-20T14:28:28.348-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A50b",
+      "timestamp" : "2021-09-20T14:28:30.924-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "A50c",
+      "timestamp" : "2021-09-20T14:28:31.068-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "A50c",
+      "timestamp" : "2021-09-20T14:28:31.705-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "A50c",
+      "timestamp" : "2021-09-20T14:28:31.856-05:00",
+      "userInteractionIdentifier" : "leftResponseButton"
+    }
+  ],
+  "testVersion" : "1.2.0",
+  "stepHistory" : [
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-20T14:25:45.424-05:00",
+      "type" : "flankerStepResult",
+      "identifier" : "I_0",
+      "endDate" : "2021-09-20T14:25:51.693-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:25:53.987-05:00",
+      "startDate" : "2021-09-20T14:25:51.693-05:00",
+      "identifier" : "I_1",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:25:54.805-05:00",
+      "startDate" : "2021-09-20T14:25:53.988-05:00",
+      "identifier" : "I_2",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:25:58.036-05:00",
+      "startDate" : "2021-09-20T14:25:54.806-05:00",
+      "identifier" : "I_3",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-20T14:25:58.039-05:00",
+      "type" : "flankerStepResult",
+      "identifier" : "P_1a",
+      "endDate" : "2021-09-20T14:25:59.349-05:00"
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-20T14:25:59.350-05:00",
+      "type" : "flankerStepResult",
+      "identifier" : "P_1b",
+      "endDate" : "2021-09-20T14:25:59.464-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:26:00.223-05:00",
+      "startDate" : "2021-09-20T14:25:59.466-05:00",
+      "identifier" : "P_1c",
+      "response" : 2,
+      "responseTime" : 738,
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-20T14:26:03.495-05:00",
+      "type" : "flankerStepResult",
+      "identifier" : "P_2a",
+      "endDate" : "2021-09-20T14:26:04.798-05:00"
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-20T14:26:04.801-05:00",
+      "type" : "flankerStepResult",
+      "identifier" : "P_2b",
+      "endDate" : "2021-09-20T14:26:04.915-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:26:05.526-05:00",
+      "startDate" : "2021-09-20T14:26:04.921-05:00",
+      "identifier" : "P_2c",
+      "response" : 1,
+      "responseTime" : 590,
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-20T14:26:08.676-05:00",
+      "type" : "flankerStepResult",
+      "identifier" : "P_3a",
+      "endDate" : "2021-09-20T14:26:11.199-05:00"
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-20T14:26:11.201-05:00",
+      "type" : "flankerStepResult",
+      "identifier" : "P_3b",
+      "endDate" : "2021-09-20T14:26:11.303-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:26:12.058-05:00",
+      "startDate" : "2021-09-20T14:26:11.305-05:00",
+      "identifier" : "P_3c",
+      "response" : 2,
+      "responseTime" : 738,
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-20T14:26:15.245-05:00",
+      "type" : "flankerStepResult",
+      "identifier" : "P_4a",
+      "endDate" : "2021-09-20T14:26:15.767-05:00"
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-20T14:26:15.783-05:00",
+      "type" : "flankerStepResult",
+      "identifier" : "P_4b",
+      "endDate" : "2021-09-20T14:26:15.887-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:26:16.576-05:00",
+      "startDate" : "2021-09-20T14:26:15.890-05:00",
+      "identifier" : "P_4c",
+      "response" : 2,
+      "responseTime" : 671,
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-20T14:26:19.846-05:00",
+      "type" : "flankerStepResult",
+      "identifier" : "P_5a",
+      "endDate" : "2021-09-20T14:26:21.117-05:00"
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-20T14:26:21.120-05:00",
+      "type" : "flankerStepResult",
+      "identifier" : "P_5b",
+      "endDate" : "2021-09-20T14:26:21.234-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:26:22.026-05:00",
+      "startDate" : "2021-09-20T14:26:21.237-05:00",
+      "identifier" : "P_5c",
+      "response" : 1,
+      "responseTime" : 771,
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-20T14:26:25.099-05:00",
+      "type" : "flankerStepResult",
+      "identifier" : "T_2L",
+      "endDate" : "2021-09-20T14:26:26.075-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:26:27.968-05:00",
+      "startDate" : "2021-09-20T14:26:26.685-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A01a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:26:28.085-05:00",
+      "startDate" : "2021-09-20T14:26:27.971-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A01b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:26:28.894-05:00",
+      "startDate" : "2021-09-20T14:26:28.088-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A01c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 788,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:26:29.635-05:00",
+      "startDate" : "2021-09-20T14:26:29.111-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A02a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:26:29.752-05:00",
+      "startDate" : "2021-09-20T14:26:29.644-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A02b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:26:30.661-05:00",
+      "startDate" : "2021-09-20T14:26:29.767-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A02c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 887,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:26:31.469-05:00",
+      "startDate" : "2021-09-20T14:26:30.945-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A03a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:26:31.590-05:00",
+      "startDate" : "2021-09-20T14:26:31.488-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A03b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:26:32.194-05:00",
+      "startDate" : "2021-09-20T14:26:31.594-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A03c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 588,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:26:32.986-05:00",
+      "startDate" : "2021-09-20T14:26:32.463-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A04a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:26:33.102-05:00",
+      "startDate" : "2021-09-20T14:26:32.989-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A04b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:26:33.511-05:00",
+      "startDate" : "2021-09-20T14:26:33.108-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A04c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 388,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:26:35.086-05:00",
+      "startDate" : "2021-09-20T14:26:33.814-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A05a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:26:35.213-05:00",
+      "startDate" : "2021-09-20T14:26:35.110-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A05b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:26:35.913-05:00",
+      "startDate" : "2021-09-20T14:26:35.219-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A05c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 688,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:26:36.886-05:00",
+      "startDate" : "2021-09-20T14:26:36.368-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A06a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:26:37.003-05:00",
+      "startDate" : "2021-09-20T14:26:36.896-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A06b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:26:37.509-05:00",
+      "startDate" : "2021-09-20T14:26:37.026-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A06c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 478,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:26:40.470-05:00",
+      "startDate" : "2021-09-20T14:26:37.946-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A07a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:26:40.576-05:00",
+      "startDate" : "2021-09-20T14:26:40.474-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A07b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:26:41.161-05:00",
+      "startDate" : "2021-09-20T14:26:40.580-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A07c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 571,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:26:44.070-05:00",
+      "startDate" : "2021-09-20T14:26:41.548-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A08a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:26:44.203-05:00",
+      "startDate" : "2021-09-20T14:26:44.100-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A08b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:26:44.668-05:00",
+      "startDate" : "2021-09-20T14:26:44.230-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A08c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 427,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:26:46.354-05:00",
+      "startDate" : "2021-09-20T14:26:45.038-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A09a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:26:46.487-05:00",
+      "startDate" : "2021-09-20T14:26:46.384-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A09b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:26:47.204-05:00",
+      "startDate" : "2021-09-20T14:26:46.515-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A09c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 677,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:26:48.838-05:00",
+      "startDate" : "2021-09-20T14:26:47.523-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A10a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:26:48.971-05:00",
+      "startDate" : "2021-09-20T14:26:48.868-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A10b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:26:49.636-05:00",
+      "startDate" : "2021-09-20T14:26:49.001-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A10c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 623,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:26:51.205-05:00",
+      "startDate" : "2021-09-20T14:26:49.890-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A11a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:26:51.339-05:00",
+      "startDate" : "2021-09-20T14:26:51.236-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A11b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:26:52.069-05:00",
+      "startDate" : "2021-09-20T14:26:51.369-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A11c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 688,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:26:53.739-05:00",
+      "startDate" : "2021-09-20T14:26:52.423-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A12a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:26:53.892-05:00",
+      "startDate" : "2021-09-20T14:26:53.788-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A12b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:26:54.922-05:00",
+      "startDate" : "2021-09-20T14:26:53.923-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A12c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 986,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:26:57.739-05:00",
+      "startDate" : "2021-09-20T14:26:55.172-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A13a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:26:57.871-05:00",
+      "startDate" : "2021-09-20T14:26:57.769-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A13b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:26:59.053-05:00",
+      "startDate" : "2021-09-20T14:26:57.904-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A13c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 1137,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:01.856-05:00",
+      "startDate" : "2021-09-20T14:26:59.290-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A14a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:01.989-05:00",
+      "startDate" : "2021-09-20T14:27:01.886-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A14b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:27:02.571-05:00",
+      "startDate" : "2021-09-20T14:27:02.021-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A14c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 537,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:03.490-05:00",
+      "startDate" : "2021-09-20T14:27:02.926-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A15a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:03.626-05:00",
+      "startDate" : "2021-09-20T14:27:03.523-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A15b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:27:04.337-05:00",
+      "startDate" : "2021-09-20T14:27:03.660-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A15c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 666,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:07.324-05:00",
+      "startDate" : "2021-09-20T14:27:04.760-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A16a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:07.462-05:00",
+      "startDate" : "2021-09-20T14:27:07.359-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A16b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:27:08.105-05:00",
+      "startDate" : "2021-09-20T14:27:07.496-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A16c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 597,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:09.758-05:00",
+      "startDate" : "2021-09-20T14:27:08.443-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A17a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:09.900-05:00",
+      "startDate" : "2021-09-20T14:27:09.797-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A17b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:27:10.540-05:00",
+      "startDate" : "2021-09-20T14:27:09.938-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A17c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 590,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:11.391-05:00",
+      "startDate" : "2021-09-20T14:27:10.821-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A18a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:11.529-05:00",
+      "startDate" : "2021-09-20T14:27:11.427-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A18b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:27:12.205-05:00",
+      "startDate" : "2021-09-20T14:27:11.565-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A18c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 628,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:13.791-05:00",
+      "startDate" : "2021-09-20T14:27:12.476-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A19a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:13.932-05:00",
+      "startDate" : "2021-09-20T14:27:13.830-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A19b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:27:14.490-05:00",
+      "startDate" : "2021-09-20T14:27:13.971-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A19c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 506,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:17.325-05:00",
+      "startDate" : "2021-09-20T14:27:14.760-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A20a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:17.468-05:00",
+      "startDate" : "2021-09-20T14:27:17.366-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A20b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:27:18.006-05:00",
+      "startDate" : "2021-09-20T14:27:17.506-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A20c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 488,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:19.009-05:00",
+      "startDate" : "2021-09-20T14:27:18.444-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A21a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:19.156-05:00",
+      "startDate" : "2021-09-20T14:27:19.053-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A21b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:27:19.773-05:00",
+      "startDate" : "2021-09-20T14:27:19.194-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A21c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 567,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:22.742-05:00",
+      "startDate" : "2021-09-20T14:27:20.176-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A22a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:22.887-05:00",
+      "startDate" : "2021-09-20T14:27:22.784-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A22b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:27:23.357-05:00",
+      "startDate" : "2021-09-20T14:27:22.927-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A22c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 418,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:26.260-05:00",
+      "startDate" : "2021-09-20T14:27:23.695-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A23a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:26.404-05:00",
+      "startDate" : "2021-09-20T14:27:26.302-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A23b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:27:27.041-05:00",
+      "startDate" : "2021-09-20T14:27:26.444-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A23c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 585,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:27.943-05:00",
+      "startDate" : "2021-09-20T14:27:27.377-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A24a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:28.089-05:00",
+      "startDate" : "2021-09-20T14:27:27.987-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A24b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:27:28.591-05:00",
+      "startDate" : "2021-09-20T14:27:28.130-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A24c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 449,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:29.577-05:00",
+      "startDate" : "2021-09-20T14:27:29.011-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A25a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:29.724-05:00",
+      "startDate" : "2021-09-20T14:27:29.621-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A25b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:27:30.376-05:00",
+      "startDate" : "2021-09-20T14:27:29.763-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A25c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 601,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:32.060-05:00",
+      "startDate" : "2021-09-20T14:27:30.746-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A26a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:32.207-05:00",
+      "startDate" : "2021-09-20T14:27:32.105-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A26b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:27:32.925-05:00",
+      "startDate" : "2021-09-20T14:27:32.248-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A26c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 666,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:34.494-05:00",
+      "startDate" : "2021-09-20T14:27:33.173-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A27a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:34.641-05:00",
+      "startDate" : "2021-09-20T14:27:34.538-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A27b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:27:35.092-05:00",
+      "startDate" : "2021-09-20T14:27:34.682-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A27c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 398,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:36.811-05:00",
+      "startDate" : "2021-09-20T14:27:35.495-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A28a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:36.960-05:00",
+      "startDate" : "2021-09-20T14:27:36.857-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A28b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:27:37.508-05:00",
+      "startDate" : "2021-09-20T14:27:37.000-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A28c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 497,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:39.211-05:00",
+      "startDate" : "2021-09-20T14:27:37.897-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A29a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:39.361-05:00",
+      "startDate" : "2021-09-20T14:27:39.259-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A29b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:27:40.009-05:00",
+      "startDate" : "2021-09-20T14:27:39.406-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A29c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 591,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:41.662-05:00",
+      "startDate" : "2021-09-20T14:27:40.345-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A30a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:41.810-05:00",
+      "startDate" : "2021-09-20T14:27:41.708-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A30b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:27:42.478-05:00",
+      "startDate" : "2021-09-20T14:27:41.850-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A30c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 616,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:43.278-05:00",
+      "startDate" : "2021-09-20T14:27:42.710-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A31a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:43.428-05:00",
+      "startDate" : "2021-09-20T14:27:43.326-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A31b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:27:44.093-05:00",
+      "startDate" : "2021-09-20T14:27:43.469-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A31c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 613,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:45.645-05:00",
+      "startDate" : "2021-09-20T14:27:44.329-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A32a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:45.793-05:00",
+      "startDate" : "2021-09-20T14:27:45.691-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A32b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:27:46.277-05:00",
+      "startDate" : "2021-09-20T14:27:45.834-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A32c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 433,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:49.179-05:00",
+      "startDate" : "2021-09-20T14:27:46.615-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A33a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:49.325-05:00",
+      "startDate" : "2021-09-20T14:27:49.223-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A33b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:27:50.060-05:00",
+      "startDate" : "2021-09-20T14:27:49.367-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A33c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 682,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:50.879-05:00",
+      "startDate" : "2021-09-20T14:27:50.311-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A34a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:51.028-05:00",
+      "startDate" : "2021-09-20T14:27:50.926-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A34b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:27:52.112-05:00",
+      "startDate" : "2021-09-20T14:27:51.069-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A34c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 1031,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:54.947-05:00",
+      "startDate" : "2021-09-20T14:27:52.382-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A35a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:55.098-05:00",
+      "startDate" : "2021-09-20T14:27:54.996-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A35b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:27:55.894-05:00",
+      "startDate" : "2021-09-20T14:27:55.142-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A35c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 741,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:56.714-05:00",
+      "startDate" : "2021-09-20T14:27:56.145-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A36a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:56.871-05:00",
+      "startDate" : "2021-09-20T14:27:56.769-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A36b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:27:57.394-05:00",
+      "startDate" : "2021-09-20T14:27:56.914-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A36c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 469,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:58.314-05:00",
+      "startDate" : "2021-09-20T14:27:57.747-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A37a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:58.466-05:00",
+      "startDate" : "2021-09-20T14:27:58.364-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A37b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:27:59.113-05:00",
+      "startDate" : "2021-09-20T14:27:58.507-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A37c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 594,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:27:59.981-05:00",
+      "startDate" : "2021-09-20T14:27:59.415-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A38a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:28:00.138-05:00",
+      "startDate" : "2021-09-20T14:28:00.036-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A38b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:28:00.728-05:00",
+      "startDate" : "2021-09-20T14:28:00.179-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A38c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 538,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:28:01.648-05:00",
+      "startDate" : "2021-09-20T14:28:01.083-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A39a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:28:01.806-05:00",
+      "startDate" : "2021-09-20T14:28:01.704-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A39b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:28:02.361-05:00",
+      "startDate" : "2021-09-20T14:28:01.851-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A39c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 499,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:28:03.281-05:00",
+      "startDate" : "2021-09-20T14:28:02.716-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A40a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:28:03.436-05:00",
+      "startDate" : "2021-09-20T14:28:03.334-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A40b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:28:03.895-05:00",
+      "startDate" : "2021-09-20T14:28:03.477-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A40c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 406,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:28:04.831-05:00",
+      "startDate" : "2021-09-20T14:28:04.266-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A41a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:28:04.985-05:00",
+      "startDate" : "2021-09-20T14:28:04.883-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A41b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:28:05.697-05:00",
+      "startDate" : "2021-09-20T14:28:05.027-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A41c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 658,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:28:07.265-05:00",
+      "startDate" : "2021-09-20T14:28:05.948-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A42a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:28:07.423-05:00",
+      "startDate" : "2021-09-20T14:28:07.321-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A42b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:28:07.894-05:00",
+      "startDate" : "2021-09-20T14:28:07.466-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A42c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 418,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:28:08.732-05:00",
+      "startDate" : "2021-09-20T14:28:08.165-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A43a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:28:08.887-05:00",
+      "startDate" : "2021-09-20T14:28:08.785-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A43b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:28:09.597-05:00",
+      "startDate" : "2021-09-20T14:28:08.931-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A43c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 655,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:28:11.165-05:00",
+      "startDate" : "2021-09-20T14:28:09.846-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A44a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:28:11.317-05:00",
+      "startDate" : "2021-09-20T14:28:11.215-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A44b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:28:11.996-05:00",
+      "startDate" : "2021-09-20T14:28:11.359-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A44c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 626,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:28:14.816-05:00",
+      "startDate" : "2021-09-20T14:28:12.247-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A45a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:28:14.967-05:00",
+      "startDate" : "2021-09-20T14:28:14.866-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A45b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:28:15.665-05:00",
+      "startDate" : "2021-09-20T14:28:15.008-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A45c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 645,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:28:18.516-05:00",
+      "startDate" : "2021-09-20T14:28:15.954-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A46a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:28:18.666-05:00",
+      "startDate" : "2021-09-20T14:28:18.564-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A46b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:28:19.216-05:00",
+      "startDate" : "2021-09-20T14:28:18.711-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A46c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 494,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:28:20.933-05:00",
+      "startDate" : "2021-09-20T14:28:19.619-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A47a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:28:21.088-05:00",
+      "startDate" : "2021-09-20T14:28:20.986-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A47b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:28:21.664-05:00",
+      "startDate" : "2021-09-20T14:28:21.131-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A47c",
+      "response" : 2,
+      "type" : "flankerStepResult",
+      "responseTime" : 522,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:28:24.684-05:00",
+      "startDate" : "2021-09-20T14:28:22.119-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A48a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:28:24.840-05:00",
+      "startDate" : "2021-09-20T14:28:24.738-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A48b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:28:25.533-05:00",
+      "startDate" : "2021-09-20T14:28:24.883-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A48c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 638,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:28:27.134-05:00",
+      "startDate" : "2021-09-20T14:28:25.818-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A49a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:28:27.284-05:00",
+      "startDate" : "2021-09-20T14:28:27.182-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A49b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:28:27.998-05:00",
+      "startDate" : "2021-09-20T14:28:27.325-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A49c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 662,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:28:30.868-05:00",
+      "startDate" : "2021-09-20T14:28:28.303-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A50a",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-20T14:28:31.025-05:00",
+      "startDate" : "2021-09-20T14:28:30.923-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A50b",
+      "type" : "flankerStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-20T14:28:31.715-05:00",
+      "startDate" : "2021-09-20T14:28:31.068-05:00",
+      "stepGroup" : "setA",
+      "identifier" : "A50c",
+      "response" : 1,
+      "type" : "flankerStepResult",
+      "responseTime" : 636,
+      "instruction" : false
+    }
+  ],
+  "taskStatus" : [
+    "completed"
+  ],
+  "schemaIdentifier" : "EF_Flanker"
+}

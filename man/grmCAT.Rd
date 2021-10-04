@@ -19,13 +19,17 @@ grmCAT(
   minNI = 4,
   maxSD = 0.3,
   maxNI = 8,
-  deltaSD = 0.01
+  deltaSD = 0.01,
+  bestAt = NULL,
+  bestStop = "LO",
+  verbose = F
 )
 }
 \arguments{
 \item{ipar}{An item parameter matrix in slope/threshold format. Each item is on a separate line.
 The column names should be "a" and "CB1" through "CB#" for
-the slope and relevant thresholds.}
+the slope and relevant thresholds. There should also be a column called "NCAT" to indicate
+the number of response categories available for each item.}
 
 \item{resp}{Response matrix (number of rows = number of participants and number of columns = number of items)}
 
@@ -55,6 +59,15 @@ on the final score estimate from the previous administration. Defaults to TRUE.}
 \item{maxNI}{Maximum number of items to administer. Defaults to 8.}
 
 \item{deltaSD}{Mininum change for SD.}
+
+\item{bestAt}{This indicates how many items have to be administered before the Best Health stopping rule is checked.
+This can override the _minNI_ parameter. NOTE: Setting this to any value greater than the _maxNI_ parameter will turn off the Best Health rule.}
+
+\item{bestStop}{An indicator for whether the Best Health is the minimum (e.g., for symptom banks; indicated with “LO”)
+or the maximum (e.g. for function banks; indicated with “HI”).}
+
+\item{verbose}{A logical value indicating whether or not to print interim information related to the computer adaptive testing progress.
+Default is FALSE.}
 }
 \value{
 This function returns a list with five elements. The first two elements are scalar elements with
@@ -109,9 +122,9 @@ start_item=0,minNI=4,maxSD=0.3,maxNI=8,deltaSD=0.01)
 
  #### Using the PROMIS Pediatric Strength Impact item bank
  set.seed(542)
-# 5 participants with random responses to all 12 items
+# 5 participants with random responses to 10 of the items in the bank
 data(iparPedImp)
-respSI <- round(matrix(stats::runif(12*5, 1, 5), 5, 12))
+respSI <- round(matrix(stats::runif(10*5, 1, 5), 5, 10))
 grm_out1 <- apply(respSI,1,function(y) grmCAT(ipar=iparPedImp[,2:7], resp=y,
 minTheta=-4, maxTheta=4, nQpts=81,minNI=5,maxNI=12)) # PROMIS Peds defaults
 

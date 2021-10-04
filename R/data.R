@@ -1,4 +1,4 @@
-#' Item Parameters
+#' Item Parameters for the PROMIS Pediatric Strength Impact Item Bank.
 #'
 #' A dataset of IRT calibrations using slope-threshold parameterization for the graded response model. There are 10 items with 5 response categories each. This item bank has several extremely high slopes, which can pose problems for CAT engines.
 #'

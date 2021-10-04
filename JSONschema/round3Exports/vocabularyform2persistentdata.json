@@ -1,0 +1,200 @@
+{
+  "administrationState" : {
+    "administeredStepsFromRunInProgress" : [
+
+    ],
+    "isCompleteRun" : true,
+    "administeredStepsFromLatestCompletedRun" : [
+      {
+        "response" : 3,
+        "se" : 99,
+        "identifier" : "enVocMTB2618",
+        "score" : 0,
+        "theta" : -0.75
+      },
+      {
+        "response" : 5,
+        "se" : 99,
+        "score" : 0,
+        "identifier" : "enVocMTB1776",
+        "theta" : -1.5
+      },
+      {
+        "response" : 5,
+        "se" : 1.274071203904479,
+        "identifier" : "enVocMTB1399",
+        "score" : 1,
+        "theta" : -1.5052905481988097
+      },
+      {
+        "response" : 5,
+        "se" : 1.1886172132327388,
+        "score" : 0,
+        "identifier" : "enVocMTB772",
+        "theta" : -2.135589973207953
+      },
+      {
+        "response" : 1,
+        "se" : 1.1886172132327388,
+        "score" : 1,
+        "identifier" : "enVocMTB_exp_20",
+        "theta" : -2.135589973207953
+      },
+      {
+        "response" : 3,
+        "se" : 0.9612075775820764,
+        "identifier" : "enVocMTB139",
+        "score" : 1,
+        "theta" : -1.6262828526397644
+      },
+      {
+        "response" : 4,
+        "se" : 0.8587271972148672,
+        "score" : 1,
+        "identifier" : "enVocMTB1577",
+        "theta" : -1.2554838449067254
+      },
+      {
+        "response" : 3,
+        "se" : 0.794362673360667,
+        "score" : 0,
+        "identifier" : "enVocMTB1322",
+        "theta" : -1.5675674982757883
+      },
+      {
+        "response" : 1,
+        "se" : 0.753664021074999,
+        "score" : 0,
+        "identifier" : "enVocMTB1193",
+        "theta" : -1.8451881723659032
+      },
+      {
+        "response" : 3,
+        "se" : 0.753664021074999,
+        "score" : 1,
+        "identifier" : "enVocMTB_exp_42",
+        "theta" : -1.8451881723659032
+      },
+      {
+        "response" : 3,
+        "se" : 0.7267108055174238,
+        "identifier" : "enVocMTB1305",
+        "score" : 0,
+        "theta" : -2.101123237676111
+      },
+      {
+        "response" : 2,
+        "se" : 0.7077596744817176,
+        "score" : 0,
+        "identifier" : "enVocMTB1357",
+        "theta" : -2.3343277687605624
+      },
+      {
+        "response" : 2,
+        "se" : 0.645401512932807,
+        "identifier" : "enVocMTB842",
+        "score" : 1,
+        "theta" : -2.087179874179125
+      },
+      {
+        "response" : 3,
+        "se" : 0.6287024510794709,
+        "score" : 0,
+        "identifier" : "enVocMTB1085",
+        "theta" : -2.2746217177247914
+      },
+      {
+        "response" : 4,
+        "se" : 0.6287024510794709,
+        "identifier" : "enVocMTB_exp_10",
+        "score" : 1,
+        "theta" : -2.2746217177247914
+      },
+      {
+        "response" : 4,
+        "se" : 0.6152024108174554,
+        "score" : 0,
+        "identifier" : "enVocMTB1362",
+        "theta" : -2.4362992185193333
+      },
+      {
+        "response" : 4,
+        "se" : 0.6040859937995979,
+        "score" : 0,
+        "identifier" : "enVocMTB1601",
+        "theta" : -2.577975382767905
+      },
+      {
+        "response" : 5,
+        "se" : 0.5604689596950535,
+        "score" : 1,
+        "identifier" : "enVocMTB39",
+        "theta" : -2.371835806383874
+      },
+      {
+        "response" : 4,
+        "se" : 0.5506058911891659,
+        "score" : 0,
+        "identifier" : "enVocMTB412",
+        "theta" : -2.494838342326746
+      },
+      {
+        "response" : 4,
+        "se" : 0.5506058911891659,
+        "score" : 1,
+        "identifier" : "enVocMTB_exp_2",
+        "theta" : -2.494838342326746
+      },
+      {
+        "response" : 1,
+        "se" : 0.5188434604861433,
+        "identifier" : "enVocMTB1239",
+        "score" : 1,
+        "theta" : -2.3241600454829374
+      },
+      {
+        "response" : 2,
+        "se" : 0.4947748677146747,
+        "score" : 1,
+        "identifier" : "enVocMTB1088",
+        "theta" : -2.180186386287038
+      },
+      {
+        "response" : 4,
+        "se" : 0.4758246335923044,
+        "identifier" : "enVocMTB1427",
+        "score" : 1,
+        "theta" : -2.0555855922378705
+      },
+      {
+        "response" : 4,
+        "se" : 0.4604704844459244,
+        "identifier" : "enVocMTB2566",
+        "score" : 1,
+        "theta" : -1.945907434165065
+      },
+      {
+        "response" : 3,
+        "se" : 0.4604704844459244,
+        "score" : 1,
+        "identifier" : "enVocMTB_exp_34",
+        "theta" : -1.945907434165065
+      },
+      {
+        "response" : 5,
+        "se" : 0.4477045803204294,
+        "score" : 1,
+        "identifier" : "enVocMTB429",
+        "theta" : -1.8454468038653473
+      },
+      {
+        "response" : 1,
+        "se" : 0.43687403719236384,
+        "identifier" : "enVocMTB1246",
+        "score" : 1,
+        "theta" : -1.7495227068257133
+      }
+    ],
+    "theta" : -1.7495227068257133
+  }
+}

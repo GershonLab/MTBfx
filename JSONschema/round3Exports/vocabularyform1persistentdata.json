@@ -1,0 +1,200 @@
+{
+  "administrationState" : {
+    "theta" : -1.9819027429531153,
+    "administeredStepsFromRunInProgress" : [
+
+    ],
+    "isCompleteRun" : true,
+    "administeredStepsFromLatestCompletedRun" : [
+      {
+        "theta" : -0.75,
+        "se" : 99,
+        "identifier" : "enVocMTB2544",
+        "response" : 2,
+        "score" : 0
+      },
+      {
+        "theta" : -1.5,
+        "se" : 99,
+        "response" : 3,
+        "identifier" : "enVocMTB1941",
+        "score" : 0
+      },
+      {
+        "theta" : -1.5049599670089395,
+        "se" : 1.2741615849569454,
+        "identifier" : "enVocMTB1159",
+        "response" : 3,
+        "score" : 1
+      },
+      {
+        "theta" : -2.135155770728163,
+        "se" : 1.1886562816551491,
+        "response" : 3,
+        "identifier" : "enVocMTB583",
+        "score" : 0
+      },
+      {
+        "theta" : -2.135155770728163,
+        "se" : 1.1886562816551491,
+        "identifier" : "enVocMTB_exp_19",
+        "response" : 2,
+        "score" : 1
+      },
+      {
+        "theta" : -1.6419828929692395,
+        "se" : 0.964082378397738,
+        "response" : 1,
+        "identifier" : "enVocMTB1873",
+        "score" : 1
+      },
+      {
+        "theta" : -2.0315376867743233,
+        "se" : 0.9018512950141426,
+        "identifier" : "enVocMTB1596",
+        "response" : 2,
+        "score" : 0
+      },
+      {
+        "theta" : -2.385801323020728,
+        "se" : 0.8659062469566888,
+        "response" : 5,
+        "identifier" : "enVocMTB1534",
+        "score" : 0
+      },
+      {
+        "theta" : -2.66864915608581,
+        "se" : 0.8402437962046734,
+        "response" : 1,
+        "identifier" : "enVocMTB2114",
+        "score" : 0
+      },
+      {
+        "theta" : -2.66864915608581,
+        "se" : 0.8402437962046734,
+        "response" : 2,
+        "identifier" : "enVocMTB_exp_1",
+        "score" : 1
+      },
+      {
+        "theta" : -2.297452926530619,
+        "se" : 0.7317413663280561,
+        "response" : 2,
+        "identifier" : "enVocMTB842",
+        "score" : 1
+      },
+      {
+        "theta" : -2.0369098703370576,
+        "se" : 0.67003121501273,
+        "response" : 3,
+        "identifier" : "enVocMTB933",
+        "score" : 1
+      },
+      {
+        "theta" : -2.2406848049144217,
+        "se" : 0.6468794961226775,
+        "identifier" : "enVocMTB412",
+        "response" : 4,
+        "score" : 0
+      },
+      {
+        "theta" : -2.0328875383245144,
+        "se" : 0.6053683194888974,
+        "response" : 5,
+        "identifier" : "enVocMTB1355",
+        "score" : 1
+      },
+      {
+        "theta" : -2.0328875383245144,
+        "se" : 0.6053683194888974,
+        "identifier" : "enVocMTB_exp_23",
+        "response" : 4,
+        "score" : 0
+      },
+      {
+        "theta" : -1.8640858775086029,
+        "se" : 0.5757297661312892,
+        "identifier" : "enVocMTB874",
+        "response" : 4,
+        "score" : 1
+      },
+      {
+        "theta" : -1.711002527860703,
+        "se" : 0.5531312116746275,
+        "response" : 3,
+        "identifier" : "enVocMTB754",
+        "score" : 1
+      },
+      {
+        "theta" : -1.8530646045168988,
+        "se" : 0.5332390624975888,
+        "identifier" : "enVocMTB864",
+        "response" : 2,
+        "score" : 0
+      },
+      {
+        "theta" : -1.9863759550055715,
+        "se" : 0.5173417931976061,
+        "response" : 4,
+        "identifier" : "enVocMTB541",
+        "score" : 0
+      },
+      {
+        "theta" : -1.9863759550055715,
+        "se" : 0.5173417931976061,
+        "identifier" : "enVocMTB_exp_27",
+        "response" : 4,
+        "score" : 1
+      },
+      {
+        "theta" : -2.112744189371937,
+        "se" : 0.5044802151774147,
+        "identifier" : "enVocMTB1196",
+        "response" : 4,
+        "score" : 0
+      },
+      {
+        "theta" : -1.9875253351391748,
+        "se" : 0.48588929510679524,
+        "response" : 4,
+        "identifier" : "enVocMTB573",
+        "score" : 1
+      },
+      {
+        "theta" : -1.876240172248642,
+        "se" : 0.4708265526783868,
+        "identifier" : "enVocMTB1460",
+        "response" : 3,
+        "score" : 1
+      },
+      {
+        "theta" : -1.9814266761766732,
+        "se" : 0.4594695897202896,
+        "identifier" : "enVocMTB2149",
+        "response" : 5,
+        "score" : 0
+      },
+      {
+        "theta" : -1.9814266761766732,
+        "se" : 0.4594695897202896,
+        "response" : 2,
+        "identifier" : "enVocMTB_exp_29",
+        "score" : 1
+      },
+      {
+        "theta" : -2.0818531030528367,
+        "se" : 0.4498581625579396,
+        "response" : 4,
+        "identifier" : "enVocMTB579",
+        "score" : 0
+      },
+      {
+        "theta" : -1.9819027429531153,
+        "se" : 0.4369820270379688,
+        "identifier" : "enVocMTB2566",
+        "response" : 4,
+        "score" : 1
+      }
+    ]
+  }
+}
