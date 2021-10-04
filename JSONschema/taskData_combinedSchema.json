@@ -248,6 +248,7 @@
                "endDate": {"$ref": "#/definitions/timemarks"},
                "practice": {"$ref": "#/definitions/practice"},
                "instruction": {"$ref": "#/definitions/instructions"},
+               "didTimeout": {"$ref": "#/definitions/didTimeout"},
                "wasInterrupted": {"$ref": "#/definitions/wasInterrupted"},
                "score": {"$ref": "#/definitions/itemScore"},
                "responseTime": {"$ref": "#/definitions/responseTime"},
@@ -280,6 +281,7 @@
                "stepGroup":{"$ref": "#/definitions/stepGroup"},
                "anticipationError":{"$ref": "#/definitions/anticipationError"},
                "section": {"$ref": "#/definitions/section"},
+               "didTimeout": {"$ref": "#/definitions/didTimeout"},
                "response": {"$ref": "#/definitions/responseInt"}
             },
             "required": ["type","identifier","startDate","endDate","position","response"],
@@ -326,7 +328,7 @@
                "adjacentPairScoreName":{"$ref": "#/definitions/psmScoreName"},
                "parentStepIdentifier": {"$ref": "#/definitions/stepIdentifier"}
             },
-            "required": ["type","identifier","startDate","endDate","position"],
+            "required": ["type","identifier","startDate","endDate","position","parentStepIdentifier"],
             "additionalProperties": false
          },
          {
@@ -397,6 +399,7 @@
                "failRuleSection":{"$ref": "#/definitions/failRuleSection"},
                "stepGroup":{"$ref": "#/definitions/stepGroup"},
                "anticipationError":{"$ref": "#/definitions/anticipationError"},
+               "didTimeout": {"$ref": "#/definitions/didTimeout"},
                "section": {"$ref": "#/definitions/section"},
                "theta":{"$ref": "#/definitions/theta"},
                "se":{"$ref": "#/definitions/se"}
@@ -422,6 +425,7 @@
                "stepGroup":{"$ref": "#/definitions/stepGroup"},
                "anticipationError":{"$ref": "#/definitions/anticipationError"},
                "section": {"$ref": "#/definitions/section"},
+               "didTimeout": {"$ref": "#/definitions/didTimeout"},
                "response": {"$ref": "#/definitions/responseInt"}
             },
             "required": ["type","identifier","startDate","endDate","response"],
@@ -467,7 +471,7 @@
                "adjacentPairScoreName":{"$ref": "#/definitions/psmScoreName"},
                "parentStepIdentifier": {"$ref": "#/definitions/stepIdentifier"}
             },
-            "required": ["type","identifier","startDate","endDate"],
+            "required": ["type","identifier","startDate","endDate","parentStepIdentifier"],
             "additionalProperties": false
          },
          {
