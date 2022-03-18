@@ -35,6 +35,8 @@
 #' has been referred to as unconditional exposure control. If the off-diagonals are also between 0 and 1, the lowest off-diagonal for an administered item
 #' is multiplied by the diagonal value to get a conditional exposure control value. This is a modification of the Davey-Parshall method.
 #' @param startTheta The theta value at which item selection for this person should begin. Defaults to 0.
+#' @param itemNames A character vector used to name the items (useful for verbose export and reporting purposes). These must be in the same order
+#' as the item appears in the iparFull parameter.
 #' @param maxCycles Maximum number of cycles for the Newton Raphson method for MLE scoring.
 #' @param critScore Convergence criterion for the Newton Raphson method for MLE scoring.
 #' @param seedval Seed value for the random number generator used for exposure control.
@@ -68,7 +70,7 @@
 
 dichEngine <- function(iparFull, uFull, calib, lastAdmin, targetProb=0.5, minNI=20, maxNI=35, maxSE=0.4,
                        nonML_se=99, stepVal=0.75, minTheta=-10, maxTheta=10, exp.cont, startTheta=0,
-                       maxCycles=100, critScore=5e-4, seedval=12345, verbose=F){
+                       itemNames, maxCycles=100, critScore=5e-4, seedval=12345, verbose=F){
   if(tibble::is_tibble(iparFull)) iparFull <- as.data.frame(iparFull)
   set.seed(seedval)
   nItems <- nrow(iparFull)
