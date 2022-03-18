@@ -144,32 +144,35 @@ grmCAT <- function(ipar, resp,minTheta=-6,maxTheta=6,nQpts=121,prevTheta=NULL,
         "\nadminOrder\t",as.character(nGiven),'\tcurrentProbGrid\t',EAPs$currentProbGrid)
   }
   while(nGiven < maxNI & length(which(itemAvail)) > 0){
-    nGiven <- nGiven + 1
-    iinfo <- selectMPWI(useprobs$matrixInfo,currentProbGrid,nItems)
-    iiorder <- order(iinfo, decreasing=T)
-    itemAdmin <- iiorder[itemAvail[iiorder]][1]
-    scores <- c(scores,as.numeric(resp[itemAdmin]))
-    itemAvail[itemAdmin] <- F
-    itemAdminHistory <- c(itemAdminHistory, itemAdmin)
-    EAPs <- calcEAP(currentProbGrid, itemAdminHistory[length(itemAdminHistory)],
-                    scores[length(scores)], probDiff=useprobs$probDiff, thetaGrid)
-    thetaHistory <- c(thetaHistory, EAPs$estTheta)
-    sdHistory <- c(sdHistory, EAPs$estSD)
-    currentProbGrid <- EAPs$currentProbGrid
-    if(verbose){
-      cat("\nadminOrder\t",as.character(nGiven),"\titemInfo\t",iinfo,
-          "\nadminOrder\t",as.character(nGiven),"\tItemAdmin\t", itemAdmin,
-          "\nadminOrder\t",as.character(nGiven),'\tScore\t',resp[itemAdmin],
-          "\nadminOrder\t",as.character(nGiven),'\tInterimTheta\t',EAPs$estTheta,
-          "\nadminOrder\t",as.character(nGiven),'\tInterimSE\t',EAPs$estSD,
-          "\nadminOrder\t",as.character(nGiven),'\tcurrentProbGrid\t',EAPs$currentProbGrid)
-    }
     if(nGiven >= minNI & (EAPs$estSD < maxSD | (sdHistory[nGiven] - sdHistory[(nGiven+1)] > 0 &
                                                 sdHistory[nGiven] - sdHistory[(nGiven+1)] < deltaSD)))
       break
-    if(is.null(bestAt)) next
-    else if(nGiven == bestAt & ((toupper(bestStop)=="LO" & sum(scores)==nGiven) |
-                           (toupper(bestStop) == "HI" & sum(scores) == sum(ipar[itemAdminHistory,'NCAT'])))) break
+    if(is.null(bestAt) |
+       (!is.null(bestAt) && (nGiven != bestAt |
+                           nGiven == bestAt & ((toupper(bestStop)=="LO" & sum(scores)!=nGiven) |
+                                               (toupper(bestStop) == "HI" & sum(scores) != sum(ipar[itemAdminHistory,'NCAT'])))) )){
+      nGiven <- nGiven + 1
+      iinfo <- selectMPWI(useprobs$matrixInfo,currentProbGrid,nItems)
+      iiorder <- order(iinfo, decreasing=T)
+      itemAdmin <- iiorder[itemAvail[iiorder]][1]
+      scores <- c(scores,as.numeric(resp[itemAdmin]))
+      itemAvail[itemAdmin] <- F
+      itemAdminHistory <- c(itemAdminHistory, itemAdmin)
+      EAPs <- calcEAP(currentProbGrid, itemAdminHistory[length(itemAdminHistory)],
+                      scores[length(scores)], probDiff=useprobs$probDiff, thetaGrid)
+      thetaHistory <- c(thetaHistory, EAPs$estTheta)
+      sdHistory <- c(sdHistory, EAPs$estSD)
+      currentProbGrid <- EAPs$currentProbGrid
+      if(verbose){
+        cat("\nadminOrder\t",as.character(nGiven),"\titemInfo\t",iinfo,
+            "\nadminOrder\t",as.character(nGiven),"\tItemAdmin\t", itemAdmin,
+            "\nadminOrder\t",as.character(nGiven),'\tScore\t',resp[itemAdmin],
+            "\nadminOrder\t",as.character(nGiven),'\tInterimTheta\t',EAPs$estTheta,
+            "\nadminOrder\t",as.character(nGiven),'\tInterimSE\t',EAPs$estSD,
+            "\nadminOrder\t",as.character(nGiven),'\tcurrentProbGrid\t',EAPs$currentProbGrid)
+      }
+    } else if(nGiven == bestAt & ((toupper(bestStop)=="LO" & sum(scores)==nGiven) |
+                                (toupper(bestStop) == "HI" & sum(scores) == sum(ipar[itemAdminHistory,'NCAT'])))) break
   }
   output <- list(finalTheta=thetaHistory[(nGiven+1)],
                  finalSD=sdHistory[(nGiven+1)],
