@@ -1,0 +1,2829 @@
+{
+  "consideredSteps" : [
+    {
+      "randomNumber" : 0.64048091324793699,
+      "identifier" : "177_disappear",
+      "exposure" : 0.59999999999999998,
+      "administered" : false
+    },
+    {
+      "randomNumber" : 0.066313842172116999,
+      "identifier" : "68_behavior",
+      "exposure" : 0.59999999999999998,
+      "administered" : true
+    },
+    {
+      "randomNumber" : 0.97667518658399444,
+      "identifier" : "401_perseverance",
+      "exposure" : 0.59999999999999998,
+      "administered" : false
+    },
+    {
+      "randomNumber" : 0.59211301101154878,
+      "identifier" : "80_borough",
+      "exposure" : 0.59999999999999998,
+      "administered" : true
+    },
+    {
+      "randomNumber" : 0.45237564902380989,
+      "identifier" : "179_discipline",
+      "exposure" : 0.59999999999999998,
+      "administered" : true
+    },
+    {
+      "randomNumber" : 0.41499147809436387,
+      "identifier" : "670_imperturbable",
+      "exposure" : 0.59999999999999998,
+      "administered" : true
+    },
+    {
+      "exposure" : 1,
+      "administered" : true,
+      "identifier" : "602_cataclysm"
+    },
+    {
+      "randomNumber" : 0.76601634050703538,
+      "identifier" : "395_pedagogical",
+      "exposure" : 0.59999999999999998,
+      "administered" : false
+    },
+    {
+      "randomNumber" : 0.14883287941811163,
+      "identifier" : "656_reconnaissance",
+      "exposure" : 0.59999999999999998,
+      "administered" : true
+    },
+    {
+      "randomNumber" : 0.30868365879655546,
+      "identifier" : "440_reminiscence",
+      "exposure" : 0.59999999999999998,
+      "administered" : true
+    },
+    {
+      "randomNumber" : 0.78675789247490469,
+      "identifier" : "32_annealing",
+      "exposure" : 0.59999999999999998,
+      "administered" : false
+    },
+    {
+      "randomNumber" : 0.39181604105135781,
+      "identifier" : "10_acquiesce",
+      "exposure" : 0.59999999999999998,
+      "administered" : true
+    },
+    {
+      "randomNumber" : 0.68545613171630337,
+      "identifier" : "657_saboteur",
+      "exposure" : 0.59999999999999998,
+      "administered" : false
+    },
+    {
+      "randomNumber" : 0.4096536144006846,
+      "identifier" : "599_brusque",
+      "exposure" : 0.59999999999999998,
+      "administered" : true
+    },
+    {
+      "exposure" : 1,
+      "administered" : true,
+      "identifier" : "196_ecclesiastical"
+    }
+  ],
+  "taskRunUUID" : "D9B0372B-39F4-468A-93E5-EE703D736175",
+  "schemaIdentifier" : "mtbSpelling",
+  "testVersion" : "1.3.0",
+  "stepHistory" : [
+    {
+      "se" : 0,
+      "theta" : 99,
+      "startDate" : "2022-05-12T16:12:36.431-05:00",
+      "endDate" : "2022-05-12T16:12:38.951-05:00",
+      "identifier" : "MTB_Spelling_Welcome",
+      "practice" : false,
+      "type" : "spellingStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 0,
+      "endDate" : "2022-05-12T16:12:45.940-05:00",
+      "theta" : 99,
+      "startDate" : "2022-05-12T16:12:38.956-05:00",
+      "se" : 0,
+      "identifier" : "MTB_Spelling_Instruction1",
+      "response" : "2",
+      "type" : "spellingStepResult",
+      "practice" : true,
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 0,
+      "endDate" : "2022-05-12T16:12:51.984-05:00",
+      "theta" : 99,
+      "startDate" : "2022-05-12T16:12:45.947-05:00",
+      "se" : 0,
+      "identifier" : "MTB_Spelling_Instruction2",
+      "response" : "2",
+      "type" : "spellingStepResult",
+      "practice" : true,
+      "wasInterrupted" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-12T16:13:03.278-05:00",
+      "startDate" : "2022-05-12T16:12:51.994-05:00",
+      "theta" : 99,
+      "se" : 0,
+      "identifier" : "MTB_Spelling_Practice",
+      "response" : "baby",
+      "responseTime" : 0,
+      "type" : "spellingStepResult",
+      "practice" : true
+    },
+    {
+      "score" : 1,
+      "endDate" : "2022-05-12T16:13:20.282-05:00",
+      "theta" : 6,
+      "startDate" : "2022-05-12T16:13:06.397-05:00",
+      "se" : 99,
+      "identifier" : "68_behavior",
+      "response" : "behavior",
+      "type" : "spellingStepResult",
+      "practice" : false,
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 0,
+      "endDate" : "2022-05-12T16:13:52.171-05:00",
+      "theta" : -0.024400033576385535,
+      "startDate" : "2022-05-12T16:13:20.287-05:00",
+      "se" : 1.2648715491416174,
+      "identifier" : "80_borough",
+      "response" : "bureau",
+      "type" : "spellingStepResult",
+      "practice" : false,
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 1,
+      "endDate" : "2022-05-12T16:14:22.304-05:00",
+      "theta" : 0.76716955492037453,
+      "startDate" : "2022-05-12T16:13:52.175-05:00",
+      "se" : 0.96267236743824769,
+      "identifier" : "179_discipline",
+      "response" : "discipline",
+      "type" : "spellingStepResult",
+      "practice" : false,
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 1,
+      "endDate" : "2022-05-12T16:14:49.350-05:00",
+      "theta" : 1.3292156445316918,
+      "startDate" : "2022-05-12T16:14:22.309-05:00",
+      "se" : 0.84578360922675422,
+      "identifier" : "670_imperturbable",
+      "response" : "imperturbable",
+      "type" : "spellingStepResult",
+      "practice" : false,
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 1,
+      "endDate" : "2022-05-12T16:15:11.636-05:00",
+      "theta" : 1.3292156445316918,
+      "startDate" : "2022-05-12T16:14:49.352-05:00",
+      "se" : 0.84578360922675422,
+      "identifier" : "602_cataclysm",
+      "response" : "cataclysm",
+      "type" : "spellingStepResult",
+      "practice" : false,
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 0,
+      "endDate" : "2022-05-12T16:15:23.573-05:00",
+      "theta" : 0.85122940627947219,
+      "startDate" : "2022-05-12T16:15:11.641-05:00",
+      "se" : 0.54934786358420762,
+      "identifier" : "656_reconnaissance",
+      "response" : "v",
+      "type" : "spellingStepResult",
+      "practice" : false,
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 1,
+      "endDate" : "2022-05-12T16:15:52.103-05:00",
+      "theta" : 1.1110941574237765,
+      "startDate" : "2022-05-12T16:15:23.577-05:00",
+      "se" : 0.50707284673890152,
+      "identifier" : "440_reminiscence",
+      "response" : "reminiscence",
+      "type" : "spellingStepResult",
+      "practice" : false,
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 0,
+      "endDate" : "2022-05-12T16:16:16.594-05:00",
+      "theta" : 0.94236093902634088,
+      "startDate" : "2022-05-12T16:15:52.108-05:00",
+      "se" : 0.44275051936902415,
+      "identifier" : "10_acquiesce",
+      "response" : "aqueous",
+      "type" : "spellingStepResult",
+      "practice" : false,
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 1,
+      "endDate" : "2022-05-12T16:16:36.327-05:00",
+      "theta" : 1.0730715556577575,
+      "startDate" : "2022-05-12T16:16:16.598-05:00",
+      "se" : 0.41671342813578227,
+      "identifier" : "599_brusque",
+      "response" : "brusque",
+      "type" : "spellingStepResult",
+      "practice" : false,
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 1,
+      "endDate" : "2022-05-12T16:17:06.009-05:00",
+      "theta" : 1.0730715556577575,
+      "startDate" : "2022-05-12T16:16:36.330-05:00",
+      "se" : 0.41671342813578227,
+      "identifier" : "196_ecclesiastical",
+      "response" : "ecclesiastical",
+      "type" : "spellingStepResult",
+      "practice" : false,
+      "wasInterrupted" : false
+    }
+  ],
+  "locale" : "en_US",
+  "endDate" : "2022-05-12T16:17:06.327-05:00",
+  "scores" : {
+    "finalTheta" : 1.0730715556577575,
+    "startSE" : 99,
+    "finalSE" : 0.41671342813578227,
+    "startTheta" : 99,
+    "itemCount" : 10
+  },
+  "taskStatus" : [
+    "completed"
+  ],
+  "startDate" : "2022-03-17T12:31:40.000-05:00",
+  "taskName" : "MTB Spelling Form 1",
+  "userInteractions" : [
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTB_Spelling_Welcome",
+      "timestamp" : "2022-03-17T12:31:41.000-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTB_Spelling_Welcome",
+      "timestamp" : "2022-03-17T12:31:41.000-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "resumed"
+      ],
+      "stepIdentifier" : "MTB_Spelling_Welcome",
+      "timestamp" : "2022-03-17T12:32:00.000-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "interrupted"
+      ],
+      "stepIdentifier" : "MTB_Spelling_Welcome",
+      "timestamp" : "2022-03-17T12:32:00.000-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "resumed"
+      ],
+      "stepIdentifier" : "MTB_Spelling_Welcome",
+      "timestamp" : "2022-03-17T12:33:58.000-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "interrupted"
+      ],
+      "stepIdentifier" : "MTB_Spelling_Welcome",
+      "timestamp" : "2022-03-17T12:33:59.000-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "resumed"
+      ],
+      "stepIdentifier" : "MTB_Spelling_Welcome",
+      "timestamp" : "2022-05-12T13:15:00.000-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTB_Spelling_Welcome",
+      "timestamp" : "2022-05-12T13:15:00.000-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "interrupted"
+      ],
+      "stepIdentifier" : "MTB_Spelling_Welcome",
+      "timestamp" : "2022-05-12T13:17:45.000-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "resumed"
+      ],
+      "stepIdentifier" : "MTB_Spelling_Welcome",
+      "timestamp" : "2022-05-12T13:18:04.000-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "interrupted"
+      ],
+      "stepIdentifier" : "MTB_Spelling_Welcome",
+      "timestamp" : "2022-05-12T13:18:06.000-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "resumed"
+      ],
+      "stepIdentifier" : "MTB_Spelling_Welcome",
+      "timestamp" : "2022-05-12T16:12:36.523-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTB_Spelling_Welcome",
+      "timestamp" : "2022-05-12T16:12:36.524-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTB_Spelling_Welcome",
+      "timestamp" : "2022-05-12T16:12:38.899-05:00",
+      "userInteractionIdentifier" : "View instructions"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTB_Spelling_Welcome",
+      "timestamp" : "2022-05-12T16:12:38.940-05:00",
+      "userInteractionIdentifier" : "View instructions"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTB_Spelling_Instruction1",
+      "timestamp" : "2022-05-12T16:12:39.004-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTB_Spelling_Instruction1",
+      "timestamp" : "2022-05-12T16:12:39.328-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTB_Spelling_Instruction1",
+      "timestamp" : "2022-05-12T16:12:45.861-05:00",
+      "userInteractionIdentifier" : ">"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTB_Spelling_Instruction1",
+      "timestamp" : "2022-05-12T16:12:45.936-05:00",
+      "userInteractionIdentifier" : ">"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTB_Spelling_Instruction2",
+      "timestamp" : "2022-05-12T16:12:45.972-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTB_Spelling_Instruction2",
+      "timestamp" : "2022-05-12T16:12:51.838-05:00",
+      "userInteractionIdentifier" : "Practice"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTB_Spelling_Instruction2",
+      "timestamp" : "2022-05-12T16:12:51.980-05:00",
+      "userInteractionIdentifier" : "Practice"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTB_Spelling_Practice",
+      "timestamp" : "2022-05-12T16:12:52.025-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTB_Spelling_Practice",
+      "timestamp" : "2022-05-12T16:12:58.577-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "MTB_Spelling_Practice",
+      "timestamp" : "2022-05-12T16:13:01.216-05:00",
+      "value" : "b",
+      "userInteractionIdentifier" : "b"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "MTB_Spelling_Practice",
+      "timestamp" : "2022-05-12T16:13:01.218-05:00",
+      "value" : "b",
+      "userInteractionIdentifier" : "1,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "MTB_Spelling_Practice",
+      "timestamp" : "2022-05-12T16:13:01.636-05:00",
+      "value" : "ba",
+      "userInteractionIdentifier" : "a"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "MTB_Spelling_Practice",
+      "timestamp" : "2022-05-12T16:13:01.639-05:00",
+      "value" : "ba",
+      "userInteractionIdentifier" : "2,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "MTB_Spelling_Practice",
+      "timestamp" : "2022-05-12T16:13:02.153-05:00",
+      "value" : "bab",
+      "userInteractionIdentifier" : "b"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "MTB_Spelling_Practice",
+      "timestamp" : "2022-05-12T16:13:02.156-05:00",
+      "value" : "bab",
+      "userInteractionIdentifier" : "3,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "MTB_Spelling_Practice",
+      "timestamp" : "2022-05-12T16:13:02.487-05:00",
+      "value" : "baby",
+      "userInteractionIdentifier" : "y"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "MTB_Spelling_Practice",
+      "timestamp" : "2022-05-12T16:13:02.490-05:00",
+      "value" : "baby",
+      "userInteractionIdentifier" : "4,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "MTB_Spelling_Practice",
+      "timestamp" : "2022-05-12T16:13:03.278-05:00",
+      "userInteractionIdentifier" : "Done"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "68_behavior",
+      "timestamp" : "2022-05-12T16:13:06.430-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "68_behavior",
+      "timestamp" : "2022-05-12T16:13:14.176-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "68_behavior",
+      "timestamp" : "2022-05-12T16:13:15.276-05:00",
+      "value" : "b",
+      "userInteractionIdentifier" : "b"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "68_behavior",
+      "timestamp" : "2022-05-12T16:13:15.279-05:00",
+      "value" : "b",
+      "userInteractionIdentifier" : "1,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "68_behavior",
+      "timestamp" : "2022-05-12T16:13:15.760-05:00",
+      "value" : "be",
+      "userInteractionIdentifier" : "e"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "68_behavior",
+      "timestamp" : "2022-05-12T16:13:15.763-05:00",
+      "value" : "be",
+      "userInteractionIdentifier" : "2,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "68_behavior",
+      "timestamp" : "2022-05-12T16:13:16.478-05:00",
+      "value" : "beh",
+      "userInteractionIdentifier" : "h"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "68_behavior",
+      "timestamp" : "2022-05-12T16:13:16.481-05:00",
+      "value" : "beh",
+      "userInteractionIdentifier" : "3,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "68_behavior",
+      "timestamp" : "2022-05-12T16:13:16.929-05:00",
+      "value" : "beha",
+      "userInteractionIdentifier" : "a"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "68_behavior",
+      "timestamp" : "2022-05-12T16:13:16.931-05:00",
+      "value" : "beha",
+      "userInteractionIdentifier" : "4,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "68_behavior",
+      "timestamp" : "2022-05-12T16:13:17.530-05:00",
+      "value" : "behav",
+      "userInteractionIdentifier" : "v"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "68_behavior",
+      "timestamp" : "2022-05-12T16:13:17.533-05:00",
+      "value" : "behav",
+      "userInteractionIdentifier" : "5,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "68_behavior",
+      "timestamp" : "2022-05-12T16:13:18.031-05:00",
+      "value" : "behavi",
+      "userInteractionIdentifier" : "i"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "68_behavior",
+      "timestamp" : "2022-05-12T16:13:18.034-05:00",
+      "value" : "behavi",
+      "userInteractionIdentifier" : "6,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "68_behavior",
+      "timestamp" : "2022-05-12T16:13:18.331-05:00",
+      "value" : "behavio",
+      "userInteractionIdentifier" : "o"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "68_behavior",
+      "timestamp" : "2022-05-12T16:13:18.334-05:00",
+      "value" : "behavio",
+      "userInteractionIdentifier" : "7,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "68_behavior",
+      "timestamp" : "2022-05-12T16:13:18.765-05:00",
+      "value" : "behavior",
+      "userInteractionIdentifier" : "r"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "68_behavior",
+      "timestamp" : "2022-05-12T16:13:18.767-05:00",
+      "value" : "behavior",
+      "userInteractionIdentifier" : "8,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "68_behavior",
+      "timestamp" : "2022-05-12T16:13:20.154-05:00",
+      "userInteractionIdentifier" : "Done"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "80_borough",
+      "timestamp" : "2022-05-12T16:13:20.320-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "80_borough",
+      "timestamp" : "2022-05-12T16:13:28.555-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "80_borough",
+      "timestamp" : "2022-05-12T16:13:45.962-05:00",
+      "value" : "b",
+      "userInteractionIdentifier" : "b"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "80_borough",
+      "timestamp" : "2022-05-12T16:13:45.965-05:00",
+      "value" : "b",
+      "userInteractionIdentifier" : "1,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "80_borough",
+      "timestamp" : "2022-05-12T16:13:46.380-05:00",
+      "value" : "bu",
+      "userInteractionIdentifier" : "u"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "80_borough",
+      "timestamp" : "2022-05-12T16:13:46.382-05:00",
+      "value" : "bu",
+      "userInteractionIdentifier" : "2,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "80_borough",
+      "timestamp" : "2022-05-12T16:13:46.930-05:00",
+      "value" : "bur",
+      "userInteractionIdentifier" : "r"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "80_borough",
+      "timestamp" : "2022-05-12T16:13:46.933-05:00",
+      "value" : "bur",
+      "userInteractionIdentifier" : "3,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "80_borough",
+      "timestamp" : "2022-05-12T16:13:47.231-05:00",
+      "value" : "bure",
+      "userInteractionIdentifier" : "e"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "80_borough",
+      "timestamp" : "2022-05-12T16:13:47.234-05:00",
+      "value" : "bure",
+      "userInteractionIdentifier" : "4,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "80_borough",
+      "timestamp" : "2022-05-12T16:13:49.835-05:00",
+      "value" : "burea",
+      "userInteractionIdentifier" : "a"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "80_borough",
+      "timestamp" : "2022-05-12T16:13:49.838-05:00",
+      "value" : "burea",
+      "userInteractionIdentifier" : "5,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "80_borough",
+      "timestamp" : "2022-05-12T16:13:50.737-05:00",
+      "value" : "bureau",
+      "userInteractionIdentifier" : "u"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "80_borough",
+      "timestamp" : "2022-05-12T16:13:50.740-05:00",
+      "value" : "bureau",
+      "userInteractionIdentifier" : "6,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "80_borough",
+      "timestamp" : "2022-05-12T16:13:52.042-05:00",
+      "userInteractionIdentifier" : "Done"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "179_discipline",
+      "timestamp" : "2022-05-12T16:13:52.208-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "179_discipline",
+      "timestamp" : "2022-05-12T16:13:58.914-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "179_discipline",
+      "timestamp" : "2022-05-12T16:14:00.420-05:00",
+      "value" : "d",
+      "userInteractionIdentifier" : "d"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "179_discipline",
+      "timestamp" : "2022-05-12T16:14:00.423-05:00",
+      "value" : "d",
+      "userInteractionIdentifier" : "1,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "179_discipline",
+      "timestamp" : "2022-05-12T16:14:00.955-05:00",
+      "value" : "di",
+      "userInteractionIdentifier" : "i"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "179_discipline",
+      "timestamp" : "2022-05-12T16:14:00.957-05:00",
+      "value" : "di",
+      "userInteractionIdentifier" : "2,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "179_discipline",
+      "timestamp" : "2022-05-12T16:14:01.405-05:00",
+      "value" : "dis",
+      "userInteractionIdentifier" : "s"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "179_discipline",
+      "timestamp" : "2022-05-12T16:14:01.408-05:00",
+      "value" : "dis",
+      "userInteractionIdentifier" : "3,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "179_discipline",
+      "timestamp" : "2022-05-12T16:14:01.906-05:00",
+      "value" : "disc",
+      "userInteractionIdentifier" : "c"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "179_discipline",
+      "timestamp" : "2022-05-12T16:14:01.909-05:00",
+      "value" : "disc",
+      "userInteractionIdentifier" : "4,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "179_discipline",
+      "timestamp" : "2022-05-12T16:14:02.491-05:00",
+      "value" : "disci",
+      "userInteractionIdentifier" : "i"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "179_discipline",
+      "timestamp" : "2022-05-12T16:14:02.493-05:00",
+      "value" : "disci",
+      "userInteractionIdentifier" : "5,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "179_discipline",
+      "timestamp" : "2022-05-12T16:14:02.958-05:00",
+      "value" : "discip",
+      "userInteractionIdentifier" : "p"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "179_discipline",
+      "timestamp" : "2022-05-12T16:14:02.961-05:00",
+      "value" : "discip",
+      "userInteractionIdentifier" : "6,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "179_discipline",
+      "timestamp" : "2022-05-12T16:14:03.409-05:00",
+      "value" : "discipl",
+      "userInteractionIdentifier" : "l"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "179_discipline",
+      "timestamp" : "2022-05-12T16:14:03.412-05:00",
+      "value" : "discipl",
+      "userInteractionIdentifier" : "7,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "179_discipline",
+      "timestamp" : "2022-05-12T16:14:03.960-05:00",
+      "value" : "disciple",
+      "userInteractionIdentifier" : "e"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "179_discipline",
+      "timestamp" : "2022-05-12T16:14:03.963-05:00",
+      "value" : "disciple",
+      "userInteractionIdentifier" : "8,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "179_discipline",
+      "timestamp" : "2022-05-12T16:14:04.561-05:00",
+      "value" : "disciplen",
+      "userInteractionIdentifier" : "n"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "179_discipline",
+      "timestamp" : "2022-05-12T16:14:04.564-05:00",
+      "value" : "disciplen",
+      "userInteractionIdentifier" : "9,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "179_discipline",
+      "timestamp" : "2022-05-12T16:14:04.995-05:00",
+      "value" : "disciplene",
+      "userInteractionIdentifier" : "e"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "179_discipline",
+      "timestamp" : "2022-05-12T16:14:04.998-05:00",
+      "value" : "disciplene",
+      "userInteractionIdentifier" : "10,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "179_discipline",
+      "timestamp" : "2022-05-12T16:14:16.918-05:00",
+      "value" : "disciplen",
+      "userInteractionIdentifier" : "←"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "179_discipline",
+      "timestamp" : "2022-05-12T16:14:16.921-05:00",
+      "value" : "disciplen",
+      "userInteractionIdentifier" : "9,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "179_discipline",
+      "timestamp" : "2022-05-12T16:14:17.168-05:00",
+      "value" : "disciple",
+      "userInteractionIdentifier" : "←"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "179_discipline",
+      "timestamp" : "2022-05-12T16:14:17.170-05:00",
+      "value" : "disciple",
+      "userInteractionIdentifier" : "8,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "179_discipline",
+      "timestamp" : "2022-05-12T16:14:17.602-05:00",
+      "value" : "discipl",
+      "userInteractionIdentifier" : "←"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "179_discipline",
+      "timestamp" : "2022-05-12T16:14:17.605-05:00",
+      "value" : "discipl",
+      "userInteractionIdentifier" : "7,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "179_discipline",
+      "timestamp" : "2022-05-12T16:14:18.450-05:00",
+      "value" : "discipli",
+      "userInteractionIdentifier" : "i"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "179_discipline",
+      "timestamp" : "2022-05-12T16:14:18.453-05:00",
+      "value" : "discipli",
+      "userInteractionIdentifier" : "8,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "179_discipline",
+      "timestamp" : "2022-05-12T16:14:18.851-05:00",
+      "value" : "disciplin",
+      "userInteractionIdentifier" : "n"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "179_discipline",
+      "timestamp" : "2022-05-12T16:14:18.854-05:00",
+      "value" : "disciplin",
+      "userInteractionIdentifier" : "9,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "179_discipline",
+      "timestamp" : "2022-05-12T16:14:19.268-05:00",
+      "value" : "discipline",
+      "userInteractionIdentifier" : "e"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "179_discipline",
+      "timestamp" : "2022-05-12T16:14:19.271-05:00",
+      "value" : "discipline",
+      "userInteractionIdentifier" : "10,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "179_discipline",
+      "timestamp" : "2022-05-12T16:14:22.180-05:00",
+      "userInteractionIdentifier" : "Done"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "670_imperturbable",
+      "timestamp" : "2022-05-12T16:14:22.342-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "670_imperturbable",
+      "timestamp" : "2022-05-12T16:14:31.457-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "670_imperturbable",
+      "timestamp" : "2022-05-12T16:14:32.540-05:00",
+      "value" : "i",
+      "userInteractionIdentifier" : "i"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "670_imperturbable",
+      "timestamp" : "2022-05-12T16:14:32.543-05:00",
+      "value" : "i",
+      "userInteractionIdentifier" : "1,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "670_imperturbable",
+      "timestamp" : "2022-05-12T16:14:32.958-05:00",
+      "value" : "im",
+      "userInteractionIdentifier" : "m"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "670_imperturbable",
+      "timestamp" : "2022-05-12T16:14:32.960-05:00",
+      "value" : "im",
+      "userInteractionIdentifier" : "2,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "670_imperturbable",
+      "timestamp" : "2022-05-12T16:14:33.542-05:00",
+      "value" : "imp",
+      "userInteractionIdentifier" : "p"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "670_imperturbable",
+      "timestamp" : "2022-05-12T16:14:33.545-05:00",
+      "value" : "imp",
+      "userInteractionIdentifier" : "3,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "670_imperturbable",
+      "timestamp" : "2022-05-12T16:14:34.009-05:00",
+      "value" : "impe",
+      "userInteractionIdentifier" : "e"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "670_imperturbable",
+      "timestamp" : "2022-05-12T16:14:34.012-05:00",
+      "value" : "impe",
+      "userInteractionIdentifier" : "4,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "670_imperturbable",
+      "timestamp" : "2022-05-12T16:14:34.477-05:00",
+      "value" : "imper",
+      "userInteractionIdentifier" : "r"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "670_imperturbable",
+      "timestamp" : "2022-05-12T16:14:34.479-05:00",
+      "value" : "imper",
+      "userInteractionIdentifier" : "5,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "670_imperturbable",
+      "timestamp" : "2022-05-12T16:14:35.161-05:00",
+      "value" : "impert",
+      "userInteractionIdentifier" : "t"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "670_imperturbable",
+      "timestamp" : "2022-05-12T16:14:35.164-05:00",
+      "value" : "impert",
+      "userInteractionIdentifier" : "6,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "670_imperturbable",
+      "timestamp" : "2022-05-12T16:14:35.645-05:00",
+      "value" : "impertu",
+      "userInteractionIdentifier" : "u"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "670_imperturbable",
+      "timestamp" : "2022-05-12T16:14:35.648-05:00",
+      "value" : "impertu",
+      "userInteractionIdentifier" : "7,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "670_imperturbable",
+      "timestamp" : "2022-05-12T16:14:36.463-05:00",
+      "value" : "impertur",
+      "userInteractionIdentifier" : "r"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "670_imperturbable",
+      "timestamp" : "2022-05-12T16:14:36.466-05:00",
+      "value" : "impertur",
+      "userInteractionIdentifier" : "8,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "670_imperturbable",
+      "timestamp" : "2022-05-12T16:14:40.854-05:00",
+      "value" : "imperturb",
+      "userInteractionIdentifier" : "b"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "670_imperturbable",
+      "timestamp" : "2022-05-12T16:14:40.857-05:00",
+      "value" : "imperturb",
+      "userInteractionIdentifier" : "9,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "670_imperturbable",
+      "timestamp" : "2022-05-12T16:14:41.255-05:00",
+      "value" : "imperturba",
+      "userInteractionIdentifier" : "a"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "670_imperturbable",
+      "timestamp" : "2022-05-12T16:14:41.258-05:00",
+      "value" : "imperturba",
+      "userInteractionIdentifier" : "10,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "670_imperturbable",
+      "timestamp" : "2022-05-12T16:14:41.772-05:00",
+      "value" : "imperturbab",
+      "userInteractionIdentifier" : "b"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "670_imperturbable",
+      "timestamp" : "2022-05-12T16:14:41.775-05:00",
+      "value" : "imperturbab",
+      "userInteractionIdentifier" : "11,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "670_imperturbable",
+      "timestamp" : "2022-05-12T16:14:42.190-05:00",
+      "value" : "imperturbabl",
+      "userInteractionIdentifier" : "l"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "670_imperturbable",
+      "timestamp" : "2022-05-12T16:14:42.193-05:00",
+      "value" : "imperturbabl",
+      "userInteractionIdentifier" : "12,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "670_imperturbable",
+      "timestamp" : "2022-05-12T16:14:42.607-05:00",
+      "value" : "imperturbable",
+      "userInteractionIdentifier" : "e"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "670_imperturbable",
+      "timestamp" : "2022-05-12T16:14:42.610-05:00",
+      "value" : "imperturbable",
+      "userInteractionIdentifier" : "13,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "670_imperturbable",
+      "timestamp" : "2022-05-12T16:14:49.222-05:00",
+      "userInteractionIdentifier" : "Done"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "602_cataclysm",
+      "timestamp" : "2022-05-12T16:14:49.386-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "602_cataclysm",
+      "timestamp" : "2022-05-12T16:14:57.691-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "602_cataclysm",
+      "timestamp" : "2022-05-12T16:14:58.868-05:00",
+      "value" : "c",
+      "userInteractionIdentifier" : "c"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "602_cataclysm",
+      "timestamp" : "2022-05-12T16:14:58.870-05:00",
+      "value" : "c",
+      "userInteractionIdentifier" : "1,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "602_cataclysm",
+      "timestamp" : "2022-05-12T16:14:59.184-05:00",
+      "value" : "ca",
+      "userInteractionIdentifier" : "a"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "602_cataclysm",
+      "timestamp" : "2022-05-12T16:14:59.187-05:00",
+      "value" : "ca",
+      "userInteractionIdentifier" : "2,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "602_cataclysm",
+      "timestamp" : "2022-05-12T16:14:59.585-05:00",
+      "value" : "cat",
+      "userInteractionIdentifier" : "t"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "602_cataclysm",
+      "timestamp" : "2022-05-12T16:14:59.588-05:00",
+      "value" : "cat",
+      "userInteractionIdentifier" : "3,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "602_cataclysm",
+      "timestamp" : "2022-05-12T16:14:59.903-05:00",
+      "value" : "cata",
+      "userInteractionIdentifier" : "a"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "602_cataclysm",
+      "timestamp" : "2022-05-12T16:14:59.905-05:00",
+      "value" : "cata",
+      "userInteractionIdentifier" : "4,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "602_cataclysm",
+      "timestamp" : "2022-05-12T16:15:00.437-05:00",
+      "value" : "catac",
+      "userInteractionIdentifier" : "c"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "602_cataclysm",
+      "timestamp" : "2022-05-12T16:15:00.439-05:00",
+      "value" : "catac",
+      "userInteractionIdentifier" : "5,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "602_cataclysm",
+      "timestamp" : "2022-05-12T16:15:00.887-05:00",
+      "value" : "catacl",
+      "userInteractionIdentifier" : "l"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "602_cataclysm",
+      "timestamp" : "2022-05-12T16:15:00.890-05:00",
+      "value" : "catacl",
+      "userInteractionIdentifier" : "6,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "602_cataclysm",
+      "timestamp" : "2022-05-12T16:15:01.288-05:00",
+      "value" : "catacly",
+      "userInteractionIdentifier" : "y"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "602_cataclysm",
+      "timestamp" : "2022-05-12T16:15:01.291-05:00",
+      "value" : "catacly",
+      "userInteractionIdentifier" : "7,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "602_cataclysm",
+      "timestamp" : "2022-05-12T16:15:01.755-05:00",
+      "value" : "cataclyz",
+      "userInteractionIdentifier" : "z"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "602_cataclysm",
+      "timestamp" : "2022-05-12T16:15:01.758-05:00",
+      "value" : "cataclyz",
+      "userInteractionIdentifier" : "8,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "602_cataclysm",
+      "timestamp" : "2022-05-12T16:15:02.323-05:00",
+      "value" : "cataclyzm",
+      "userInteractionIdentifier" : "m"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "602_cataclysm",
+      "timestamp" : "2022-05-12T16:15:02.326-05:00",
+      "value" : "cataclyzm",
+      "userInteractionIdentifier" : "9,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "602_cataclysm",
+      "timestamp" : "2022-05-12T16:15:05.498-05:00",
+      "value" : "cataclyz",
+      "userInteractionIdentifier" : "←"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "602_cataclysm",
+      "timestamp" : "2022-05-12T16:15:05.501-05:00",
+      "value" : "cataclyz",
+      "userInteractionIdentifier" : "8,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "602_cataclysm",
+      "timestamp" : "2022-05-12T16:15:05.715-05:00",
+      "value" : "catacly",
+      "userInteractionIdentifier" : "←"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "602_cataclysm",
+      "timestamp" : "2022-05-12T16:15:05.717-05:00",
+      "value" : "catacly",
+      "userInteractionIdentifier" : "7,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "602_cataclysm",
+      "timestamp" : "2022-05-12T16:15:06.647-05:00",
+      "value" : "cataclys",
+      "userInteractionIdentifier" : "s"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "602_cataclysm",
+      "timestamp" : "2022-05-12T16:15:06.649-05:00",
+      "value" : "cataclys",
+      "userInteractionIdentifier" : "8,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "602_cataclysm",
+      "timestamp" : "2022-05-12T16:15:07.147-05:00",
+      "value" : "cataclysm",
+      "userInteractionIdentifier" : "m"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "602_cataclysm",
+      "timestamp" : "2022-05-12T16:15:07.149-05:00",
+      "value" : "cataclysm",
+      "userInteractionIdentifier" : "9,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "602_cataclysm",
+      "timestamp" : "2022-05-12T16:15:11.509-05:00",
+      "userInteractionIdentifier" : "Done"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "656_reconnaissance",
+      "timestamp" : "2022-05-12T16:15:11.672-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "656_reconnaissance",
+      "timestamp" : "2022-05-12T16:15:20.544-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "656_reconnaissance",
+      "timestamp" : "2022-05-12T16:15:22.741-05:00",
+      "value" : "v",
+      "userInteractionIdentifier" : "v"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "656_reconnaissance",
+      "timestamp" : "2022-05-12T16:15:22.743-05:00",
+      "value" : "v",
+      "userInteractionIdentifier" : "1,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "656_reconnaissance",
+      "timestamp" : "2022-05-12T16:15:23.445-05:00",
+      "userInteractionIdentifier" : "Done"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "440_reminiscence",
+      "timestamp" : "2022-05-12T16:15:23.610-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "440_reminiscence",
+      "timestamp" : "2022-05-12T16:15:31.691-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "440_reminiscence",
+      "timestamp" : "2022-05-12T16:15:33.242-05:00",
+      "value" : "r",
+      "userInteractionIdentifier" : "r"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "440_reminiscence",
+      "timestamp" : "2022-05-12T16:15:33.244-05:00",
+      "value" : "r",
+      "userInteractionIdentifier" : "1,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "440_reminiscence",
+      "timestamp" : "2022-05-12T16:15:33.459-05:00",
+      "value" : "re",
+      "userInteractionIdentifier" : "e"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "440_reminiscence",
+      "timestamp" : "2022-05-12T16:15:33.461-05:00",
+      "value" : "re",
+      "userInteractionIdentifier" : "2,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "440_reminiscence",
+      "timestamp" : "2022-05-12T16:15:34.043-05:00",
+      "value" : "rem",
+      "userInteractionIdentifier" : "m"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "440_reminiscence",
+      "timestamp" : "2022-05-12T16:15:34.046-05:00",
+      "value" : "rem",
+      "userInteractionIdentifier" : "3,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "440_reminiscence",
+      "timestamp" : "2022-05-12T16:15:34.410-05:00",
+      "value" : "remi",
+      "userInteractionIdentifier" : "i"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "440_reminiscence",
+      "timestamp" : "2022-05-12T16:15:34.413-05:00",
+      "value" : "remi",
+      "userInteractionIdentifier" : "4,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "440_reminiscence",
+      "timestamp" : "2022-05-12T16:15:34.811-05:00",
+      "value" : "remin",
+      "userInteractionIdentifier" : "n"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "440_reminiscence",
+      "timestamp" : "2022-05-12T16:15:34.814-05:00",
+      "value" : "remin",
+      "userInteractionIdentifier" : "5,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "440_reminiscence",
+      "timestamp" : "2022-05-12T16:15:35.179-05:00",
+      "value" : "remini",
+      "userInteractionIdentifier" : "i"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "440_reminiscence",
+      "timestamp" : "2022-05-12T16:15:35.181-05:00",
+      "value" : "remini",
+      "userInteractionIdentifier" : "6,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "440_reminiscence",
+      "timestamp" : "2022-05-12T16:15:36.697-05:00",
+      "value" : "reminis",
+      "userInteractionIdentifier" : "s"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "440_reminiscence",
+      "timestamp" : "2022-05-12T16:15:36.699-05:00",
+      "value" : "reminis",
+      "userInteractionIdentifier" : "7,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "440_reminiscence",
+      "timestamp" : "2022-05-12T16:15:37.766-05:00",
+      "value" : "reminisc",
+      "userInteractionIdentifier" : "c"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "440_reminiscence",
+      "timestamp" : "2022-05-12T16:15:37.769-05:00",
+      "value" : "reminisc",
+      "userInteractionIdentifier" : "8,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "440_reminiscence",
+      "timestamp" : "2022-05-12T16:15:38.083-05:00",
+      "value" : "reminisce",
+      "userInteractionIdentifier" : "e"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "440_reminiscence",
+      "timestamp" : "2022-05-12T16:15:38.086-05:00",
+      "value" : "reminisce",
+      "userInteractionIdentifier" : "9,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "440_reminiscence",
+      "timestamp" : "2022-05-12T16:15:38.651-05:00",
+      "value" : "reminiscen",
+      "userInteractionIdentifier" : "n"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "440_reminiscence",
+      "timestamp" : "2022-05-12T16:15:38.653-05:00",
+      "value" : "reminiscen",
+      "userInteractionIdentifier" : "10,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "440_reminiscence",
+      "timestamp" : "2022-05-12T16:15:39.252-05:00",
+      "value" : "reminiscens",
+      "userInteractionIdentifier" : "s"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "440_reminiscence",
+      "timestamp" : "2022-05-12T16:15:39.255-05:00",
+      "value" : "reminiscens",
+      "userInteractionIdentifier" : "11,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "440_reminiscence",
+      "timestamp" : "2022-05-12T16:15:39.485-05:00",
+      "value" : "reminiscense",
+      "userInteractionIdentifier" : "e"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "440_reminiscence",
+      "timestamp" : "2022-05-12T16:15:39.488-05:00",
+      "value" : "reminiscense",
+      "userInteractionIdentifier" : "12,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "440_reminiscence",
+      "timestamp" : "2022-05-12T16:15:42.289-05:00",
+      "value" : "reminiscens",
+      "userInteractionIdentifier" : "←"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "440_reminiscence",
+      "timestamp" : "2022-05-12T16:15:42.292-05:00",
+      "value" : "reminiscens",
+      "userInteractionIdentifier" : "11,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "440_reminiscence",
+      "timestamp" : "2022-05-12T16:15:42.510-05:00",
+      "value" : "reminiscen",
+      "userInteractionIdentifier" : "←"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "440_reminiscence",
+      "timestamp" : "2022-05-12T16:15:42.513-05:00",
+      "value" : "reminiscen",
+      "userInteractionIdentifier" : "10,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "440_reminiscence",
+      "timestamp" : "2022-05-12T16:15:46.396-05:00",
+      "value" : "reminiscenc",
+      "userInteractionIdentifier" : "c"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "440_reminiscence",
+      "timestamp" : "2022-05-12T16:15:46.399-05:00",
+      "value" : "reminiscenc",
+      "userInteractionIdentifier" : "11,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "440_reminiscence",
+      "timestamp" : "2022-05-12T16:15:46.764-05:00",
+      "value" : "reminiscence",
+      "userInteractionIdentifier" : "e"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "440_reminiscence",
+      "timestamp" : "2022-05-12T16:15:46.767-05:00",
+      "value" : "reminiscence",
+      "userInteractionIdentifier" : "12,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "440_reminiscence",
+      "timestamp" : "2022-05-12T16:15:51.977-05:00",
+      "userInteractionIdentifier" : "Done"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "10_acquiesce",
+      "timestamp" : "2022-05-12T16:15:52.141-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "10_acquiesce",
+      "timestamp" : "2022-05-12T16:16:00.659-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "10_acquiesce",
+      "timestamp" : "2022-05-12T16:16:07.264-05:00",
+      "value" : "a",
+      "userInteractionIdentifier" : "a"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "10_acquiesce",
+      "timestamp" : "2022-05-12T16:16:07.267-05:00",
+      "value" : "a",
+      "userInteractionIdentifier" : "1,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "10_acquiesce",
+      "timestamp" : "2022-05-12T16:16:07.882-05:00",
+      "value" : "aq",
+      "userInteractionIdentifier" : "q"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "10_acquiesce",
+      "timestamp" : "2022-05-12T16:16:07.885-05:00",
+      "value" : "aq",
+      "userInteractionIdentifier" : "2,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "10_acquiesce",
+      "timestamp" : "2022-05-12T16:16:09.802-05:00",
+      "value" : "aqu",
+      "userInteractionIdentifier" : "u"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "10_acquiesce",
+      "timestamp" : "2022-05-12T16:16:09.805-05:00",
+      "value" : "aqu",
+      "userInteractionIdentifier" : "3,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "10_acquiesce",
+      "timestamp" : "2022-05-12T16:16:12.071-05:00",
+      "value" : "aque",
+      "userInteractionIdentifier" : "e"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "10_acquiesce",
+      "timestamp" : "2022-05-12T16:16:12.072-05:00",
+      "value" : "aque",
+      "userInteractionIdentifier" : "4,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "10_acquiesce",
+      "timestamp" : "2022-05-12T16:16:14.359-05:00",
+      "value" : "aqueo",
+      "userInteractionIdentifier" : "o"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "10_acquiesce",
+      "timestamp" : "2022-05-12T16:16:14.362-05:00",
+      "value" : "aqueo",
+      "userInteractionIdentifier" : "5,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "10_acquiesce",
+      "timestamp" : "2022-05-12T16:16:14.776-05:00",
+      "value" : "aqueou",
+      "userInteractionIdentifier" : "u"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "10_acquiesce",
+      "timestamp" : "2022-05-12T16:16:14.779-05:00",
+      "value" : "aqueou",
+      "userInteractionIdentifier" : "6,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "10_acquiesce",
+      "timestamp" : "2022-05-12T16:16:15.093-05:00",
+      "value" : "aqueous",
+      "userInteractionIdentifier" : "s"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "10_acquiesce",
+      "timestamp" : "2022-05-12T16:16:15.096-05:00",
+      "value" : "aqueous",
+      "userInteractionIdentifier" : "7,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "10_acquiesce",
+      "timestamp" : "2022-05-12T16:16:16.465-05:00",
+      "userInteractionIdentifier" : "Done"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "599_brusque",
+      "timestamp" : "2022-05-12T16:16:16.632-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "599_brusque",
+      "timestamp" : "2022-05-12T16:16:25.725-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "599_brusque",
+      "timestamp" : "2022-05-12T16:16:30.069-05:00",
+      "value" : "b",
+      "userInteractionIdentifier" : "b"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "599_brusque",
+      "timestamp" : "2022-05-12T16:16:30.072-05:00",
+      "value" : "b",
+      "userInteractionIdentifier" : "1,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "599_brusque",
+      "timestamp" : "2022-05-12T16:16:30.654-05:00",
+      "value" : "br",
+      "userInteractionIdentifier" : "r"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "599_brusque",
+      "timestamp" : "2022-05-12T16:16:30.657-05:00",
+      "value" : "br",
+      "userInteractionIdentifier" : "2,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "599_brusque",
+      "timestamp" : "2022-05-12T16:16:31.137-05:00",
+      "value" : "bru",
+      "userInteractionIdentifier" : "u"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "599_brusque",
+      "timestamp" : "2022-05-12T16:16:31.140-05:00",
+      "value" : "bru",
+      "userInteractionIdentifier" : "3,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "599_brusque",
+      "timestamp" : "2022-05-12T16:16:33.041-05:00",
+      "value" : "brus",
+      "userInteractionIdentifier" : "s"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "599_brusque",
+      "timestamp" : "2022-05-12T16:16:33.044-05:00",
+      "value" : "brus",
+      "userInteractionIdentifier" : "4,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "599_brusque",
+      "timestamp" : "2022-05-12T16:16:34.176-05:00",
+      "value" : "brusq",
+      "userInteractionIdentifier" : "q"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "599_brusque",
+      "timestamp" : "2022-05-12T16:16:34.179-05:00",
+      "value" : "brusq",
+      "userInteractionIdentifier" : "5,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "599_brusque",
+      "timestamp" : "2022-05-12T16:16:34.810-05:00",
+      "value" : "brusqu",
+      "userInteractionIdentifier" : "u"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "599_brusque",
+      "timestamp" : "2022-05-12T16:16:34.813-05:00",
+      "value" : "brusqu",
+      "userInteractionIdentifier" : "6,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "599_brusque",
+      "timestamp" : "2022-05-12T16:16:35.161-05:00",
+      "value" : "brusque",
+      "userInteractionIdentifier" : "e"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "599_brusque",
+      "timestamp" : "2022-05-12T16:16:35.164-05:00",
+      "value" : "brusque",
+      "userInteractionIdentifier" : "7,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "599_brusque",
+      "timestamp" : "2022-05-12T16:16:36.200-05:00",
+      "userInteractionIdentifier" : "Done"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "196_ecclesiastical",
+      "timestamp" : "2022-05-12T16:16:36.363-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "196_ecclesiastical",
+      "timestamp" : "2022-05-12T16:16:47.324-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "196_ecclesiastical",
+      "timestamp" : "2022-05-12T16:16:51.154-05:00",
+      "value" : "e",
+      "userInteractionIdentifier" : "e"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "196_ecclesiastical",
+      "timestamp" : "2022-05-12T16:16:51.157-05:00",
+      "value" : "e",
+      "userInteractionIdentifier" : "1,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "196_ecclesiastical",
+      "timestamp" : "2022-05-12T16:16:51.722-05:00",
+      "value" : "ec",
+      "userInteractionIdentifier" : "c"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "196_ecclesiastical",
+      "timestamp" : "2022-05-12T16:16:51.724-05:00",
+      "value" : "ec",
+      "userInteractionIdentifier" : "2,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "196_ecclesiastical",
+      "timestamp" : "2022-05-12T16:16:51.922-05:00",
+      "value" : "ecc",
+      "userInteractionIdentifier" : "c"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "196_ecclesiastical",
+      "timestamp" : "2022-05-12T16:16:51.925-05:00",
+      "value" : "ecc",
+      "userInteractionIdentifier" : "3,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "196_ecclesiastical",
+      "timestamp" : "2022-05-12T16:16:52.373-05:00",
+      "value" : "eccl",
+      "userInteractionIdentifier" : "l"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "196_ecclesiastical",
+      "timestamp" : "2022-05-12T16:16:52.375-05:00",
+      "value" : "eccl",
+      "userInteractionIdentifier" : "4,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "196_ecclesiastical",
+      "timestamp" : "2022-05-12T16:16:53.725-05:00",
+      "value" : "eccli",
+      "userInteractionIdentifier" : "i"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "196_ecclesiastical",
+      "timestamp" : "2022-05-12T16:16:53.728-05:00",
+      "value" : "eccli",
+      "userInteractionIdentifier" : "5,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "196_ecclesiastical",
+      "timestamp" : "2022-05-12T16:16:55.880-05:00",
+      "value" : "eccl",
+      "userInteractionIdentifier" : "←"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "196_ecclesiastical",
+      "timestamp" : "2022-05-12T16:16:55.883-05:00",
+      "value" : "eccl",
+      "userInteractionIdentifier" : "4,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "196_ecclesiastical",
+      "timestamp" : "2022-05-12T16:16:56.914-05:00",
+      "value" : "eccle",
+      "userInteractionIdentifier" : "e"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "196_ecclesiastical",
+      "timestamp" : "2022-05-12T16:16:56.917-05:00",
+      "value" : "eccle",
+      "userInteractionIdentifier" : "5,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "196_ecclesiastical",
+      "timestamp" : "2022-05-12T16:16:57.214-05:00",
+      "value" : "eccles",
+      "userInteractionIdentifier" : "s"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "196_ecclesiastical",
+      "timestamp" : "2022-05-12T16:16:57.217-05:00",
+      "value" : "eccles",
+      "userInteractionIdentifier" : "6,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "196_ecclesiastical",
+      "timestamp" : "2022-05-12T16:16:57.648-05:00",
+      "value" : "ecclesi",
+      "userInteractionIdentifier" : "i"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "196_ecclesiastical",
+      "timestamp" : "2022-05-12T16:16:57.651-05:00",
+      "value" : "ecclesi",
+      "userInteractionIdentifier" : "7,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "196_ecclesiastical",
+      "timestamp" : "2022-05-12T16:16:58.066-05:00",
+      "value" : "ecclesia",
+      "userInteractionIdentifier" : "a"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "196_ecclesiastical",
+      "timestamp" : "2022-05-12T16:16:58.068-05:00",
+      "value" : "ecclesia",
+      "userInteractionIdentifier" : "8,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "196_ecclesiastical",
+      "timestamp" : "2022-05-12T16:16:58.383-05:00",
+      "value" : "ecclesias",
+      "userInteractionIdentifier" : "s"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "196_ecclesiastical",
+      "timestamp" : "2022-05-12T16:16:58.386-05:00",
+      "value" : "ecclesias",
+      "userInteractionIdentifier" : "9,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "196_ecclesiastical",
+      "timestamp" : "2022-05-12T16:16:59.885-05:00",
+      "value" : "ecclesiast",
+      "userInteractionIdentifier" : "t"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "196_ecclesiastical",
+      "timestamp" : "2022-05-12T16:16:59.888-05:00",
+      "value" : "ecclesiast",
+      "userInteractionIdentifier" : "10,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "196_ecclesiastical",
+      "timestamp" : "2022-05-12T16:17:00.270-05:00",
+      "value" : "ecclesiasti",
+      "userInteractionIdentifier" : "i"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "196_ecclesiastical",
+      "timestamp" : "2022-05-12T16:17:00.272-05:00",
+      "value" : "ecclesiasti",
+      "userInteractionIdentifier" : "11,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "196_ecclesiastical",
+      "timestamp" : "2022-05-12T16:17:00.769-05:00",
+      "value" : "ecclesiastic",
+      "userInteractionIdentifier" : "c"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "196_ecclesiastical",
+      "timestamp" : "2022-05-12T16:17:00.771-05:00",
+      "value" : "ecclesiastic",
+      "userInteractionIdentifier" : "12,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "196_ecclesiastical",
+      "timestamp" : "2022-05-12T16:17:01.053-05:00",
+      "value" : "ecclesiastica",
+      "userInteractionIdentifier" : "a"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "196_ecclesiastical",
+      "timestamp" : "2022-05-12T16:17:01.055-05:00",
+      "value" : "ecclesiastica",
+      "userInteractionIdentifier" : "13,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "196_ecclesiastical",
+      "timestamp" : "2022-05-12T16:17:01.521-05:00",
+      "value" : "ecclesiastical",
+      "userInteractionIdentifier" : "l"
+    },
+    {
+      "controlEvent" : [
+        "setSelection"
+      ],
+      "stepIdentifier" : "196_ecclesiastical",
+      "timestamp" : "2022-05-12T16:17:01.524-05:00",
+      "value" : "ecclesiastical",
+      "userInteractionIdentifier" : "14,0"
+    },
+    {
+      "controlEvent" : [
+        "keyPress"
+      ],
+      "stepIdentifier" : "196_ecclesiastical",
+      "timestamp" : "2022-05-12T16:17:05.883-05:00",
+      "userInteractionIdentifier" : "Done"
+    }
+  ],
+  "steps" : [
+    {
+      "se" : 0,
+      "endDate" : "2022-05-12T16:12:38.951-05:00",
+      "theta" : 99,
+      "startDate" : "2022-05-12T16:12:36.431-05:00",
+      "position" : 1,
+      "identifier" : "MTB_Spelling_Welcome",
+      "type" : "spellingStepResult",
+      "practice" : false,
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 0,
+      "endDate" : "2022-05-12T16:12:45.940-05:00",
+      "startDate" : "2022-05-12T16:12:38.956-05:00",
+      "position" : 2,
+      "theta" : 99,
+      "se" : 0,
+      "identifier" : "MTB_Spelling_Instruction1",
+      "response" : "2",
+      "type" : "spellingStepResult",
+      "practice" : true,
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 0,
+      "endDate" : "2022-05-12T16:12:51.984-05:00",
+      "startDate" : "2022-05-12T16:12:45.947-05:00",
+      "position" : 3,
+      "theta" : 99,
+      "se" : 0,
+      "identifier" : "MTB_Spelling_Instruction2",
+      "response" : "2",
+      "type" : "spellingStepResult",
+      "practice" : true,
+      "wasInterrupted" : false
+    },
+    {
+      "position" : 4,
+      "practice" : true,
+      "wasInterrupted" : false,
+      "endDate" : "2022-05-12T16:13:03.278-05:00",
+      "theta" : 99,
+      "identifier" : "MTB_Spelling_Practice",
+      "type" : "spellingStepResult",
+      "startDate" : "2022-05-12T16:12:51.994-05:00",
+      "response" : "baby",
+      "score" : 1,
+      "se" : 0,
+      "responseTime" : 0
+    },
+    {
+      "score" : 1,
+      "endDate" : "2022-05-12T16:13:20.282-05:00",
+      "startDate" : "2022-05-12T16:13:06.397-05:00",
+      "position" : 5,
+      "theta" : 6,
+      "se" : 99,
+      "identifier" : "68_behavior",
+      "response" : "behavior",
+      "type" : "spellingStepResult",
+      "practice" : false,
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 0,
+      "endDate" : "2022-05-12T16:13:52.171-05:00",
+      "startDate" : "2022-05-12T16:13:20.287-05:00",
+      "position" : 6,
+      "theta" : -0.024400033576385535,
+      "se" : 1.2648715491416174,
+      "identifier" : "80_borough",
+      "response" : "bureau",
+      "type" : "spellingStepResult",
+      "practice" : false,
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 1,
+      "endDate" : "2022-05-12T16:14:22.304-05:00",
+      "startDate" : "2022-05-12T16:13:52.175-05:00",
+      "position" : 7,
+      "theta" : 0.76716955492037453,
+      "se" : 0.96267236743824769,
+      "identifier" : "179_discipline",
+      "response" : "discipline",
+      "type" : "spellingStepResult",
+      "practice" : false,
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 1,
+      "endDate" : "2022-05-12T16:14:49.350-05:00",
+      "startDate" : "2022-05-12T16:14:22.309-05:00",
+      "position" : 8,
+      "theta" : 1.3292156445316918,
+      "se" : 0.84578360922675422,
+      "identifier" : "670_imperturbable",
+      "response" : "imperturbable",
+      "type" : "spellingStepResult",
+      "practice" : false,
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 1,
+      "endDate" : "2022-05-12T16:15:11.636-05:00",
+      "startDate" : "2022-05-12T16:14:49.352-05:00",
+      "position" : 9,
+      "theta" : 1.3292156445316918,
+      "se" : 0.84578360922675422,
+      "identifier" : "602_cataclysm",
+      "response" : "cataclysm",
+      "type" : "spellingStepResult",
+      "practice" : false,
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 0,
+      "endDate" : "2022-05-12T16:15:23.573-05:00",
+      "startDate" : "2022-05-12T16:15:11.641-05:00",
+      "position" : 10,
+      "theta" : 0.85122940627947219,
+      "se" : 0.54934786358420762,
+      "identifier" : "656_reconnaissance",
+      "response" : "v",
+      "type" : "spellingStepResult",
+      "practice" : false,
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 1,
+      "endDate" : "2022-05-12T16:15:52.103-05:00",
+      "startDate" : "2022-05-12T16:15:23.577-05:00",
+      "position" : 11,
+      "theta" : 1.1110941574237765,
+      "se" : 0.50707284673890152,
+      "identifier" : "440_reminiscence",
+      "response" : "reminiscence",
+      "type" : "spellingStepResult",
+      "practice" : false,
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 0,
+      "endDate" : "2022-05-12T16:16:16.594-05:00",
+      "startDate" : "2022-05-12T16:15:52.108-05:00",
+      "position" : 12,
+      "theta" : 0.94236093902634088,
+      "se" : 0.44275051936902415,
+      "identifier" : "10_acquiesce",
+      "response" : "aqueous",
+      "type" : "spellingStepResult",
+      "practice" : false,
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 1,
+      "endDate" : "2022-05-12T16:16:36.327-05:00",
+      "startDate" : "2022-05-12T16:16:16.598-05:00",
+      "position" : 13,
+      "theta" : 1.0730715556577575,
+      "se" : 0.41671342813578227,
+      "identifier" : "599_brusque",
+      "response" : "brusque",
+      "type" : "spellingStepResult",
+      "practice" : false,
+      "wasInterrupted" : false
+    },
+    {
+      "score" : 1,
+      "endDate" : "2022-05-12T16:17:06.009-05:00",
+      "startDate" : "2022-05-12T16:16:36.330-05:00",
+      "position" : 14,
+      "theta" : 1.0730715556577575,
+      "se" : 0.41671342813578227,
+      "identifier" : "196_ecclesiastical",
+      "response" : "ecclesiastical",
+      "type" : "spellingStepResult",
+      "practice" : false,
+      "wasInterrupted" : false
+    }
+  ]
+}

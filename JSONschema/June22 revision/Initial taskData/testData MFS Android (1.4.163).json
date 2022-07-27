@@ -1,0 +1,2453 @@
+{
+  "steps": [
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_welcome",
+      "position": 1,
+      "startDate": "2022-05-24T14:20:59.116-05:00",
+      "endDate": "2022-05-24T14:21:02.184-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_Ins1",
+      "position": 2,
+      "startDate": "2022-05-24T14:21:02.194-05:00",
+      "endDate": "2022-05-24T14:21:08.727-05:00",
+      "response": "2"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_Ins2",
+      "position": 3,
+      "startDate": "2022-05-24T14:21:08.730-05:00",
+      "endDate": "2022-05-24T14:21:15.427-05:00",
+      "response": "2"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_trans1",
+      "position": 4,
+      "startDate": "2022-05-24T14:21:15.433-05:00",
+      "endDate": "2022-05-24T14:21:17.137-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_P1",
+      "position": 5,
+      "startDate": "2022-05-24T14:21:17.146-05:00",
+      "endDate": "2022-05-24T14:21:21.029-05:00",
+      "response": "y-3",
+      "score": 1,
+      "practice": true
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_P1_FEEDBACK",
+      "position": 6,
+      "startDate": "2022-05-24T14:21:21.034-05:00",
+      "endDate": "2022-05-24T14:21:21.992-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_P2",
+      "position": 7,
+      "startDate": "2022-05-24T14:21:21.997-05:00",
+      "endDate": "2022-05-24T14:21:27.562-05:00",
+      "response": "q-z-8",
+      "score": 1,
+      "practice": true
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_P2_FEEDBACK",
+      "position": 8,
+      "startDate": "2022-05-24T14:21:27.587-05:00",
+      "endDate": "2022-05-24T14:21:28.441-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_2_1",
+      "position": 9,
+      "startDate": "2022-05-24T14:21:28.447-05:00",
+      "endDate": "2022-05-24T14:21:32.500-05:00",
+      "response": "c-9",
+      "score": 1,
+      "practice": false
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_2_2",
+      "position": 10,
+      "startDate": "2022-05-24T14:21:32.510-05:00",
+      "endDate": "2022-05-24T14:21:36.414-05:00",
+      "response": "r-4",
+      "score": 1,
+      "practice": false
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_2_3",
+      "position": 11,
+      "startDate": "2022-05-24T14:21:36.418-05:00",
+      "endDate": "2022-05-24T14:21:41.805-05:00",
+      "response": "z-3",
+      "score": 1,
+      "practice": false
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_3_1",
+      "position": 12,
+      "startDate": "2022-05-24T14:21:41.810-05:00",
+      "endDate": "2022-05-24T14:21:47.385-05:00",
+      "response": "b-z-2",
+      "score": 1,
+      "practice": false
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_3_2",
+      "position": 13,
+      "startDate": "2022-05-24T14:21:47.408-05:00",
+      "endDate": "2022-05-24T14:21:52.928-05:00",
+      "response": "a-s-5",
+      "score": 1,
+      "practice": false
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_3_3",
+      "position": 14,
+      "startDate": "2022-05-24T14:21:52.934-05:00",
+      "endDate": "2022-05-24T14:22:00.017-05:00",
+      "response": "q-y-1",
+      "score": 1,
+      "practice": false
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_3_4",
+      "position": 15,
+      "startDate": "2022-05-24T14:22:00.022-05:00",
+      "endDate": "2022-05-24T14:22:06.727-05:00",
+      "response": "s-6-8",
+      "score": 1,
+      "practice": false
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_3_5",
+      "position": 16,
+      "startDate": "2022-05-24T14:22:06.734-05:00",
+      "endDate": "2022-05-24T14:22:12.322-05:00",
+      "response": "s-2-4",
+      "score": 1,
+      "practice": false
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_3_6",
+      "position": 17,
+      "startDate": "2022-05-24T14:22:12.328-05:00",
+      "endDate": "2022-05-24T14:22:22.442-05:00",
+      "response": "x-1-9",
+      "score": 1,
+      "practice": false
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_4_1",
+      "position": 18,
+      "startDate": "2022-05-24T14:22:22.459-05:00",
+      "endDate": "2022-05-24T14:22:30.039-05:00",
+      "response": "b-z-1-6",
+      "score": 1,
+      "practice": false
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_4_2",
+      "position": 19,
+      "startDate": "2022-05-24T14:22:30.051-05:00",
+      "endDate": "2022-05-24T14:22:36.878-05:00",
+      "response": "a-b-5-8",
+      "score": 1,
+      "practice": false
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_4_3",
+      "position": 20,
+      "startDate": "2022-05-24T14:22:36.888-05:00",
+      "endDate": "2022-05-24T14:22:45.495-05:00",
+      "response": "r-y-2-4",
+      "score": 1,
+      "practice": false
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_5_1",
+      "position": 21,
+      "startDate": "2022-05-24T14:22:45.504-05:00",
+      "endDate": "2022-05-24T14:22:56.096-05:00",
+      "response": "b-c-q-1-6",
+      "score": 1,
+      "practice": false
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_5_2",
+      "position": 22,
+      "startDate": "2022-05-24T14:22:56.107-05:00",
+      "endDate": "2022-05-24T14:23:06.383-05:00",
+      "response": "a-s-y-4-9",
+      "score": 1,
+      "practice": false
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_5_3",
+      "position": 23,
+      "startDate": "2022-05-24T14:23:06.394-05:00",
+      "endDate": "2022-05-24T14:23:18.030-05:00",
+      "response": "c-q-x-6-9",
+      "score": 0,
+      "practice": false
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_6_1",
+      "position": 24,
+      "startDate": "2022-05-24T14:23:18.041-05:00",
+      "endDate": "2022-05-24T14:23:34.718-05:00",
+      "response": "r-y-z-2-9",
+      "score": 0,
+      "practice": false
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_6_2",
+      "position": 25,
+      "startDate": "2022-05-24T14:23:34.730-05:00",
+      "endDate": "2022-05-24T14:23:44.821-05:00",
+      "response": "a-c-r-2-4-7",
+      "score": 0,
+      "practice": false
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_6_3",
+      "position": 26,
+      "startDate": "2022-05-24T14:23:44.837-05:00",
+      "endDate": "2022-05-24T14:23:56.920-05:00",
+      "response": "s-y-z-1-4-9",
+      "score": 0,
+      "practice": false
+    }
+  ],
+  "testVersion": "1.4.0",
+  "userInteractions": [
+    {
+      "stepIdentifier": "MFS_welcome",
+      "timestamp": "2022-05-24T14:20:59.136-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MFS_welcome",
+      "timestamp": "2022-05-24T14:20:59.177-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MFS_welcome",
+      "timestamp": "2022-05-24T14:21:02.026-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "View instructions"
+    },
+    {
+      "stepIdentifier": "MFS_welcome",
+      "timestamp": "2022-05-24T14:21:02.183-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "View instructions"
+    },
+    {
+      "stepIdentifier": "MFS_Ins1",
+      "timestamp": "2022-05-24T14:21:02.200-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MFS_Ins1",
+      "timestamp": "2022-05-24T14:21:02.205-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MFS_Ins1",
+      "timestamp": "2022-05-24T14:21:08.624-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": ">"
+    },
+    {
+      "stepIdentifier": "MFS_Ins1",
+      "timestamp": "2022-05-24T14:21:08.723-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": ">"
+    },
+    {
+      "stepIdentifier": "MFS_Ins2",
+      "timestamp": "2022-05-24T14:21:08.747-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MFS_Ins2",
+      "timestamp": "2022-05-24T14:21:08.770-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MFS_Ins2",
+      "timestamp": "2022-05-24T14:21:15.365-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": ">"
+    },
+    {
+      "stepIdentifier": "MFS_Ins2",
+      "timestamp": "2022-05-24T14:21:15.422-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": ">"
+    },
+    {
+      "stepIdentifier": "MFS_trans1",
+      "timestamp": "2022-05-24T14:21:15.440-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MFS_trans1",
+      "timestamp": "2022-05-24T14:21:15.446-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MFS_trans1",
+      "timestamp": "2022-05-24T14:21:16.985-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "Practice"
+    },
+    {
+      "stepIdentifier": "MFS_trans1",
+      "timestamp": "2022-05-24T14:21:17.134-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "Practice"
+    },
+    {
+      "stepIdentifier": "MFS_P1",
+      "timestamp": "2022-05-24T14:21:17.147-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MFS_P1",
+      "timestamp": "2022-05-24T14:21:20.123-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "y"
+    },
+    {
+      "stepIdentifier": "MFS_P1",
+      "timestamp": "2022-05-24T14:21:20.230-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "y"
+    },
+    {
+      "stepIdentifier": "MFS_P1",
+      "timestamp": "2022-05-24T14:21:20.463-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "3"
+    },
+    {
+      "stepIdentifier": "MFS_P1",
+      "timestamp": "2022-05-24T14:21:20.546-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "3"
+    },
+    {
+      "stepIdentifier": "MFS_P1",
+      "timestamp": "2022-05-24T14:21:20.903-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "Done"
+    },
+    {
+      "stepIdentifier": "MFS_P1",
+      "timestamp": "2022-05-24T14:21:21.027-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "Done"
+    },
+    {
+      "stepIdentifier": "MFS_P1_FEEDBACK",
+      "timestamp": "2022-05-24T14:21:21.042-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MFS_P1_FEEDBACK",
+      "timestamp": "2022-05-24T14:21:21.050-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MFS_P1_FEEDBACK",
+      "timestamp": "2022-05-24T14:21:21.891-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "Next"
+    },
+    {
+      "stepIdentifier": "MFS_P1_FEEDBACK",
+      "timestamp": "2022-05-24T14:21:21.990-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "Next"
+    },
+    {
+      "stepIdentifier": "MFS_P2",
+      "timestamp": "2022-05-24T14:21:21.999-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MFS_P2",
+      "timestamp": "2022-05-24T14:21:25.883-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "q"
+    },
+    {
+      "stepIdentifier": "MFS_P2",
+      "timestamp": "2022-05-24T14:21:26.008-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "q"
+    },
+    {
+      "stepIdentifier": "MFS_P2",
+      "timestamp": "2022-05-24T14:21:26.556-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "z"
+    },
+    {
+      "stepIdentifier": "MFS_P2",
+      "timestamp": "2022-05-24T14:21:26.697-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "z"
+    },
+    {
+      "stepIdentifier": "MFS_P2",
+      "timestamp": "2022-05-24T14:21:27.037-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "8"
+    },
+    {
+      "stepIdentifier": "MFS_P2",
+      "timestamp": "2022-05-24T14:21:27.153-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "8"
+    },
+    {
+      "stepIdentifier": "MFS_P2",
+      "timestamp": "2022-05-24T14:21:27.469-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "Done"
+    },
+    {
+      "stepIdentifier": "MFS_P2",
+      "timestamp": "2022-05-24T14:21:27.560-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "Done"
+    },
+    {
+      "stepIdentifier": "MFS_P2_FEEDBACK",
+      "timestamp": "2022-05-24T14:21:27.590-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MFS_P2_FEEDBACK",
+      "timestamp": "2022-05-24T14:21:27.600-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MFS_P2_FEEDBACK",
+      "timestamp": "2022-05-24T14:21:28.357-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "Start"
+    },
+    {
+      "stepIdentifier": "MFS_P2_FEEDBACK",
+      "timestamp": "2022-05-24T14:21:28.440-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "Start"
+    },
+    {
+      "stepIdentifier": "MFS_2_1",
+      "timestamp": "2022-05-24T14:21:28.448-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MFS_2_1",
+      "timestamp": "2022-05-24T14:21:31.619-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "c"
+    },
+    {
+      "stepIdentifier": "MFS_2_1",
+      "timestamp": "2022-05-24T14:21:31.760-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "c"
+    },
+    {
+      "stepIdentifier": "MFS_2_1",
+      "timestamp": "2022-05-24T14:21:31.951-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "9"
+    },
+    {
+      "stepIdentifier": "MFS_2_1",
+      "timestamp": "2022-05-24T14:21:32.076-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "9"
+    },
+    {
+      "stepIdentifier": "MFS_2_1",
+      "timestamp": "2022-05-24T14:21:32.392-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "Done"
+    },
+    {
+      "stepIdentifier": "MFS_2_1",
+      "timestamp": "2022-05-24T14:21:32.499-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "Done"
+    },
+    {
+      "stepIdentifier": "MFS_2_2",
+      "timestamp": "2022-05-24T14:21:32.511-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MFS_2_2",
+      "timestamp": "2022-05-24T14:21:35.380-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "r"
+    },
+    {
+      "stepIdentifier": "MFS_2_2",
+      "timestamp": "2022-05-24T14:21:35.496-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "r"
+    },
+    {
+      "stepIdentifier": "MFS_2_2",
+      "timestamp": "2022-05-24T14:21:35.886-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "4"
+    },
+    {
+      "stepIdentifier": "MFS_2_2",
+      "timestamp": "2022-05-24T14:21:35.986-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "4"
+    },
+    {
+      "stepIdentifier": "MFS_2_2",
+      "timestamp": "2022-05-24T14:21:36.276-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "Done"
+    },
+    {
+      "stepIdentifier": "MFS_2_2",
+      "timestamp": "2022-05-24T14:21:36.408-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "Done"
+    },
+    {
+      "stepIdentifier": "MFS_2_3",
+      "timestamp": "2022-05-24T14:21:36.419-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MFS_2_3",
+      "timestamp": "2022-05-24T14:21:40.900-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "z"
+    },
+    {
+      "stepIdentifier": "MFS_2_3",
+      "timestamp": "2022-05-24T14:21:41.040-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "z"
+    },
+    {
+      "stepIdentifier": "MFS_2_3",
+      "timestamp": "2022-05-24T14:21:41.323-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "3"
+    },
+    {
+      "stepIdentifier": "MFS_2_3",
+      "timestamp": "2022-05-24T14:21:41.414-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "3"
+    },
+    {
+      "stepIdentifier": "MFS_2_3",
+      "timestamp": "2022-05-24T14:21:41.721-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "Done"
+    },
+    {
+      "stepIdentifier": "MFS_2_3",
+      "timestamp": "2022-05-24T14:21:41.804-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "Done"
+    },
+    {
+      "stepIdentifier": "MFS_3_1",
+      "timestamp": "2022-05-24T14:21:41.812-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MFS_3_1",
+      "timestamp": "2022-05-24T14:21:45.938-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "b"
+    },
+    {
+      "stepIdentifier": "MFS_3_1",
+      "timestamp": "2022-05-24T14:21:46.046-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "b"
+    },
+    {
+      "stepIdentifier": "MFS_3_1",
+      "timestamp": "2022-05-24T14:21:46.478-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "z"
+    },
+    {
+      "stepIdentifier": "MFS_3_1",
+      "timestamp": "2022-05-24T14:21:46.619-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "z"
+    },
+    {
+      "stepIdentifier": "MFS_3_1",
+      "timestamp": "2022-05-24T14:21:46.910-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "2"
+    },
+    {
+      "stepIdentifier": "MFS_3_1",
+      "timestamp": "2022-05-24T14:21:47.017-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "2"
+    },
+    {
+      "stepIdentifier": "MFS_3_1",
+      "timestamp": "2022-05-24T14:21:47.282-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "Done"
+    },
+    {
+      "stepIdentifier": "MFS_3_1",
+      "timestamp": "2022-05-24T14:21:47.382-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "Done"
+    },
+    {
+      "stepIdentifier": "MFS_3_2",
+      "timestamp": "2022-05-24T14:21:47.409-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MFS_3_2",
+      "timestamp": "2022-05-24T14:21:51.285-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "a"
+    },
+    {
+      "stepIdentifier": "MFS_3_2",
+      "timestamp": "2022-05-24T14:21:51.408-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "a"
+    },
+    {
+      "stepIdentifier": "MFS_3_2",
+      "timestamp": "2022-05-24T14:21:52.006-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "s"
+    },
+    {
+      "stepIdentifier": "MFS_3_2",
+      "timestamp": "2022-05-24T14:21:52.114-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "s"
+    },
+    {
+      "stepIdentifier": "MFS_3_2",
+      "timestamp": "2022-05-24T14:21:52.421-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "5"
+    },
+    {
+      "stepIdentifier": "MFS_3_2",
+      "timestamp": "2022-05-24T14:21:52.545-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "5"
+    },
+    {
+      "stepIdentifier": "MFS_3_2",
+      "timestamp": "2022-05-24T14:21:52.828-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "Done"
+    },
+    {
+      "stepIdentifier": "MFS_3_2",
+      "timestamp": "2022-05-24T14:21:52.927-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "Done"
+    },
+    {
+      "stepIdentifier": "MFS_3_3",
+      "timestamp": "2022-05-24T14:21:52.936-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MFS_3_3",
+      "timestamp": "2022-05-24T14:21:57.991-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "q"
+    },
+    {
+      "stepIdentifier": "MFS_3_3",
+      "timestamp": "2022-05-24T14:21:58.156-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "q"
+    },
+    {
+      "stepIdentifier": "MFS_3_3",
+      "timestamp": "2022-05-24T14:21:58.596-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "y"
+    },
+    {
+      "stepIdentifier": "MFS_3_3",
+      "timestamp": "2022-05-24T14:21:58.720-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "y"
+    },
+    {
+      "stepIdentifier": "MFS_3_3",
+      "timestamp": "2022-05-24T14:21:59.244-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "1"
+    },
+    {
+      "stepIdentifier": "MFS_3_3",
+      "timestamp": "2022-05-24T14:21:59.352-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "1"
+    },
+    {
+      "stepIdentifier": "MFS_3_3",
+      "timestamp": "2022-05-24T14:21:59.959-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "Done"
+    },
+    {
+      "stepIdentifier": "MFS_3_3",
+      "timestamp": "2022-05-24T14:22:00.015-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "Done"
+    },
+    {
+      "stepIdentifier": "MFS_3_4",
+      "timestamp": "2022-05-24T14:22:00.023-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MFS_3_4",
+      "timestamp": "2022-05-24T14:22:04.923-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "s"
+    },
+    {
+      "stepIdentifier": "MFS_3_4",
+      "timestamp": "2022-05-24T14:22:05.047-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "s"
+    },
+    {
+      "stepIdentifier": "MFS_3_4",
+      "timestamp": "2022-05-24T14:22:05.520-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "6"
+    },
+    {
+      "stepIdentifier": "MFS_3_4",
+      "timestamp": "2022-05-24T14:22:05.645-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "6"
+    },
+    {
+      "stepIdentifier": "MFS_3_4",
+      "timestamp": "2022-05-24T14:22:05.894-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "8"
+    },
+    {
+      "stepIdentifier": "MFS_3_4",
+      "timestamp": "2022-05-24T14:22:06.001-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "8"
+    },
+    {
+      "stepIdentifier": "MFS_3_4",
+      "timestamp": "2022-05-24T14:22:06.617-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "Done"
+    },
+    {
+      "stepIdentifier": "MFS_3_4",
+      "timestamp": "2022-05-24T14:22:06.724-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "Done"
+    },
+    {
+      "stepIdentifier": "MFS_3_5",
+      "timestamp": "2022-05-24T14:22:06.736-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MFS_3_5",
+      "timestamp": "2022-05-24T14:22:11.058-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "s"
+    },
+    {
+      "stepIdentifier": "MFS_3_5",
+      "timestamp": "2022-05-24T14:22:11.182-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "s"
+    },
+    {
+      "stepIdentifier": "MFS_3_5",
+      "timestamp": "2022-05-24T14:22:11.564-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "2"
+    },
+    {
+      "stepIdentifier": "MFS_3_5",
+      "timestamp": "2022-05-24T14:22:11.671-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "2"
+    },
+    {
+      "stepIdentifier": "MFS_3_5",
+      "timestamp": "2022-05-24T14:22:11.829-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "4"
+    },
+    {
+      "stepIdentifier": "MFS_3_5",
+      "timestamp": "2022-05-24T14:22:11.929-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "4"
+    },
+    {
+      "stepIdentifier": "MFS_3_5",
+      "timestamp": "2022-05-24T14:22:12.228-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "Done"
+    },
+    {
+      "stepIdentifier": "MFS_3_5",
+      "timestamp": "2022-05-24T14:22:12.319-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "Done"
+    },
+    {
+      "stepIdentifier": "MFS_3_6",
+      "timestamp": "2022-05-24T14:22:12.329-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MFS_3_6",
+      "timestamp": "2022-05-24T14:22:16.512-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "x"
+    },
+    {
+      "stepIdentifier": "MFS_3_6",
+      "timestamp": "2022-05-24T14:22:17.134-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "1"
+    },
+    {
+      "stepIdentifier": "MFS_3_6",
+      "timestamp": "2022-05-24T14:22:17.225-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "1"
+    },
+    {
+      "stepIdentifier": "MFS_3_6",
+      "timestamp": "2022-05-24T14:22:18.887-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "delete"
+    },
+    {
+      "stepIdentifier": "MFS_3_6",
+      "timestamp": "2022-05-24T14:22:18.977-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "delete"
+    },
+    {
+      "stepIdentifier": "MFS_3_6",
+      "timestamp": "2022-05-24T14:22:19.676-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "x"
+    },
+    {
+      "stepIdentifier": "MFS_3_6",
+      "timestamp": "2022-05-24T14:22:19.782-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "x"
+    },
+    {
+      "stepIdentifier": "MFS_3_6",
+      "timestamp": "2022-05-24T14:22:20.514-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "1"
+    },
+    {
+      "stepIdentifier": "MFS_3_6",
+      "timestamp": "2022-05-24T14:22:20.579-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "1"
+    },
+    {
+      "stepIdentifier": "MFS_3_6",
+      "timestamp": "2022-05-24T14:22:21.535-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "9"
+    },
+    {
+      "stepIdentifier": "MFS_3_6",
+      "timestamp": "2022-05-24T14:22:21.642-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "9"
+    },
+    {
+      "stepIdentifier": "MFS_3_6",
+      "timestamp": "2022-05-24T14:22:22.340-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "Done"
+    },
+    {
+      "stepIdentifier": "MFS_3_6",
+      "timestamp": "2022-05-24T14:22:22.439-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "Done"
+    },
+    {
+      "stepIdentifier": "MFS_4_1",
+      "timestamp": "2022-05-24T14:22:22.461-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MFS_4_1",
+      "timestamp": "2022-05-24T14:22:27.603-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "b"
+    },
+    {
+      "stepIdentifier": "MFS_4_1",
+      "timestamp": "2022-05-24T14:22:27.710-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "b"
+    },
+    {
+      "stepIdentifier": "MFS_4_1",
+      "timestamp": "2022-05-24T14:22:28.217-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "z"
+    },
+    {
+      "stepIdentifier": "MFS_4_1",
+      "timestamp": "2022-05-24T14:22:28.325-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "z"
+    },
+    {
+      "stepIdentifier": "MFS_4_1",
+      "timestamp": "2022-05-24T14:22:28.791-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "1"
+    },
+    {
+      "stepIdentifier": "MFS_4_1",
+      "timestamp": "2022-05-24T14:22:28.881-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "1"
+    },
+    {
+      "stepIdentifier": "MFS_4_1",
+      "timestamp": "2022-05-24T14:22:29.497-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "6"
+    },
+    {
+      "stepIdentifier": "MFS_4_1",
+      "timestamp": "2022-05-24T14:22:29.587-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "6"
+    },
+    {
+      "stepIdentifier": "MFS_4_1",
+      "timestamp": "2022-05-24T14:22:29.929-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "Done"
+    },
+    {
+      "stepIdentifier": "MFS_4_1",
+      "timestamp": "2022-05-24T14:22:30.035-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "Done"
+    },
+    {
+      "stepIdentifier": "MFS_4_2",
+      "timestamp": "2022-05-24T14:22:30.052-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MFS_4_2",
+      "timestamp": "2022-05-24T14:22:34.950-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "a"
+    },
+    {
+      "stepIdentifier": "MFS_4_2",
+      "timestamp": "2022-05-24T14:22:35.091-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "a"
+    },
+    {
+      "stepIdentifier": "MFS_4_2",
+      "timestamp": "2022-05-24T14:22:35.440-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "b"
+    },
+    {
+      "stepIdentifier": "MFS_4_2",
+      "timestamp": "2022-05-24T14:22:35.523-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "b"
+    },
+    {
+      "stepIdentifier": "MFS_4_2",
+      "timestamp": "2022-05-24T14:22:35.930-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "5"
+    },
+    {
+      "stepIdentifier": "MFS_4_2",
+      "timestamp": "2022-05-24T14:22:36.029-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "5"
+    },
+    {
+      "stepIdentifier": "MFS_4_2",
+      "timestamp": "2022-05-24T14:22:36.237-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "8"
+    },
+    {
+      "stepIdentifier": "MFS_4_2",
+      "timestamp": "2022-05-24T14:22:36.328-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "8"
+    },
+    {
+      "stepIdentifier": "MFS_4_2",
+      "timestamp": "2022-05-24T14:22:36.760-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "Done"
+    },
+    {
+      "stepIdentifier": "MFS_4_2",
+      "timestamp": "2022-05-24T14:22:36.876-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "Done"
+    },
+    {
+      "stepIdentifier": "MFS_4_3",
+      "timestamp": "2022-05-24T14:22:36.890-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MFS_4_3",
+      "timestamp": "2022-05-24T14:22:43.227-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "r"
+    },
+    {
+      "stepIdentifier": "MFS_4_3",
+      "timestamp": "2022-05-24T14:22:43.350-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "r"
+    },
+    {
+      "stepIdentifier": "MFS_4_3",
+      "timestamp": "2022-05-24T14:22:43.633-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "y"
+    },
+    {
+      "stepIdentifier": "MFS_4_3",
+      "timestamp": "2022-05-24T14:22:43.740-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "y"
+    },
+    {
+      "stepIdentifier": "MFS_4_3",
+      "timestamp": "2022-05-24T14:22:44.613-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "2"
+    },
+    {
+      "stepIdentifier": "MFS_4_3",
+      "timestamp": "2022-05-24T14:22:44.703-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "2"
+    },
+    {
+      "stepIdentifier": "MFS_4_3",
+      "timestamp": "2022-05-24T14:22:44.911-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "4"
+    },
+    {
+      "stepIdentifier": "MFS_4_3",
+      "timestamp": "2022-05-24T14:22:45.002-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "4"
+    },
+    {
+      "stepIdentifier": "MFS_4_3",
+      "timestamp": "2022-05-24T14:22:45.418-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "Done"
+    },
+    {
+      "stepIdentifier": "MFS_4_3",
+      "timestamp": "2022-05-24T14:22:45.492-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "Done"
+    },
+    {
+      "stepIdentifier": "MFS_5_1",
+      "timestamp": "2022-05-24T14:22:45.506-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MFS_5_1",
+      "timestamp": "2022-05-24T14:22:52.601-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "b"
+    },
+    {
+      "stepIdentifier": "MFS_5_1",
+      "timestamp": "2022-05-24T14:22:52.732-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "b"
+    },
+    {
+      "stepIdentifier": "MFS_5_1",
+      "timestamp": "2022-05-24T14:22:52.981-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "c"
+    },
+    {
+      "stepIdentifier": "MFS_5_1",
+      "timestamp": "2022-05-24T14:22:53.097-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "c"
+    },
+    {
+      "stepIdentifier": "MFS_5_1",
+      "timestamp": "2022-05-24T14:22:54.327-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "q"
+    },
+    {
+      "stepIdentifier": "MFS_5_1",
+      "timestamp": "2022-05-24T14:22:54.433-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "q"
+    },
+    {
+      "stepIdentifier": "MFS_5_1",
+      "timestamp": "2022-05-24T14:22:55.057-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "1"
+    },
+    {
+      "stepIdentifier": "MFS_5_1",
+      "timestamp": "2022-05-24T14:22:55.114-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "1"
+    },
+    {
+      "stepIdentifier": "MFS_5_1",
+      "timestamp": "2022-05-24T14:22:55.688-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "6"
+    },
+    {
+      "stepIdentifier": "MFS_5_1",
+      "timestamp": "2022-05-24T14:22:55.778-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "6"
+    },
+    {
+      "stepIdentifier": "MFS_5_1",
+      "timestamp": "2022-05-24T14:22:55.986-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "Done"
+    },
+    {
+      "stepIdentifier": "MFS_5_1",
+      "timestamp": "2022-05-24T14:22:56.094-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "Done"
+    },
+    {
+      "stepIdentifier": "MFS_5_2",
+      "timestamp": "2022-05-24T14:22:56.108-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MFS_5_2",
+      "timestamp": "2022-05-24T14:23:01.922-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "a"
+    },
+    {
+      "stepIdentifier": "MFS_5_2",
+      "timestamp": "2022-05-24T14:23:02.029-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "a"
+    },
+    {
+      "stepIdentifier": "MFS_5_2",
+      "timestamp": "2022-05-24T14:23:02.627-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "s"
+    },
+    {
+      "stepIdentifier": "MFS_5_2",
+      "timestamp": "2022-05-24T14:23:02.743-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "s"
+    },
+    {
+      "stepIdentifier": "MFS_5_2",
+      "timestamp": "2022-05-24T14:23:03.007-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "z"
+    },
+    {
+      "stepIdentifier": "MFS_5_2",
+      "timestamp": "2022-05-24T14:23:03.108-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "z"
+    },
+    {
+      "stepIdentifier": "MFS_5_2",
+      "timestamp": "2022-05-24T14:23:04.031-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "delete"
+    },
+    {
+      "stepIdentifier": "MFS_5_2",
+      "timestamp": "2022-05-24T14:23:04.113-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "delete"
+    },
+    {
+      "stepIdentifier": "MFS_5_2",
+      "timestamp": "2022-05-24T14:23:04.487-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "y"
+    },
+    {
+      "stepIdentifier": "MFS_5_2",
+      "timestamp": "2022-05-24T14:23:04.586-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "y"
+    },
+    {
+      "stepIdentifier": "MFS_5_2",
+      "timestamp": "2022-05-24T14:23:05.276-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "4"
+    },
+    {
+      "stepIdentifier": "MFS_5_2",
+      "timestamp": "2022-05-24T14:23:05.358-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "4"
+    },
+    {
+      "stepIdentifier": "MFS_5_2",
+      "timestamp": "2022-05-24T14:23:05.965-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "9"
+    },
+    {
+      "stepIdentifier": "MFS_5_2",
+      "timestamp": "2022-05-24T14:23:06.081-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "9"
+    },
+    {
+      "stepIdentifier": "MFS_5_2",
+      "timestamp": "2022-05-24T14:23:06.272-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "Done"
+    },
+    {
+      "stepIdentifier": "MFS_5_2",
+      "timestamp": "2022-05-24T14:23:06.379-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "Done"
+    },
+    {
+      "stepIdentifier": "MFS_5_3",
+      "timestamp": "2022-05-24T14:23:06.395-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MFS_5_3",
+      "timestamp": "2022-05-24T14:23:12.392-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "c"
+    },
+    {
+      "stepIdentifier": "MFS_5_3",
+      "timestamp": "2022-05-24T14:23:12.523-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "c"
+    },
+    {
+      "stepIdentifier": "MFS_5_3",
+      "timestamp": "2022-05-24T14:23:13.379-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "q"
+    },
+    {
+      "stepIdentifier": "MFS_5_3",
+      "timestamp": "2022-05-24T14:23:13.503-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "q"
+    },
+    {
+      "stepIdentifier": "MFS_5_3",
+      "timestamp": "2022-05-24T14:23:14.085-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "x"
+    },
+    {
+      "stepIdentifier": "MFS_5_3",
+      "timestamp": "2022-05-24T14:23:14.225-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "x"
+    },
+    {
+      "stepIdentifier": "MFS_5_3",
+      "timestamp": "2022-05-24T14:23:17.190-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "6"
+    },
+    {
+      "stepIdentifier": "MFS_5_3",
+      "timestamp": "2022-05-24T14:23:17.298-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "6"
+    },
+    {
+      "stepIdentifier": "MFS_5_3",
+      "timestamp": "2022-05-24T14:23:17.562-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "9"
+    },
+    {
+      "stepIdentifier": "MFS_5_3",
+      "timestamp": "2022-05-24T14:23:17.671-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "9"
+    },
+    {
+      "stepIdentifier": "MFS_5_3",
+      "timestamp": "2022-05-24T14:23:17.936-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "Done"
+    },
+    {
+      "stepIdentifier": "MFS_5_3",
+      "timestamp": "2022-05-24T14:23:18.028-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "Done"
+    },
+    {
+      "stepIdentifier": "MFS_6_1",
+      "timestamp": "2022-05-24T14:23:18.043-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MFS_6_1",
+      "timestamp": "2022-05-24T14:23:26.157-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "z"
+    },
+    {
+      "stepIdentifier": "MFS_6_1",
+      "timestamp": "2022-05-24T14:23:26.263-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "z"
+    },
+    {
+      "stepIdentifier": "MFS_6_1",
+      "timestamp": "2022-05-24T14:23:29.377-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "delete"
+    },
+    {
+      "stepIdentifier": "MFS_6_1",
+      "timestamp": "2022-05-24T14:23:29.476-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "delete"
+    },
+    {
+      "stepIdentifier": "MFS_6_1",
+      "timestamp": "2022-05-24T14:23:32.151-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "r"
+    },
+    {
+      "stepIdentifier": "MFS_6_1",
+      "timestamp": "2022-05-24T14:23:32.266-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "r"
+    },
+    {
+      "stepIdentifier": "MFS_6_1",
+      "timestamp": "2022-05-24T14:23:32.549-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "y"
+    },
+    {
+      "stepIdentifier": "MFS_6_1",
+      "timestamp": "2022-05-24T14:23:32.656-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "y"
+    },
+    {
+      "stepIdentifier": "MFS_6_1",
+      "timestamp": "2022-05-24T14:23:32.881-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "z"
+    },
+    {
+      "stepIdentifier": "MFS_6_1",
+      "timestamp": "2022-05-24T14:23:32.988-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "z"
+    },
+    {
+      "stepIdentifier": "MFS_6_1",
+      "timestamp": "2022-05-24T14:23:33.612-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "2"
+    },
+    {
+      "stepIdentifier": "MFS_6_1",
+      "timestamp": "2022-05-24T14:23:33.719-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "2"
+    },
+    {
+      "stepIdentifier": "MFS_6_1",
+      "timestamp": "2022-05-24T14:23:34.326-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "9"
+    },
+    {
+      "stepIdentifier": "MFS_6_1",
+      "timestamp": "2022-05-24T14:23:34.433-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "9"
+    },
+    {
+      "stepIdentifier": "MFS_6_1",
+      "timestamp": "2022-05-24T14:23:34.583-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "Done"
+    },
+    {
+      "stepIdentifier": "MFS_6_1",
+      "timestamp": "2022-05-24T14:23:34.715-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "Done"
+    },
+    {
+      "stepIdentifier": "MFS_6_2",
+      "timestamp": "2022-05-24T14:23:34.732-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MFS_6_2",
+      "timestamp": "2022-05-24T14:23:41.616-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "a"
+    },
+    {
+      "stepIdentifier": "MFS_6_2",
+      "timestamp": "2022-05-24T14:23:41.747-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "a"
+    },
+    {
+      "stepIdentifier": "MFS_6_2",
+      "timestamp": "2022-05-24T14:23:42.088-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "c"
+    },
+    {
+      "stepIdentifier": "MFS_6_2",
+      "timestamp": "2022-05-24T14:23:42.220-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "c"
+    },
+    {
+      "stepIdentifier": "MFS_6_2",
+      "timestamp": "2022-05-24T14:23:42.577-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "r"
+    },
+    {
+      "stepIdentifier": "MFS_6_2",
+      "timestamp": "2022-05-24T14:23:42.668-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "r"
+    },
+    {
+      "stepIdentifier": "MFS_6_2",
+      "timestamp": "2022-05-24T14:23:43.217-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "2"
+    },
+    {
+      "stepIdentifier": "MFS_6_2",
+      "timestamp": "2022-05-24T14:23:43.333-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "2"
+    },
+    {
+      "stepIdentifier": "MFS_6_2",
+      "timestamp": "2022-05-24T14:23:43.533-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "4"
+    },
+    {
+      "stepIdentifier": "MFS_6_2",
+      "timestamp": "2022-05-24T14:23:43.623-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "4"
+    },
+    {
+      "stepIdentifier": "MFS_6_2",
+      "timestamp": "2022-05-24T14:23:44.289-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "7"
+    },
+    {
+      "stepIdentifier": "MFS_6_2",
+      "timestamp": "2022-05-24T14:23:44.371-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "7"
+    },
+    {
+      "stepIdentifier": "MFS_6_2",
+      "timestamp": "2022-05-24T14:23:44.728-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "Done"
+    },
+    {
+      "stepIdentifier": "MFS_6_2",
+      "timestamp": "2022-05-24T14:23:44.819-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "Done"
+    },
+    {
+      "stepIdentifier": "MFS_6_3",
+      "timestamp": "2022-05-24T14:23:44.838-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MFS_6_3",
+      "timestamp": "2022-05-24T14:23:53.953-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "s"
+    },
+    {
+      "stepIdentifier": "MFS_6_3",
+      "timestamp": "2022-05-24T14:23:54.060-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "s"
+    },
+    {
+      "stepIdentifier": "MFS_6_3",
+      "timestamp": "2022-05-24T14:23:54.400-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "y"
+    },
+    {
+      "stepIdentifier": "MFS_6_3",
+      "timestamp": "2022-05-24T14:23:54.533-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "y"
+    },
+    {
+      "stepIdentifier": "MFS_6_3",
+      "timestamp": "2022-05-24T14:23:54.882-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "z"
+    },
+    {
+      "stepIdentifier": "MFS_6_3",
+      "timestamp": "2022-05-24T14:23:54.998-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "z"
+    },
+    {
+      "stepIdentifier": "MFS_6_3",
+      "timestamp": "2022-05-24T14:23:55.439-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "1"
+    },
+    {
+      "stepIdentifier": "MFS_6_3",
+      "timestamp": "2022-05-24T14:23:55.530-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "1"
+    },
+    {
+      "stepIdentifier": "MFS_6_3",
+      "timestamp": "2022-05-24T14:23:56.036-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "4"
+    },
+    {
+      "stepIdentifier": "MFS_6_3",
+      "timestamp": "2022-05-24T14:23:56.111-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "4"
+    },
+    {
+      "stepIdentifier": "MFS_6_3",
+      "timestamp": "2022-05-24T14:23:56.510-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "9"
+    },
+    {
+      "stepIdentifier": "MFS_6_3",
+      "timestamp": "2022-05-24T14:23:56.600-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "9"
+    },
+    {
+      "stepIdentifier": "MFS_6_3",
+      "timestamp": "2022-05-24T14:23:56.817-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "Done"
+    },
+    {
+      "stepIdentifier": "MFS_6_3",
+      "timestamp": "2022-05-24T14:23:56.916-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "Done"
+    }
+  ],
+  "taskStatus": [
+    "completed"
+  ],
+  "locale": "en-US",
+  "startDate": "2022-05-24T14:20:59.115-05:00",
+  "endDate": "2022-05-24T14:23:56.928-05:00",
+  "taskName": "MFS pilot 2",
+  "stepHistory": [
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_welcome",
+      "position": 1,
+      "startDate": "2022-05-24T14:20:59.116-05:00",
+      "endDate": "2022-05-24T14:21:02.184-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_Ins1",
+      "position": 2,
+      "startDate": "2022-05-24T14:21:02.194-05:00",
+      "endDate": "2022-05-24T14:21:08.727-05:00",
+      "response": "2"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_Ins2",
+      "position": 3,
+      "startDate": "2022-05-24T14:21:08.730-05:00",
+      "endDate": "2022-05-24T14:21:15.427-05:00",
+      "response": "2"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_trans1",
+      "position": 4,
+      "startDate": "2022-05-24T14:21:15.433-05:00",
+      "endDate": "2022-05-24T14:21:17.137-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_P1",
+      "position": 5,
+      "startDate": "2022-05-24T14:21:17.146-05:00",
+      "endDate": "2022-05-24T14:21:21.029-05:00",
+      "response": "y-3",
+      "score": 1,
+      "practice": true
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_P1_FEEDBACK",
+      "position": 6,
+      "startDate": "2022-05-24T14:21:21.034-05:00",
+      "endDate": "2022-05-24T14:21:21.992-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_P2",
+      "position": 7,
+      "startDate": "2022-05-24T14:21:21.997-05:00",
+      "endDate": "2022-05-24T14:21:27.562-05:00",
+      "response": "q-z-8",
+      "score": 1,
+      "practice": true
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_P2_FEEDBACK",
+      "position": 8,
+      "startDate": "2022-05-24T14:21:27.587-05:00",
+      "endDate": "2022-05-24T14:21:28.441-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_2_1",
+      "position": 9,
+      "startDate": "2022-05-24T14:21:28.447-05:00",
+      "endDate": "2022-05-24T14:21:32.500-05:00",
+      "response": "c-9",
+      "score": 1,
+      "practice": false
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_2_2",
+      "position": 10,
+      "startDate": "2022-05-24T14:21:32.510-05:00",
+      "endDate": "2022-05-24T14:21:36.414-05:00",
+      "response": "r-4",
+      "score": 1,
+      "practice": false
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_2_3",
+      "position": 11,
+      "startDate": "2022-05-24T14:21:36.418-05:00",
+      "endDate": "2022-05-24T14:21:41.805-05:00",
+      "response": "z-3",
+      "score": 1,
+      "practice": false
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_3_1",
+      "position": 12,
+      "startDate": "2022-05-24T14:21:41.810-05:00",
+      "endDate": "2022-05-24T14:21:47.385-05:00",
+      "response": "b-z-2",
+      "score": 1,
+      "practice": false
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_3_2",
+      "position": 13,
+      "startDate": "2022-05-24T14:21:47.408-05:00",
+      "endDate": "2022-05-24T14:21:52.928-05:00",
+      "response": "a-s-5",
+      "score": 1,
+      "practice": false
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_3_3",
+      "position": 14,
+      "startDate": "2022-05-24T14:21:52.934-05:00",
+      "endDate": "2022-05-24T14:22:00.017-05:00",
+      "response": "q-y-1",
+      "score": 1,
+      "practice": false
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_3_4",
+      "position": 15,
+      "startDate": "2022-05-24T14:22:00.022-05:00",
+      "endDate": "2022-05-24T14:22:06.727-05:00",
+      "response": "s-6-8",
+      "score": 1,
+      "practice": false
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_3_5",
+      "position": 16,
+      "startDate": "2022-05-24T14:22:06.734-05:00",
+      "endDate": "2022-05-24T14:22:12.322-05:00",
+      "response": "s-2-4",
+      "score": 1,
+      "practice": false
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_3_6",
+      "position": 17,
+      "startDate": "2022-05-24T14:22:12.328-05:00",
+      "endDate": "2022-05-24T14:22:22.442-05:00",
+      "response": "x-1-9",
+      "score": 1,
+      "practice": false
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_4_1",
+      "position": 18,
+      "startDate": "2022-05-24T14:22:22.459-05:00",
+      "endDate": "2022-05-24T14:22:30.039-05:00",
+      "response": "b-z-1-6",
+      "score": 1,
+      "practice": false
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_4_2",
+      "position": 19,
+      "startDate": "2022-05-24T14:22:30.051-05:00",
+      "endDate": "2022-05-24T14:22:36.878-05:00",
+      "response": "a-b-5-8",
+      "score": 1,
+      "practice": false
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_4_3",
+      "position": 20,
+      "startDate": "2022-05-24T14:22:36.888-05:00",
+      "endDate": "2022-05-24T14:22:45.495-05:00",
+      "response": "r-y-2-4",
+      "score": 1,
+      "practice": false
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_5_1",
+      "position": 21,
+      "startDate": "2022-05-24T14:22:45.504-05:00",
+      "endDate": "2022-05-24T14:22:56.096-05:00",
+      "response": "b-c-q-1-6",
+      "score": 1,
+      "practice": false
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_5_2",
+      "position": 22,
+      "startDate": "2022-05-24T14:22:56.107-05:00",
+      "endDate": "2022-05-24T14:23:06.383-05:00",
+      "response": "a-s-y-4-9",
+      "score": 1,
+      "practice": false
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_5_3",
+      "position": 23,
+      "startDate": "2022-05-24T14:23:06.394-05:00",
+      "endDate": "2022-05-24T14:23:18.030-05:00",
+      "response": "c-q-x-6-9",
+      "score": 0,
+      "practice": false
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_6_1",
+      "position": 24,
+      "startDate": "2022-05-24T14:23:18.041-05:00",
+      "endDate": "2022-05-24T14:23:34.718-05:00",
+      "response": "r-y-z-2-9",
+      "score": 0,
+      "practice": false
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_6_2",
+      "position": 25,
+      "startDate": "2022-05-24T14:23:34.730-05:00",
+      "endDate": "2022-05-24T14:23:44.821-05:00",
+      "response": "a-c-r-2-4-7",
+      "score": 0,
+      "practice": false
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.mfs.serialization.MfsStepResult",
+      "identifier": "MFS_6_3",
+      "position": 26,
+      "startDate": "2022-05-24T14:23:44.837-05:00",
+      "endDate": "2022-05-24T14:23:56.920-05:00",
+      "response": "s-y-z-1-4-9",
+      "score": 0,
+      "practice": false
+    }
+  ],
+  "taskRunUUID": "50f4f1df-5fc5-4256-a9a2-5c77250c4a3e",
+  "schemaIdentifier": "MTB_Memory_For_Sequences",
+  "scores": {
+    "rawMFS": 14
+  }
+}
