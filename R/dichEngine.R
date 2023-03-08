@@ -209,7 +209,7 @@ dichEngine <- function(iparFull, uFull, calib, lastAdmin, targetProb=0.5, minNI=
                                                  ifelse(interimScores[nGiven,'Theta'] + sign(tmp$Theta)*stepVal > maxTheta, maxTheta,
                                                         interimScores[nGiven,'Theta'] + sign(tmp$Theta)*stepVal)),nonML_se)
         } else if(tmp$iter >= maxCycles){
-          for(i in c(-.5,.5,-1,1,-1.5,1.5)){
+          for(i in c(-.5,.5,-1,1,-1.5,1.5, -2, 2, -3, 3, -6, 6)){
             tmp2 <- MLE_xPL(ipar=ipar_Split[['1']][admin.ItemID[which(admin_type == 'Calibrated')],],
                             u=resp[which(admin_type == 'Calibrated')],
                             crit=critScore, maxIter=maxCycles, minTheta=minTheta, maxTheta=maxTheta, st_th=i)
