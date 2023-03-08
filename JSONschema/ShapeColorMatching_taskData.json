@@ -1,8 +1,8 @@
 {
  "$schema": "http://json-schema.org/draft-07/schema#",
  "$id": "coreMTB_taskData",
- "title": "JSON Schema for the core MTB taskData files.",
- "description": "This schema combines all elements of the core Mobile Toolbox tests into a single schema.",
+ "title": "JSON Schema for the Shape-Color Sorting MTB Test.",
+ "description": "This schema shares many elements across all Mobile Toolbox tests, but it is specific to the Shape-Color Sorting task. Common elements across tasks appear in the definitions section (though not all of them are utilized herein), but the main properties section defines the task-specific representations of it.",
  "type": "object",
  "definitions":{
    "timemarks":{
@@ -10,19 +10,15 @@
      "format": "date-time",
      "description": "The timestamp when an event occurred, following ISO 8601 formatting conventions"
    },
-   "stepIdentifier":{
-     "type": "string",
-     "description": "This is an identifier for various steps. It may be the step identifier, the identifier for an individual image, or for the parent step under which all images occur. It is used within `interactions`, `steps`, and `stepHistory` for various purposes."
-   },
    "userInteractionIdentifier":{
      "type": "string",
-     "description": "This was formerly called `identifier`, but has been renamed for clarity. It is used within interactions to indicate the UI element with which the person is interacting."
+     "description": "This was formerly called `identifier`, but has been renamed for clarity. It is used within interactions to indicate the UI element with which the person is interacting. Given the wide variety of permissible items with which a user can interact, this field is not enumerated."
    },
 	  "responseTime":{
-     "type": "number",
+     "type": "integer",
      "default": 0,
-     "minimum": 0,
-     "description": "Time, in milliseconds, for a response to occur"
+     "exclusiveMinimum": 0,
+     "description": "Time, in truncated to integer milliseconds, for a response to occur"
    },
    "controlEvent":{
      "type": "string",
@@ -50,12 +46,18 @@
      "description": "The type of result this is",
      "examples":["spellingStepresult","mfsStepResult","mssStepResult"]
    },
-   "itemScore": {
+   "dichotomousItemScore": {
      "type": "integer",
      "default": 1,
      "minimum": 0,
      "maximum": 1,
-     "description": "The score is an indicator for whether an item is correct and thus scored as 1 or incorrect and scored as 0."
+     "description": "The score is an indicator for whether a dichotomous item is correct and thus scored as 1 or incorrect and scored as 0."
+   },
+   "polytomousItemScore": {
+     "type": "integer",
+     "default": 0,
+     "minimum": 0,
+     "description": "For rating scale/survey items that are not scored correct or incorrect, the score can take any integer value up to the number of categories included in an item. Some of these are indexed from 0 while others are indexed from 1, in a task-specific manner."
    },
    "position":{
      "type": "integer",
@@ -64,21 +66,21 @@
    },
    "responseInt": {
      "type": "integer",
-     "description": "This is the int-int schema, whereby the response is a string and the score is an integer. Often this is the position on the screen for a response. With current measures, it is limited to 0 to 18, which is wider than most tasks need but should adequately cover all current measures.",
+     "description": "This is the int-int schema, whereby the response is a string and the score is an integer. Often this is the position on the screen for a response. With current measures, it is limited to 0 to 26, which is wider than most tasks need but should adequately cover all current measures.",
      "minimum": 0,
      "maximum": 26
    },
    "theta":{
      "type": "number",
      "default": 0,
-     "description": "This is the theta value AFTER administering this step."
+     "description": "This is the theta value utilized during IRT-based measures for starting, interim, or final score estimates."
    },
    "se":{
      "type": "number",
-     "description": "This is the standard error associated with the theta estimate AFTER administering this step. The default value is the starting value that initializes the dichotomous engine. It must be positive.",
-     "default": 99,
-     "minimum": 0.0,
-     "maximum": 100
+     "description": "This is the standard error associated with the theta estimate utilized during IRT-based measures for starting, interim, or final score estimates. The default value is the starting value that initializes the dichotomous engine. It must be strictly positive.",
+     "default": 9.9,
+     "exclusiveMinimum": 0.0,
+     "maximum": 10.0
    },
    "responseStr": {
      "type": "string",
@@ -87,32 +89,18 @@
    "didTimeout": {
      "type": "boolean",
      "default": false,
-     "description": "An indicator for PSM as to whether the measure timed out before it was finished"
-   },
-   "sequenceNumber":{
-     "type": "integer",
-     "minimum": 1,
-     "maximum": 2,
-     "description": "This is used by PSM to indicate if it is the first time or the second time a person is taking the trial."
-   },
-   "failRuleSection":{
-     "type": "string",
-     "description": "This is a one-off field for monitoring failing practice, used by DCCS only"
+     "description": "An indicator as to whether the measure timed out before it was finished"
    },
    "stepGroup":{
      "type": "string",
-     "description": "an indicator for if this is the first or second half of the Flanker measure - only appicable to it"
+     "description": "an indicator for for subgroups of steps on tasks that group steps into sections."
    },
    "anticipationError":{
      "type": "integer",
      "default": 0,
      "maximum": 5,
-     "description": "This is used in Flanker and DCCS test to indicate if an anticipation error occurred during this screen"
+     "description": "This is used in Arrows and Shape Color Sorting tasks to indicate if an anticipation error occurred during the pre-exposure steps."
    },
-   "section": {
-     "type" : "string",
-     "description" : "this is used by FNAME Test to indicate what portion of the test this item comes from. This is auto-populated by the test and therefore not enumerated herein, though it can only take 3 options"
-   }
  },
  "properties":{
    "startDate": {"$ref": "#/definitions/timemarks"},
@@ -129,122 +117,17 @@
    },
    "taskName": {
      "type": "string",
-     "$comment": "pattern: ^[^\\s]*$  -- need to remove the comment and add some quotes to fix this",
+     "pattern": "^[^\s]*$",
      "description": "This is the test/task name as administered. It will be automatically provided as part of metadata and as such is not enumerated herein. We note that it does not allow spaces in the taskName for the purposes of aggregating across measures on post-processed export."
    },
    "schemaIdentifier":{
      "type": "string",
-     "description": "this is the identifier for the unique schema. It is currently an array with length one, but will eventually be a hyperlink stored as a string, which points to the relevant JSON schema.",
-     "$comment": "This will eventually be enumerated for the relevant URLs."
+     "description": "this is the identifier for the unique schema. It is a hyperlink stored as a string, which points to the relevant JSON schema on the MobileToolbox github page.",
+     "pattern": "^(https|http|HTTPS|HTTP):\/\/(www\.)?(github|GITHUB|GitHub)\.com\/MobileToolbox[^\s]*$",
    },
    "testVersion": {
-     "description": "The version of MFS administered in this record. Note that this is a number stored as a string",
+     "description": "The task version administered in this record. Note that this is a number stored as a string",
      "type": "string"
-   },
-   "scores": {
-     "description": "This is a series of key-value pairs for scores calculated on-device. These are task-specific.",
-     "oneOf":[
-        {
-           "type": "object",
-           "description": "These scores are consistent with tasks using the dichotomous engine.",
-           "properties":{
-              "startSE":{"$ref": "#/definitions/se"},
-              "startTheta":{"$ref": "#/definitions/theta"},
-              "finalSE":{"$ref": "#/definitions/se"},
-              "finalTheta":{"$ref": "#/definitions/theta"},
-              "itemCount":{
-                 "type": "integer",
-                 "description": "The number of items administered as part of a computer adaptive test",
-                 "minimum": 0
-              }
-           },
-           "additionalProperties": false,
-           "required": ["finalTheta","finalSE","itemCount"]
-        },
-        {
-           "type": "object",
-           "description": "These scores are consistent with tasks using a raw sum score model.",
-           "properties":{
-              "rawScore":{
-                 "type": "integer",
-                 "minimum": 0
-              }
-           },
-           "additionalProperties": false,
-           "required": ["rawScore"]
-        },
-        {
-           "type": "object",
-           "description": "These scores are consistent with the Arranging Pictures test.",
-           "properties":{
-              "timeout": {
-                 "type": "boolean",
-                 "default": false
-              },
-              "exactMatch1":{
-                 "type": "integer",
-                 "minimum": 0,
-                 "maximum": 14,
-                 "description": "Number of pictures placed in the exact location on trial 1."
-              },
-              "exactMatch2":{
-                 "type": "integer",
-                 "minimum": 0,
-                 "maximum": 14,
-                 "description": "Number of pictures placed in the exact location on trial 2."
-              },
-              "adjacentPairs1":{
-                 "type": "integer",
-                 "minimum": 0,
-                 "maximum": 13,
-                 "description": "Number of pictures placed in the correct adjacent forward-moving location on trial 1."
-              },
-              "adjacentPairs2":{
-                 "type": "integer",
-                 "minimum": 0,
-                 "maximum": 13,
-                 "description": "Number of pictures placed in the correct adjacent forward-moving location on trial 2."
-              },
-              "practiceSuccess":{
-                 "type": "boolean",
-                 "default": true,
-                 "description": "Indicator for whether or not the examinee passed practice."
-              }
-           },
-           "additionalProperties": false,
-           "required": ["adjacentPairs1","adjacentPairs2"]
-        },
-        {
-           "type": "object",
-           "description": "These scores are consistent with the rate correct scoring model.",
-           "properties":{
-              "rawScore":{
-                 "type": "integer",
-                 "minimum": 0
-              },
-              "nAnticipationLive":{
-                 "type": "integer",
-                 "minimum": 0
-              },
-              "nAnticipationPractice": {
-                 "type": "integer",
-                 "minimum": 0
-              },
-              "totalErrors": {
-                 "type": "integer",
-                 "minimum": 0
-              },
-              "rateScore":{
-                 "type": "number",
-                 "description": "This is the number correct per second",
-                 "minimum": 0
-              }
-           },
-           "additionalProperties": true,
-           "$comment": "need to make additional properties false after harmonizing DCCS and Flanker. After harmonizing `rateScore` must be added to required.",
-           "required": ["nAnticipationLive"]
-        }
-        ]
    },
    "taskRunUUID":{
      "type": "string",
@@ -255,73 +138,26 @@
      "type": "array",
      "description": "List validation for user interactions. This records screen progression, UI events, and button actions on a step-by-step basis",
      "items":{
-       "oneOf": [
-         {
-           "type": "object",
-           "description": "Standard user interactions for most measures",
-           "properties":{
-             "stepIdentifier":{"$ref": "#/definitions/stepIdentifier"},
-             "responseTime": {"$ref": "#/definitions/responseTime"},
-             "timestamp": {"$ref": "#/definitions/timemarks"},
-             "value": {
-               "type": "string",
-               "description" : "The button touched on the screen, used optionally for some measures."
-             },
-             "controlEvent":{"$ref": "#/definitions/controlEvent"},
-             "userInteractionIdentifier":{"$ref": "#/definitions/userInteractionIdentifier"}
-           },
-           "additionalProperties": false,
-           "required": ["stepIdentifier","timestamp","controlEvent","userInteractionIdentifier"]
-         },
-         {
-           "type": "object",
-           "description": "Interactions for Arranging Pictures, which includes additional fields.",
-           "properties":{
-             "stepIdentifier":{"$ref": "#/definitions/stepIdentifier"},
-             "timestamp": {"$ref": "#/definitions/timemarks"},
-             "controlEvent":{"$ref": "#/definitions/controlEvent"},
-             "userInteractionIdentifier":{"$ref": "#/definitions/userInteractionIdentifier"},
-             "parent":{
-               "type": "string",
-               "enum": ["dropZone1","dropZone2","dropZone3","dropZone4"],
-               "description": "This field is used for on the Arranging Pictures task. On this task, the `stepIdentifier` is the element on the screen which the examinee is moving (i.e., a unique picture). The `parent` is the screen zone in which the control event occurs. This can only take values of 'dropZone1' through 'dropZone14' or 'scrambleZone', but insofar as it is not an array, the field is not enumerated for validation."
-             },
-             "parentStepIdentifier":{"$ref": "#/definitions/stepIdentifier"}
-           },
-           "additionalProperties": false,
-           "required": ["stepIdentifier","timestamp","controlEvent","userInteractionIdentifier","parent"]
-         }
-	      ]
-     }
+       "type": "object",
+       "description": "Standard user interactions for most measures",
+       "properties":{
+         "stepIdentifier":{
+           "type": "string",
+           "pattern": "^[^\s]*$",
+           "description": "This is an identifier for various steps. In the user interactions portion, it is not enumerated."
    },
-   "consideredSteps":{
-     "type": "array",
-     "description": "This is used for the dichotomous test engine as part of the exposure control mechanism.",
-     "items":[
-       {
-         "type": "object",
-         "properties":{
-           "stepIdentifier":{"$ref": "#/definitions/stepIdentifier"},
-           "randomNumber":{
-             "type": "number",
-             "minimum": 0,
-             "maximum": 1,
-             "description": "This value is drawn from a random number generator to determine if an item should be exposed or not."
-           },
-           "exposure":{
-             "type": "number",
-             "minimum": 0,
-             "maximum": 1,
-             "description": "This is the conditional or unconditional exposure control value that is item-specific (and potentially specific to the order of previously-administered items in this administration). It is a value between 0 and 1, and is compared to the randomNumber to determine if an item should be shown to a participant."
-           },
-           "administered":{
-             "type": "boolean",
-             "default": true,
-             "description": "If the item is presented to a participant, this is set to TRUE; if the exposure value is less than the random number, then this is set to FALSE and the next item is considered for administration."
-           }
-         }
-       }
-       ]
+         "responseTime": {"$ref": "#/definitions/responseTime"},
+         "timestamp": {"$ref": "#/definitions/timemarks"},
+         "value": {
+           "type": "string",
+           "description" : "The button touched on the screen, used optionally for some measures."
+         },
+         "controlEvent":{"$ref": "#/definitions/controlEvent"},
+         "userInteractionIdentifier":{"$ref": "#/definitions/userInteractionIdentifier"}
+       },
+       "additionalProperties": false,
+       "required": ["stepIdentifier","timestamp","controlEvent","userInteractionIdentifier"]
+     }
    },
    "steps":{
      "type": "array",
@@ -329,6 +165,34 @@
      "additionalItems": false,
      "items":{
        "oneOf": [
+         {
+           "type": "object",
+           "description": "Generic step fields with NO response element, frequently used for instruction and transition screens",
+           "properties":{
+             "type":{"$ref": "#/definitions/stepResultType"},
+             "identifier": {
+               "type": "string",
+               "pattern": "^[^\s]*$",
+               "description": "This is an identifier for various steps. In order to enforce strict data typing, within the `steps` and `stepHistory` it is required to follow a stricter regex pattern than elsewhere in the taskData."
+             },
+             "startDate": {"$ref": "#/definitions/timemarks"},
+             "endDate": {"$ref": "#/definitions/timemarks"},
+             "practice": {"$ref": "#/definitions/practice"},
+             "instruction": {"$ref": "#/definitions/instructions"},
+             "wasInterrupted": {"$ref": "#/definitions/wasInterrupted"},
+             "score": {"$ref": "#/definitions/itemScore"},
+             "responseTime": {"$ref": "#/definitions/responseTime"},
+             "position": {"$ref": "#/definitions/position"},
+             "failRuleSection":{"$ref": "#/definitions/failRuleSection"},
+             "stepGroup":{"$ref": "#/definitions/stepGroup"},
+             "anticipationError":{"$ref": "#/definitions/anticipationError"},
+             "stepGroup": {"$ref": "#/definitions/stepGroup"},
+             "theta":{"$ref": "#/definitions/theta"},
+             "se":{"$ref": "#/definitions/se"}
+           },
+           "required": ["type","identifier","startDate","endDate","position"],
+           "additionalProperties": false
+         },
          {
             "type": "object",
             "description": "Generic step fields with NO response element, frequently used for instruction and transition screens",
@@ -346,7 +210,7 @@
                "failRuleSection":{"$ref": "#/definitions/failRuleSection"},
                "stepGroup":{"$ref": "#/definitions/stepGroup"},
                "anticipationError":{"$ref": "#/definitions/anticipationError"},
-               "section": {"$ref": "#/definitions/section"},
+               "stepGroup": {"$ref": "#/definitions/stepGroup"},
                "theta":{"$ref": "#/definitions/theta"},
                "se":{"$ref": "#/definitions/se"}
             },
@@ -370,7 +234,7 @@
                "failRuleSection":{"$ref": "#/definitions/failRuleSection"},
                "stepGroup":{"$ref": "#/definitions/stepGroup"},
                "anticipationError":{"$ref": "#/definitions/anticipationError"},
-               "section": {"$ref": "#/definitions/section"},
+               "stepGroup": {"$ref": "#/definitions/stepGroup"},
                "response": {"$ref": "#/definitions/responseInt"}
             },
             "required": ["type","identifier","startDate","endDate","position","response"],
@@ -390,7 +254,7 @@
                "score": {"$ref": "#/definitions/itemScore"},
                "responseTime": {"$ref": "#/definitions/responseTime"},
                "position": {"$ref": "#/definitions/position"},
-               "section": {"$ref": "#/definitions/section"},
+               "stepGroup": {"$ref": "#/definitions/stepGroup"},
                "response": {"$ref": "#/definitions/responseStr"}
             },
             "required": ["type","identifier","startDate","position","endDate","response"],
@@ -413,7 +277,7 @@
                "response": {"$ref": "#/definitions/responseInt"},
                "didTimeout": {"$ref": "#/definitions/didTimeout"},
                "sequenceNumber":{"$ref": "#/definitions/sequenceNumber"},
-               "parentStepIdentifier": {"$ref": "#/definitions/stepIdentifier"}
+               "stepGroup": {"$ref": "#/definitions/stepGroup"}
             },
             "required": ["type","identifier","startDate","endDate","position","didTimeout"],
             "additionalProperties": false
@@ -486,7 +350,7 @@
                "failRuleSection":{"$ref": "#/definitions/failRuleSection"},
                "stepGroup":{"$ref": "#/definitions/stepGroup"},
                "anticipationError":{"$ref": "#/definitions/anticipationError"},
-               "section": {"$ref": "#/definitions/section"},
+               "stepGroup": {"$ref": "#/definitions/stepGroup"},
                "theta":{"$ref": "#/definitions/theta"},
                "se":{"$ref": "#/definitions/se"}
             },
@@ -510,7 +374,7 @@
                "failRuleSection":{"$ref": "#/definitions/failRuleSection"},
                "stepGroup":{"$ref": "#/definitions/stepGroup"},
                "anticipationError":{"$ref": "#/definitions/anticipationError"},
-               "section": {"$ref": "#/definitions/section"},
+               "stepGroup": {"$ref": "#/definitions/stepGroup"},
                "response": {"$ref": "#/definitions/responseInt"}
             },
             "required": ["type","identifier","startDate","endDate","response"],
@@ -552,7 +416,7 @@
                "response": {"$ref": "#/definitions/responseInt"},
                "didTimeout": {"$ref": "#/definitions/didTimeout"},
                "sequenceNumber":{"$ref": "#/definitions/sequenceNumber"},
-               "parentStepIdentifier": {"$ref": "#/definitions/stepIdentifier"}
+               "stepGroup": {"$ref": "#/definitions/stepGroup"}
             },
             "required": ["type","identifier","startDate","endDate","didTimeout","wasInterrupted"],
             "additionalProperties": false
@@ -601,9 +465,44 @@
          }
       ]
      }
+   },
+   "scores":{
+     "type":  "object",
+     "description": "These are the scores generated on-device for Shape-Color Sorting.",
+     "properties":{
+       "rawScore":{
+         "type": "integer",
+         "minimum": 0
+       },
+       "nAnticipationLive":{
+         "type": "integer",
+         "minimum": 0
+       },
+       "nAnticipationPractice": {
+         "type": "integer",
+         "minimum": 0
+       },
+       "totalErrors": {
+         "type": "integer",
+         "minimum": 0
+       },
+       "rateScore":{
+         "type": "number",
+         "description": "This is the number correct per second",
+         "minimum": 0
+       },
+       "totalResponseTime": {
+         "type":  "integer",
+         "description": "The sum of response times, in milliseconds, for live items",
+         "exclusiveMinimum": 0
+       }
+     }
+   },
+   "type":{
+     "type": "string",
+     "description": "Some Android versions insert a field called 'type' into our taskData. This element is here to allow that field to pass. It is not required, but it is permissible."
    }
  },
  "additionalProperties": false,
- "required": ["startDate","endDate","taskStatus","schemaIdentifier","testVersion","userInteractions","steps","stepHistory", "taskRunUUID"],
- "$comment": "The additional properties field is set to FALSE so that extra elements are not allowed. All required portions of a test occur in all exports. It is expected that taskRunUUID will be added to this list, and that eventually the fields `locale` and `taskName` will be removed as they will be recorded in the metaData export as opposed to herein."
+ "required": ["startDate","endDate","taskStatus","schemaIdentifier","testVersion","userInteractions","steps","stepHistory", "taskRunUUID","scores"],
 }
