@@ -1,7 +1,7 @@
 {
  "$schema": "http://json-schema.org/draft-07/schema#",
- "$id": "coreMTB_taskData",
- "title": "JSON Schema for the core MTB taskData files.",
+ "$id": "sharedSchema",
+ "title": "Combined MTB Schema",
  "description": "This schema combines all elements of the core Mobile Toolbox tests into a single schema.",
  "type": "object",
  "definitions":{
@@ -25,10 +25,13 @@
      "description": "Time, in milliseconds, for a response to occur"
    },
    "controlEvent":{
-     "type": "string",
+     "type": "array",
      "maxItems": 1,
      "description": "This is used within interactions to record the type of event that is occurring. It is an enumerated field.",
-	 "enum": ["stepBegins","interrupted","resumed","uiEnabled","touchDown","touchUpInside","touchUpOutside","keypress","setSelection"]
+     "items":[
+       {"type": "string"},
+       {"enum": ["stepBegins","interrupted","resumed","uiEnabled","touchDown","touchUpInside","touchUpOutside","keypress","setSelection"]}
+       ]
    },
    "practice": {
      "type": "boolean",
@@ -54,7 +57,7 @@
      "type": "integer",
      "default": 1,
      "minimum": 0,
-     "maximum": 1,
+     "maximum": 99,
      "description": "The score is an indicator for whether an item is correct and thus scored as 1 or incorrect and scored as 0."
    },
    "position":{
@@ -78,7 +81,7 @@
      "description": "This is the standard error associated with the theta estimate AFTER administering this step. The default value is the starting value that initializes the dichotomous engine. It must be positive.",
      "default": 99,
      "minimum": 0.0,
-     "maximum": 100
+     "$comment": "This is currently set to 0.0=minimum, but once the maximum likelihood score is identified, the se cannot equal 0.0. However, the welcome and instruction screens still start it at 0.0 instead of the default +99, and as such this is currently set as the minimum. In future versions of the test, this will be fixed to exclusiveMinimum=0.0."
    },
    "responseStr": {
      "type": "string",
@@ -94,6 +97,11 @@
      "minimum": 1,
      "maximum": 2,
      "description": "This is used by PSM to indicate if it is the first time or the second time a person is taking the trial."
+   },
+   "psmScoreName":{
+     "type":"string",
+     "description": "Used in PSM as an indicator for whether the picture in this step contributes to exactMatch1 or exactMatch2 or adjacentPairs1 or adjacentPairs2.",
+     "$comment": "this field will likely be removed in future releases"
    },
    "failRuleSection":{
      "type": "string",
@@ -118,9 +126,13 @@
    "startDate": {"$ref": "#/definitions/timemarks"},
    "endDate": {"$ref": "#/definitions/timemarks"},
    "taskStatus":{
-     "type": "string",
+     "type": "array",
      "description": "completion status for the task.",
-     "enum": ["complete","willNotComplete","partiallyComplete"]
+     "maxItems": 1,
+     "items":[
+       {"type":"string"},
+       {"enum": ["complete","willNotComplete","partiallyComplete"]}
+	    ]
    },
    "locale":{
      "type": "string",
@@ -129,8 +141,7 @@
    },
    "taskName": {
      "type": "string",
-     "$comment": "pattern: ^[^\\s]*$  -- need to remove the comment and add some quotes to fix this",
-     "description": "This is the test/task name as administered. It will be automatically provided as part of metadata and as such is not enumerated herein. We note that it does not allow spaces in the taskName for the purposes of aggregating across measures on post-processed export."
+     "description": "This is the test/task name as administered. It will be automatically provided as part of metadata and as such is not enumerated herein"
    },
    "schemaIdentifier":{
      "type": "string",
@@ -142,109 +153,8 @@
      "type": "string"
    },
    "scores": {
-     "description": "This is a series of key-value pairs for scores calculated on-device. These are task-specific.",
-     "oneOf":[
-        {
-           "type": "object",
-           "description": "These scores are consistent with tasks using the dichotomous engine.",
-           "properties":{
-              "startSE":{"$ref": "#/definitions/se"},
-              "startTheta":{"$ref": "#/definitions/theta"},
-              "finalSE":{"$ref": "#/definitions/se"},
-              "finalTheta":{"$ref": "#/definitions/theta"},
-              "itemCount":{
-                 "type": "integer",
-                 "description": "The number of items administered as part of a computer adaptive test",
-                 "minimum": 0
-              }
-           },
-           "additionalProperties": false,
-           "required": ["finalTheta","finalSE","itemCount"]
-        },
-        {
-           "type": "object",
-           "description": "These scores are consistent with tasks using a raw sum score model.",
-           "properties":{
-              "rawScore":{
-                 "type": "integer",
-                 "minimum": 0
-              }
-           },
-           "additionalProperties": false,
-           "required": ["rawScore"]
-        },
-        {
-           "type": "object",
-           "description": "These scores are consistent with the Arranging Pictures test.",
-           "properties":{
-              "timeout": {
-                 "type": "boolean",
-                 "default": false
-              },
-              "exactMatch1":{
-                 "type": "integer",
-                 "minimum": 0,
-                 "maximum": 14,
-                 "description": "Number of pictures placed in the exact location on trial 1."
-              },
-              "exactMatch2":{
-                 "type": "integer",
-                 "minimum": 0,
-                 "maximum": 14,
-                 "description": "Number of pictures placed in the exact location on trial 2."
-              },
-              "adjacentPairs1":{
-                 "type": "integer",
-                 "minimum": 0,
-                 "maximum": 13,
-                 "description": "Number of pictures placed in the correct adjacent forward-moving location on trial 1."
-              },
-              "adjacentPairs2":{
-                 "type": "integer",
-                 "minimum": 0,
-                 "maximum": 13,
-                 "description": "Number of pictures placed in the correct adjacent forward-moving location on trial 2."
-              },
-              "practiceSuccess":{
-                 "type": "boolean",
-                 "default": true,
-                 "description": "Indicator for whether or not the examinee passed practice."
-              }
-           },
-           "additionalProperties": false,
-           "required": ["adjacentPairs1","adjacentPairs2"]
-        },
-        {
-           "type": "object",
-           "description": "These scores are consistent with the rate correct scoring model.",
-           "properties":{
-              "rawScore":{
-                 "type": "integer",
-                 "minimum": 0
-              },
-              "nAnticipationLive":{
-                 "type": "integer",
-                 "minimum": 0
-              },
-              "nAnticipationPractice": {
-                 "type": "integer",
-                 "minimum": 0
-              },
-              "totalErrors": {
-                 "type": "integer",
-                 "minimum": 0
-              },
-              "rateScore":{
-                 "type": "number",
-                 "description": "This is the number correct per second",
-                 "minimum": 0
-              }
-           },
-           "additionalProperties": true,
-           "$comment": "need to make additional properties false after harmonizing DCCS and Flanker. After harmonizing `rateScore` must be added to required.",
-           "required": ["nAnticipationLive"]
-        }
-        ]
+     "type": "object",
+     "description": "This is a series of key-value pairs for scores calculated on-device. These are task-specific and as such not specified herein (or at least not yet)."
    },
    "taskRunUUID":{
      "type": "string",
@@ -275,7 +185,7 @@
          },
          {
            "type": "object",
-           "description": "Interactions for Arranging Pictures, which includes additional fields.",
+           "description": "Interactions for Picture Sequence Memory, which includes additional fields.",
            "properties":{
              "stepIdentifier":{"$ref": "#/definitions/stepIdentifier"},
              "timestamp": {"$ref": "#/definitions/timemarks"},
@@ -283,8 +193,7 @@
              "userInteractionIdentifier":{"$ref": "#/definitions/userInteractionIdentifier"},
              "parent":{
                "type": "string",
-               "enum": ["dropZone1","dropZone2","dropZone3","dropZone4"],
-               "description": "This field is used for on the Arranging Pictures task. On this task, the `stepIdentifier` is the element on the screen which the examinee is moving (i.e., a unique picture). The `parent` is the screen zone in which the control event occurs. This can only take values of 'dropZone1' through 'dropZone14' or 'scrambleZone', but insofar as it is not an array, the field is not enumerated for validation."
+               "description": "This field is used for on the Picture Sequence Memory task. On this task, the `stepIdentifier` is the element on the screen which the examinee is moving (i.e., a unique picture). The `parent` is the screen zone in which the control event occurs. This can only take values of 'dropZone1' through 'dropZone14' or 'scrambleZone', but insofar as it is not an array, the field is not enumerated for validation."
              },
              "parentStepIdentifier":{"$ref": "#/definitions/stepIdentifier"}
            },
@@ -339,6 +248,7 @@
                "endDate": {"$ref": "#/definitions/timemarks"},
                "practice": {"$ref": "#/definitions/practice"},
                "instruction": {"$ref": "#/definitions/instructions"},
+               "didTimeout": {"$ref": "#/definitions/didTimeout"},
                "wasInterrupted": {"$ref": "#/definitions/wasInterrupted"},
                "score": {"$ref": "#/definitions/itemScore"},
                "responseTime": {"$ref": "#/definitions/responseTime"},
@@ -371,6 +281,7 @@
                "stepGroup":{"$ref": "#/definitions/stepGroup"},
                "anticipationError":{"$ref": "#/definitions/anticipationError"},
                "section": {"$ref": "#/definitions/section"},
+               "didTimeout": {"$ref": "#/definitions/didTimeout"},
                "response": {"$ref": "#/definitions/responseInt"}
             },
             "required": ["type","identifier","startDate","endDate","position","response"],
@@ -398,7 +309,7 @@
          },
          {
             "type": "object",
-            "description": "A record for each item administered in this assessment for Arranging Pictures, with Integer-Integer response-score models",
+            "description": "A record for each item administered in this assessment for PSM, with Integer-Integer response-score models",
             "properties":{
                "type":{"$ref": "#/definitions/stepResultType"},
                "identifier": {"$ref": "#/definitions/stepIdentifier"},
@@ -413,9 +324,11 @@
                "response": {"$ref": "#/definitions/responseInt"},
                "didTimeout": {"$ref": "#/definitions/didTimeout"},
                "sequenceNumber":{"$ref": "#/definitions/sequenceNumber"},
+               "exactMatchScoreName":{"$ref": "#/definitions/psmScoreName"},
+               "adjacentPairScoreName":{"$ref": "#/definitions/psmScoreName"},
                "parentStepIdentifier": {"$ref": "#/definitions/stepIdentifier"}
             },
-            "required": ["type","identifier","startDate","endDate","position","didTimeout"],
+            "required": ["type","identifier","startDate","endDate","position","parentStepIdentifier"],
             "additionalProperties": false
          },
          {
@@ -486,6 +399,7 @@
                "failRuleSection":{"$ref": "#/definitions/failRuleSection"},
                "stepGroup":{"$ref": "#/definitions/stepGroup"},
                "anticipationError":{"$ref": "#/definitions/anticipationError"},
+               "didTimeout": {"$ref": "#/definitions/didTimeout"},
                "section": {"$ref": "#/definitions/section"},
                "theta":{"$ref": "#/definitions/theta"},
                "se":{"$ref": "#/definitions/se"}
@@ -511,6 +425,7 @@
                "stepGroup":{"$ref": "#/definitions/stepGroup"},
                "anticipationError":{"$ref": "#/definitions/anticipationError"},
                "section": {"$ref": "#/definitions/section"},
+               "didTimeout": {"$ref": "#/definitions/didTimeout"},
                "response": {"$ref": "#/definitions/responseInt"}
             },
             "required": ["type","identifier","startDate","endDate","response"],
@@ -537,7 +452,7 @@
          },
          {
             "type": "object",
-            "description": "A record for each item administered in this assessment for Arranging Pictures, with Integer-Integer response-score models",
+            "description": "A record for each item administered in this assessment for PSM, with Integer-Integer response-score models",
             "properties":{
                "type":{"$ref": "#/definitions/stepResultType"},
                "identifier": {"$ref": "#/definitions/stepIdentifier"},
@@ -552,9 +467,11 @@
                "response": {"$ref": "#/definitions/responseInt"},
                "didTimeout": {"$ref": "#/definitions/didTimeout"},
                "sequenceNumber":{"$ref": "#/definitions/sequenceNumber"},
+               "exactMatchScoreName":{"$ref": "#/definitions/psmScoreName"},
+               "adjacentPairScoreName":{"$ref": "#/definitions/psmScoreName"},
                "parentStepIdentifier": {"$ref": "#/definitions/stepIdentifier"}
             },
-            "required": ["type","identifier","startDate","endDate","didTimeout","wasInterrupted"],
+            "required": ["type","identifier","startDate","endDate","parentStepIdentifier"],
             "additionalProperties": false
          },
          {
@@ -580,7 +497,7 @@
          },
          {
             "type": "object",
-            "description": "A record for each item administered in this assessment using the dichotomous item selection engine, with String-Integer response-score models",
+            "description": "A record for each item administered in this assessment using the dichotomous item selection engine, with Integer-Integer response-score models",
             "properties":{
                "type":{"$ref": "#/definitions/stepResultType"},
                "identifier": {"$ref": "#/definitions/stepIdentifier"},
@@ -604,6 +521,6 @@
    }
  },
  "additionalProperties": false,
- "required": ["startDate","endDate","taskStatus","schemaIdentifier","testVersion","userInteractions","steps","stepHistory", "taskRunUUID"],
+ "required": ["startDate","endDate","taskStatus","schemaIdentifier","testVersion","userInteractions","scores","stepHistory", "taskRunUUID"],
  "$comment": "The additional properties field is set to FALSE so that extra elements are not allowed. All required portions of a test occur in all exports. It is expected that taskRunUUID will be added to this list, and that eventually the fields `locale` and `taskName` will be removed as they will be recorded in the metaData export as opposed to herein."
 }

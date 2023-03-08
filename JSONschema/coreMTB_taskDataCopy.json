@@ -54,7 +54,7 @@
      "type": "integer",
      "default": 1,
      "minimum": 0,
-     "maximum": 1,
+     "maximum": 99,
      "description": "The score is an indicator for whether an item is correct and thus scored as 1 or incorrect and scored as 0."
    },
    "position":{
@@ -604,6 +604,6 @@
    }
  },
  "additionalProperties": false,
- "required": ["startDate","endDate","taskStatus","schemaIdentifier","testVersion","userInteractions","steps","stepHistory", "taskRunUUID"],
+ "required": ["startDate","endDate","taskStatus","testVersion","userInteractions","steps","stepHistory", "taskRunUUID"],
  "$comment": "The additional properties field is set to FALSE so that extra elements are not allowed. All required portions of a test occur in all exports. It is expected that taskRunUUID will be added to this list, and that eventually the fields `locale` and `taskName` will be removed as they will be recorded in the metaData export as opposed to herein."
 }
