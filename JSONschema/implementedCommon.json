@@ -1,0 +1,526 @@
+{
+ "$schema": "http://json-schema.org/draft-07/schema#",
+ "$id": "sharedSchema",
+ "title": "Combined MTB Schema",
+ "description": "This schema combines all elements of the core Mobile Toolbox tests into a single schema.",
+ "type": "object",
+ "definitions":{
+   "timemarks":{
+     "type": "string",
+     "format": "date-time",
+     "description": "The timestamp when an event occurred, following ISO 8601 formatting conventions"
+   },
+   "stepIdentifier":{
+     "type": "string",
+     "description": "This is an identifier for various steps. It may be the step identifier, the identifier for an individual image, or for the parent step under which all images occur. It is used within `interactions`, `steps`, and `stepHistory` for various purposes."
+   },
+   "userInteractionIdentifier":{
+     "type": "string",
+     "description": "This was formerly called `identifier`, but has been renamed for clarity. It is used within interactions to indicate the UI element with which the person is interacting."
+   },
+	  "responseTime":{
+     "type": "number",
+     "default": 0,
+     "minimum": 0,
+     "description": "Time, in milliseconds, for a response to occur"
+   },
+   "controlEvent":{
+     "type": "array",
+     "maxItems": 1,
+     "description": "This is used within interactions to record the type of event that is occurring. It is an enumerated field.",
+     "items":[
+       {"type": "string"},
+       {"enum": ["stepBegins","interrupted","resumed","uiEnabled","touchDown","touchUpInside","touchUpOutside","keypress","setSelection"]}
+       ]
+   },
+   "practice": {
+     "type": "boolean",
+     "default": false,
+     "description": "An indicator for whether this item is a practice item [TRUE] or a live item [FALSE]."
+   },
+   "instructions": {
+     "type": "boolean",
+     "default": false,
+     "description": "An indicator for whether this item is an instructional item [TRUE] or a practice or live item [FALSE]."
+   },
+   "wasInterrupted": {
+     "type": "boolean",
+     "default": false,
+     "description": "An indicator for whether an interruption occurred on this item."
+   },
+   "stepResultType":{
+     "type": "string",
+     "description": "The type of result this is",
+     "examples":["spellingStepresult","mfsStepResult","mssStepResult"]
+   },
+   "itemScore": {
+     "type": "integer",
+     "default": 1,
+     "minimum": 0,
+     "maximum": 1,
+     "description": "The score is an indicator for whether an item is correct and thus scored as 1 or incorrect and scored as 0."
+   },
+   "position":{
+     "type": "integer",
+     "minimum": 1,
+     "description": "The order of screen/step progression for this administration"
+   },
+   "responseInt": {
+     "type": "integer",
+     "description": "This is the int-int schema, whereby the response is a string and the score is an integer. Often this is the position on the screen for a response. With current measures, it is limited to 0 to 18, which is wider than most tasks need but should adequately cover all current measures.",
+     "minimum": 0,
+     "maximum": 26
+   },
+   "theta":{
+     "type": "number",
+     "default": 0,
+     "description": "This is the theta value AFTER administering this step."
+   },
+   "se":{
+     "type": "number",
+     "description": "This is the standard error associated with the theta estimate AFTER administering this step. The default value is the starting value that initializes the dichotomous engine. It must be positive.",
+     "default": 99,
+     "minimum": 0.0,
+     "$comment": "This is currently set to 0.0=minimum, but once the maximum likelihood score is identified, the se cannot equal 0.0. However, the welcome and instruction screens still start it at 0.0 instead of the default +99, and as such this is currently set as the minimum. In future versions of the test, this will be fixed to exclusiveMinimum=0.0."
+   },
+   "responseStr": {
+     "type": "string",
+     "description": "This is the string-int schema, whereby the response is a string and the score is an integer. The string length is not defined."
+   },
+   "didTimeout": {
+     "type": "boolean",
+     "default": false,
+     "description": "An indicator for PSM as to whether the measure timed out before it was finished"
+   },
+   "sequenceNumber":{
+     "type": "integer",
+     "minimum": 1,
+     "maximum": 2,
+     "description": "This is used by PSM to indicate if it is the first time or the second time a person is taking the trial."
+   },
+   "psmScoreName":{
+     "type":"string",
+     "description": "Used in PSM as an indicator for whether the picture in this step contributes to exactMatch1 or exactMatch2 or adjacentPairs1 or adjacentPairs2.",
+     "$comment": "this field will likely be removed in future releases"
+   },
+   "failRuleSection":{
+     "type": "string",
+     "description": "This is a one-off field for monitoring failing practice, used by DCCS only"
+   },
+   "stepGroup":{
+     "type": "string",
+     "description": "an indicator for if this is the first or second half of the Flanker measure - only appicable to it"
+   },
+   "anticipationError":{
+     "type": "integer",
+     "default": 0,
+     "maximum": 5,
+     "description": "This is used in Flanker and DCCS test to indicate if an anticipation error occurred during this screen"
+   },
+   "section": {
+     "type" : "string",
+     "description" : "this is used by FNAME Test to indicate what portion of the test this item comes from. This is auto-populated by the test and therefore not enumerated herein, though it can only take 3 options"
+   }
+ },
+ "properties":{
+   "startDate": {"$ref": "#/definitions/timemarks"},
+   "endDate": {"$ref": "#/definitions/timemarks"},
+   "taskStatus":{
+     "type": "array",
+     "description": "completion status for the task.",
+     "maxItems": 1,
+     "items":[
+       {"type":"string"},
+       {"enum": ["complete","willNotComplete","partiallyComplete"]}
+	    ]
+   },
+   "locale":{
+     "type": "string",
+     "description": "localization for the phone on which the task was administered - note that this is metadata passed by the app and thus not enumerated herein",
+     "default": "en-us"
+   },
+   "taskName": {
+     "type": "string",
+     "description": "This is the test/task name as administered. It will be automatically provided as part of metadata and as such is not enumerated herein"
+   },
+   "schemaIdentifier":{
+     "type": "string",
+     "description": "this is the identifier for the unique schema. It is currently an array with length one, but will eventually be a hyperlink stored as a string, which points to the relevant JSON schema.",
+     "$comment": "This will eventually be enumerated for the relevant URLs."
+   },
+   "testVersion": {
+     "description": "The version of MFS administered in this record. Note that this is a number stored as a string",
+     "type": "string"
+   },
+   "scores": {
+     "type": "object",
+     "description": "This is a series of key-value pairs for scores calculated on-device. These are task-specific and as such not specified herein (or at least not yet)."
+   },
+   "taskRunUUID":{
+     "type": "string",
+     "format": "uuid",
+     "description": "This is a global identifier"
+   },
+   "userInteractions":{
+     "type": "array",
+     "description": "List validation for user interactions. This records screen progression, UI events, and button actions on a step-by-step basis",
+     "items":{
+       "oneOf": [
+         {
+           "type": "object",
+           "description": "Standard user interactions for most measures",
+           "properties":{
+             "stepIdentifier":{"$ref": "#/definitions/stepIdentifier"},
+             "responseTime": {"$ref": "#/definitions/responseTime"},
+             "timestamp": {"$ref": "#/definitions/timemarks"},
+             "value": {
+               "type": "string",
+               "description" : "The button touched on the screen, used optionally for some measures."
+             },
+             "controlEvent":{"$ref": "#/definitions/controlEvent"},
+             "userInteractionIdentifier":{"$ref": "#/definitions/userInteractionIdentifier"}
+           },
+           "additionalProperties": false,
+           "required": ["stepIdentifier","timestamp","controlEvent","userInteractionIdentifier"]
+         },
+         {
+           "type": "object",
+           "description": "Interactions for Picture Sequence Memory, which includes additional fields.",
+           "properties":{
+             "stepIdentifier":{"$ref": "#/definitions/stepIdentifier"},
+             "timestamp": {"$ref": "#/definitions/timemarks"},
+             "controlEvent":{"$ref": "#/definitions/controlEvent"},
+             "userInteractionIdentifier":{"$ref": "#/definitions/userInteractionIdentifier"},
+             "parent":{
+               "type": "string",
+               "description": "This field is used for on the Picture Sequence Memory task. On this task, the `stepIdentifier` is the element on the screen which the examinee is moving (i.e., a unique picture). The `parent` is the screen zone in which the control event occurs. This can only take values of 'dropZone1' through 'dropZone14' or 'scrambleZone', but insofar as it is not an array, the field is not enumerated for validation."
+             },
+             "parentStepIdentifier":{"$ref": "#/definitions/stepIdentifier"}
+           },
+           "additionalProperties": false,
+           "required": ["stepIdentifier","timestamp","controlEvent","userInteractionIdentifier","parent"]
+         }
+	      ]
+     }
+   },
+   "consideredSteps":{
+     "type": "array",
+     "description": "This is used for the dichotomous test engine as part of the exposure control mechanism.",
+     "items":[
+       {
+         "type": "object",
+         "properties":{
+           "stepIdentifier":{"$ref": "#/definitions/stepIdentifier"},
+           "randomNumber":{
+             "type": "number",
+             "minimum": 0,
+             "maximum": 1,
+             "description": "This value is drawn from a random number generator to determine if an item should be exposed or not."
+           },
+           "exposure":{
+             "type": "number",
+             "minimum": 0,
+             "maximum": 1,
+             "description": "This is the conditional or unconditional exposure control value that is item-specific (and potentially specific to the order of previously-administered items in this administration). It is a value between 0 and 1, and is compared to the randomNumber to determine if an item should be shown to a participant."
+           },
+           "administered":{
+             "type": "boolean",
+             "default": true,
+             "description": "If the item is presented to a participant, this is set to TRUE; if the exposure value is less than the random number, then this is set to FALSE and the next item is considered for administration."
+           }
+         }
+       }
+       ]
+   },
+   "steps":{
+     "type": "array",
+     "description": "This records all of the items/steps administered during this assessment. It records the response and score",
+     "additionalItems": false,
+     "items":{
+       "oneOf": [
+         {
+            "type": "object",
+            "description": "Generic step fields with NO response element, frequently used for instruction and transition screens",
+            "properties":{
+               "type":{"$ref": "#/definitions/stepResultType"},
+               "identifier": {"$ref": "#/definitions/stepIdentifier"},
+               "startDate": {"$ref": "#/definitions/timemarks"},
+               "endDate": {"$ref": "#/definitions/timemarks"},
+               "practice": {"$ref": "#/definitions/practice"},
+               "instruction": {"$ref": "#/definitions/instructions"},
+               "didTimeout": {"$ref": "#/definitions/didTimeout"},
+               "wasInterrupted": {"$ref": "#/definitions/wasInterrupted"},
+               "score": {"$ref": "#/definitions/itemScore"},
+               "responseTime": {"$ref": "#/definitions/responseTime"},
+               "position": {"$ref": "#/definitions/position"},
+               "failRuleSection":{"$ref": "#/definitions/failRuleSection"},
+               "stepGroup":{"$ref": "#/definitions/stepGroup"},
+               "anticipationError":{"$ref": "#/definitions/anticipationError"},
+               "section": {"$ref": "#/definitions/section"},
+               "theta":{"$ref": "#/definitions/theta"},
+               "se":{"$ref": "#/definitions/se"}
+            },
+            "required": ["type","identifier","startDate","endDate","position"],
+            "additionalProperties": false
+         },
+         {
+            "type": "object",
+            "description": "A record for each item administered in this assessment using the standard item selection engine, with Integer-Integer response-score models",
+            "properties":{
+               "type":{"$ref": "#/definitions/stepResultType"},
+               "identifier": {"$ref": "#/definitions/stepIdentifier"},
+               "startDate": {"$ref": "#/definitions/timemarks"},
+               "endDate": {"$ref": "#/definitions/timemarks"},
+               "practice": {"$ref": "#/definitions/practice"},
+               "instruction": {"$ref": "#/definitions/instructions"},
+               "wasInterrupted": {"$ref": "#/definitions/wasInterrupted"},
+               "score": {"$ref": "#/definitions/itemScore"},
+               "responseTime": {"$ref": "#/definitions/responseTime"},
+               "position": {"$ref": "#/definitions/position"},
+               "failRuleSection":{"$ref": "#/definitions/failRuleSection"},
+               "stepGroup":{"$ref": "#/definitions/stepGroup"},
+               "anticipationError":{"$ref": "#/definitions/anticipationError"},
+               "section": {"$ref": "#/definitions/section"},
+               "didTimeout": {"$ref": "#/definitions/didTimeout"},
+               "response": {"$ref": "#/definitions/responseInt"}
+            },
+            "required": ["type","identifier","startDate","endDate","position","response"],
+            "additionalProperties": false
+         },
+         {
+            "type": "object",
+            "description": "A record for each item administered in this assessment using the standard item selection engine, with String-Integer response-score models",
+            "properties":{
+               "type":{"$ref": "#/definitions/stepResultType"},
+               "identifier": {"$ref": "#/definitions/stepIdentifier"},
+               "startDate": {"$ref": "#/definitions/timemarks"},
+               "endDate": {"$ref": "#/definitions/timemarks"},
+               "practice": {"$ref": "#/definitions/practice"},
+               "instruction": {"$ref": "#/definitions/instructions"},
+               "wasInterrupted": {"$ref": "#/definitions/wasInterrupted"},
+               "score": {"$ref": "#/definitions/itemScore"},
+               "responseTime": {"$ref": "#/definitions/responseTime"},
+               "position": {"$ref": "#/definitions/position"},
+               "section": {"$ref": "#/definitions/section"},
+               "response": {"$ref": "#/definitions/responseStr"}
+            },
+            "required": ["type","identifier","startDate","position","endDate","response"],
+            "additionalProperties": false
+         },
+         {
+            "type": "object",
+            "description": "A record for each item administered in this assessment for PSM, with Integer-Integer response-score models",
+            "properties":{
+               "type":{"$ref": "#/definitions/stepResultType"},
+               "identifier": {"$ref": "#/definitions/stepIdentifier"},
+               "startDate": {"$ref": "#/definitions/timemarks"},
+               "endDate": {"$ref": "#/definitions/timemarks"},
+               "practice": {"$ref": "#/definitions/practice"},
+               "instruction": {"$ref": "#/definitions/instructions"},
+               "wasInterrupted": {"$ref": "#/definitions/wasInterrupted"},
+               "score": {"$ref": "#/definitions/itemScore"},
+               "responseTime": {"$ref": "#/definitions/responseTime"},
+               "position": {"$ref": "#/definitions/position"},
+               "response": {"$ref": "#/definitions/responseInt"},
+               "didTimeout": {"$ref": "#/definitions/didTimeout"},
+               "sequenceNumber":{"$ref": "#/definitions/sequenceNumber"},
+               "exactMatchScoreName":{"$ref": "#/definitions/psmScoreName"},
+               "adjacentPairScoreName":{"$ref": "#/definitions/psmScoreName"},
+               "parentStepIdentifier": {"$ref": "#/definitions/stepIdentifier"}
+            },
+            "required": ["type","identifier","startDate","endDate","position","parentStepIdentifier"],
+            "additionalProperties": false
+         },
+         {
+            "type": "object",
+            "description": "A record for each item administered in this assessment using the dichotomous item selection engine, with Integer-Integer response-score models",
+            "properties":{
+               "type":{"$ref": "#/definitions/stepResultType"},
+               "identifier": {"$ref": "#/definitions/stepIdentifier"},
+               "startDate": {"$ref": "#/definitions/timemarks"},
+               "endDate": {"$ref": "#/definitions/timemarks"},
+               "practice": {"$ref": "#/definitions/practice"},
+               "instruction": {"$ref": "#/definitions/instructions"},
+               "wasInterrupted": {"$ref": "#/definitions/wasInterrupted"},
+               "score": {"$ref": "#/definitions/itemScore"},
+               "responseTime": {"$ref": "#/definitions/responseTime"},
+               "position": {"$ref": "#/definitions/position"},
+               "response": {"$ref": "#/definitions/responseInt"},
+               "theta":{"$ref": "#/definitions/theta"},
+               "se":{"$ref": "#/definitions/se"}
+            },
+            "required": ["type","identifier","startDate","endDate","response","position","theta","se"],
+            "additionalProperties": false
+         },
+         {
+            "type": "object",
+            "description": "A record for each item administered in this assessment using the dichotomous item selection engine, with String-Integer response-score models",
+            "properties":{
+               "type":{"$ref": "#/definitions/stepResultType"},
+               "identifier": {"$ref": "#/definitions/stepIdentifier"},
+               "startDate": {"$ref": "#/definitions/timemarks"},
+               "endDate": {"$ref": "#/definitions/timemarks"},
+               "practice": {"$ref": "#/definitions/practice"},
+               "instruction": {"$ref": "#/definitions/instructions"},
+               "wasInterrupted": {"$ref": "#/definitions/wasInterrupted"},
+               "score": {"$ref": "#/definitions/itemScore"},
+               "responseTime": {"$ref": "#/definitions/responseTime"},
+               "position": {"$ref": "#/definitions/position"},
+               "response": {"$ref": "#/definitions/responseStr"},
+               "theta":{"$ref": "#/definitions/theta"},
+               "se":{"$ref": "#/definitions/se"}
+            },
+            "required": ["type","identifier","startDate","endDate","response","position","theta","se"],
+            "additionalProperties": false
+         }
+      ]
+     }
+   },
+   "stepHistory":{
+     "type": "array",
+     "description": "This records all of the items/steps administered presented or considered during this assessment. It records the response and score if an examinee got to that point; it also records items that may not have been completed, e.g. due to an interruption. It is identical to or a superset of the `steps` field",
+     "additionalItems": false,
+     "items":{
+       "oneOf": [
+         {
+            "type": "object",
+            "description": "Generic step fields with NO response element, frequently used for instruction and transition screens",
+            "properties":{
+               "type":{"$ref": "#/definitions/stepResultType"},
+               "identifier": {"$ref": "#/definitions/stepIdentifier"},
+               "startDate": {"$ref": "#/definitions/timemarks"},
+               "endDate": {"$ref": "#/definitions/timemarks"},
+               "practice": {"$ref": "#/definitions/practice"},
+               "instruction": {"$ref": "#/definitions/instructions"},
+               "wasInterrupted": {"$ref": "#/definitions/wasInterrupted"},
+               "score": {"$ref": "#/definitions/itemScore"},
+               "responseTime": {"$ref": "#/definitions/responseTime"},
+               "position": {"$ref": "#/definitions/position"},
+               "failRuleSection":{"$ref": "#/definitions/failRuleSection"},
+               "stepGroup":{"$ref": "#/definitions/stepGroup"},
+               "anticipationError":{"$ref": "#/definitions/anticipationError"},
+               "didTimeout": {"$ref": "#/definitions/didTimeout"},
+               "section": {"$ref": "#/definitions/section"},
+               "theta":{"$ref": "#/definitions/theta"},
+               "se":{"$ref": "#/definitions/se"}
+            },
+            "required": ["type","identifier","startDate","endDate"],
+            "additionalProperties": false
+         },
+         {
+            "type": "object",
+            "description": "A record for each item administered in this assessment using the standard item selection engine, with Integer-Integer response-score models",
+            "properties":{
+               "type":{"$ref": "#/definitions/stepResultType"},
+               "identifier": {"$ref": "#/definitions/stepIdentifier"},
+               "startDate": {"$ref": "#/definitions/timemarks"},
+               "endDate": {"$ref": "#/definitions/timemarks"},
+               "practice": {"$ref": "#/definitions/practice"},
+               "instruction": {"$ref": "#/definitions/instructions"},
+               "wasInterrupted": {"$ref": "#/definitions/wasInterrupted"},
+               "score": {"$ref": "#/definitions/itemScore"},
+               "responseTime": {"$ref": "#/definitions/responseTime"},
+               "position": {"$ref": "#/definitions/position"},
+               "failRuleSection":{"$ref": "#/definitions/failRuleSection"},
+               "stepGroup":{"$ref": "#/definitions/stepGroup"},
+               "anticipationError":{"$ref": "#/definitions/anticipationError"},
+               "section": {"$ref": "#/definitions/section"},
+               "didTimeout": {"$ref": "#/definitions/didTimeout"},
+               "response": {"$ref": "#/definitions/responseInt"}
+            },
+            "required": ["type","identifier","startDate","endDate","response"],
+            "additionalProperties": false
+         },
+         {
+            "type": "object",
+            "description": "A record for each item administered in this assessment using the standard item selection engine, with String-Integer response-score models",
+            "properties":{
+               "type":{"$ref": "#/definitions/stepResultType"},
+               "identifier": {"$ref": "#/definitions/stepIdentifier"},
+               "startDate": {"$ref": "#/definitions/timemarks"},
+               "endDate": {"$ref": "#/definitions/timemarks"},
+               "practice": {"$ref": "#/definitions/practice"},
+               "instruction": {"$ref": "#/definitions/instructions"},
+               "wasInterrupted": {"$ref": "#/definitions/wasInterrupted"},
+               "score": {"$ref": "#/definitions/itemScore"},
+               "responseTime": {"$ref": "#/definitions/responseTime"},
+               "position": {"$ref": "#/definitions/position"},
+               "response": {"$ref": "#/definitions/responseStr"}
+            },
+            "required": ["type","identifier","startDate","endDate","response"],
+            "additionalProperties": false
+         },
+         {
+            "type": "object",
+            "description": "A record for each item administered in this assessment for PSM, with Integer-Integer response-score models",
+            "properties":{
+               "type":{"$ref": "#/definitions/stepResultType"},
+               "identifier": {"$ref": "#/definitions/stepIdentifier"},
+               "startDate": {"$ref": "#/definitions/timemarks"},
+               "endDate": {"$ref": "#/definitions/timemarks"},
+               "practice": {"$ref": "#/definitions/practice"},
+               "instruction": {"$ref": "#/definitions/instructions"},
+               "wasInterrupted": {"$ref": "#/definitions/wasInterrupted"},
+               "score": {"$ref": "#/definitions/itemScore"},
+               "responseTime": {"$ref": "#/definitions/responseTime"},
+               "position": {"$ref": "#/definitions/position"},
+               "response": {"$ref": "#/definitions/responseInt"},
+               "didTimeout": {"$ref": "#/definitions/didTimeout"},
+               "sequenceNumber":{"$ref": "#/definitions/sequenceNumber"},
+               "exactMatchScoreName":{"$ref": "#/definitions/psmScoreName"},
+               "adjacentPairScoreName":{"$ref": "#/definitions/psmScoreName"},
+               "parentStepIdentifier": {"$ref": "#/definitions/stepIdentifier"}
+            },
+            "required": ["type","identifier","startDate","endDate","parentStepIdentifier"],
+            "additionalProperties": false
+         },
+         {
+            "type": "object",
+            "description": "A record for each item administered in this assessment using the dichotomous item selection engine, with Integer-Integer response-score models",
+            "properties":{
+               "type":{"$ref": "#/definitions/stepResultType"},
+               "identifier": {"$ref": "#/definitions/stepIdentifier"},
+               "startDate": {"$ref": "#/definitions/timemarks"},
+               "endDate": {"$ref": "#/definitions/timemarks"},
+               "practice": {"$ref": "#/definitions/practice"},
+               "instruction": {"$ref": "#/definitions/instructions"},
+               "wasInterrupted": {"$ref": "#/definitions/wasInterrupted"},
+               "score": {"$ref": "#/definitions/itemScore"},
+               "responseTime": {"$ref": "#/definitions/responseTime"},
+               "position": {"$ref": "#/definitions/position"},
+               "response": {"$ref": "#/definitions/responseInt"},
+               "theta":{"$ref": "#/definitions/theta"},
+               "se":{"$ref": "#/definitions/se"}
+            },
+            "required": ["type","identifier","startDate","response","endDate","theta","se"],
+            "additionalProperties": false
+         },
+         {
+            "type": "object",
+            "description": "A record for each item administered in this assessment using the dichotomous item selection engine, with Integer-Integer response-score models",
+            "properties":{
+               "type":{"$ref": "#/definitions/stepResultType"},
+               "identifier": {"$ref": "#/definitions/stepIdentifier"},
+               "startDate": {"$ref": "#/definitions/timemarks"},
+               "endDate": {"$ref": "#/definitions/timemarks"},
+               "practice": {"$ref": "#/definitions/practice"},
+               "instruction": {"$ref": "#/definitions/instructions"},
+               "wasInterrupted": {"$ref": "#/definitions/wasInterrupted"},
+               "score": {"$ref": "#/definitions/itemScore"},
+               "responseTime": {"$ref": "#/definitions/responseTime"},
+               "position": {"$ref": "#/definitions/position"},
+               "response": {"$ref": "#/definitions/responseStr"},
+               "theta":{"$ref": "#/definitions/theta"},
+               "se":{"$ref": "#/definitions/se"}
+            },
+            "required": ["type","identifier","startDate","response","endDate","theta","se"],
+            "additionalProperties": false
+         }
+      ]
+     }
+   }
+ },
+ "additionalProperties": false,
+ "required": ["startDate","endDate","taskStatus","schemaIdentifier","testVersion","userInteractions","steps","stepHistory", "taskRunUUID"],
+ "$comment": "The additional properties field is set to FALSE so that extra elements are not allowed. All required portions of a test occur in all exports. It is expected that taskRunUUID will be added to this list, and that eventually the fields `locale` and `taskName` will be removed as they will be recorded in the metaData export as opposed to herein."
+}

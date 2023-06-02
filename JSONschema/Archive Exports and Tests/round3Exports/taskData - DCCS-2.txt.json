@@ -1,0 +1,4666 @@
+{
+  "taskRunUUID" : "A7984F95-1368-49D8-8A20-D74BE207FF48",
+  "schemaIdentifier" : "EF_DCCS",
+  "testVersion" : "1.2.0",
+  "stepHistory" : [
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:17:56.403-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_INTRO",
+      "endDate" : "2021-09-24T08:17:59.703-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-24T08:18:02.548-05:00",
+      "startDate" : "2021-09-24T08:17:59.711-05:00",
+      "identifier" : "MTBDCCS_DEMO_1",
+      "response" : 2,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-24T08:18:03.845-05:00",
+      "startDate" : "2021-09-24T08:18:02.557-05:00",
+      "identifier" : "MTBDCCS_DEMO_2",
+      "response" : 2,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:18:03.857-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_SHAPE_PRAC_1_a",
+      "endDate" : "2021-09-24T08:18:04.922-05:00"
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:18:04.933-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_SHAPE_PRAC_1_b",
+      "endDate" : "2021-09-24T08:18:06.036-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 0,
+      "endDate" : "2021-09-24T08:18:06.671-05:00",
+      "startDate" : "2021-09-24T08:18:06.048-05:00",
+      "failRuleSection" : "practiceShape",
+      "identifier" : "MTBDCCS_SHAPE_PRAC_1_c",
+      "response" : 2,
+      "responseTime" : 601,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:18:08.233-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_SHAPE_PRAC_2_a",
+      "endDate" : "2021-09-24T08:18:09.306-05:00"
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:18:09.319-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_SHAPE_PRAC_2_b",
+      "endDate" : "2021-09-24T08:18:10.422-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:18:11.854-05:00",
+      "startDate" : "2021-09-24T08:18:10.436-05:00",
+      "failRuleSection" : "practiceShape",
+      "identifier" : "MTBDCCS_SHAPE_PRAC_2_c",
+      "response" : 2,
+      "responseTime" : 1402,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-24T08:18:17.299-05:00",
+      "startDate" : "2021-09-24T08:18:13.266-05:00",
+      "identifier" : "MTBDCCS_DEMO_3",
+      "response" : 2,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-24T08:18:19.298-05:00",
+      "startDate" : "2021-09-24T08:18:17.314-05:00",
+      "identifier" : "MTBDCCS_DEMO_4",
+      "response" : 2,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:18:19.315-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_COLOR_PRAC_1_a",
+      "endDate" : "2021-09-24T08:18:20.374-05:00"
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:18:20.391-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_COLOR_PRAC_1_b",
+      "endDate" : "2021-09-24T08:18:21.494-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:18:21.989-05:00",
+      "startDate" : "2021-09-24T08:18:21.511-05:00",
+      "failRuleSection" : "practiceColor",
+      "identifier" : "MTBDCCS_COLOR_PRAC_1_c",
+      "response" : 2,
+      "responseTime" : 461,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:18:23.367-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_COLOR_PRAC_2_a",
+      "endDate" : "2021-09-24T08:18:24.441-05:00"
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:18:24.460-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_COLOR_PRAC_2_b",
+      "endDate" : "2021-09-24T08:18:25.563-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:18:28.691-05:00",
+      "startDate" : "2021-09-24T08:18:25.584-05:00",
+      "failRuleSection" : "practiceColor",
+      "identifier" : "MTBDCCS_COLOR_PRAC_2_c",
+      "response" : 1,
+      "responseTime" : 3092,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:18:30.070-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_INSTR_1",
+      "endDate" : "2021-09-24T08:18:31.182-05:00"
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:18:31.712-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_PRAC_1_a",
+      "endDate" : "2021-09-24T08:18:32.792-05:00"
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:18:32.813-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_PRAC_1_b",
+      "endDate" : "2021-09-24T08:18:33.916-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:18:35.010-05:00",
+      "startDate" : "2021-09-24T08:18:33.938-05:00",
+      "failRuleSection" : "practiceMixed",
+      "identifier" : "MTBDCCS_MIXED_PRAC_1_c",
+      "response" : 1,
+      "responseTime" : 1058,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:18:36.420-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_PRAC_2_a",
+      "endDate" : "2021-09-24T08:18:37.492-05:00"
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:18:37.515-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_PRAC_2_b",
+      "endDate" : "2021-09-24T08:18:38.618-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:18:39.709-05:00",
+      "startDate" : "2021-09-24T08:18:38.640-05:00",
+      "failRuleSection" : "practiceMixed",
+      "identifier" : "MTBDCCS_MIXED_PRAC_2_c",
+      "response" : 1,
+      "responseTime" : 1054,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:18:41.236-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_PRAC_3_a",
+      "endDate" : "2021-09-24T08:18:42.309-05:00"
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:18:42.334-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_PRAC_3_b",
+      "endDate" : "2021-09-24T08:18:43.437-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:18:45.658-05:00",
+      "startDate" : "2021-09-24T08:18:43.460-05:00",
+      "failRuleSection" : "practiceMixed",
+      "identifier" : "MTBDCCS_MIXED_PRAC_3_c",
+      "response" : 2,
+      "responseTime" : 2184,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:18:47.286-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRANS_1",
+      "endDate" : "2021-09-24T08:18:51.003-05:00"
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:18:51.538-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_1_a",
+      "endDate" : "2021-09-24T08:18:51.910-05:00"
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:18:51.935-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_1_b",
+      "endDate" : "2021-09-24T08:18:53.038-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:18:54.189-05:00",
+      "startDate" : "2021-09-24T08:18:53.065-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_1_c",
+      "response" : 2,
+      "responseTime" : 1111,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:18:54.322-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_2_a",
+      "endDate" : "2021-09-24T08:18:54.694-05:00"
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:18:54.725-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_2_b",
+      "endDate" : "2021-09-24T08:18:55.828-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:18:57.474-05:00",
+      "startDate" : "2021-09-24T08:18:55.855-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_2_c",
+      "response" : 1,
+      "responseTime" : 1607,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:18:57.606-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_3_a",
+      "endDate" : "2021-09-24T08:18:58.678-05:00"
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:18:58.706-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_3_b",
+      "endDate" : "2021-09-24T08:18:59.809-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:19:00.593-05:00",
+      "startDate" : "2021-09-24T08:18:59.838-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_3_c",
+      "response" : 1,
+      "responseTime" : 745,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:19:00.788-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_4_a",
+      "endDate" : "2021-09-24T08:19:01.861-05:00"
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:19:01.890-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_4_b",
+      "endDate" : "2021-09-24T08:19:02.992-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:19:03.606-05:00",
+      "startDate" : "2021-09-24T08:19:03.023-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_4_c",
+      "response" : 2,
+      "responseTime" : 574,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:19:03.739-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_5_a",
+      "endDate" : "2021-09-24T08:19:04.812-05:00"
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:19:04.843-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_5_b",
+      "endDate" : "2021-09-24T08:19:05.946-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:19:06.625-05:00",
+      "startDate" : "2021-09-24T08:19:05.980-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_5_c",
+      "response" : 1,
+      "responseTime" : 635,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:19:06.739-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_6_a",
+      "endDate" : "2021-09-24T08:19:07.812-05:00"
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:19:07.845-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_6_b",
+      "endDate" : "2021-09-24T08:19:08.948-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:19:09.657-05:00",
+      "startDate" : "2021-09-24T08:19:08.981-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_6_c",
+      "response" : 1,
+      "responseTime" : 666,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:19:09.806-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_7_a",
+      "endDate" : "2021-09-24T08:19:10.179-05:00"
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:19:10.213-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_7_b",
+      "endDate" : "2021-09-24T08:19:11.316-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:19:12.257-05:00",
+      "startDate" : "2021-09-24T08:19:11.349-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_7_c",
+      "response" : 2,
+      "responseTime" : 898,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:19:12.490-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_8_a",
+      "endDate" : "2021-09-24T08:19:13.563-05:00"
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:19:13.594-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_8_b",
+      "endDate" : "2021-09-24T08:19:14.697-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:19:15.375-05:00",
+      "startDate" : "2021-09-24T08:19:14.731-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_8_c",
+      "response" : 2,
+      "responseTime" : 634,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:19:15.606-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_9_a",
+      "endDate" : "2021-09-24T08:19:16.680-05:00"
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:19:16.712-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_9_b",
+      "endDate" : "2021-09-24T08:19:17.815-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:19:18.991-05:00",
+      "startDate" : "2021-09-24T08:19:17.850-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_9_c",
+      "response" : 2,
+      "responseTime" : 1132,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:19:19.190-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_10_a",
+      "endDate" : "2021-09-24T08:19:19.563-05:00"
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:19:19.598-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_10_b",
+      "endDate" : "2021-09-24T08:19:20.701-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:19:21.842-05:00",
+      "startDate" : "2021-09-24T08:19:20.736-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_10_c",
+      "response" : 2,
+      "responseTime" : 1095,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:19:22.076-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_11_a",
+      "endDate" : "2021-09-24T08:19:22.447-05:00"
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:19:22.481-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_11_b",
+      "endDate" : "2021-09-24T08:19:23.584-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:19:24.527-05:00",
+      "startDate" : "2021-09-24T08:19:23.618-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_11_c",
+      "response" : 2,
+      "responseTime" : 898,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:19:24.709-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_12_a",
+      "endDate" : "2021-09-24T08:19:25.081-05:00"
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:19:25.118-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_12_b",
+      "endDate" : "2021-09-24T08:19:26.221-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:19:26.994-05:00",
+      "startDate" : "2021-09-24T08:19:26.260-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_12_c",
+      "response" : 1,
+      "responseTime" : 724,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "anticipationError" : 1,
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-24T08:19:27.373-05:00",
+      "startDate" : "2021-09-24T08:19:27.276-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_13_a",
+      "response" : 1,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:19:28.349-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_13_b",
+      "endDate" : "2021-09-24T08:19:29.452-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:19:30.561-05:00",
+      "startDate" : "2021-09-24T08:19:29.491-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_13_c",
+      "response" : 2,
+      "responseTime" : 1061,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "anticipationError" : 1,
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-24T08:19:30.807-05:00",
+      "startDate" : "2021-09-24T08:19:30.693-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_14_a",
+      "response" : 2,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:19:31.065-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_14_b",
+      "endDate" : "2021-09-24T08:19:32.169-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:19:33.676-05:00",
+      "startDate" : "2021-09-24T08:19:32.205-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_14_c",
+      "response" : 1,
+      "responseTime" : 1462,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "anticipationError" : 1,
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-24T08:19:33.924-05:00",
+      "startDate" : "2021-09-24T08:19:33.809-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_15_a",
+      "response" : 1,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:19:34.882-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_15_b",
+      "endDate" : "2021-09-24T08:19:35.986-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:19:36.826-05:00",
+      "startDate" : "2021-09-24T08:19:36.023-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_15_c",
+      "response" : 2,
+      "responseTime" : 794,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "anticipationError" : 1,
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-24T08:19:37.094-05:00",
+      "startDate" : "2021-09-24T08:19:36.941-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_16_a",
+      "response" : 2,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:19:37.299-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_16_b",
+      "endDate" : "2021-09-24T08:19:38.403-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:19:39.944-05:00",
+      "startDate" : "2021-09-24T08:19:38.443-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_16_c",
+      "response" : 2,
+      "responseTime" : 1491,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "anticipationError" : 1,
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-24T08:19:40.195-05:00",
+      "startDate" : "2021-09-24T08:19:40.041-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_17_a",
+      "response" : 2,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:19:40.400-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_17_b",
+      "endDate" : "2021-09-24T08:19:41.503-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:19:43.445-05:00",
+      "startDate" : "2021-09-24T08:19:41.543-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_17_c",
+      "response" : 1,
+      "responseTime" : 1893,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "anticipationError" : 1,
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-24T08:19:43.662-05:00",
+      "startDate" : "2021-09-24T08:19:43.487-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_18_a",
+      "response" : 1,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:19:44.533-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_18_b",
+      "endDate" : "2021-09-24T08:19:45.637-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 0,
+      "endDate" : "2021-09-24T08:19:46.778-05:00",
+      "startDate" : "2021-09-24T08:19:45.681-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_18_c",
+      "response" : 2,
+      "responseTime" : 1087,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "anticipationError" : 1,
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-24T08:19:47.046-05:00",
+      "startDate" : "2021-09-24T08:19:46.891-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_19_a",
+      "response" : 2,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:19:47.950-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_19_b",
+      "endDate" : "2021-09-24T08:19:49.054-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:19:49.748-05:00",
+      "startDate" : "2021-09-24T08:19:49.100-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_19_c",
+      "response" : 1,
+      "responseTime" : 639,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "anticipationError" : 1,
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-24T08:19:50.014-05:00",
+      "startDate" : "2021-09-24T08:19:49.841-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_20_a",
+      "response" : 1,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:19:50.201-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_20_b",
+      "endDate" : "2021-09-24T08:19:51.304-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:19:52.162-05:00",
+      "startDate" : "2021-09-24T08:19:51.347-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_20_c",
+      "response" : 1,
+      "responseTime" : 806,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "anticipationError" : 1,
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-24T08:19:52.413-05:00",
+      "startDate" : "2021-09-24T08:19:52.223-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_21_a",
+      "response" : 1,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:19:52.551-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_21_b",
+      "endDate" : "2021-09-24T08:19:53.654-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:19:54.363-05:00",
+      "startDate" : "2021-09-24T08:19:53.701-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_21_c",
+      "response" : 2,
+      "responseTime" : 652,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "anticipationError" : 1,
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-24T08:19:54.628-05:00",
+      "startDate" : "2021-09-24T08:19:54.492-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_22_a",
+      "response" : 2,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:19:54.851-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_22_b",
+      "endDate" : "2021-09-24T08:19:55.955-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:19:57.096-05:00",
+      "startDate" : "2021-09-24T08:19:55.998-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_22_c",
+      "response" : 1,
+      "responseTime" : 1091,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "anticipationError" : 1,
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-24T08:19:57.332-05:00",
+      "startDate" : "2021-09-24T08:19:57.176-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_23_a",
+      "response" : 1,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:19:57.535-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_23_b",
+      "endDate" : "2021-09-24T08:19:58.638-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:20:00.046-05:00",
+      "startDate" : "2021-09-24T08:19:58.686-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_23_c",
+      "response" : 1,
+      "responseTime" : 1351,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "anticipationError" : 1,
+      "wasInterrupted" : false,
+      "endDate" : "2021-09-24T08:20:00.282-05:00",
+      "startDate" : "2021-09-24T08:20:00.126-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_24_a",
+      "response" : 1,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:20:01.169-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_24_b",
+      "endDate" : "2021-09-24T08:20:02.272-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:20:02.880-05:00",
+      "startDate" : "2021-09-24T08:20:02.323-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_24_c",
+      "response" : 2,
+      "responseTime" : 547,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:20:02.976-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_25_a",
+      "endDate" : "2021-09-24T08:20:04.035-05:00"
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:20:04.081-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_25_b",
+      "endDate" : "2021-09-24T08:20:05.183-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:20:05.983-05:00",
+      "startDate" : "2021-09-24T08:20:05.231-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_25_c",
+      "response" : 1,
+      "responseTime" : 742,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:20:06.116-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_26_a",
+      "endDate" : "2021-09-24T08:20:07.169-05:00"
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:20:07.217-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_26_b",
+      "endDate" : "2021-09-24T08:20:08.319-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:20:09.634-05:00",
+      "startDate" : "2021-09-24T08:20:08.370-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_26_c",
+      "response" : 2,
+      "responseTime" : 1254,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:20:09.796-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_27_a",
+      "endDate" : "2021-09-24T08:20:10.169-05:00"
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:20:10.219-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_27_b",
+      "endDate" : "2021-09-24T08:20:11.321-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:20:12.349-05:00",
+      "startDate" : "2021-09-24T08:20:11.374-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_27_c",
+      "response" : 2,
+      "responseTime" : 966,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:20:12.613-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_28_a",
+      "endDate" : "2021-09-24T08:20:12.986-05:00"
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:20:13.036-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_28_b",
+      "endDate" : "2021-09-24T08:20:14.138-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:20:15.367-05:00",
+      "startDate" : "2021-09-24T08:20:14.186-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_28_c",
+      "response" : 1,
+      "responseTime" : 1172,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:20:15.515-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_29_a",
+      "endDate" : "2021-09-24T08:20:15.869-05:00"
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:20:15.917-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_29_b",
+      "endDate" : "2021-09-24T08:20:17.019-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:20:17.732-05:00",
+      "startDate" : "2021-09-24T08:20:17.066-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_29_c",
+      "response" : 2,
+      "responseTime" : 657,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:20:17.862-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_30_a",
+      "endDate" : "2021-09-24T08:20:18.220-05:00"
+    },
+    {
+      "instruction" : false,
+      "wasInterrupted" : false,
+      "startDate" : "2021-09-24T08:20:18.268-05:00",
+      "type" : "dccsStepResult",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_30_b",
+      "endDate" : "2021-09-24T08:20:19.371-05:00"
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:20:20.048-05:00",
+      "startDate" : "2021-09-24T08:20:19.418-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_30_c",
+      "response" : 2,
+      "responseTime" : 621,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    }
+  ],
+  "locale" : "en_US",
+  "endDate" : "2021-09-24T08:20:20.217-05:00",
+  "scores" : {
+    "nAnticipationLive" : 12,
+    "rawScore" : 29,
+    "accuracy" : 0.96666666666666667,
+    "nAnticipationPractice" : 0
+  },
+  "taskStatus" : [
+    "completed"
+  ],
+  "startDate" : "2021-09-24T08:17:56.397-05:00",
+  "taskName" : "Dimensional Change Card Sort",
+  "userInteractions" : [
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTBDCCS_INTRO",
+      "timestamp" : "2021-09-24T08:17:56.563-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_INTRO",
+      "timestamp" : "2021-09-24T08:17:57.088-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_INTRO",
+      "timestamp" : "2021-09-24T08:17:59.560-05:00",
+      "userInteractionIdentifier" : "View instructions"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_INTRO",
+      "timestamp" : "2021-09-24T08:17:59.675-05:00",
+      "userInteractionIdentifier" : "View instructions"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTBDCCS_DEMO_1",
+      "timestamp" : "2021-09-24T08:17:59.760-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_DEMO_1",
+      "timestamp" : "2021-09-24T08:17:59.780-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_DEMO_1",
+      "timestamp" : "2021-09-24T08:18:02.426-05:00",
+      "userInteractionIdentifier" : ">"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_DEMO_1",
+      "timestamp" : "2021-09-24T08:18:02.544-05:00",
+      "userInteractionIdentifier" : ">"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_DEMO_2",
+      "timestamp" : "2021-09-24T08:18:02.580-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_DEMO_2",
+      "timestamp" : "2021-09-24T08:18:03.709-05:00",
+      "userInteractionIdentifier" : "Practice"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_DEMO_2",
+      "timestamp" : "2021-09-24T08:18:03.842-05:00",
+      "userInteractionIdentifier" : "Practice"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTBDCCS_SHAPE_PRAC_1_a",
+      "timestamp" : "2021-09-24T08:18:03.883-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_SHAPE_PRAC_1_a",
+      "timestamp" : "2021-09-24T08:18:03.906-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_SHAPE_PRAC_1_b",
+      "timestamp" : "2021-09-24T08:18:04.934-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_SHAPE_PRAC_1_c",
+      "timestamp" : "2021-09-24T08:18:06.055-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_SHAPE_PRAC_1_c",
+      "timestamp" : "2021-09-24T08:18:06.660-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_SHAPE_PRAC_1_c",
+      "timestamp" : "2021-09-24T08:18:06.811-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_SHAPE_PRAC_1_c",
+      "timestamp" : "2021-09-24T08:18:08.078-05:00",
+      "userInteractionIdentifier" : "Next"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTBDCCS_SHAPE_PRAC_2_a",
+      "timestamp" : "2021-09-24T08:18:08.262-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_SHAPE_PRAC_2_a",
+      "timestamp" : "2021-09-24T08:18:08.286-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_SHAPE_PRAC_2_b",
+      "timestamp" : "2021-09-24T08:18:09.319-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_SHAPE_PRAC_2_c",
+      "timestamp" : "2021-09-24T08:18:10.440-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_SHAPE_PRAC_2_c",
+      "timestamp" : "2021-09-24T08:18:11.844-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_SHAPE_PRAC_2_c",
+      "timestamp" : "2021-09-24T08:18:11.928-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_SHAPE_PRAC_2_c",
+      "timestamp" : "2021-09-24T08:18:13.128-05:00",
+      "userInteractionIdentifier" : "Next"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTBDCCS_DEMO_3",
+      "timestamp" : "2021-09-24T08:18:13.314-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_DEMO_3",
+      "timestamp" : "2021-09-24T08:18:13.339-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_DEMO_3",
+      "timestamp" : "2021-09-24T08:18:17.162-05:00",
+      "userInteractionIdentifier" : ">"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_DEMO_3",
+      "timestamp" : "2021-09-24T08:18:17.296-05:00",
+      "userInteractionIdentifier" : ">"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_DEMO_4",
+      "timestamp" : "2021-09-24T08:18:17.334-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_DEMO_4",
+      "timestamp" : "2021-09-24T08:18:19.096-05:00",
+      "userInteractionIdentifier" : "Practice"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_DEMO_4",
+      "timestamp" : "2021-09-24T08:18:19.294-05:00",
+      "userInteractionIdentifier" : "Practice"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTBDCCS_COLOR_PRAC_1_a",
+      "timestamp" : "2021-09-24T08:18:19.336-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_COLOR_PRAC_1_a",
+      "timestamp" : "2021-09-24T08:18:19.357-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_COLOR_PRAC_1_b",
+      "timestamp" : "2021-09-24T08:18:20.392-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_COLOR_PRAC_1_c",
+      "timestamp" : "2021-09-24T08:18:21.515-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_COLOR_PRAC_1_c",
+      "timestamp" : "2021-09-24T08:18:21.978-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_COLOR_PRAC_1_c",
+      "timestamp" : "2021-09-24T08:18:22.163-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_COLOR_PRAC_1_c",
+      "timestamp" : "2021-09-24T08:18:23.130-05:00",
+      "userInteractionIdentifier" : "Next"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTBDCCS_COLOR_PRAC_2_a",
+      "timestamp" : "2021-09-24T08:18:23.397-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_COLOR_PRAC_2_a",
+      "timestamp" : "2021-09-24T08:18:23.421-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_COLOR_PRAC_2_b",
+      "timestamp" : "2021-09-24T08:18:24.460-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_COLOR_PRAC_2_c",
+      "timestamp" : "2021-09-24T08:18:25.586-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_COLOR_PRAC_2_c",
+      "timestamp" : "2021-09-24T08:18:28.680-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_COLOR_PRAC_2_c",
+      "timestamp" : "2021-09-24T08:18:28.745-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_COLOR_PRAC_2_c",
+      "timestamp" : "2021-09-24T08:18:29.862-05:00",
+      "userInteractionIdentifier" : "Next"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_COLOR_PRAC_2_c",
+      "timestamp" : "2021-09-24T08:18:30.062-05:00",
+      "userInteractionIdentifier" : "Next"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_INSTR_1",
+      "timestamp" : "2021-09-24T08:18:30.087-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_INSTR_1",
+      "timestamp" : "2021-09-24T08:18:30.608-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_INSTR_1",
+      "timestamp" : "2021-09-24T08:18:30.980-05:00",
+      "userInteractionIdentifier" : "Practice"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_INSTR_1",
+      "timestamp" : "2021-09-24T08:18:31.179-05:00",
+      "userInteractionIdentifier" : "Practice"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_PRAC_1_a",
+      "timestamp" : "2021-09-24T08:18:31.732-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_PRAC_1_a",
+      "timestamp" : "2021-09-24T08:18:31.766-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_PRAC_1_b",
+      "timestamp" : "2021-09-24T08:18:32.814-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_PRAC_1_c",
+      "timestamp" : "2021-09-24T08:18:33.940-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_PRAC_1_c",
+      "timestamp" : "2021-09-24T08:18:34.999-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_PRAC_1_c",
+      "timestamp" : "2021-09-24T08:18:35.148-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_PRAC_1_c",
+      "timestamp" : "2021-09-24T08:18:36.180-05:00",
+      "userInteractionIdentifier" : "Next"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_PRAC_2_a",
+      "timestamp" : "2021-09-24T08:18:36.450-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_PRAC_2_a",
+      "timestamp" : "2021-09-24T08:18:36.475-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_PRAC_2_b",
+      "timestamp" : "2021-09-24T08:18:37.516-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_PRAC_2_c",
+      "timestamp" : "2021-09-24T08:18:38.643-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_PRAC_2_c",
+      "timestamp" : "2021-09-24T08:18:39.698-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_PRAC_2_c",
+      "timestamp" : "2021-09-24T08:18:39.796-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_PRAC_2_c",
+      "timestamp" : "2021-09-24T08:18:41.047-05:00",
+      "userInteractionIdentifier" : "Next"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_PRAC_3_a",
+      "timestamp" : "2021-09-24T08:18:41.266-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_PRAC_3_a",
+      "timestamp" : "2021-09-24T08:18:41.292-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_PRAC_3_b",
+      "timestamp" : "2021-09-24T08:18:42.335-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_PRAC_3_c",
+      "timestamp" : "2021-09-24T08:18:43.462-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_PRAC_3_c",
+      "timestamp" : "2021-09-24T08:18:45.647-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_PRAC_3_c",
+      "timestamp" : "2021-09-24T08:18:45.732-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_PRAC_3_c",
+      "timestamp" : "2021-09-24T08:18:47.132-05:00",
+      "userInteractionIdentifier" : "Next"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_PRAC_3_c",
+      "timestamp" : "2021-09-24T08:18:47.280-05:00",
+      "userInteractionIdentifier" : "Next"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRANS_1",
+      "timestamp" : "2021-09-24T08:18:47.302-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRANS_1",
+      "timestamp" : "2021-09-24T08:18:47.826-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRANS_1",
+      "timestamp" : "2021-09-24T08:18:50.798-05:00",
+      "userInteractionIdentifier" : "Start"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRANS_1",
+      "timestamp" : "2021-09-24T08:18:50.999-05:00",
+      "userInteractionIdentifier" : "Start"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_1_a",
+      "timestamp" : "2021-09-24T08:18:51.563-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_1_a",
+      "timestamp" : "2021-09-24T08:18:51.583-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_1_b",
+      "timestamp" : "2021-09-24T08:18:51.936-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_1_c",
+      "timestamp" : "2021-09-24T08:18:53.068-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_1_c",
+      "timestamp" : "2021-09-24T08:18:54.182-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_1_c",
+      "timestamp" : "2021-09-24T08:18:54.316-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_2_a",
+      "timestamp" : "2021-09-24T08:18:54.354-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_2_a",
+      "timestamp" : "2021-09-24T08:18:54.367-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_2_b",
+      "timestamp" : "2021-09-24T08:18:54.725-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_2_c",
+      "timestamp" : "2021-09-24T08:18:55.858-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_2_c",
+      "timestamp" : "2021-09-24T08:18:57.467-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_2_c",
+      "timestamp" : "2021-09-24T08:18:57.600-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_3_a",
+      "timestamp" : "2021-09-24T08:18:57.640-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_3_a",
+      "timestamp" : "2021-09-24T08:18:57.654-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_3_b",
+      "timestamp" : "2021-09-24T08:18:58.707-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_3_c",
+      "timestamp" : "2021-09-24T08:18:59.840-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_3_c",
+      "timestamp" : "2021-09-24T08:19:00.585-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_3_c",
+      "timestamp" : "2021-09-24T08:19:00.782-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_4_a",
+      "timestamp" : "2021-09-24T08:19:00.820-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_4_a",
+      "timestamp" : "2021-09-24T08:19:00.834-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_4_b",
+      "timestamp" : "2021-09-24T08:19:01.890-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_4_c",
+      "timestamp" : "2021-09-24T08:19:03.024-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_4_c",
+      "timestamp" : "2021-09-24T08:19:03.599-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_4_c",
+      "timestamp" : "2021-09-24T08:19:03.732-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_5_a",
+      "timestamp" : "2021-09-24T08:19:03.770-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_5_a",
+      "timestamp" : "2021-09-24T08:19:03.784-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_5_b",
+      "timestamp" : "2021-09-24T08:19:04.844-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_5_c",
+      "timestamp" : "2021-09-24T08:19:05.982-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_5_c",
+      "timestamp" : "2021-09-24T08:19:06.618-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_5_c",
+      "timestamp" : "2021-09-24T08:19:06.733-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_6_a",
+      "timestamp" : "2021-09-24T08:19:06.770-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_6_a",
+      "timestamp" : "2021-09-24T08:19:06.785-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_6_b",
+      "timestamp" : "2021-09-24T08:19:07.846-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_6_c",
+      "timestamp" : "2021-09-24T08:19:08.983-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_6_c",
+      "timestamp" : "2021-09-24T08:19:09.650-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_6_c",
+      "timestamp" : "2021-09-24T08:19:09.800-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_7_a",
+      "timestamp" : "2021-09-24T08:19:09.837-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_7_a",
+      "timestamp" : "2021-09-24T08:19:09.851-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_7_b",
+      "timestamp" : "2021-09-24T08:19:10.213-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_7_c",
+      "timestamp" : "2021-09-24T08:19:11.351-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_7_c",
+      "timestamp" : "2021-09-24T08:19:12.250-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_7_c",
+      "timestamp" : "2021-09-24T08:19:12.484-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_8_a",
+      "timestamp" : "2021-09-24T08:19:12.521-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_8_a",
+      "timestamp" : "2021-09-24T08:19:12.536-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_8_b",
+      "timestamp" : "2021-09-24T08:19:13.594-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_8_c",
+      "timestamp" : "2021-09-24T08:19:14.733-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_8_c",
+      "timestamp" : "2021-09-24T08:19:15.367-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_8_c",
+      "timestamp" : "2021-09-24T08:19:15.600-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_9_a",
+      "timestamp" : "2021-09-24T08:19:15.638-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_9_a",
+      "timestamp" : "2021-09-24T08:19:15.651-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_9_b",
+      "timestamp" : "2021-09-24T08:19:16.713-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_9_c",
+      "timestamp" : "2021-09-24T08:19:17.851-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_9_c",
+      "timestamp" : "2021-09-24T08:19:18.984-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_9_c",
+      "timestamp" : "2021-09-24T08:19:19.184-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_10_a",
+      "timestamp" : "2021-09-24T08:19:19.222-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_10_a",
+      "timestamp" : "2021-09-24T08:19:19.236-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_10_b",
+      "timestamp" : "2021-09-24T08:19:19.599-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_10_c",
+      "timestamp" : "2021-09-24T08:19:20.738-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_10_c",
+      "timestamp" : "2021-09-24T08:19:21.835-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_10_c",
+      "timestamp" : "2021-09-24T08:19:22.069-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_11_a",
+      "timestamp" : "2021-09-24T08:19:22.107-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_11_a",
+      "timestamp" : "2021-09-24T08:19:22.121-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_11_b",
+      "timestamp" : "2021-09-24T08:19:22.482-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_11_c",
+      "timestamp" : "2021-09-24T08:19:23.620-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_11_c",
+      "timestamp" : "2021-09-24T08:19:24.520-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_11_c",
+      "timestamp" : "2021-09-24T08:19:24.703-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_12_a",
+      "timestamp" : "2021-09-24T08:19:24.740-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_12_a",
+      "timestamp" : "2021-09-24T08:19:24.754-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_12_b",
+      "timestamp" : "2021-09-24T08:19:25.119-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_12_c",
+      "timestamp" : "2021-09-24T08:19:26.261-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_12_c",
+      "timestamp" : "2021-09-24T08:19:26.986-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_12_c",
+      "timestamp" : "2021-09-24T08:19:27.270-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_13_a",
+      "timestamp" : "2021-09-24T08:19:27.307-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_13_a",
+      "timestamp" : "2021-09-24T08:19:27.330-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_13_a",
+      "timestamp" : "2021-09-24T08:19:27.369-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "touchDownRepeat"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_13_a",
+      "timestamp" : "2021-09-24T08:19:27.369-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_13_a",
+      "timestamp" : "2021-09-24T08:19:27.520-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_13_b",
+      "timestamp" : "2021-09-24T08:19:28.350-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_13_c",
+      "timestamp" : "2021-09-24T08:19:29.492-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_13_c",
+      "timestamp" : "2021-09-24T08:19:30.554-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_13_c",
+      "timestamp" : "2021-09-24T08:19:30.687-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_14_a",
+      "timestamp" : "2021-09-24T08:19:30.724-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_14_a",
+      "timestamp" : "2021-09-24T08:19:30.738-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_14_a",
+      "timestamp" : "2021-09-24T08:19:30.803-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "touchDownRepeat"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_14_a",
+      "timestamp" : "2021-09-24T08:19:30.803-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_14_a",
+      "timestamp" : "2021-09-24T08:19:30.987-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_14_b",
+      "timestamp" : "2021-09-24T08:19:31.066-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_14_c",
+      "timestamp" : "2021-09-24T08:19:32.206-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_14_c",
+      "timestamp" : "2021-09-24T08:19:33.669-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_14_c",
+      "timestamp" : "2021-09-24T08:19:33.802-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_15_a",
+      "timestamp" : "2021-09-24T08:19:33.840-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_15_a",
+      "timestamp" : "2021-09-24T08:19:33.853-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDownRepeat"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_15_a",
+      "timestamp" : "2021-09-24T08:19:33.920-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_15_a",
+      "timestamp" : "2021-09-24T08:19:33.920-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_15_a",
+      "timestamp" : "2021-09-24T08:19:34.071-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_15_b",
+      "timestamp" : "2021-09-24T08:19:34.883-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_15_c",
+      "timestamp" : "2021-09-24T08:19:36.024-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_15_c",
+      "timestamp" : "2021-09-24T08:19:36.819-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_15_c",
+      "timestamp" : "2021-09-24T08:19:36.936-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_16_a",
+      "timestamp" : "2021-09-24T08:19:36.970-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_16_a",
+      "timestamp" : "2021-09-24T08:19:36.982-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_16_a",
+      "timestamp" : "2021-09-24T08:19:37.087-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "touchDownRepeat"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_16_a",
+      "timestamp" : "2021-09-24T08:19:37.087-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_16_a",
+      "timestamp" : "2021-09-24T08:19:37.219-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_16_b",
+      "timestamp" : "2021-09-24T08:19:37.300-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_16_c",
+      "timestamp" : "2021-09-24T08:19:38.444-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_16_c",
+      "timestamp" : "2021-09-24T08:19:39.936-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_16_c",
+      "timestamp" : "2021-09-24T08:19:40.036-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_17_a",
+      "timestamp" : "2021-09-24T08:19:40.065-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_17_a",
+      "timestamp" : "2021-09-24T08:19:40.077-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_17_a",
+      "timestamp" : "2021-09-24T08:19:40.188-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "touchDownRepeat"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_17_a",
+      "timestamp" : "2021-09-24T08:19:40.188-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_17_a",
+      "timestamp" : "2021-09-24T08:19:40.319-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_17_b",
+      "timestamp" : "2021-09-24T08:19:40.401-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_17_c",
+      "timestamp" : "2021-09-24T08:19:41.544-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_17_c",
+      "timestamp" : "2021-09-24T08:19:43.438-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_17_c",
+      "timestamp" : "2021-09-24T08:19:43.471-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_18_a",
+      "timestamp" : "2021-09-24T08:19:43.500-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_18_a",
+      "timestamp" : "2021-09-24T08:19:43.509-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_18_a",
+      "timestamp" : "2021-09-24T08:19:43.655-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "touchDownRepeat"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_18_a",
+      "timestamp" : "2021-09-24T08:19:43.655-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_18_a",
+      "timestamp" : "2021-09-24T08:19:43.754-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_18_b",
+      "timestamp" : "2021-09-24T08:19:44.534-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_18_c",
+      "timestamp" : "2021-09-24T08:19:45.682-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_18_c",
+      "timestamp" : "2021-09-24T08:19:46.771-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_18_c",
+      "timestamp" : "2021-09-24T08:19:46.887-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_19_a",
+      "timestamp" : "2021-09-24T08:19:46.919-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_19_a",
+      "timestamp" : "2021-09-24T08:19:46.930-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_19_a",
+      "timestamp" : "2021-09-24T08:19:47.039-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "touchDownRepeat"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_19_a",
+      "timestamp" : "2021-09-24T08:19:47.039-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_19_a",
+      "timestamp" : "2021-09-24T08:19:47.204-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_19_b",
+      "timestamp" : "2021-09-24T08:19:47.951-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_19_c",
+      "timestamp" : "2021-09-24T08:19:49.101-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_19_c",
+      "timestamp" : "2021-09-24T08:19:49.740-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_19_c",
+      "timestamp" : "2021-09-24T08:19:49.837-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_20_a",
+      "timestamp" : "2021-09-24T08:19:49.864-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_20_a",
+      "timestamp" : "2021-09-24T08:19:49.874-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_20_a",
+      "timestamp" : "2021-09-24T08:19:50.007-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "touchDownRepeat"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_20_a",
+      "timestamp" : "2021-09-24T08:19:50.007-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_20_a",
+      "timestamp" : "2021-09-24T08:19:50.137-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_20_b",
+      "timestamp" : "2021-09-24T08:19:50.202-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_20_c",
+      "timestamp" : "2021-09-24T08:19:51.348-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_20_c",
+      "timestamp" : "2021-09-24T08:19:52.154-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_20_c",
+      "timestamp" : "2021-09-24T08:19:52.220-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_21_a",
+      "timestamp" : "2021-09-24T08:19:52.237-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_21_a",
+      "timestamp" : "2021-09-24T08:19:52.246-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_21_a",
+      "timestamp" : "2021-09-24T08:19:52.406-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "touchDownRepeat"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_21_a",
+      "timestamp" : "2021-09-24T08:19:52.406-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_21_a",
+      "timestamp" : "2021-09-24T08:19:52.521-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_21_b",
+      "timestamp" : "2021-09-24T08:19:52.551-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_21_c",
+      "timestamp" : "2021-09-24T08:19:53.703-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_21_c",
+      "timestamp" : "2021-09-24T08:19:54.356-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_21_c",
+      "timestamp" : "2021-09-24T08:19:54.488-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_22_a",
+      "timestamp" : "2021-09-24T08:19:54.523-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_22_a",
+      "timestamp" : "2021-09-24T08:19:54.536-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_22_a",
+      "timestamp" : "2021-09-24T08:19:54.623-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "touchDownRepeat"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_22_a",
+      "timestamp" : "2021-09-24T08:19:54.623-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_22_a",
+      "timestamp" : "2021-09-24T08:19:54.805-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_22_b",
+      "timestamp" : "2021-09-24T08:19:54.852-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_22_c",
+      "timestamp" : "2021-09-24T08:19:55.999-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_22_c",
+      "timestamp" : "2021-09-24T08:19:57.091-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_22_c",
+      "timestamp" : "2021-09-24T08:19:57.172-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_23_a",
+      "timestamp" : "2021-09-24T08:19:57.195-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_23_a",
+      "timestamp" : "2021-09-24T08:19:57.206-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_23_a",
+      "timestamp" : "2021-09-24T08:19:57.324-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "touchDownRepeat"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_23_a",
+      "timestamp" : "2021-09-24T08:19:57.324-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_23_a",
+      "timestamp" : "2021-09-24T08:19:57.456-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_23_b",
+      "timestamp" : "2021-09-24T08:19:57.536-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_23_c",
+      "timestamp" : "2021-09-24T08:19:58.687-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_23_c",
+      "timestamp" : "2021-09-24T08:20:00.039-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_23_c",
+      "timestamp" : "2021-09-24T08:20:00.123-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_24_a",
+      "timestamp" : "2021-09-24T08:20:00.142-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_24_a",
+      "timestamp" : "2021-09-24T08:20:00.151-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_24_a",
+      "timestamp" : "2021-09-24T08:20:00.275-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "touchDownRepeat"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_24_a",
+      "timestamp" : "2021-09-24T08:20:00.275-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_24_a",
+      "timestamp" : "2021-09-24T08:20:00.391-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_24_b",
+      "timestamp" : "2021-09-24T08:20:01.170-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_24_c",
+      "timestamp" : "2021-09-24T08:20:02.324-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_24_c",
+      "timestamp" : "2021-09-24T08:20:02.872-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_24_c",
+      "timestamp" : "2021-09-24T08:20:02.972-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_25_a",
+      "timestamp" : "2021-09-24T08:20:02.997-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_25_a",
+      "timestamp" : "2021-09-24T08:20:03.007-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_25_b",
+      "timestamp" : "2021-09-24T08:20:04.081-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_25_c",
+      "timestamp" : "2021-09-24T08:20:05.233-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_25_c",
+      "timestamp" : "2021-09-24T08:20:05.976-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_25_c",
+      "timestamp" : "2021-09-24T08:20:06.109-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_26_a",
+      "timestamp" : "2021-09-24T08:20:06.142-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_26_a",
+      "timestamp" : "2021-09-24T08:20:06.155-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_26_b",
+      "timestamp" : "2021-09-24T08:20:07.217-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_26_c",
+      "timestamp" : "2021-09-24T08:20:08.371-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_26_c",
+      "timestamp" : "2021-09-24T08:20:09.626-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_26_c",
+      "timestamp" : "2021-09-24T08:20:09.789-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_27_a",
+      "timestamp" : "2021-09-24T08:20:09.827-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_27_a",
+      "timestamp" : "2021-09-24T08:20:09.842-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_27_b",
+      "timestamp" : "2021-09-24T08:20:10.219-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_27_c",
+      "timestamp" : "2021-09-24T08:20:11.375-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_27_c",
+      "timestamp" : "2021-09-24T08:20:12.341-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_27_c",
+      "timestamp" : "2021-09-24T08:20:12.606-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_28_a",
+      "timestamp" : "2021-09-24T08:20:12.645-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_28_a",
+      "timestamp" : "2021-09-24T08:20:12.658-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_28_b",
+      "timestamp" : "2021-09-24T08:20:13.036-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_28_c",
+      "timestamp" : "2021-09-24T08:20:14.187-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_28_c",
+      "timestamp" : "2021-09-24T08:20:15.360-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_28_c",
+      "timestamp" : "2021-09-24T08:20:15.508-05:00",
+      "userInteractionIdentifier" : "leftButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_29_a",
+      "timestamp" : "2021-09-24T08:20:15.543-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_29_a",
+      "timestamp" : "2021-09-24T08:20:15.556-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_29_b",
+      "timestamp" : "2021-09-24T08:20:15.917-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_29_c",
+      "timestamp" : "2021-09-24T08:20:17.067-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_29_c",
+      "timestamp" : "2021-09-24T08:20:17.725-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_29_c",
+      "timestamp" : "2021-09-24T08:20:17.857-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_30_a",
+      "timestamp" : "2021-09-24T08:20:17.888-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_30_a",
+      "timestamp" : "2021-09-24T08:20:17.900-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_30_b",
+      "timestamp" : "2021-09-24T08:20:18.268-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_30_c",
+      "timestamp" : "2021-09-24T08:20:19.419-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_30_c",
+      "timestamp" : "2021-09-24T08:20:20.041-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "MTBDCCS_MIXED_TRIAL_30_c",
+      "timestamp" : "2021-09-24T08:20:20.174-05:00",
+      "userInteractionIdentifier" : "rightButton"
+    }
+  ],
+  "steps" : [
+    {
+      "wasInterrupted" : false,
+      "position" : 1,
+      "endDate" : "2021-09-24T08:17:59.703-05:00",
+      "startDate" : "2021-09-24T08:17:56.403-05:00",
+      "identifier" : "MTBDCCS_INTRO",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 2,
+      "endDate" : "2021-09-24T08:18:02.548-05:00",
+      "startDate" : "2021-09-24T08:17:59.711-05:00",
+      "identifier" : "MTBDCCS_DEMO_1",
+      "response" : 2,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 3,
+      "endDate" : "2021-09-24T08:18:03.845-05:00",
+      "startDate" : "2021-09-24T08:18:02.557-05:00",
+      "identifier" : "MTBDCCS_DEMO_2",
+      "response" : 2,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 4,
+      "endDate" : "2021-09-24T08:18:04.922-05:00",
+      "startDate" : "2021-09-24T08:18:03.857-05:00",
+      "identifier" : "MTBDCCS_SHAPE_PRAC_1_a",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 5,
+      "endDate" : "2021-09-24T08:18:06.036-05:00",
+      "startDate" : "2021-09-24T08:18:04.933-05:00",
+      "identifier" : "MTBDCCS_SHAPE_PRAC_1_b",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 0,
+      "endDate" : "2021-09-24T08:18:06.671-05:00",
+      "startDate" : "2021-09-24T08:18:06.048-05:00",
+      "position" : 6,
+      "failRuleSection" : "practiceShape",
+      "identifier" : "MTBDCCS_SHAPE_PRAC_1_c",
+      "response" : 2,
+      "type" : "dccsStepResult",
+      "responseTime" : 601,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 7,
+      "endDate" : "2021-09-24T08:18:09.306-05:00",
+      "startDate" : "2021-09-24T08:18:08.233-05:00",
+      "identifier" : "MTBDCCS_SHAPE_PRAC_2_a",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 8,
+      "endDate" : "2021-09-24T08:18:10.422-05:00",
+      "startDate" : "2021-09-24T08:18:09.319-05:00",
+      "identifier" : "MTBDCCS_SHAPE_PRAC_2_b",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:18:11.854-05:00",
+      "startDate" : "2021-09-24T08:18:10.436-05:00",
+      "position" : 9,
+      "failRuleSection" : "practiceShape",
+      "identifier" : "MTBDCCS_SHAPE_PRAC_2_c",
+      "response" : 2,
+      "type" : "dccsStepResult",
+      "responseTime" : 1402,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 10,
+      "endDate" : "2021-09-24T08:18:17.299-05:00",
+      "startDate" : "2021-09-24T08:18:13.266-05:00",
+      "identifier" : "MTBDCCS_DEMO_3",
+      "response" : 2,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 11,
+      "endDate" : "2021-09-24T08:18:19.298-05:00",
+      "startDate" : "2021-09-24T08:18:17.314-05:00",
+      "identifier" : "MTBDCCS_DEMO_4",
+      "response" : 2,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 12,
+      "endDate" : "2021-09-24T08:18:20.374-05:00",
+      "startDate" : "2021-09-24T08:18:19.315-05:00",
+      "identifier" : "MTBDCCS_COLOR_PRAC_1_a",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 13,
+      "endDate" : "2021-09-24T08:18:21.494-05:00",
+      "startDate" : "2021-09-24T08:18:20.391-05:00",
+      "identifier" : "MTBDCCS_COLOR_PRAC_1_b",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:18:21.989-05:00",
+      "startDate" : "2021-09-24T08:18:21.511-05:00",
+      "position" : 14,
+      "failRuleSection" : "practiceColor",
+      "identifier" : "MTBDCCS_COLOR_PRAC_1_c",
+      "response" : 2,
+      "type" : "dccsStepResult",
+      "responseTime" : 461,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 15,
+      "endDate" : "2021-09-24T08:18:24.441-05:00",
+      "startDate" : "2021-09-24T08:18:23.367-05:00",
+      "identifier" : "MTBDCCS_COLOR_PRAC_2_a",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 16,
+      "endDate" : "2021-09-24T08:18:25.563-05:00",
+      "startDate" : "2021-09-24T08:18:24.460-05:00",
+      "identifier" : "MTBDCCS_COLOR_PRAC_2_b",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:18:28.691-05:00",
+      "startDate" : "2021-09-24T08:18:25.584-05:00",
+      "position" : 17,
+      "failRuleSection" : "practiceColor",
+      "identifier" : "MTBDCCS_COLOR_PRAC_2_c",
+      "response" : 1,
+      "type" : "dccsStepResult",
+      "responseTime" : 3092,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 18,
+      "endDate" : "2021-09-24T08:18:31.182-05:00",
+      "startDate" : "2021-09-24T08:18:30.070-05:00",
+      "identifier" : "MTBDCCS_MIXED_INSTR_1",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 19,
+      "endDate" : "2021-09-24T08:18:32.792-05:00",
+      "startDate" : "2021-09-24T08:18:31.712-05:00",
+      "identifier" : "MTBDCCS_MIXED_PRAC_1_a",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 20,
+      "endDate" : "2021-09-24T08:18:33.916-05:00",
+      "startDate" : "2021-09-24T08:18:32.813-05:00",
+      "identifier" : "MTBDCCS_MIXED_PRAC_1_b",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:18:35.010-05:00",
+      "startDate" : "2021-09-24T08:18:33.938-05:00",
+      "position" : 21,
+      "failRuleSection" : "practiceMixed",
+      "identifier" : "MTBDCCS_MIXED_PRAC_1_c",
+      "response" : 1,
+      "type" : "dccsStepResult",
+      "responseTime" : 1058,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 22,
+      "endDate" : "2021-09-24T08:18:37.492-05:00",
+      "startDate" : "2021-09-24T08:18:36.420-05:00",
+      "identifier" : "MTBDCCS_MIXED_PRAC_2_a",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 23,
+      "endDate" : "2021-09-24T08:18:38.618-05:00",
+      "startDate" : "2021-09-24T08:18:37.515-05:00",
+      "identifier" : "MTBDCCS_MIXED_PRAC_2_b",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:18:39.709-05:00",
+      "startDate" : "2021-09-24T08:18:38.640-05:00",
+      "position" : 24,
+      "failRuleSection" : "practiceMixed",
+      "identifier" : "MTBDCCS_MIXED_PRAC_2_c",
+      "response" : 1,
+      "type" : "dccsStepResult",
+      "responseTime" : 1054,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 25,
+      "endDate" : "2021-09-24T08:18:42.309-05:00",
+      "startDate" : "2021-09-24T08:18:41.236-05:00",
+      "identifier" : "MTBDCCS_MIXED_PRAC_3_a",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 26,
+      "endDate" : "2021-09-24T08:18:43.437-05:00",
+      "startDate" : "2021-09-24T08:18:42.334-05:00",
+      "identifier" : "MTBDCCS_MIXED_PRAC_3_b",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:18:45.658-05:00",
+      "startDate" : "2021-09-24T08:18:43.460-05:00",
+      "position" : 27,
+      "failRuleSection" : "practiceMixed",
+      "identifier" : "MTBDCCS_MIXED_PRAC_3_c",
+      "response" : 2,
+      "type" : "dccsStepResult",
+      "responseTime" : 2184,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 28,
+      "endDate" : "2021-09-24T08:18:51.003-05:00",
+      "startDate" : "2021-09-24T08:18:47.286-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRANS_1",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 29,
+      "endDate" : "2021-09-24T08:18:51.910-05:00",
+      "startDate" : "2021-09-24T08:18:51.538-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_1_a",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 30,
+      "endDate" : "2021-09-24T08:18:53.038-05:00",
+      "startDate" : "2021-09-24T08:18:51.935-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_1_b",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:18:54.189-05:00",
+      "startDate" : "2021-09-24T08:18:53.065-05:00",
+      "position" : 31,
+      "identifier" : "MTBDCCS_MIXED_TRIAL_1_c",
+      "response" : 2,
+      "type" : "dccsStepResult",
+      "responseTime" : 1111,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 32,
+      "endDate" : "2021-09-24T08:18:54.694-05:00",
+      "startDate" : "2021-09-24T08:18:54.322-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_2_a",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 33,
+      "endDate" : "2021-09-24T08:18:55.828-05:00",
+      "startDate" : "2021-09-24T08:18:54.725-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_2_b",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:18:57.474-05:00",
+      "startDate" : "2021-09-24T08:18:55.855-05:00",
+      "position" : 34,
+      "identifier" : "MTBDCCS_MIXED_TRIAL_2_c",
+      "response" : 1,
+      "type" : "dccsStepResult",
+      "responseTime" : 1607,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 35,
+      "endDate" : "2021-09-24T08:18:58.678-05:00",
+      "startDate" : "2021-09-24T08:18:57.606-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_3_a",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 36,
+      "endDate" : "2021-09-24T08:18:59.809-05:00",
+      "startDate" : "2021-09-24T08:18:58.706-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_3_b",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:19:00.593-05:00",
+      "startDate" : "2021-09-24T08:18:59.838-05:00",
+      "position" : 37,
+      "identifier" : "MTBDCCS_MIXED_TRIAL_3_c",
+      "response" : 1,
+      "type" : "dccsStepResult",
+      "responseTime" : 745,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 38,
+      "endDate" : "2021-09-24T08:19:01.861-05:00",
+      "startDate" : "2021-09-24T08:19:00.788-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_4_a",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 39,
+      "endDate" : "2021-09-24T08:19:02.992-05:00",
+      "startDate" : "2021-09-24T08:19:01.890-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_4_b",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:19:03.606-05:00",
+      "startDate" : "2021-09-24T08:19:03.023-05:00",
+      "position" : 40,
+      "identifier" : "MTBDCCS_MIXED_TRIAL_4_c",
+      "response" : 2,
+      "type" : "dccsStepResult",
+      "responseTime" : 574,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 41,
+      "endDate" : "2021-09-24T08:19:04.812-05:00",
+      "startDate" : "2021-09-24T08:19:03.739-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_5_a",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 42,
+      "endDate" : "2021-09-24T08:19:05.946-05:00",
+      "startDate" : "2021-09-24T08:19:04.843-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_5_b",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:19:06.625-05:00",
+      "startDate" : "2021-09-24T08:19:05.980-05:00",
+      "position" : 43,
+      "identifier" : "MTBDCCS_MIXED_TRIAL_5_c",
+      "response" : 1,
+      "type" : "dccsStepResult",
+      "responseTime" : 635,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 44,
+      "endDate" : "2021-09-24T08:19:07.812-05:00",
+      "startDate" : "2021-09-24T08:19:06.739-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_6_a",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 45,
+      "endDate" : "2021-09-24T08:19:08.948-05:00",
+      "startDate" : "2021-09-24T08:19:07.845-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_6_b",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:19:09.657-05:00",
+      "startDate" : "2021-09-24T08:19:08.981-05:00",
+      "position" : 46,
+      "identifier" : "MTBDCCS_MIXED_TRIAL_6_c",
+      "response" : 1,
+      "type" : "dccsStepResult",
+      "responseTime" : 666,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 47,
+      "endDate" : "2021-09-24T08:19:10.179-05:00",
+      "startDate" : "2021-09-24T08:19:09.806-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_7_a",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 48,
+      "endDate" : "2021-09-24T08:19:11.316-05:00",
+      "startDate" : "2021-09-24T08:19:10.213-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_7_b",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:19:12.257-05:00",
+      "startDate" : "2021-09-24T08:19:11.349-05:00",
+      "position" : 49,
+      "identifier" : "MTBDCCS_MIXED_TRIAL_7_c",
+      "response" : 2,
+      "type" : "dccsStepResult",
+      "responseTime" : 898,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 50,
+      "endDate" : "2021-09-24T08:19:13.563-05:00",
+      "startDate" : "2021-09-24T08:19:12.490-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_8_a",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 51,
+      "endDate" : "2021-09-24T08:19:14.697-05:00",
+      "startDate" : "2021-09-24T08:19:13.594-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_8_b",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:19:15.375-05:00",
+      "startDate" : "2021-09-24T08:19:14.731-05:00",
+      "position" : 52,
+      "identifier" : "MTBDCCS_MIXED_TRIAL_8_c",
+      "response" : 2,
+      "type" : "dccsStepResult",
+      "responseTime" : 634,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 53,
+      "endDate" : "2021-09-24T08:19:16.680-05:00",
+      "startDate" : "2021-09-24T08:19:15.606-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_9_a",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 54,
+      "endDate" : "2021-09-24T08:19:17.815-05:00",
+      "startDate" : "2021-09-24T08:19:16.712-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_9_b",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:19:18.991-05:00",
+      "startDate" : "2021-09-24T08:19:17.850-05:00",
+      "position" : 55,
+      "identifier" : "MTBDCCS_MIXED_TRIAL_9_c",
+      "response" : 2,
+      "type" : "dccsStepResult",
+      "responseTime" : 1132,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 56,
+      "endDate" : "2021-09-24T08:19:19.563-05:00",
+      "startDate" : "2021-09-24T08:19:19.190-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_10_a",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 57,
+      "endDate" : "2021-09-24T08:19:20.701-05:00",
+      "startDate" : "2021-09-24T08:19:19.598-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_10_b",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:19:21.842-05:00",
+      "startDate" : "2021-09-24T08:19:20.736-05:00",
+      "position" : 58,
+      "identifier" : "MTBDCCS_MIXED_TRIAL_10_c",
+      "response" : 2,
+      "type" : "dccsStepResult",
+      "responseTime" : 1095,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 59,
+      "endDate" : "2021-09-24T08:19:22.447-05:00",
+      "startDate" : "2021-09-24T08:19:22.076-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_11_a",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 60,
+      "endDate" : "2021-09-24T08:19:23.584-05:00",
+      "startDate" : "2021-09-24T08:19:22.481-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_11_b",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:19:24.527-05:00",
+      "startDate" : "2021-09-24T08:19:23.618-05:00",
+      "position" : 61,
+      "identifier" : "MTBDCCS_MIXED_TRIAL_11_c",
+      "response" : 2,
+      "type" : "dccsStepResult",
+      "responseTime" : 898,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 62,
+      "endDate" : "2021-09-24T08:19:25.081-05:00",
+      "startDate" : "2021-09-24T08:19:24.709-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_12_a",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 63,
+      "endDate" : "2021-09-24T08:19:26.221-05:00",
+      "startDate" : "2021-09-24T08:19:25.118-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_12_b",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:19:26.994-05:00",
+      "startDate" : "2021-09-24T08:19:26.260-05:00",
+      "position" : 64,
+      "identifier" : "MTBDCCS_MIXED_TRIAL_12_c",
+      "response" : 1,
+      "type" : "dccsStepResult",
+      "responseTime" : 724,
+      "instruction" : false
+    },
+    {
+      "anticipationError" : 1,
+      "position" : 65,
+      "endDate" : "2021-09-24T08:19:27.373-05:00",
+      "startDate" : "2021-09-24T08:19:27.276-05:00",
+      "wasInterrupted" : false,
+      "identifier" : "MTBDCCS_MIXED_TRIAL_13_a",
+      "response" : 1,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 66,
+      "endDate" : "2021-09-24T08:19:29.452-05:00",
+      "startDate" : "2021-09-24T08:19:28.349-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_13_b",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:19:30.561-05:00",
+      "startDate" : "2021-09-24T08:19:29.491-05:00",
+      "position" : 67,
+      "identifier" : "MTBDCCS_MIXED_TRIAL_13_c",
+      "response" : 2,
+      "type" : "dccsStepResult",
+      "responseTime" : 1061,
+      "instruction" : false
+    },
+    {
+      "anticipationError" : 1,
+      "position" : 68,
+      "endDate" : "2021-09-24T08:19:30.807-05:00",
+      "startDate" : "2021-09-24T08:19:30.693-05:00",
+      "wasInterrupted" : false,
+      "identifier" : "MTBDCCS_MIXED_TRIAL_14_a",
+      "response" : 2,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 69,
+      "endDate" : "2021-09-24T08:19:32.169-05:00",
+      "startDate" : "2021-09-24T08:19:31.065-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_14_b",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:19:33.676-05:00",
+      "startDate" : "2021-09-24T08:19:32.205-05:00",
+      "position" : 70,
+      "identifier" : "MTBDCCS_MIXED_TRIAL_14_c",
+      "response" : 1,
+      "type" : "dccsStepResult",
+      "responseTime" : 1462,
+      "instruction" : false
+    },
+    {
+      "anticipationError" : 1,
+      "position" : 71,
+      "endDate" : "2021-09-24T08:19:33.924-05:00",
+      "startDate" : "2021-09-24T08:19:33.809-05:00",
+      "wasInterrupted" : false,
+      "identifier" : "MTBDCCS_MIXED_TRIAL_15_a",
+      "response" : 1,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 72,
+      "endDate" : "2021-09-24T08:19:35.986-05:00",
+      "startDate" : "2021-09-24T08:19:34.882-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_15_b",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:19:36.826-05:00",
+      "startDate" : "2021-09-24T08:19:36.023-05:00",
+      "position" : 73,
+      "identifier" : "MTBDCCS_MIXED_TRIAL_15_c",
+      "response" : 2,
+      "type" : "dccsStepResult",
+      "responseTime" : 794,
+      "instruction" : false
+    },
+    {
+      "anticipationError" : 1,
+      "position" : 74,
+      "endDate" : "2021-09-24T08:19:37.094-05:00",
+      "startDate" : "2021-09-24T08:19:36.941-05:00",
+      "wasInterrupted" : false,
+      "identifier" : "MTBDCCS_MIXED_TRIAL_16_a",
+      "response" : 2,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 75,
+      "endDate" : "2021-09-24T08:19:38.403-05:00",
+      "startDate" : "2021-09-24T08:19:37.299-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_16_b",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:19:39.944-05:00",
+      "startDate" : "2021-09-24T08:19:38.443-05:00",
+      "position" : 76,
+      "identifier" : "MTBDCCS_MIXED_TRIAL_16_c",
+      "response" : 2,
+      "type" : "dccsStepResult",
+      "responseTime" : 1491,
+      "instruction" : false
+    },
+    {
+      "anticipationError" : 1,
+      "position" : 77,
+      "endDate" : "2021-09-24T08:19:40.195-05:00",
+      "startDate" : "2021-09-24T08:19:40.041-05:00",
+      "wasInterrupted" : false,
+      "identifier" : "MTBDCCS_MIXED_TRIAL_17_a",
+      "response" : 2,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 78,
+      "endDate" : "2021-09-24T08:19:41.503-05:00",
+      "startDate" : "2021-09-24T08:19:40.400-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_17_b",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:19:43.445-05:00",
+      "startDate" : "2021-09-24T08:19:41.543-05:00",
+      "position" : 79,
+      "identifier" : "MTBDCCS_MIXED_TRIAL_17_c",
+      "response" : 1,
+      "type" : "dccsStepResult",
+      "responseTime" : 1893,
+      "instruction" : false
+    },
+    {
+      "anticipationError" : 1,
+      "position" : 80,
+      "endDate" : "2021-09-24T08:19:43.662-05:00",
+      "startDate" : "2021-09-24T08:19:43.487-05:00",
+      "wasInterrupted" : false,
+      "identifier" : "MTBDCCS_MIXED_TRIAL_18_a",
+      "response" : 1,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 81,
+      "endDate" : "2021-09-24T08:19:45.637-05:00",
+      "startDate" : "2021-09-24T08:19:44.533-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_18_b",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 0,
+      "endDate" : "2021-09-24T08:19:46.778-05:00",
+      "startDate" : "2021-09-24T08:19:45.681-05:00",
+      "position" : 82,
+      "identifier" : "MTBDCCS_MIXED_TRIAL_18_c",
+      "response" : 2,
+      "type" : "dccsStepResult",
+      "responseTime" : 1087,
+      "instruction" : false
+    },
+    {
+      "anticipationError" : 1,
+      "position" : 83,
+      "endDate" : "2021-09-24T08:19:47.046-05:00",
+      "startDate" : "2021-09-24T08:19:46.891-05:00",
+      "wasInterrupted" : false,
+      "identifier" : "MTBDCCS_MIXED_TRIAL_19_a",
+      "response" : 2,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 84,
+      "endDate" : "2021-09-24T08:19:49.054-05:00",
+      "startDate" : "2021-09-24T08:19:47.950-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_19_b",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:19:49.748-05:00",
+      "startDate" : "2021-09-24T08:19:49.100-05:00",
+      "position" : 85,
+      "identifier" : "MTBDCCS_MIXED_TRIAL_19_c",
+      "response" : 1,
+      "type" : "dccsStepResult",
+      "responseTime" : 639,
+      "instruction" : false
+    },
+    {
+      "anticipationError" : 1,
+      "position" : 86,
+      "endDate" : "2021-09-24T08:19:50.014-05:00",
+      "startDate" : "2021-09-24T08:19:49.841-05:00",
+      "wasInterrupted" : false,
+      "identifier" : "MTBDCCS_MIXED_TRIAL_20_a",
+      "response" : 1,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 87,
+      "endDate" : "2021-09-24T08:19:51.304-05:00",
+      "startDate" : "2021-09-24T08:19:50.201-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_20_b",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:19:52.162-05:00",
+      "startDate" : "2021-09-24T08:19:51.347-05:00",
+      "position" : 88,
+      "identifier" : "MTBDCCS_MIXED_TRIAL_20_c",
+      "response" : 1,
+      "type" : "dccsStepResult",
+      "responseTime" : 806,
+      "instruction" : false
+    },
+    {
+      "anticipationError" : 1,
+      "position" : 89,
+      "endDate" : "2021-09-24T08:19:52.413-05:00",
+      "startDate" : "2021-09-24T08:19:52.223-05:00",
+      "wasInterrupted" : false,
+      "identifier" : "MTBDCCS_MIXED_TRIAL_21_a",
+      "response" : 1,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 90,
+      "endDate" : "2021-09-24T08:19:53.654-05:00",
+      "startDate" : "2021-09-24T08:19:52.551-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_21_b",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:19:54.363-05:00",
+      "startDate" : "2021-09-24T08:19:53.701-05:00",
+      "position" : 91,
+      "identifier" : "MTBDCCS_MIXED_TRIAL_21_c",
+      "response" : 2,
+      "type" : "dccsStepResult",
+      "responseTime" : 652,
+      "instruction" : false
+    },
+    {
+      "anticipationError" : 1,
+      "position" : 92,
+      "endDate" : "2021-09-24T08:19:54.628-05:00",
+      "startDate" : "2021-09-24T08:19:54.492-05:00",
+      "wasInterrupted" : false,
+      "identifier" : "MTBDCCS_MIXED_TRIAL_22_a",
+      "response" : 2,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 93,
+      "endDate" : "2021-09-24T08:19:55.955-05:00",
+      "startDate" : "2021-09-24T08:19:54.851-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_22_b",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:19:57.096-05:00",
+      "startDate" : "2021-09-24T08:19:55.998-05:00",
+      "position" : 94,
+      "identifier" : "MTBDCCS_MIXED_TRIAL_22_c",
+      "response" : 1,
+      "type" : "dccsStepResult",
+      "responseTime" : 1091,
+      "instruction" : false
+    },
+    {
+      "anticipationError" : 1,
+      "position" : 95,
+      "endDate" : "2021-09-24T08:19:57.332-05:00",
+      "startDate" : "2021-09-24T08:19:57.176-05:00",
+      "wasInterrupted" : false,
+      "identifier" : "MTBDCCS_MIXED_TRIAL_23_a",
+      "response" : 1,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 96,
+      "endDate" : "2021-09-24T08:19:58.638-05:00",
+      "startDate" : "2021-09-24T08:19:57.535-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_23_b",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:20:00.046-05:00",
+      "startDate" : "2021-09-24T08:19:58.686-05:00",
+      "position" : 97,
+      "identifier" : "MTBDCCS_MIXED_TRIAL_23_c",
+      "response" : 1,
+      "type" : "dccsStepResult",
+      "responseTime" : 1351,
+      "instruction" : false
+    },
+    {
+      "anticipationError" : 1,
+      "position" : 98,
+      "endDate" : "2021-09-24T08:20:00.282-05:00",
+      "startDate" : "2021-09-24T08:20:00.126-05:00",
+      "wasInterrupted" : false,
+      "identifier" : "MTBDCCS_MIXED_TRIAL_24_a",
+      "response" : 1,
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 99,
+      "endDate" : "2021-09-24T08:20:02.272-05:00",
+      "startDate" : "2021-09-24T08:20:01.169-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_24_b",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:20:02.880-05:00",
+      "startDate" : "2021-09-24T08:20:02.323-05:00",
+      "position" : 100,
+      "identifier" : "MTBDCCS_MIXED_TRIAL_24_c",
+      "response" : 2,
+      "type" : "dccsStepResult",
+      "responseTime" : 547,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 101,
+      "endDate" : "2021-09-24T08:20:04.035-05:00",
+      "startDate" : "2021-09-24T08:20:02.976-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_25_a",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 102,
+      "endDate" : "2021-09-24T08:20:05.183-05:00",
+      "startDate" : "2021-09-24T08:20:04.081-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_25_b",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:20:05.983-05:00",
+      "startDate" : "2021-09-24T08:20:05.231-05:00",
+      "position" : 103,
+      "identifier" : "MTBDCCS_MIXED_TRIAL_25_c",
+      "response" : 1,
+      "type" : "dccsStepResult",
+      "responseTime" : 742,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 104,
+      "endDate" : "2021-09-24T08:20:07.169-05:00",
+      "startDate" : "2021-09-24T08:20:06.116-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_26_a",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 105,
+      "endDate" : "2021-09-24T08:20:08.319-05:00",
+      "startDate" : "2021-09-24T08:20:07.217-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_26_b",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:20:09.634-05:00",
+      "startDate" : "2021-09-24T08:20:08.370-05:00",
+      "position" : 106,
+      "identifier" : "MTBDCCS_MIXED_TRIAL_26_c",
+      "response" : 2,
+      "type" : "dccsStepResult",
+      "responseTime" : 1254,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 107,
+      "endDate" : "2021-09-24T08:20:10.169-05:00",
+      "startDate" : "2021-09-24T08:20:09.796-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_27_a",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 108,
+      "endDate" : "2021-09-24T08:20:11.321-05:00",
+      "startDate" : "2021-09-24T08:20:10.219-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_27_b",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:20:12.349-05:00",
+      "startDate" : "2021-09-24T08:20:11.374-05:00",
+      "position" : 109,
+      "identifier" : "MTBDCCS_MIXED_TRIAL_27_c",
+      "response" : 2,
+      "type" : "dccsStepResult",
+      "responseTime" : 966,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 110,
+      "endDate" : "2021-09-24T08:20:12.986-05:00",
+      "startDate" : "2021-09-24T08:20:12.613-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_28_a",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 111,
+      "endDate" : "2021-09-24T08:20:14.138-05:00",
+      "startDate" : "2021-09-24T08:20:13.036-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_28_b",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:20:15.367-05:00",
+      "startDate" : "2021-09-24T08:20:14.186-05:00",
+      "position" : 112,
+      "identifier" : "MTBDCCS_MIXED_TRIAL_28_c",
+      "response" : 1,
+      "type" : "dccsStepResult",
+      "responseTime" : 1172,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 113,
+      "endDate" : "2021-09-24T08:20:15.869-05:00",
+      "startDate" : "2021-09-24T08:20:15.515-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_29_a",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 114,
+      "endDate" : "2021-09-24T08:20:17.019-05:00",
+      "startDate" : "2021-09-24T08:20:15.917-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_29_b",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:20:17.732-05:00",
+      "startDate" : "2021-09-24T08:20:17.066-05:00",
+      "position" : 115,
+      "identifier" : "MTBDCCS_MIXED_TRIAL_29_c",
+      "response" : 2,
+      "type" : "dccsStepResult",
+      "responseTime" : 657,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 116,
+      "endDate" : "2021-09-24T08:20:18.220-05:00",
+      "startDate" : "2021-09-24T08:20:17.862-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_30_a",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 117,
+      "endDate" : "2021-09-24T08:20:19.371-05:00",
+      "startDate" : "2021-09-24T08:20:18.268-05:00",
+      "identifier" : "MTBDCCS_MIXED_TRIAL_30_b",
+      "type" : "dccsStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2021-09-24T08:20:20.048-05:00",
+      "startDate" : "2021-09-24T08:20:19.418-05:00",
+      "position" : 118,
+      "identifier" : "MTBDCCS_MIXED_TRIAL_30_c",
+      "response" : 2,
+      "type" : "dccsStepResult",
+      "responseTime" : 621,
+      "instruction" : false
+    }
+  ]
+}

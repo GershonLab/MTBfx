@@ -1,0 +1,2907 @@
+{
+  "steps": [
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_INTRO1",
+      "position": 1,
+      "startDate": "2022-05-24T15:40:35.269-05:00",
+      "endDate": "2022-05-24T15:40:37.439-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_INSTR1",
+      "position": 2,
+      "startDate": "2022-05-24T15:40:37.442-05:00",
+      "endDate": "2022-05-24T15:40:38.918-05:00",
+      "response": 2
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_INSTR2",
+      "position": 3,
+      "startDate": "2022-05-24T15:40:38.922-05:00",
+      "endDate": "2022-05-24T15:40:51.372-05:00",
+      "response": 2
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_INSTR3",
+      "position": 4,
+      "startDate": "2022-05-24T15:40:51.375-05:00",
+      "endDate": "2022-05-24T15:40:54.178-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_PRAC1_A",
+      "position": 5,
+      "startDate": "2022-05-24T15:40:54.183-05:00",
+      "endDate": "2022-05-24T15:40:56.213-05:00",
+      "response": 9,
+      "score": 1,
+      "responseTime": 1872
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_PRAC1_B",
+      "position": 6,
+      "startDate": "2022-05-24T15:40:56.215-05:00",
+      "endDate": "2022-05-24T15:40:59.679-05:00",
+      "response": 4,
+      "score": 1,
+      "responseTime": 3310
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_PRAC1_C",
+      "position": 7,
+      "startDate": "2022-05-24T15:40:59.681-05:00",
+      "endDate": "2022-05-24T15:41:00.068-05:00",
+      "response": 5,
+      "score": 1,
+      "responseTime": 277
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_PRAC1_D",
+      "position": 8,
+      "startDate": "2022-05-24T15:41:00.070-05:00",
+      "endDate": "2022-05-24T15:41:00.823-05:00",
+      "response": 1,
+      "score": 1,
+      "responseTime": 636
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_PRAC1_E",
+      "position": 9,
+      "startDate": "2022-05-24T15:41:00.828-05:00",
+      "endDate": "2022-05-24T15:41:01.413-05:00",
+      "response": 3,
+      "score": 1,
+      "responseTime": 460
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_INSTR4",
+      "position": 10,
+      "startDate": "2022-05-24T15:41:01.425-05:00",
+      "endDate": "2022-05-24T15:41:02.201-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_01_A",
+      "position": 11,
+      "startDate": "2022-05-24T15:41:02.208-05:00",
+      "endDate": "2022-05-24T15:41:04.560-05:00",
+      "response": 1,
+      "score": 1,
+      "responseTime": 2295
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_01_B",
+      "position": 12,
+      "startDate": "2022-05-24T15:41:04.561-05:00",
+      "endDate": "2022-05-24T15:41:06.122-05:00",
+      "response": 4,
+      "score": 1,
+      "responseTime": 1473
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_01_C",
+      "position": 13,
+      "startDate": "2022-05-24T15:41:06.125-05:00",
+      "endDate": "2022-05-24T15:41:07.559-05:00",
+      "response": 8,
+      "score": 1,
+      "responseTime": 1349
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_01_D",
+      "position": 14,
+      "startDate": "2022-05-24T15:41:07.561-05:00",
+      "endDate": "2022-05-24T15:41:08.822-05:00",
+      "response": 2,
+      "score": 1,
+      "responseTime": 1125
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_01_E",
+      "position": 15,
+      "startDate": "2022-05-24T15:41:08.824-05:00",
+      "endDate": "2022-05-24T15:41:10.308-05:00",
+      "response": 7,
+      "score": 1,
+      "responseTime": 1399
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_01_F",
+      "position": 16,
+      "startDate": "2022-05-24T15:41:10.310-05:00",
+      "endDate": "2022-05-24T15:41:11.994-05:00",
+      "response": 6,
+      "score": 1,
+      "responseTime": 1591
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_01_G",
+      "position": 17,
+      "startDate": "2022-05-24T15:41:11.995-05:00",
+      "endDate": "2022-05-24T15:41:13.149-05:00",
+      "response": 9,
+      "score": 1,
+      "responseTime": 1059
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_01_H",
+      "position": 18,
+      "startDate": "2022-05-24T15:41:13.151-05:00",
+      "endDate": "2022-05-24T15:41:14.436-05:00",
+      "response": 3,
+      "score": 1,
+      "responseTime": 1199
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_01_I",
+      "position": 19,
+      "startDate": "2022-05-24T15:41:14.438-05:00",
+      "endDate": "2022-05-24T15:41:15.941-05:00",
+      "response": 5,
+      "score": 1,
+      "responseTime": 1423
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_02_A",
+      "position": 20,
+      "startDate": "2022-05-24T15:41:15.951-05:00",
+      "endDate": "2022-05-24T15:41:17.576-05:00",
+      "response": 8,
+      "score": 1,
+      "responseTime": 1507
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_02_B",
+      "position": 21,
+      "startDate": "2022-05-24T15:41:17.578-05:00",
+      "endDate": "2022-05-24T15:41:18.764-05:00",
+      "response": 3,
+      "score": 1,
+      "responseTime": 1100
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_02_C",
+      "position": 22,
+      "startDate": "2022-05-24T15:41:18.766-05:00",
+      "endDate": "2022-05-24T15:41:20.060-05:00",
+      "response": 1,
+      "score": 1,
+      "responseTime": 1199
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_02_D",
+      "position": 23,
+      "startDate": "2022-05-24T15:41:20.062-05:00",
+      "endDate": "2022-05-24T15:41:22.468-05:00",
+      "response": 9,
+      "score": 1,
+      "responseTime": 2329
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_02_E",
+      "position": 24,
+      "startDate": "2022-05-24T15:41:22.471-05:00",
+      "endDate": "2022-05-24T15:41:23.565-05:00",
+      "response": 2,
+      "score": 1,
+      "responseTime": 1000
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_02_F",
+      "position": 25,
+      "startDate": "2022-05-24T15:41:23.567-05:00",
+      "endDate": "2022-05-24T15:41:25.086-05:00",
+      "response": 5,
+      "score": 1,
+      "responseTime": 1433
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_02_G",
+      "position": 26,
+      "startDate": "2022-05-24T15:41:25.087-05:00",
+      "endDate": "2022-05-24T15:41:26.430-05:00",
+      "response": 6,
+      "score": 1,
+      "responseTime": 1257
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_02_H",
+      "position": 27,
+      "startDate": "2022-05-24T15:41:26.432-05:00",
+      "endDate": "2022-05-24T15:41:27.827-05:00",
+      "response": 4,
+      "score": 1,
+      "responseTime": 1316
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_02_I",
+      "position": 28,
+      "startDate": "2022-05-24T15:41:27.829-05:00",
+      "endDate": "2022-05-24T15:41:29.188-05:00",
+      "response": 3,
+      "score": 1,
+      "responseTime": 1291
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_03_A",
+      "position": 29,
+      "startDate": "2022-05-24T15:41:29.193-05:00",
+      "endDate": "2022-05-24T15:41:31.523-05:00",
+      "response": 7,
+      "score": 1,
+      "responseTime": 2212
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_03_B",
+      "position": 30,
+      "startDate": "2022-05-24T15:41:31.525-05:00",
+      "endDate": "2022-05-24T15:41:32.744-05:00",
+      "response": 2,
+      "score": 1,
+      "responseTime": 1133
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_03_C",
+      "position": 31,
+      "startDate": "2022-05-24T15:41:32.748-05:00",
+      "endDate": "2022-05-24T15:41:33.832-05:00",
+      "response": 9,
+      "score": 1,
+      "responseTime": 1000
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_03_D",
+      "position": 32,
+      "startDate": "2022-05-24T15:41:33.834-05:00",
+      "endDate": "2022-05-24T15:41:35.346-05:00",
+      "response": 8,
+      "score": 1,
+      "responseTime": 1432
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_03_E",
+      "position": 33,
+      "startDate": "2022-05-24T15:41:35.348-05:00",
+      "endDate": "2022-05-24T15:41:36.590-05:00",
+      "response": 1,
+      "score": 1,
+      "responseTime": 1124
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_03_F",
+      "position": 34,
+      "startDate": "2022-05-24T15:41:36.592-05:00",
+      "endDate": "2022-05-24T15:41:37.902-05:00",
+      "response": 4,
+      "score": 1,
+      "responseTime": 1232
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_03_G",
+      "position": 35,
+      "startDate": "2022-05-24T15:41:37.904-05:00",
+      "endDate": "2022-05-24T15:41:39.572-05:00",
+      "response": 7,
+      "score": 1,
+      "responseTime": 1590
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_03_H",
+      "position": 36,
+      "startDate": "2022-05-24T15:41:39.574-05:00",
+      "endDate": "2022-05-24T15:41:41.001-05:00",
+      "response": 6,
+      "score": 1,
+      "responseTime": 1357
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_03_I",
+      "position": 37,
+      "startDate": "2022-05-24T15:41:41.003-05:00",
+      "endDate": "2022-05-24T15:41:43.219-05:00",
+      "response": 5,
+      "score": 1,
+      "responseTime": 2139
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_04_A",
+      "position": 38,
+      "startDate": "2022-05-24T15:41:43.225-05:00",
+      "endDate": "2022-05-24T15:41:44.823-05:00",
+      "response": 9,
+      "score": 1,
+      "responseTime": 1482
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_04_B",
+      "position": 39,
+      "startDate": "2022-05-24T15:41:44.826-05:00",
+      "endDate": "2022-05-24T15:41:46.226-05:00",
+      "response": 1,
+      "score": 1,
+      "responseTime": 1282
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_04_C",
+      "position": 40,
+      "startDate": "2022-05-24T15:41:46.231-05:00",
+      "endDate": "2022-05-24T15:41:47.555-05:00",
+      "response": 2,
+      "score": 1,
+      "responseTime": 1232
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_04_D",
+      "position": 41,
+      "startDate": "2022-05-24T15:41:47.558-05:00",
+      "endDate": "2022-05-24T15:41:48.935-05:00",
+      "response": 4,
+      "score": 1,
+      "responseTime": 1308
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_04_E",
+      "position": 42,
+      "startDate": "2022-05-24T15:41:48.942-05:00",
+      "endDate": "2022-05-24T15:41:50.198-05:00",
+      "response": 7,
+      "score": 1,
+      "responseTime": 1175
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_04_F",
+      "position": 43,
+      "startDate": "2022-05-24T15:41:50.200-05:00",
+      "endDate": "2022-05-24T15:41:53.022-05:00",
+      "response": 2,
+      "score": 1,
+      "responseTime": 2736
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_04_G",
+      "position": 44,
+      "startDate": "2022-05-24T15:41:53.024-05:00",
+      "endDate": "2022-05-24T15:41:55.140-05:00",
+      "response": 5,
+      "score": 1,
+      "responseTime": 2039
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_04_H",
+      "position": 45,
+      "startDate": "2022-05-24T15:41:55.142-05:00",
+      "endDate": "2022-05-24T15:41:59.534-05:00",
+      "response": 8,
+      "score": 0,
+      "responseTime": 4324
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_04_I",
+      "position": 46,
+      "startDate": "2022-05-24T15:41:59.536-05:00",
+      "endDate": "2022-05-24T15:42:02.043-05:00",
+      "response": 9,
+      "score": 1,
+      "responseTime": 2421
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_05_A",
+      "position": 47,
+      "startDate": "2022-05-24T15:42:02.048-05:00",
+      "endDate": "2022-05-24T15:42:04.228-05:00",
+      "response": 5,
+      "score": 1,
+      "responseTime": 2080
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_05_B",
+      "position": 48,
+      "startDate": "2022-05-24T15:42:04.230-05:00",
+      "endDate": "2022-05-24T15:42:05.798-05:00",
+      "response": 8,
+      "score": 1,
+      "responseTime": 1481
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_05_C",
+      "position": 49,
+      "startDate": "2022-05-24T15:42:05.799-05:00",
+      "endDate": "2022-05-24T15:42:07.294-05:00",
+      "response": 6,
+      "score": 1,
+      "responseTime": 1424
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_05_D",
+      "position": 50,
+      "startDate": "2022-05-24T15:42:07.295-05:00",
+      "endDate": "2022-05-24T15:42:08.739-05:00",
+      "response": 4,
+      "score": 1,
+      "responseTime": 1375
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_05_E",
+      "position": 51,
+      "startDate": "2022-05-24T15:42:08.741-05:00",
+      "endDate": "2022-05-24T15:42:09.918-05:00",
+      "response": 3,
+      "score": 1,
+      "responseTime": 1083
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_05_F",
+      "position": 52,
+      "startDate": "2022-05-24T15:42:09.921-05:00",
+      "endDate": "2022-05-24T15:42:11.059-05:00",
+      "response": 1,
+      "score": 1,
+      "responseTime": 1033
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_05_G",
+      "position": 53,
+      "startDate": "2022-05-24T15:42:11.066-05:00",
+      "endDate": "2022-05-24T15:42:12.919-05:00",
+      "response": 7,
+      "score": 1,
+      "responseTime": 1781
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_05_H",
+      "position": 54,
+      "startDate": "2022-05-24T15:42:12.922-05:00",
+      "endDate": "2022-05-24T15:42:14.804-05:00",
+      "response": 8,
+      "score": 1,
+      "responseTime": 1815
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_05_I",
+      "position": 55,
+      "startDate": "2022-05-24T15:42:14.806-05:00",
+      "endDate": "2022-05-24T15:42:16.209-05:00",
+      "response": 3,
+      "score": 1,
+      "responseTime": 1308
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_06_A",
+      "position": 56,
+      "startDate": "2022-05-24T15:42:16.213-05:00",
+      "endDate": "2022-05-24T15:42:17.687-05:00",
+      "response": 1,
+      "score": 1,
+      "responseTime": 1367
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_06_B",
+      "position": 57,
+      "startDate": "2022-05-24T15:42:17.689-05:00",
+      "endDate": "2022-05-24T15:42:19.216-05:00",
+      "response": 3,
+      "score": 1,
+      "responseTime": 1432
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_06_C",
+      "position": 58,
+      "startDate": "2022-05-24T15:42:19.218-05:00",
+      "endDate": "2022-05-24T15:42:20.802-05:00",
+      "response": 9,
+      "score": 1,
+      "responseTime": 1499
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_06_D",
+      "position": 59,
+      "startDate": "2022-05-24T15:42:20.804-05:00",
+      "endDate": "2022-05-24T15:42:22.614-05:00",
+      "response": 6,
+      "score": 1,
+      "responseTime": 1723
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_06_E",
+      "position": 60,
+      "startDate": "2022-05-24T15:42:22.616-05:00",
+      "endDate": "2022-05-24T15:42:24.052-05:00",
+      "response": 3,
+      "score": 1,
+      "responseTime": 1350
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_06_F",
+      "position": 61,
+      "startDate": "2022-05-24T15:42:24.054-05:00",
+      "endDate": "2022-05-24T15:42:26.161-05:00",
+      "response": 9,
+      "score": 1,
+      "responseTime": 2022
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_06_G",
+      "position": 62,
+      "startDate": "2022-05-24T15:42:26.164-05:00",
+      "endDate": "2022-05-24T15:42:28.488-05:00",
+      "response": 7,
+      "score": 1,
+      "responseTime": 2238
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_06_H",
+      "position": 63,
+      "startDate": "2022-05-24T15:42:28.491-05:00",
+      "endDate": "2022-05-24T15:42:30.466-05:00",
+      "response": 5,
+      "score": 1,
+      "responseTime": 1907
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_06_I",
+      "position": 64,
+      "startDate": "2022-05-24T15:42:30.473-05:00",
+      "endDate": "2022-05-24T15:42:31.971-05:00",
+      "response": 1,
+      "score": 1,
+      "responseTime": 1424
+    }
+  ],
+  "testVersion": "1.4.0",
+  "userInteractions": [
+    {
+      "stepIdentifier": "NM_INTRO1",
+      "timestamp": "2022-05-24T15:40:35.280-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_INTRO1",
+      "timestamp": "2022-05-24T15:40:35.318-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_INTRO1",
+      "timestamp": "2022-05-24T15:40:37.286-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "Review Instructions"
+    },
+    {
+      "stepIdentifier": "NM_INTRO1",
+      "timestamp": "2022-05-24T15:40:37.436-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "Review Instructions"
+    },
+    {
+      "stepIdentifier": "NM_INSTR1",
+      "timestamp": "2022-05-24T15:40:37.449-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_INSTR1",
+      "timestamp": "2022-05-24T15:40:37.493-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_INSTR1",
+      "timestamp": "2022-05-24T15:40:38.816-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": ">"
+    },
+    {
+      "stepIdentifier": "NM_INSTR1",
+      "timestamp": "2022-05-24T15:40:38.915-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": ">"
+    },
+    {
+      "stepIdentifier": "NM_INSTR2",
+      "timestamp": "2022-05-24T15:40:38.927-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_INSTR2",
+      "timestamp": "2022-05-24T15:40:38.962-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_INSTR2",
+      "timestamp": "2022-05-24T15:40:51.286-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": ">"
+    },
+    {
+      "stepIdentifier": "NM_INSTR2",
+      "timestamp": "2022-05-24T15:40:51.369-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": ">"
+    },
+    {
+      "stepIdentifier": "NM_INSTR3",
+      "timestamp": "2022-05-24T15:40:51.379-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_INSTR3",
+      "timestamp": "2022-05-24T15:40:51.383-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_INSTR3",
+      "timestamp": "2022-05-24T15:40:54.027-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "Practice"
+    },
+    {
+      "stepIdentifier": "NM_INSTR3",
+      "timestamp": "2022-05-24T15:40:54.176-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "Practice"
+    },
+    {
+      "stepIdentifier": "NM_PRAC1_A",
+      "timestamp": "2022-05-24T15:40:54.187-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_PRAC1_A",
+      "timestamp": "2022-05-24T15:40:54.234-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_PRAC1_A",
+      "timestamp": "2022-05-24T15:40:56.103-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "9"
+    },
+    {
+      "stepIdentifier": "NM_PRAC1_A",
+      "timestamp": "2022-05-24T15:40:56.210-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "9"
+    },
+    {
+      "stepIdentifier": "NM_PRAC1_B",
+      "timestamp": "2022-05-24T15:40:56.217-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_PRAC1_B",
+      "timestamp": "2022-05-24T15:40:59.527-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "4"
+    },
+    {
+      "stepIdentifier": "NM_PRAC1_B",
+      "timestamp": "2022-05-24T15:40:59.674-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "4"
+    },
+    {
+      "stepIdentifier": "NM_PRAC1_C",
+      "timestamp": "2022-05-24T15:40:59.681-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_PRAC1_C",
+      "timestamp": "2022-05-24T15:40:59.957-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "5"
+    },
+    {
+      "stepIdentifier": "NM_PRAC1_C",
+      "timestamp": "2022-05-24T15:41:00.065-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "5"
+    },
+    {
+      "stepIdentifier": "NM_PRAC1_D",
+      "timestamp": "2022-05-24T15:41:00.071-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_PRAC1_D",
+      "timestamp": "2022-05-24T15:41:00.706-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "1"
+    },
+    {
+      "stepIdentifier": "NM_PRAC1_D",
+      "timestamp": "2022-05-24T15:41:00.821-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "1"
+    },
+    {
+      "stepIdentifier": "NM_PRAC1_E",
+      "timestamp": "2022-05-24T15:41:00.829-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_PRAC1_E",
+      "timestamp": "2022-05-24T15:41:01.285-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "3"
+    },
+    {
+      "stepIdentifier": "NM_PRAC1_E",
+      "timestamp": "2022-05-24T15:41:01.409-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "3"
+    },
+    {
+      "stepIdentifier": "NM_INSTR4",
+      "timestamp": "2022-05-24T15:41:01.431-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_INSTR4",
+      "timestamp": "2022-05-24T15:41:01.443-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_INSTR4",
+      "timestamp": "2022-05-24T15:41:02.101-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "Start"
+    },
+    {
+      "stepIdentifier": "NM_INSTR4",
+      "timestamp": "2022-05-24T15:41:02.199-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "Start"
+    },
+    {
+      "stepIdentifier": "NM_TEST_01_A",
+      "timestamp": "2022-05-24T15:41:02.211-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_01_A",
+      "timestamp": "2022-05-24T15:41:02.258-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_01_A",
+      "timestamp": "2022-05-24T15:41:04.550-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "1"
+    },
+    {
+      "stepIdentifier": "NM_TEST_01_A",
+      "timestamp": "2022-05-24T15:41:04.558-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "1"
+    },
+    {
+      "stepIdentifier": "NM_TEST_01_B",
+      "timestamp": "2022-05-24T15:41:04.564-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_01_B",
+      "timestamp": "2022-05-24T15:41:06.037-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "4"
+    },
+    {
+      "stepIdentifier": "NM_TEST_01_B",
+      "timestamp": "2022-05-24T15:41:06.120-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "4"
+    },
+    {
+      "stepIdentifier": "NM_TEST_01_C",
+      "timestamp": "2022-05-24T15:41:06.126-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_01_C",
+      "timestamp": "2022-05-24T15:41:07.474-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "8"
+    },
+    {
+      "stepIdentifier": "NM_TEST_01_C",
+      "timestamp": "2022-05-24T15:41:07.557-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "8"
+    },
+    {
+      "stepIdentifier": "NM_TEST_01_D",
+      "timestamp": "2022-05-24T15:41:07.563-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_01_D",
+      "timestamp": "2022-05-24T15:41:08.687-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "2"
+    },
+    {
+      "stepIdentifier": "NM_TEST_01_D",
+      "timestamp": "2022-05-24T15:41:08.819-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "2"
+    },
+    {
+      "stepIdentifier": "NM_TEST_01_E",
+      "timestamp": "2022-05-24T15:41:08.825-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_01_E",
+      "timestamp": "2022-05-24T15:41:10.224-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "7"
+    },
+    {
+      "stepIdentifier": "NM_TEST_01_E",
+      "timestamp": "2022-05-24T15:41:10.306-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "7"
+    },
+    {
+      "stepIdentifier": "NM_TEST_01_F",
+      "timestamp": "2022-05-24T15:41:10.312-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_01_F",
+      "timestamp": "2022-05-24T15:41:11.902-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "6"
+    },
+    {
+      "stepIdentifier": "NM_TEST_01_F",
+      "timestamp": "2022-05-24T15:41:11.992-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "6"
+    },
+    {
+      "stepIdentifier": "NM_TEST_01_G",
+      "timestamp": "2022-05-24T15:41:11.998-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_01_G",
+      "timestamp": "2022-05-24T15:41:13.055-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "9"
+    },
+    {
+      "stepIdentifier": "NM_TEST_01_G",
+      "timestamp": "2022-05-24T15:41:13.145-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "9"
+    },
+    {
+      "stepIdentifier": "NM_TEST_01_H",
+      "timestamp": "2022-05-24T15:41:13.153-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_01_H",
+      "timestamp": "2022-05-24T15:41:14.351-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "3"
+    },
+    {
+      "stepIdentifier": "NM_TEST_01_H",
+      "timestamp": "2022-05-24T15:41:14.434-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "3"
+    },
+    {
+      "stepIdentifier": "NM_TEST_01_I",
+      "timestamp": "2022-05-24T15:41:14.440-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_01_I",
+      "timestamp": "2022-05-24T15:41:15.862-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "5"
+    },
+    {
+      "stepIdentifier": "NM_TEST_01_I",
+      "timestamp": "2022-05-24T15:41:15.936-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "5"
+    },
+    {
+      "stepIdentifier": "NM_TEST_02_A",
+      "timestamp": "2022-05-24T15:41:15.956-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_02_A",
+      "timestamp": "2022-05-24T15:41:15.994-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_02_A",
+      "timestamp": "2022-05-24T15:41:17.500-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "8"
+    },
+    {
+      "stepIdentifier": "NM_TEST_02_A",
+      "timestamp": "2022-05-24T15:41:17.574-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "8"
+    },
+    {
+      "stepIdentifier": "NM_TEST_02_B",
+      "timestamp": "2022-05-24T15:41:17.580-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_02_B",
+      "timestamp": "2022-05-24T15:41:18.679-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "3"
+    },
+    {
+      "stepIdentifier": "NM_TEST_02_B",
+      "timestamp": "2022-05-24T15:41:18.761-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "3"
+    },
+    {
+      "stepIdentifier": "NM_TEST_02_C",
+      "timestamp": "2022-05-24T15:41:18.768-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_02_C",
+      "timestamp": "2022-05-24T15:41:19.966-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "1"
+    },
+    {
+      "stepIdentifier": "NM_TEST_02_C",
+      "timestamp": "2022-05-24T15:41:20.057-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "1"
+    },
+    {
+      "stepIdentifier": "NM_TEST_02_D",
+      "timestamp": "2022-05-24T15:41:20.064-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_02_D",
+      "timestamp": "2022-05-24T15:41:22.392-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "9"
+    },
+    {
+      "stepIdentifier": "NM_TEST_02_D",
+      "timestamp": "2022-05-24T15:41:22.466-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "9"
+    },
+    {
+      "stepIdentifier": "NM_TEST_02_E",
+      "timestamp": "2022-05-24T15:41:22.473-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_02_E",
+      "timestamp": "2022-05-24T15:41:23.472-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "2"
+    },
+    {
+      "stepIdentifier": "NM_TEST_02_E",
+      "timestamp": "2022-05-24T15:41:23.563-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "2"
+    },
+    {
+      "stepIdentifier": "NM_TEST_02_F",
+      "timestamp": "2022-05-24T15:41:23.569-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_02_F",
+      "timestamp": "2022-05-24T15:41:25.001-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "5"
+    },
+    {
+      "stepIdentifier": "NM_TEST_02_F",
+      "timestamp": "2022-05-24T15:41:25.083-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "5"
+    },
+    {
+      "stepIdentifier": "NM_TEST_02_G",
+      "timestamp": "2022-05-24T15:41:25.090-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_02_G",
+      "timestamp": "2022-05-24T15:41:26.345-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "6"
+    },
+    {
+      "stepIdentifier": "NM_TEST_02_G",
+      "timestamp": "2022-05-24T15:41:26.427-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "6"
+    },
+    {
+      "stepIdentifier": "NM_TEST_02_H",
+      "timestamp": "2022-05-24T15:41:26.435-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_02_H",
+      "timestamp": "2022-05-24T15:41:27.750-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "4"
+    },
+    {
+      "stepIdentifier": "NM_TEST_02_H",
+      "timestamp": "2022-05-24T15:41:27.824-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "4"
+    },
+    {
+      "stepIdentifier": "NM_TEST_02_I",
+      "timestamp": "2022-05-24T15:41:27.830-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_02_I",
+      "timestamp": "2022-05-24T15:41:29.121-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "3"
+    },
+    {
+      "stepIdentifier": "NM_TEST_02_I",
+      "timestamp": "2022-05-24T15:41:29.186-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "3"
+    },
+    {
+      "stepIdentifier": "NM_TEST_03_A",
+      "timestamp": "2022-05-24T15:41:29.196-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_03_A",
+      "timestamp": "2022-05-24T15:41:29.235-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_03_A",
+      "timestamp": "2022-05-24T15:41:31.446-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "7"
+    },
+    {
+      "stepIdentifier": "NM_TEST_03_A",
+      "timestamp": "2022-05-24T15:41:31.521-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "7"
+    },
+    {
+      "stepIdentifier": "NM_TEST_03_B",
+      "timestamp": "2022-05-24T15:41:31.527-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_03_B",
+      "timestamp": "2022-05-24T15:41:32.659-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "2"
+    },
+    {
+      "stepIdentifier": "NM_TEST_03_B",
+      "timestamp": "2022-05-24T15:41:32.742-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "2"
+    },
+    {
+      "stepIdentifier": "NM_TEST_03_C",
+      "timestamp": "2022-05-24T15:41:32.749-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_03_C",
+      "timestamp": "2022-05-24T15:41:33.747-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "9"
+    },
+    {
+      "stepIdentifier": "NM_TEST_03_C",
+      "timestamp": "2022-05-24T15:41:33.829-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "9"
+    },
+    {
+      "stepIdentifier": "NM_TEST_03_D",
+      "timestamp": "2022-05-24T15:41:33.836-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_03_D",
+      "timestamp": "2022-05-24T15:41:35.268-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "8"
+    },
+    {
+      "stepIdentifier": "NM_TEST_03_D",
+      "timestamp": "2022-05-24T15:41:35.342-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "8"
+    },
+    {
+      "stepIdentifier": "NM_TEST_03_E",
+      "timestamp": "2022-05-24T15:41:35.348-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_03_E",
+      "timestamp": "2022-05-24T15:41:36.472-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "1"
+    },
+    {
+      "stepIdentifier": "NM_TEST_03_E",
+      "timestamp": "2022-05-24T15:41:36.588-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "1"
+    },
+    {
+      "stepIdentifier": "NM_TEST_03_F",
+      "timestamp": "2022-05-24T15:41:36.594-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_03_F",
+      "timestamp": "2022-05-24T15:41:37.826-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "4"
+    },
+    {
+      "stepIdentifier": "NM_TEST_03_F",
+      "timestamp": "2022-05-24T15:41:37.900-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "4"
+    },
+    {
+      "stepIdentifier": "NM_TEST_03_G",
+      "timestamp": "2022-05-24T15:41:37.906-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_03_G",
+      "timestamp": "2022-05-24T15:41:39.495-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "7"
+    },
+    {
+      "stepIdentifier": "NM_TEST_03_G",
+      "timestamp": "2022-05-24T15:41:39.569-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "7"
+    },
+    {
+      "stepIdentifier": "NM_TEST_03_H",
+      "timestamp": "2022-05-24T15:41:39.576-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_03_H",
+      "timestamp": "2022-05-24T15:41:40.933-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "6"
+    },
+    {
+      "stepIdentifier": "NM_TEST_03_H",
+      "timestamp": "2022-05-24T15:41:40.999-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "6"
+    },
+    {
+      "stepIdentifier": "NM_TEST_03_I",
+      "timestamp": "2022-05-24T15:41:41.005-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_03_I",
+      "timestamp": "2022-05-24T15:41:43.142-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "5"
+    },
+    {
+      "stepIdentifier": "NM_TEST_03_I",
+      "timestamp": "2022-05-24T15:41:43.216-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "5"
+    },
+    {
+      "stepIdentifier": "NM_TEST_04_A",
+      "timestamp": "2022-05-24T15:41:43.228-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_04_A",
+      "timestamp": "2022-05-24T15:41:43.273-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_04_A",
+      "timestamp": "2022-05-24T15:41:44.753-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "9"
+    },
+    {
+      "stepIdentifier": "NM_TEST_04_A",
+      "timestamp": "2022-05-24T15:41:44.819-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "9"
+    },
+    {
+      "stepIdentifier": "NM_TEST_04_B",
+      "timestamp": "2022-05-24T15:41:44.826-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_04_B",
+      "timestamp": "2022-05-24T15:41:46.108-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "1"
+    },
+    {
+      "stepIdentifier": "NM_TEST_04_B",
+      "timestamp": "2022-05-24T15:41:46.224-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "1"
+    },
+    {
+      "stepIdentifier": "NM_TEST_04_C",
+      "timestamp": "2022-05-24T15:41:46.231-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_04_C",
+      "timestamp": "2022-05-24T15:41:47.462-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "2"
+    },
+    {
+      "stepIdentifier": "NM_TEST_04_C",
+      "timestamp": "2022-05-24T15:41:47.553-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "2"
+    },
+    {
+      "stepIdentifier": "NM_TEST_04_D",
+      "timestamp": "2022-05-24T15:41:47.559-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_04_D",
+      "timestamp": "2022-05-24T15:41:48.867-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "4"
+    },
+    {
+      "stepIdentifier": "NM_TEST_04_D",
+      "timestamp": "2022-05-24T15:41:48.932-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "4"
+    },
+    {
+      "stepIdentifier": "NM_TEST_04_E",
+      "timestamp": "2022-05-24T15:41:48.942-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_04_E",
+      "timestamp": "2022-05-24T15:41:50.113-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "7"
+    },
+    {
+      "stepIdentifier": "NM_TEST_04_E",
+      "timestamp": "2022-05-24T15:41:50.195-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "7"
+    },
+    {
+      "stepIdentifier": "NM_TEST_04_F",
+      "timestamp": "2022-05-24T15:41:50.201-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_04_F",
+      "timestamp": "2022-05-24T15:41:52.937-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "2"
+    },
+    {
+      "stepIdentifier": "NM_TEST_04_F",
+      "timestamp": "2022-05-24T15:41:53.019-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "2"
+    },
+    {
+      "stepIdentifier": "NM_TEST_04_G",
+      "timestamp": "2022-05-24T15:41:53.026-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_04_G",
+      "timestamp": "2022-05-24T15:41:55.064-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "5"
+    },
+    {
+      "stepIdentifier": "NM_TEST_04_G",
+      "timestamp": "2022-05-24T15:41:55.138-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "5"
+    },
+    {
+      "stepIdentifier": "NM_TEST_04_H",
+      "timestamp": "2022-05-24T15:41:55.144-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_04_H",
+      "timestamp": "2022-05-24T15:41:59.467-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "8"
+    },
+    {
+      "stepIdentifier": "NM_TEST_04_H",
+      "timestamp": "2022-05-24T15:41:59.532-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "8"
+    },
+    {
+      "stepIdentifier": "NM_TEST_04_I",
+      "timestamp": "2022-05-24T15:41:59.539-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_04_I",
+      "timestamp": "2022-05-24T15:42:01.959-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "9"
+    },
+    {
+      "stepIdentifier": "NM_TEST_04_I",
+      "timestamp": "2022-05-24T15:42:02.041-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "9"
+    },
+    {
+      "stepIdentifier": "NM_TEST_05_A",
+      "timestamp": "2022-05-24T15:42:02.052-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_05_A",
+      "timestamp": "2022-05-24T15:42:02.089-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_05_A",
+      "timestamp": "2022-05-24T15:42:04.168-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "5"
+    },
+    {
+      "stepIdentifier": "NM_TEST_05_A",
+      "timestamp": "2022-05-24T15:42:04.226-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "5"
+    },
+    {
+      "stepIdentifier": "NM_TEST_05_B",
+      "timestamp": "2022-05-24T15:42:04.233-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_05_B",
+      "timestamp": "2022-05-24T15:42:05.713-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "8"
+    },
+    {
+      "stepIdentifier": "NM_TEST_05_B",
+      "timestamp": "2022-05-24T15:42:05.796-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "8"
+    },
+    {
+      "stepIdentifier": "NM_TEST_05_C",
+      "timestamp": "2022-05-24T15:42:05.803-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_05_C",
+      "timestamp": "2022-05-24T15:42:07.226-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "6"
+    },
+    {
+      "stepIdentifier": "NM_TEST_05_C",
+      "timestamp": "2022-05-24T15:42:07.292-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "6"
+    },
+    {
+      "stepIdentifier": "NM_TEST_05_D",
+      "timestamp": "2022-05-24T15:42:07.298-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_05_D",
+      "timestamp": "2022-05-24T15:42:08.672-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "4"
+    },
+    {
+      "stepIdentifier": "NM_TEST_05_D",
+      "timestamp": "2022-05-24T15:42:08.737-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "4"
+    },
+    {
+      "stepIdentifier": "NM_TEST_05_E",
+      "timestamp": "2022-05-24T15:42:08.743-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_05_E",
+      "timestamp": "2022-05-24T15:42:09.826-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "3"
+    },
+    {
+      "stepIdentifier": "NM_TEST_05_E",
+      "timestamp": "2022-05-24T15:42:09.917-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "3"
+    },
+    {
+      "stepIdentifier": "NM_TEST_05_F",
+      "timestamp": "2022-05-24T15:42:09.923-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_05_F",
+      "timestamp": "2022-05-24T15:42:10.956-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "1"
+    },
+    {
+      "stepIdentifier": "NM_TEST_05_F",
+      "timestamp": "2022-05-24T15:42:11.055-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "1"
+    },
+    {
+      "stepIdentifier": "NM_TEST_05_G",
+      "timestamp": "2022-05-24T15:42:11.066-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_05_G",
+      "timestamp": "2022-05-24T15:42:12.842-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "7"
+    },
+    {
+      "stepIdentifier": "NM_TEST_05_G",
+      "timestamp": "2022-05-24T15:42:12.916-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "7"
+    },
+    {
+      "stepIdentifier": "NM_TEST_05_H",
+      "timestamp": "2022-05-24T15:42:12.923-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_05_H",
+      "timestamp": "2022-05-24T15:42:14.736-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "8"
+    },
+    {
+      "stepIdentifier": "NM_TEST_05_H",
+      "timestamp": "2022-05-24T15:42:14.801-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "8"
+    },
+    {
+      "stepIdentifier": "NM_TEST_05_I",
+      "timestamp": "2022-05-24T15:42:14.808-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_05_I",
+      "timestamp": "2022-05-24T15:42:16.116-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "3"
+    },
+    {
+      "stepIdentifier": "NM_TEST_05_I",
+      "timestamp": "2022-05-24T15:42:16.206-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "3"
+    },
+    {
+      "stepIdentifier": "NM_TEST_06_A",
+      "timestamp": "2022-05-24T15:42:16.217-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_06_A",
+      "timestamp": "2022-05-24T15:42:16.254-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_06_A",
+      "timestamp": "2022-05-24T15:42:17.619-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "1"
+    },
+    {
+      "stepIdentifier": "NM_TEST_06_A",
+      "timestamp": "2022-05-24T15:42:17.684-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "1"
+    },
+    {
+      "stepIdentifier": "NM_TEST_06_B",
+      "timestamp": "2022-05-24T15:42:17.691-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_06_B",
+      "timestamp": "2022-05-24T15:42:19.123-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "3"
+    },
+    {
+      "stepIdentifier": "NM_TEST_06_B",
+      "timestamp": "2022-05-24T15:42:19.214-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "3"
+    },
+    {
+      "stepIdentifier": "NM_TEST_06_C",
+      "timestamp": "2022-05-24T15:42:19.220-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_06_C",
+      "timestamp": "2022-05-24T15:42:20.718-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "9"
+    },
+    {
+      "stepIdentifier": "NM_TEST_06_C",
+      "timestamp": "2022-05-24T15:42:20.801-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "9"
+    },
+    {
+      "stepIdentifier": "NM_TEST_06_D",
+      "timestamp": "2022-05-24T15:42:20.807-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_06_D",
+      "timestamp": "2022-05-24T15:42:22.529-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "6"
+    },
+    {
+      "stepIdentifier": "NM_TEST_06_D",
+      "timestamp": "2022-05-24T15:42:22.612-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "6"
+    },
+    {
+      "stepIdentifier": "NM_TEST_06_E",
+      "timestamp": "2022-05-24T15:42:22.618-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_06_E",
+      "timestamp": "2022-05-24T15:42:23.967-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "3"
+    },
+    {
+      "stepIdentifier": "NM_TEST_06_E",
+      "timestamp": "2022-05-24T15:42:24.049-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "3"
+    },
+    {
+      "stepIdentifier": "NM_TEST_06_F",
+      "timestamp": "2022-05-24T15:42:24.055-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_06_F",
+      "timestamp": "2022-05-24T15:42:26.077-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "9"
+    },
+    {
+      "stepIdentifier": "NM_TEST_06_F",
+      "timestamp": "2022-05-24T15:42:26.159-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "9"
+    },
+    {
+      "stepIdentifier": "NM_TEST_06_G",
+      "timestamp": "2022-05-24T15:42:26.166-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_06_G",
+      "timestamp": "2022-05-24T15:42:28.403-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "7"
+    },
+    {
+      "stepIdentifier": "NM_TEST_06_G",
+      "timestamp": "2022-05-24T15:42:28.486-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "7"
+    },
+    {
+      "stepIdentifier": "NM_TEST_06_H",
+      "timestamp": "2022-05-24T15:42:28.492-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_06_H",
+      "timestamp": "2022-05-24T15:42:30.398-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "5"
+    },
+    {
+      "stepIdentifier": "NM_TEST_06_H",
+      "timestamp": "2022-05-24T15:42:30.463-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "5"
+    },
+    {
+      "stepIdentifier": "NM_TEST_06_I",
+      "timestamp": "2022-05-24T15:42:30.473-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "NM_TEST_06_I",
+      "timestamp": "2022-05-24T15:42:31.893-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "1"
+    },
+    {
+      "stepIdentifier": "NM_TEST_06_I",
+      "timestamp": "2022-05-24T15:42:31.967-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "1"
+    }
+  ],
+  "taskStatus": [
+    "completed"
+  ],
+  "locale": "en-US",
+  "startDate": "2022-05-24T15:40:35.156-05:00",
+  "endDate": "2022-05-24T15:42:32.270-05:00",
+  "taskName": "Number Match",
+  "stepHistory": [
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_INTRO1",
+      "position": 1,
+      "startDate": "2022-05-24T15:40:35.269-05:00",
+      "endDate": "2022-05-24T15:40:37.439-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_INSTR1",
+      "position": 2,
+      "startDate": "2022-05-24T15:40:37.442-05:00",
+      "endDate": "2022-05-24T15:40:38.918-05:00",
+      "response": 2
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_INSTR2",
+      "position": 3,
+      "startDate": "2022-05-24T15:40:38.922-05:00",
+      "endDate": "2022-05-24T15:40:51.372-05:00",
+      "response": 2
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_INSTR3",
+      "position": 4,
+      "startDate": "2022-05-24T15:40:51.375-05:00",
+      "endDate": "2022-05-24T15:40:54.178-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_PRAC1_A",
+      "position": 5,
+      "startDate": "2022-05-24T15:40:54.183-05:00",
+      "endDate": "2022-05-24T15:40:56.213-05:00",
+      "response": 9,
+      "score": 1,
+      "responseTime": 1872
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_PRAC1_B",
+      "position": 6,
+      "startDate": "2022-05-24T15:40:56.215-05:00",
+      "endDate": "2022-05-24T15:40:59.679-05:00",
+      "response": 4,
+      "score": 1,
+      "responseTime": 3310
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_PRAC1_C",
+      "position": 7,
+      "startDate": "2022-05-24T15:40:59.681-05:00",
+      "endDate": "2022-05-24T15:41:00.068-05:00",
+      "response": 5,
+      "score": 1,
+      "responseTime": 277
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_PRAC1_D",
+      "position": 8,
+      "startDate": "2022-05-24T15:41:00.070-05:00",
+      "endDate": "2022-05-24T15:41:00.823-05:00",
+      "response": 1,
+      "score": 1,
+      "responseTime": 636
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_PRAC1_E",
+      "position": 9,
+      "startDate": "2022-05-24T15:41:00.828-05:00",
+      "endDate": "2022-05-24T15:41:01.413-05:00",
+      "response": 3,
+      "score": 1,
+      "responseTime": 460
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_INSTR4",
+      "position": 10,
+      "startDate": "2022-05-24T15:41:01.425-05:00",
+      "endDate": "2022-05-24T15:41:02.201-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_01_A",
+      "position": 11,
+      "startDate": "2022-05-24T15:41:02.208-05:00",
+      "endDate": "2022-05-24T15:41:04.560-05:00",
+      "response": 1,
+      "score": 1,
+      "responseTime": 2295
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_01_B",
+      "position": 12,
+      "startDate": "2022-05-24T15:41:04.561-05:00",
+      "endDate": "2022-05-24T15:41:06.122-05:00",
+      "response": 4,
+      "score": 1,
+      "responseTime": 1473
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_01_C",
+      "position": 13,
+      "startDate": "2022-05-24T15:41:06.125-05:00",
+      "endDate": "2022-05-24T15:41:07.559-05:00",
+      "response": 8,
+      "score": 1,
+      "responseTime": 1349
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_01_D",
+      "position": 14,
+      "startDate": "2022-05-24T15:41:07.561-05:00",
+      "endDate": "2022-05-24T15:41:08.822-05:00",
+      "response": 2,
+      "score": 1,
+      "responseTime": 1125
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_01_E",
+      "position": 15,
+      "startDate": "2022-05-24T15:41:08.824-05:00",
+      "endDate": "2022-05-24T15:41:10.308-05:00",
+      "response": 7,
+      "score": 1,
+      "responseTime": 1399
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_01_F",
+      "position": 16,
+      "startDate": "2022-05-24T15:41:10.310-05:00",
+      "endDate": "2022-05-24T15:41:11.994-05:00",
+      "response": 6,
+      "score": 1,
+      "responseTime": 1591
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_01_G",
+      "position": 17,
+      "startDate": "2022-05-24T15:41:11.995-05:00",
+      "endDate": "2022-05-24T15:41:13.149-05:00",
+      "response": 9,
+      "score": 1,
+      "responseTime": 1059
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_01_H",
+      "position": 18,
+      "startDate": "2022-05-24T15:41:13.151-05:00",
+      "endDate": "2022-05-24T15:41:14.436-05:00",
+      "response": 3,
+      "score": 1,
+      "responseTime": 1199
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_01_I",
+      "position": 19,
+      "startDate": "2022-05-24T15:41:14.438-05:00",
+      "endDate": "2022-05-24T15:41:15.941-05:00",
+      "response": 5,
+      "score": 1,
+      "responseTime": 1423
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_02_A",
+      "position": 20,
+      "startDate": "2022-05-24T15:41:15.951-05:00",
+      "endDate": "2022-05-24T15:41:17.576-05:00",
+      "response": 8,
+      "score": 1,
+      "responseTime": 1507
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_02_B",
+      "position": 21,
+      "startDate": "2022-05-24T15:41:17.578-05:00",
+      "endDate": "2022-05-24T15:41:18.764-05:00",
+      "response": 3,
+      "score": 1,
+      "responseTime": 1100
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_02_C",
+      "position": 22,
+      "startDate": "2022-05-24T15:41:18.766-05:00",
+      "endDate": "2022-05-24T15:41:20.060-05:00",
+      "response": 1,
+      "score": 1,
+      "responseTime": 1199
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_02_D",
+      "position": 23,
+      "startDate": "2022-05-24T15:41:20.062-05:00",
+      "endDate": "2022-05-24T15:41:22.468-05:00",
+      "response": 9,
+      "score": 1,
+      "responseTime": 2329
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_02_E",
+      "position": 24,
+      "startDate": "2022-05-24T15:41:22.471-05:00",
+      "endDate": "2022-05-24T15:41:23.565-05:00",
+      "response": 2,
+      "score": 1,
+      "responseTime": 1000
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_02_F",
+      "position": 25,
+      "startDate": "2022-05-24T15:41:23.567-05:00",
+      "endDate": "2022-05-24T15:41:25.086-05:00",
+      "response": 5,
+      "score": 1,
+      "responseTime": 1433
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_02_G",
+      "position": 26,
+      "startDate": "2022-05-24T15:41:25.087-05:00",
+      "endDate": "2022-05-24T15:41:26.430-05:00",
+      "response": 6,
+      "score": 1,
+      "responseTime": 1257
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_02_H",
+      "position": 27,
+      "startDate": "2022-05-24T15:41:26.432-05:00",
+      "endDate": "2022-05-24T15:41:27.827-05:00",
+      "response": 4,
+      "score": 1,
+      "responseTime": 1316
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_02_I",
+      "position": 28,
+      "startDate": "2022-05-24T15:41:27.829-05:00",
+      "endDate": "2022-05-24T15:41:29.188-05:00",
+      "response": 3,
+      "score": 1,
+      "responseTime": 1291
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_03_A",
+      "position": 29,
+      "startDate": "2022-05-24T15:41:29.193-05:00",
+      "endDate": "2022-05-24T15:41:31.523-05:00",
+      "response": 7,
+      "score": 1,
+      "responseTime": 2212
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_03_B",
+      "position": 30,
+      "startDate": "2022-05-24T15:41:31.525-05:00",
+      "endDate": "2022-05-24T15:41:32.744-05:00",
+      "response": 2,
+      "score": 1,
+      "responseTime": 1133
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_03_C",
+      "position": 31,
+      "startDate": "2022-05-24T15:41:32.748-05:00",
+      "endDate": "2022-05-24T15:41:33.832-05:00",
+      "response": 9,
+      "score": 1,
+      "responseTime": 1000
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_03_D",
+      "position": 32,
+      "startDate": "2022-05-24T15:41:33.834-05:00",
+      "endDate": "2022-05-24T15:41:35.346-05:00",
+      "response": 8,
+      "score": 1,
+      "responseTime": 1432
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_03_E",
+      "position": 33,
+      "startDate": "2022-05-24T15:41:35.348-05:00",
+      "endDate": "2022-05-24T15:41:36.590-05:00",
+      "response": 1,
+      "score": 1,
+      "responseTime": 1124
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_03_F",
+      "position": 34,
+      "startDate": "2022-05-24T15:41:36.592-05:00",
+      "endDate": "2022-05-24T15:41:37.902-05:00",
+      "response": 4,
+      "score": 1,
+      "responseTime": 1232
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_03_G",
+      "position": 35,
+      "startDate": "2022-05-24T15:41:37.904-05:00",
+      "endDate": "2022-05-24T15:41:39.572-05:00",
+      "response": 7,
+      "score": 1,
+      "responseTime": 1590
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_03_H",
+      "position": 36,
+      "startDate": "2022-05-24T15:41:39.574-05:00",
+      "endDate": "2022-05-24T15:41:41.001-05:00",
+      "response": 6,
+      "score": 1,
+      "responseTime": 1357
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_03_I",
+      "position": 37,
+      "startDate": "2022-05-24T15:41:41.003-05:00",
+      "endDate": "2022-05-24T15:41:43.219-05:00",
+      "response": 5,
+      "score": 1,
+      "responseTime": 2139
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_04_A",
+      "position": 38,
+      "startDate": "2022-05-24T15:41:43.225-05:00",
+      "endDate": "2022-05-24T15:41:44.823-05:00",
+      "response": 9,
+      "score": 1,
+      "responseTime": 1482
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_04_B",
+      "position": 39,
+      "startDate": "2022-05-24T15:41:44.826-05:00",
+      "endDate": "2022-05-24T15:41:46.226-05:00",
+      "response": 1,
+      "score": 1,
+      "responseTime": 1282
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_04_C",
+      "position": 40,
+      "startDate": "2022-05-24T15:41:46.231-05:00",
+      "endDate": "2022-05-24T15:41:47.555-05:00",
+      "response": 2,
+      "score": 1,
+      "responseTime": 1232
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_04_D",
+      "position": 41,
+      "startDate": "2022-05-24T15:41:47.558-05:00",
+      "endDate": "2022-05-24T15:41:48.935-05:00",
+      "response": 4,
+      "score": 1,
+      "responseTime": 1308
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_04_E",
+      "position": 42,
+      "startDate": "2022-05-24T15:41:48.942-05:00",
+      "endDate": "2022-05-24T15:41:50.198-05:00",
+      "response": 7,
+      "score": 1,
+      "responseTime": 1175
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_04_F",
+      "position": 43,
+      "startDate": "2022-05-24T15:41:50.200-05:00",
+      "endDate": "2022-05-24T15:41:53.022-05:00",
+      "response": 2,
+      "score": 1,
+      "responseTime": 2736
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_04_G",
+      "position": 44,
+      "startDate": "2022-05-24T15:41:53.024-05:00",
+      "endDate": "2022-05-24T15:41:55.140-05:00",
+      "response": 5,
+      "score": 1,
+      "responseTime": 2039
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_04_H",
+      "position": 45,
+      "startDate": "2022-05-24T15:41:55.142-05:00",
+      "endDate": "2022-05-24T15:41:59.534-05:00",
+      "response": 8,
+      "score": 0,
+      "responseTime": 4324
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_04_I",
+      "position": 46,
+      "startDate": "2022-05-24T15:41:59.536-05:00",
+      "endDate": "2022-05-24T15:42:02.043-05:00",
+      "response": 9,
+      "score": 1,
+      "responseTime": 2421
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_05_A",
+      "position": 47,
+      "startDate": "2022-05-24T15:42:02.048-05:00",
+      "endDate": "2022-05-24T15:42:04.228-05:00",
+      "response": 5,
+      "score": 1,
+      "responseTime": 2080
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_05_B",
+      "position": 48,
+      "startDate": "2022-05-24T15:42:04.230-05:00",
+      "endDate": "2022-05-24T15:42:05.798-05:00",
+      "response": 8,
+      "score": 1,
+      "responseTime": 1481
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_05_C",
+      "position": 49,
+      "startDate": "2022-05-24T15:42:05.799-05:00",
+      "endDate": "2022-05-24T15:42:07.294-05:00",
+      "response": 6,
+      "score": 1,
+      "responseTime": 1424
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_05_D",
+      "position": 50,
+      "startDate": "2022-05-24T15:42:07.295-05:00",
+      "endDate": "2022-05-24T15:42:08.739-05:00",
+      "response": 4,
+      "score": 1,
+      "responseTime": 1375
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_05_E",
+      "position": 51,
+      "startDate": "2022-05-24T15:42:08.741-05:00",
+      "endDate": "2022-05-24T15:42:09.918-05:00",
+      "response": 3,
+      "score": 1,
+      "responseTime": 1083
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_05_F",
+      "position": 52,
+      "startDate": "2022-05-24T15:42:09.921-05:00",
+      "endDate": "2022-05-24T15:42:11.059-05:00",
+      "response": 1,
+      "score": 1,
+      "responseTime": 1033
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_05_G",
+      "position": 53,
+      "startDate": "2022-05-24T15:42:11.066-05:00",
+      "endDate": "2022-05-24T15:42:12.919-05:00",
+      "response": 7,
+      "score": 1,
+      "responseTime": 1781
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_05_H",
+      "position": 54,
+      "startDate": "2022-05-24T15:42:12.922-05:00",
+      "endDate": "2022-05-24T15:42:14.804-05:00",
+      "response": 8,
+      "score": 1,
+      "responseTime": 1815
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_05_I",
+      "position": 55,
+      "startDate": "2022-05-24T15:42:14.806-05:00",
+      "endDate": "2022-05-24T15:42:16.209-05:00",
+      "response": 3,
+      "score": 1,
+      "responseTime": 1308
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_06_A",
+      "position": 56,
+      "startDate": "2022-05-24T15:42:16.213-05:00",
+      "endDate": "2022-05-24T15:42:17.687-05:00",
+      "response": 1,
+      "score": 1,
+      "responseTime": 1367
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_06_B",
+      "position": 57,
+      "startDate": "2022-05-24T15:42:17.689-05:00",
+      "endDate": "2022-05-24T15:42:19.216-05:00",
+      "response": 3,
+      "score": 1,
+      "responseTime": 1432
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_06_C",
+      "position": 58,
+      "startDate": "2022-05-24T15:42:19.218-05:00",
+      "endDate": "2022-05-24T15:42:20.802-05:00",
+      "response": 9,
+      "score": 1,
+      "responseTime": 1499
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_06_D",
+      "position": 59,
+      "startDate": "2022-05-24T15:42:20.804-05:00",
+      "endDate": "2022-05-24T15:42:22.614-05:00",
+      "response": 6,
+      "score": 1,
+      "responseTime": 1723
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_06_E",
+      "position": 60,
+      "startDate": "2022-05-24T15:42:22.616-05:00",
+      "endDate": "2022-05-24T15:42:24.052-05:00",
+      "response": 3,
+      "score": 1,
+      "responseTime": 1350
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_06_F",
+      "position": 61,
+      "startDate": "2022-05-24T15:42:24.054-05:00",
+      "endDate": "2022-05-24T15:42:26.161-05:00",
+      "response": 9,
+      "score": 1,
+      "responseTime": 2022
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_06_G",
+      "position": 62,
+      "startDate": "2022-05-24T15:42:26.164-05:00",
+      "endDate": "2022-05-24T15:42:28.488-05:00",
+      "response": 7,
+      "score": 1,
+      "responseTime": 2238
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_06_H",
+      "position": 63,
+      "startDate": "2022-05-24T15:42:28.491-05:00",
+      "endDate": "2022-05-24T15:42:30.466-05:00",
+      "response": 5,
+      "score": 1,
+      "responseTime": 1907
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.number_match.serialization.NumberMatchStepResult",
+      "identifier": "NM_TEST_06_I",
+      "position": 64,
+      "startDate": "2022-05-24T15:42:30.473-05:00",
+      "endDate": "2022-05-24T15:42:31.971-05:00",
+      "response": 1,
+      "score": 1,
+      "responseTime": 1424
+    }
+  ],
+  "taskRunUUID": "ba11220f-4b44-43c6-a141-72d8f028dd36",
+  "schemaIdentifier": "MTB_NumberMatch",
+  "scores": {
+    "rawScore": 53
+  }
+}
