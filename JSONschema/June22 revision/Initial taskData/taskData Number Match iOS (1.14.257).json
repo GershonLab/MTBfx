@@ -1,0 +1,2719 @@
+{
+  "taskRunUUID" : "AB54A2A5-CD68-4472-85AB-79FD4B2E417C",
+  "schemaIdentifier" : "MTB_NumberMatch",
+  "testVersion" : "1.3.0",
+  "stepHistory" : [
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2022-05-24T15:33:11.892-05:00",
+      "startDate" : "2022-05-24T15:33:04.650-05:00",
+      "identifier" : "NM_INTRO1",
+      "practice" : false,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2022-05-24T15:33:44.203-05:00",
+      "startDate" : "2022-05-24T15:33:11.899-05:00",
+      "identifier" : "NM_INSTR1",
+      "response" : 2,
+      "type" : "numberMatchStepResult",
+      "practice" : false,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2022-05-24T15:33:50.953-05:00",
+      "startDate" : "2022-05-24T15:33:44.210-05:00",
+      "identifier" : "NM_INSTR2",
+      "response" : 2,
+      "type" : "numberMatchStepResult",
+      "practice" : false,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:33:54.754-05:00",
+      "startDate" : "2022-05-24T15:33:52.769-05:00",
+      "practice" : true,
+      "identifier" : "NM_PRAC1_A",
+      "response" : 9,
+      "responseTime" : 1454,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:33:56.271-05:00",
+      "startDate" : "2022-05-24T15:33:54.764-05:00",
+      "practice" : true,
+      "identifier" : "NM_PRAC1_B",
+      "response" : 4,
+      "responseTime" : 1387,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:33:56.788-05:00",
+      "startDate" : "2022-05-24T15:33:56.281-05:00",
+      "practice" : true,
+      "identifier" : "NM_PRAC1_C",
+      "response" : 5,
+      "responseTime" : 402,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:33:57.338-05:00",
+      "startDate" : "2022-05-24T15:33:56.798-05:00",
+      "practice" : true,
+      "identifier" : "NM_PRAC1_D",
+      "response" : 1,
+      "responseTime" : 386,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:33:57.905-05:00",
+      "startDate" : "2022-05-24T15:33:57.348-05:00",
+      "practice" : true,
+      "identifier" : "NM_PRAC1_E",
+      "response" : 3,
+      "responseTime" : 470,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "endDate" : "2022-05-24T15:33:59.037-05:00",
+      "startDate" : "2022-05-24T15:33:57.918-05:00",
+      "identifier" : "NM_INSTR4",
+      "practice" : false,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:01.740-05:00",
+      "startDate" : "2022-05-24T15:33:59.664-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_01_A",
+      "response" : 1,
+      "responseTime" : 1687,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:03.557-05:00",
+      "startDate" : "2022-05-24T15:34:01.873-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_01_B",
+      "response" : 4,
+      "responseTime" : 1671,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:05.474-05:00",
+      "startDate" : "2022-05-24T15:34:03.673-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_01_C",
+      "response" : 8,
+      "responseTime" : 1787,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:06.907-05:00",
+      "startDate" : "2022-05-24T15:34:05.623-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_01_D",
+      "response" : 2,
+      "responseTime" : 1270,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:08.624-05:00",
+      "startDate" : "2022-05-24T15:34:07.006-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_01_E",
+      "response" : 7,
+      "responseTime" : 1604,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:09.824-05:00",
+      "startDate" : "2022-05-24T15:34:08.756-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_01_F",
+      "response" : 6,
+      "responseTime" : 1054,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:11.140-05:00",
+      "startDate" : "2022-05-24T15:34:09.956-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_01_G",
+      "response" : 9,
+      "responseTime" : 1170,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:12.491-05:00",
+      "startDate" : "2022-05-24T15:34:11.307-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_01_H",
+      "response" : 3,
+      "responseTime" : 1170,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:14.224-05:00",
+      "startDate" : "2022-05-24T15:34:12.623-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_01_I",
+      "response" : 5,
+      "responseTime" : 1587,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:16.375-05:00",
+      "startDate" : "2022-05-24T15:34:14.443-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_02_A",
+      "response" : 8,
+      "responseTime" : 1554,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:17.708-05:00",
+      "startDate" : "2022-05-24T15:34:16.490-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_02_B",
+      "response" : 3,
+      "responseTime" : 1120,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:18.991-05:00",
+      "startDate" : "2022-05-24T15:34:17.724-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_02_C",
+      "response" : 1,
+      "responseTime" : 1261,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:20.375-05:00",
+      "startDate" : "2022-05-24T15:34:19.123-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_02_D",
+      "response" : 9,
+      "responseTime" : 1237,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:21.825-05:00",
+      "startDate" : "2022-05-24T15:34:20.524-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_02_E",
+      "response" : 2,
+      "responseTime" : 1287,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:24.125-05:00",
+      "startDate" : "2022-05-24T15:34:21.957-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_02_F",
+      "response" : 5,
+      "responseTime" : 2154,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:25.558-05:00",
+      "startDate" : "2022-05-24T15:34:24.208-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_02_G",
+      "response" : 6,
+      "responseTime" : 1337,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:28.542-05:00",
+      "startDate" : "2022-05-24T15:34:25.675-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_02_H",
+      "response" : 4,
+      "responseTime" : 2854,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:33.109-05:00",
+      "startDate" : "2022-05-24T15:34:28.641-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_02_I",
+      "response" : 3,
+      "responseTime" : 4454,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:35.842-05:00",
+      "startDate" : "2022-05-24T15:34:33.311-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_03_A",
+      "response" : 7,
+      "responseTime" : 2154,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:40.210-05:00",
+      "startDate" : "2022-05-24T15:34:35.975-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_03_B",
+      "response" : 2,
+      "responseTime" : 4221,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:41.593-05:00",
+      "startDate" : "2022-05-24T15:34:40.358-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_03_C",
+      "response" : 9,
+      "responseTime" : 1221,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:44.810-05:00",
+      "startDate" : "2022-05-24T15:34:41.724-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_03_D",
+      "response" : 8,
+      "responseTime" : 3071,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:46.793-05:00",
+      "startDate" : "2022-05-24T15:34:44.925-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_03_E",
+      "response" : 1,
+      "responseTime" : 1854,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:48.526-05:00",
+      "startDate" : "2022-05-24T15:34:46.909-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_03_F",
+      "response" : 4,
+      "responseTime" : 1504,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:50.527-05:00",
+      "startDate" : "2022-05-24T15:34:48.549-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_03_G",
+      "response" : 7,
+      "responseTime" : 1972,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:52.110-05:00",
+      "startDate" : "2022-05-24T15:34:50.642-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_03_H",
+      "response" : 6,
+      "responseTime" : 1454,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:53.777-05:00",
+      "startDate" : "2022-05-24T15:34:52.226-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_03_I",
+      "response" : 5,
+      "responseTime" : 1537,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:59.477-05:00",
+      "startDate" : "2022-05-24T15:34:53.979-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_04_A",
+      "response" : 9,
+      "responseTime" : 5121,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:35:00.977-05:00",
+      "startDate" : "2022-05-24T15:34:59.577-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_04_B",
+      "response" : 1,
+      "responseTime" : 1387,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:35:02.478-05:00",
+      "startDate" : "2022-05-24T15:35:01.093-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_04_C",
+      "response" : 2,
+      "responseTime" : 1370,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:35:04.928-05:00",
+      "startDate" : "2022-05-24T15:35:02.593-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_04_D",
+      "response" : 4,
+      "responseTime" : 2321,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:35:06.661-05:00",
+      "startDate" : "2022-05-24T15:35:05.010-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_04_E",
+      "response" : 7,
+      "responseTime" : 1637,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:35:07.928-05:00",
+      "startDate" : "2022-05-24T15:35:06.759-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_04_F",
+      "response" : 2,
+      "responseTime" : 1154,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:35:10.012-05:00",
+      "startDate" : "2022-05-24T15:35:08.010-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_04_G",
+      "response" : 5,
+      "responseTime" : 1987,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:35:11.661-05:00",
+      "startDate" : "2022-05-24T15:35:10.094-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_04_H",
+      "response" : 6,
+      "responseTime" : 1554,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:35:12.694-05:00",
+      "startDate" : "2022-05-24T15:35:11.760-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_04_I",
+      "response" : 9,
+      "responseTime" : 920,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:35:15.078-05:00",
+      "startDate" : "2022-05-24T15:35:12.947-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_05_A",
+      "response" : 5,
+      "responseTime" : 1737,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:35:16.428-05:00",
+      "startDate" : "2022-05-24T15:35:15.178-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_05_B",
+      "response" : 8,
+      "responseTime" : 1237,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:35:17.962-05:00",
+      "startDate" : "2022-05-24T15:35:16.577-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_05_C",
+      "response" : 6,
+      "responseTime" : 1370,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:35:20.629-05:00",
+      "startDate" : "2022-05-24T15:35:18.077-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_05_D",
+      "response" : 4,
+      "responseTime" : 2537,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:35:23.446-05:00",
+      "startDate" : "2022-05-24T15:35:20.710-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_05_E",
+      "response" : 3,
+      "responseTime" : 2720,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:35:25.079-05:00",
+      "startDate" : "2022-05-24T15:35:23.545-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_05_F",
+      "response" : 1,
+      "responseTime" : 1520,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:35:26.912-05:00",
+      "startDate" : "2022-05-24T15:35:25.194-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_05_G",
+      "response" : 7,
+      "responseTime" : 1704,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:35:30.046-05:00",
+      "startDate" : "2022-05-24T15:35:27.011-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_05_H",
+      "response" : 8,
+      "responseTime" : 3021,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 0,
+      "endDate" : "2022-05-24T15:35:31.396-05:00",
+      "startDate" : "2022-05-24T15:35:30.162-05:00",
+      "practice" : false,
+      "identifier" : "NM_TEST_05_I",
+      "response" : 6,
+      "responseTime" : 1221,
+      "type" : "numberMatchStepResult",
+      "instruction" : false
+    }
+  ],
+  "locale" : "en_US",
+  "endDate" : "2022-05-24T15:35:31.571-05:00",
+  "scores" : {
+    "rawScore" : 44
+  },
+  "taskStatus" : [
+    "completed"
+  ],
+  "startDate" : "2022-05-24T15:33:04.640-05:00",
+  "taskName" : "Number Match",
+  "userInteractions" : [
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "NM_INTRO1",
+      "timestamp" : "2022-05-24T15:33:04.657-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_INTRO1",
+      "timestamp" : "2022-05-24T15:33:04.663-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_INTRO1",
+      "timestamp" : "2022-05-24T15:33:11.766-05:00",
+      "userInteractionIdentifier" : "View instructions"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_INTRO1",
+      "timestamp" : "2022-05-24T15:33:11.883-05:00",
+      "userInteractionIdentifier" : "View instructions"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "NM_INSTR1",
+      "timestamp" : "2022-05-24T15:33:11.981-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_INSTR1",
+      "timestamp" : "2022-05-24T15:33:12.296-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_INSTR1",
+      "timestamp" : "2022-05-24T15:33:44.118-05:00",
+      "userInteractionIdentifier" : ">"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_INSTR1",
+      "timestamp" : "2022-05-24T15:33:44.201-05:00",
+      "userInteractionIdentifier" : ">"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_INSTR2",
+      "timestamp" : "2022-05-24T15:33:44.269-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_INSTR2",
+      "timestamp" : "2022-05-24T15:33:50.835-05:00",
+      "userInteractionIdentifier" : ">"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_INSTR2",
+      "timestamp" : "2022-05-24T15:33:50.952-05:00",
+      "userInteractionIdentifier" : ">"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "NM_PRAC1_A",
+      "timestamp" : "2022-05-24T15:33:52.800-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_PRAC1_A",
+      "timestamp" : "2022-05-24T15:33:53.131-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_PRAC1_A",
+      "timestamp" : "2022-05-24T15:33:54.602-05:00",
+      "userInteractionIdentifier" : "9"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_PRAC1_A",
+      "timestamp" : "2022-05-24T15:33:54.752-05:00",
+      "userInteractionIdentifier" : "9"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_PRAC1_B",
+      "timestamp" : "2022-05-24T15:33:54.765-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_PRAC1_B",
+      "timestamp" : "2022-05-24T15:33:56.152-05:00",
+      "userInteractionIdentifier" : "4"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_PRAC1_B",
+      "timestamp" : "2022-05-24T15:33:56.268-05:00",
+      "userInteractionIdentifier" : "4"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_PRAC1_C",
+      "timestamp" : "2022-05-24T15:33:56.281-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_PRAC1_C",
+      "timestamp" : "2022-05-24T15:33:56.685-05:00",
+      "userInteractionIdentifier" : "5"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_PRAC1_C",
+      "timestamp" : "2022-05-24T15:33:56.785-05:00",
+      "userInteractionIdentifier" : "5"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_PRAC1_D",
+      "timestamp" : "2022-05-24T15:33:56.799-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_PRAC1_D",
+      "timestamp" : "2022-05-24T15:33:57.185-05:00",
+      "userInteractionIdentifier" : "1"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_PRAC1_D",
+      "timestamp" : "2022-05-24T15:33:57.335-05:00",
+      "userInteractionIdentifier" : "1"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_PRAC1_E",
+      "timestamp" : "2022-05-24T15:33:57.349-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_PRAC1_E",
+      "timestamp" : "2022-05-24T15:33:57.819-05:00",
+      "userInteractionIdentifier" : "3"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_PRAC1_E",
+      "timestamp" : "2022-05-24T15:33:57.902-05:00",
+      "userInteractionIdentifier" : "3"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "NM_INSTR4",
+      "timestamp" : "2022-05-24T15:33:57.930-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_INSTR4",
+      "timestamp" : "2022-05-24T15:33:58.448-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_INSTR4",
+      "timestamp" : "2022-05-24T15:33:58.886-05:00",
+      "userInteractionIdentifier" : "Start"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_INSTR4",
+      "timestamp" : "2022-05-24T15:33:59.035-05:00",
+      "userInteractionIdentifier" : "Start"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "NM_TEST_01_A",
+      "timestamp" : "2022-05-24T15:33:59.701-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_01_A",
+      "timestamp" : "2022-05-24T15:34:00.032-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_01_A",
+      "timestamp" : "2022-05-24T15:34:01.736-05:00",
+      "userInteractionIdentifier" : "1"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_01_A",
+      "timestamp" : "2022-05-24T15:34:01.869-05:00",
+      "userInteractionIdentifier" : "1"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_01_B",
+      "timestamp" : "2022-05-24T15:34:01.873-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_01_B",
+      "timestamp" : "2022-05-24T15:34:03.552-05:00",
+      "userInteractionIdentifier" : "4"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_01_B",
+      "timestamp" : "2022-05-24T15:34:03.669-05:00",
+      "userInteractionIdentifier" : "4"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_01_C",
+      "timestamp" : "2022-05-24T15:34:03.673-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_01_C",
+      "timestamp" : "2022-05-24T15:34:05.469-05:00",
+      "userInteractionIdentifier" : "8"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_01_C",
+      "timestamp" : "2022-05-24T15:34:05.619-05:00",
+      "userInteractionIdentifier" : "8"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_01_D",
+      "timestamp" : "2022-05-24T15:34:05.623-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_01_D",
+      "timestamp" : "2022-05-24T15:34:06.903-05:00",
+      "userInteractionIdentifier" : "2"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_01_D",
+      "timestamp" : "2022-05-24T15:34:07.002-05:00",
+      "userInteractionIdentifier" : "2"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_01_E",
+      "timestamp" : "2022-05-24T15:34:07.006-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_01_E",
+      "timestamp" : "2022-05-24T15:34:08.620-05:00",
+      "userInteractionIdentifier" : "7"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_01_E",
+      "timestamp" : "2022-05-24T15:34:08.753-05:00",
+      "userInteractionIdentifier" : "7"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_01_F",
+      "timestamp" : "2022-05-24T15:34:08.756-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_01_F",
+      "timestamp" : "2022-05-24T15:34:09.820-05:00",
+      "userInteractionIdentifier" : "6"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_01_F",
+      "timestamp" : "2022-05-24T15:34:09.953-05:00",
+      "userInteractionIdentifier" : "6"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_01_G",
+      "timestamp" : "2022-05-24T15:34:09.956-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_01_G",
+      "timestamp" : "2022-05-24T15:34:11.136-05:00",
+      "userInteractionIdentifier" : "9"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_01_G",
+      "timestamp" : "2022-05-24T15:34:11.303-05:00",
+      "userInteractionIdentifier" : "9"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_01_H",
+      "timestamp" : "2022-05-24T15:34:11.307-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_01_H",
+      "timestamp" : "2022-05-24T15:34:12.486-05:00",
+      "userInteractionIdentifier" : "3"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_01_H",
+      "timestamp" : "2022-05-24T15:34:12.619-05:00",
+      "userInteractionIdentifier" : "3"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_01_I",
+      "timestamp" : "2022-05-24T15:34:12.623-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_01_I",
+      "timestamp" : "2022-05-24T15:34:14.220-05:00",
+      "userInteractionIdentifier" : "5"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_01_I",
+      "timestamp" : "2022-05-24T15:34:14.336-05:00",
+      "userInteractionIdentifier" : "5"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "NM_TEST_02_A",
+      "timestamp" : "2022-05-24T15:34:14.480-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_02_A",
+      "timestamp" : "2022-05-24T15:34:14.800-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_02_A",
+      "timestamp" : "2022-05-24T15:34:16.370-05:00",
+      "userInteractionIdentifier" : "8"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_02_A",
+      "timestamp" : "2022-05-24T15:34:16.487-05:00",
+      "userInteractionIdentifier" : "8"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_02_B",
+      "timestamp" : "2022-05-24T15:34:16.490-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_02_B",
+      "timestamp" : "2022-05-24T15:34:17.620-05:00",
+      "userInteractionIdentifier" : "3"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_02_B",
+      "timestamp" : "2022-05-24T15:34:17.620-05:00",
+      "userInteractionIdentifier" : "3"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_02_C",
+      "timestamp" : "2022-05-24T15:34:17.724-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_02_C",
+      "timestamp" : "2022-05-24T15:34:18.987-05:00",
+      "userInteractionIdentifier" : "1"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_02_C",
+      "timestamp" : "2022-05-24T15:34:19.120-05:00",
+      "userInteractionIdentifier" : "1"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_02_D",
+      "timestamp" : "2022-05-24T15:34:19.123-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_02_D",
+      "timestamp" : "2022-05-24T15:34:20.370-05:00",
+      "userInteractionIdentifier" : "9"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_02_D",
+      "timestamp" : "2022-05-24T15:34:20.520-05:00",
+      "userInteractionIdentifier" : "9"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_02_E",
+      "timestamp" : "2022-05-24T15:34:20.524-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_02_E",
+      "timestamp" : "2022-05-24T15:34:21.820-05:00",
+      "userInteractionIdentifier" : "2"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_02_E",
+      "timestamp" : "2022-05-24T15:34:21.954-05:00",
+      "userInteractionIdentifier" : "2"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_02_F",
+      "timestamp" : "2022-05-24T15:34:21.957-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_02_F",
+      "timestamp" : "2022-05-24T15:34:24.121-05:00",
+      "userInteractionIdentifier" : "5"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_02_F",
+      "timestamp" : "2022-05-24T15:34:24.204-05:00",
+      "userInteractionIdentifier" : "5"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_02_G",
+      "timestamp" : "2022-05-24T15:34:24.208-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_02_G",
+      "timestamp" : "2022-05-24T15:34:25.554-05:00",
+      "userInteractionIdentifier" : "6"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_02_G",
+      "timestamp" : "2022-05-24T15:34:25.670-05:00",
+      "userInteractionIdentifier" : "6"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_02_H",
+      "timestamp" : "2022-05-24T15:34:25.675-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_02_H",
+      "timestamp" : "2022-05-24T15:34:28.537-05:00",
+      "userInteractionIdentifier" : "4"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_02_H",
+      "timestamp" : "2022-05-24T15:34:28.637-05:00",
+      "userInteractionIdentifier" : "4"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_02_I",
+      "timestamp" : "2022-05-24T15:34:28.642-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_02_I",
+      "timestamp" : "2022-05-24T15:34:33.104-05:00",
+      "userInteractionIdentifier" : "3"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_02_I",
+      "timestamp" : "2022-05-24T15:34:33.204-05:00",
+      "userInteractionIdentifier" : "3"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "NM_TEST_03_A",
+      "timestamp" : "2022-05-24T15:34:33.349-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_03_A",
+      "timestamp" : "2022-05-24T15:34:33.667-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_03_A",
+      "timestamp" : "2022-05-24T15:34:35.838-05:00",
+      "userInteractionIdentifier" : "7"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_03_A",
+      "timestamp" : "2022-05-24T15:34:35.971-05:00",
+      "userInteractionIdentifier" : "7"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_03_B",
+      "timestamp" : "2022-05-24T15:34:35.975-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_03_B",
+      "timestamp" : "2022-05-24T15:34:40.205-05:00",
+      "userInteractionIdentifier" : "2"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_03_B",
+      "timestamp" : "2022-05-24T15:34:40.355-05:00",
+      "userInteractionIdentifier" : "2"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_03_C",
+      "timestamp" : "2022-05-24T15:34:40.358-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_03_C",
+      "timestamp" : "2022-05-24T15:34:41.588-05:00",
+      "userInteractionIdentifier" : "9"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_03_C",
+      "timestamp" : "2022-05-24T15:34:41.721-05:00",
+      "userInteractionIdentifier" : "9"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_03_D",
+      "timestamp" : "2022-05-24T15:34:41.725-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_03_D",
+      "timestamp" : "2022-05-24T15:34:44.805-05:00",
+      "userInteractionIdentifier" : "8"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_03_D",
+      "timestamp" : "2022-05-24T15:34:44.922-05:00",
+      "userInteractionIdentifier" : "8"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_03_E",
+      "timestamp" : "2022-05-24T15:34:44.926-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_03_E",
+      "timestamp" : "2022-05-24T15:34:46.788-05:00",
+      "userInteractionIdentifier" : "1"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_03_E",
+      "timestamp" : "2022-05-24T15:34:46.905-05:00",
+      "userInteractionIdentifier" : "1"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_03_F",
+      "timestamp" : "2022-05-24T15:34:46.909-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_03_F",
+      "timestamp" : "2022-05-24T15:34:48.422-05:00",
+      "userInteractionIdentifier" : "4"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_03_F",
+      "timestamp" : "2022-05-24T15:34:48.422-05:00",
+      "userInteractionIdentifier" : "4"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_03_G",
+      "timestamp" : "2022-05-24T15:34:48.549-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_03_G",
+      "timestamp" : "2022-05-24T15:34:50.522-05:00",
+      "userInteractionIdentifier" : "7"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_03_G",
+      "timestamp" : "2022-05-24T15:34:50.638-05:00",
+      "userInteractionIdentifier" : "7"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_03_H",
+      "timestamp" : "2022-05-24T15:34:50.642-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_03_H",
+      "timestamp" : "2022-05-24T15:34:52.105-05:00",
+      "userInteractionIdentifier" : "6"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_03_H",
+      "timestamp" : "2022-05-24T15:34:52.222-05:00",
+      "userInteractionIdentifier" : "6"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_03_I",
+      "timestamp" : "2022-05-24T15:34:52.226-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_03_I",
+      "timestamp" : "2022-05-24T15:34:53.772-05:00",
+      "userInteractionIdentifier" : "5"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_03_I",
+      "timestamp" : "2022-05-24T15:34:53.872-05:00",
+      "userInteractionIdentifier" : "5"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "NM_TEST_04_A",
+      "timestamp" : "2022-05-24T15:34:54.017-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_04_A",
+      "timestamp" : "2022-05-24T15:34:54.335-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_04_A",
+      "timestamp" : "2022-05-24T15:34:59.473-05:00",
+      "userInteractionIdentifier" : "9"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_04_A",
+      "timestamp" : "2022-05-24T15:34:59.572-05:00",
+      "userInteractionIdentifier" : "9"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_04_B",
+      "timestamp" : "2022-05-24T15:34:59.577-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_04_B",
+      "timestamp" : "2022-05-24T15:35:00.973-05:00",
+      "userInteractionIdentifier" : "1"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_04_B",
+      "timestamp" : "2022-05-24T15:35:01.089-05:00",
+      "userInteractionIdentifier" : "1"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_04_C",
+      "timestamp" : "2022-05-24T15:35:01.093-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_04_C",
+      "timestamp" : "2022-05-24T15:35:02.473-05:00",
+      "userInteractionIdentifier" : "2"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_04_C",
+      "timestamp" : "2022-05-24T15:35:02.589-05:00",
+      "userInteractionIdentifier" : "2"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_04_D",
+      "timestamp" : "2022-05-24T15:35:02.594-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_04_D",
+      "timestamp" : "2022-05-24T15:35:04.923-05:00",
+      "userInteractionIdentifier" : "4"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_04_D",
+      "timestamp" : "2022-05-24T15:35:05.006-05:00",
+      "userInteractionIdentifier" : "4"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_04_E",
+      "timestamp" : "2022-05-24T15:35:05.011-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_04_E",
+      "timestamp" : "2022-05-24T15:35:06.656-05:00",
+      "userInteractionIdentifier" : "7"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_04_E",
+      "timestamp" : "2022-05-24T15:35:06.756-05:00",
+      "userInteractionIdentifier" : "7"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_04_F",
+      "timestamp" : "2022-05-24T15:35:06.760-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_04_F",
+      "timestamp" : "2022-05-24T15:35:07.923-05:00",
+      "userInteractionIdentifier" : "2"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_04_F",
+      "timestamp" : "2022-05-24T15:35:08.006-05:00",
+      "userInteractionIdentifier" : "2"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_04_G",
+      "timestamp" : "2022-05-24T15:35:08.010-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_04_G",
+      "timestamp" : "2022-05-24T15:35:10.007-05:00",
+      "userInteractionIdentifier" : "5"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_04_G",
+      "timestamp" : "2022-05-24T15:35:10.090-05:00",
+      "userInteractionIdentifier" : "5"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_04_H",
+      "timestamp" : "2022-05-24T15:35:10.094-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_04_H",
+      "timestamp" : "2022-05-24T15:35:11.657-05:00",
+      "userInteractionIdentifier" : "6"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_04_H",
+      "timestamp" : "2022-05-24T15:35:11.756-05:00",
+      "userInteractionIdentifier" : "6"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_04_I",
+      "timestamp" : "2022-05-24T15:35:11.760-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_04_I",
+      "timestamp" : "2022-05-24T15:35:12.690-05:00",
+      "userInteractionIdentifier" : "9"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_04_I",
+      "timestamp" : "2022-05-24T15:35:12.840-05:00",
+      "userInteractionIdentifier" : "9"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "NM_TEST_05_A",
+      "timestamp" : "2022-05-24T15:35:12.985-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_05_A",
+      "timestamp" : "2022-05-24T15:35:13.320-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_05_A",
+      "timestamp" : "2022-05-24T15:35:15.073-05:00",
+      "userInteractionIdentifier" : "5"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_05_A",
+      "timestamp" : "2022-05-24T15:35:15.174-05:00",
+      "userInteractionIdentifier" : "5"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_05_B",
+      "timestamp" : "2022-05-24T15:35:15.178-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_05_B",
+      "timestamp" : "2022-05-24T15:35:16.424-05:00",
+      "userInteractionIdentifier" : "8"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_05_B",
+      "timestamp" : "2022-05-24T15:35:16.573-05:00",
+      "userInteractionIdentifier" : "8"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_05_C",
+      "timestamp" : "2022-05-24T15:35:16.577-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_05_C",
+      "timestamp" : "2022-05-24T15:35:17.957-05:00",
+      "userInteractionIdentifier" : "6"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_05_C",
+      "timestamp" : "2022-05-24T15:35:18.073-05:00",
+      "userInteractionIdentifier" : "6"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_05_D",
+      "timestamp" : "2022-05-24T15:35:18.077-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_05_D",
+      "timestamp" : "2022-05-24T15:35:20.624-05:00",
+      "userInteractionIdentifier" : "4"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_05_D",
+      "timestamp" : "2022-05-24T15:35:20.707-05:00",
+      "userInteractionIdentifier" : "4"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_05_E",
+      "timestamp" : "2022-05-24T15:35:20.711-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_05_E",
+      "timestamp" : "2022-05-24T15:35:23.441-05:00",
+      "userInteractionIdentifier" : "3"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_05_E",
+      "timestamp" : "2022-05-24T15:35:23.540-05:00",
+      "userInteractionIdentifier" : "3"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_05_F",
+      "timestamp" : "2022-05-24T15:35:23.545-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_05_F",
+      "timestamp" : "2022-05-24T15:35:25.074-05:00",
+      "userInteractionIdentifier" : "1"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_05_F",
+      "timestamp" : "2022-05-24T15:35:25.191-05:00",
+      "userInteractionIdentifier" : "1"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_05_G",
+      "timestamp" : "2022-05-24T15:35:25.195-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_05_G",
+      "timestamp" : "2022-05-24T15:35:26.907-05:00",
+      "userInteractionIdentifier" : "7"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_05_G",
+      "timestamp" : "2022-05-24T15:35:27.007-05:00",
+      "userInteractionIdentifier" : "7"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_05_H",
+      "timestamp" : "2022-05-24T15:35:27.012-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_05_H",
+      "timestamp" : "2022-05-24T15:35:30.041-05:00",
+      "userInteractionIdentifier" : "8"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "NM_TEST_05_H",
+      "timestamp" : "2022-05-24T15:35:30.158-05:00",
+      "userInteractionIdentifier" : "8"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "NM_TEST_05_I",
+      "timestamp" : "2022-05-24T15:35:30.162-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "NM_TEST_05_I",
+      "timestamp" : "2022-05-24T15:35:31.391-05:00",
+      "userInteractionIdentifier" : "6"
+    },
+    {
+      "controlEvent" : [
+        "touchUpOutside"
+      ],
+      "stepIdentifier" : "NM_TEST_05_I",
+      "timestamp" : "2022-05-24T15:35:31.491-05:00",
+      "userInteractionIdentifier" : "6"
+    }
+  ],
+  "steps" : [
+    {
+      "wasInterrupted" : false,
+      "position" : 1,
+      "endDate" : "2022-05-24T15:33:11.892-05:00",
+      "startDate" : "2022-05-24T15:33:04.650-05:00",
+      "identifier" : "NM_INTRO1",
+      "type" : "numberMatchStepResult",
+      "practice" : false,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 2,
+      "endDate" : "2022-05-24T15:33:44.203-05:00",
+      "startDate" : "2022-05-24T15:33:11.899-05:00",
+      "identifier" : "NM_INSTR1",
+      "response" : 2,
+      "type" : "numberMatchStepResult",
+      "practice" : false,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 3,
+      "endDate" : "2022-05-24T15:33:50.953-05:00",
+      "startDate" : "2022-05-24T15:33:44.210-05:00",
+      "identifier" : "NM_INSTR2",
+      "response" : 2,
+      "type" : "numberMatchStepResult",
+      "practice" : false,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:33:54.754-05:00",
+      "startDate" : "2022-05-24T15:33:52.769-05:00",
+      "position" : 4,
+      "practice" : true,
+      "identifier" : "NM_PRAC1_A",
+      "response" : 9,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 1454,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:33:56.271-05:00",
+      "startDate" : "2022-05-24T15:33:54.764-05:00",
+      "position" : 5,
+      "practice" : true,
+      "identifier" : "NM_PRAC1_B",
+      "response" : 4,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 1387,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:33:56.788-05:00",
+      "startDate" : "2022-05-24T15:33:56.281-05:00",
+      "position" : 6,
+      "practice" : true,
+      "identifier" : "NM_PRAC1_C",
+      "response" : 5,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 402,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:33:57.338-05:00",
+      "startDate" : "2022-05-24T15:33:56.798-05:00",
+      "position" : 7,
+      "practice" : true,
+      "identifier" : "NM_PRAC1_D",
+      "response" : 1,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 386,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:33:57.905-05:00",
+      "startDate" : "2022-05-24T15:33:57.348-05:00",
+      "position" : 8,
+      "practice" : true,
+      "identifier" : "NM_PRAC1_E",
+      "response" : 3,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 470,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "position" : 9,
+      "endDate" : "2022-05-24T15:33:59.037-05:00",
+      "startDate" : "2022-05-24T15:33:57.918-05:00",
+      "identifier" : "NM_INSTR4",
+      "type" : "numberMatchStepResult",
+      "practice" : false,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:01.740-05:00",
+      "startDate" : "2022-05-24T15:33:59.664-05:00",
+      "position" : 10,
+      "practice" : false,
+      "identifier" : "NM_TEST_01_A",
+      "response" : 1,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 1687,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:03.557-05:00",
+      "startDate" : "2022-05-24T15:34:01.873-05:00",
+      "position" : 11,
+      "practice" : false,
+      "identifier" : "NM_TEST_01_B",
+      "response" : 4,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 1671,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:05.474-05:00",
+      "startDate" : "2022-05-24T15:34:03.673-05:00",
+      "position" : 12,
+      "practice" : false,
+      "identifier" : "NM_TEST_01_C",
+      "response" : 8,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 1787,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:06.907-05:00",
+      "startDate" : "2022-05-24T15:34:05.623-05:00",
+      "position" : 13,
+      "practice" : false,
+      "identifier" : "NM_TEST_01_D",
+      "response" : 2,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 1270,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:08.624-05:00",
+      "startDate" : "2022-05-24T15:34:07.006-05:00",
+      "position" : 14,
+      "practice" : false,
+      "identifier" : "NM_TEST_01_E",
+      "response" : 7,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 1604,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:09.824-05:00",
+      "startDate" : "2022-05-24T15:34:08.756-05:00",
+      "position" : 15,
+      "practice" : false,
+      "identifier" : "NM_TEST_01_F",
+      "response" : 6,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 1054,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:11.140-05:00",
+      "startDate" : "2022-05-24T15:34:09.956-05:00",
+      "position" : 16,
+      "practice" : false,
+      "identifier" : "NM_TEST_01_G",
+      "response" : 9,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 1170,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:12.491-05:00",
+      "startDate" : "2022-05-24T15:34:11.307-05:00",
+      "position" : 17,
+      "practice" : false,
+      "identifier" : "NM_TEST_01_H",
+      "response" : 3,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 1170,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:14.224-05:00",
+      "startDate" : "2022-05-24T15:34:12.623-05:00",
+      "position" : 18,
+      "practice" : false,
+      "identifier" : "NM_TEST_01_I",
+      "response" : 5,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 1587,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:16.375-05:00",
+      "startDate" : "2022-05-24T15:34:14.443-05:00",
+      "position" : 19,
+      "practice" : false,
+      "identifier" : "NM_TEST_02_A",
+      "response" : 8,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 1554,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:17.708-05:00",
+      "startDate" : "2022-05-24T15:34:16.490-05:00",
+      "position" : 20,
+      "practice" : false,
+      "identifier" : "NM_TEST_02_B",
+      "response" : 3,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 1120,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:18.991-05:00",
+      "startDate" : "2022-05-24T15:34:17.724-05:00",
+      "position" : 21,
+      "practice" : false,
+      "identifier" : "NM_TEST_02_C",
+      "response" : 1,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 1261,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:20.375-05:00",
+      "startDate" : "2022-05-24T15:34:19.123-05:00",
+      "position" : 22,
+      "practice" : false,
+      "identifier" : "NM_TEST_02_D",
+      "response" : 9,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 1237,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:21.825-05:00",
+      "startDate" : "2022-05-24T15:34:20.524-05:00",
+      "position" : 23,
+      "practice" : false,
+      "identifier" : "NM_TEST_02_E",
+      "response" : 2,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 1287,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:24.125-05:00",
+      "startDate" : "2022-05-24T15:34:21.957-05:00",
+      "position" : 24,
+      "practice" : false,
+      "identifier" : "NM_TEST_02_F",
+      "response" : 5,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 2154,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:25.558-05:00",
+      "startDate" : "2022-05-24T15:34:24.208-05:00",
+      "position" : 25,
+      "practice" : false,
+      "identifier" : "NM_TEST_02_G",
+      "response" : 6,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 1337,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:28.542-05:00",
+      "startDate" : "2022-05-24T15:34:25.675-05:00",
+      "position" : 26,
+      "practice" : false,
+      "identifier" : "NM_TEST_02_H",
+      "response" : 4,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 2854,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:33.109-05:00",
+      "startDate" : "2022-05-24T15:34:28.641-05:00",
+      "position" : 27,
+      "practice" : false,
+      "identifier" : "NM_TEST_02_I",
+      "response" : 3,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 4454,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:35.842-05:00",
+      "startDate" : "2022-05-24T15:34:33.311-05:00",
+      "position" : 28,
+      "practice" : false,
+      "identifier" : "NM_TEST_03_A",
+      "response" : 7,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 2154,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:40.210-05:00",
+      "startDate" : "2022-05-24T15:34:35.975-05:00",
+      "position" : 29,
+      "practice" : false,
+      "identifier" : "NM_TEST_03_B",
+      "response" : 2,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 4221,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:41.593-05:00",
+      "startDate" : "2022-05-24T15:34:40.358-05:00",
+      "position" : 30,
+      "practice" : false,
+      "identifier" : "NM_TEST_03_C",
+      "response" : 9,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 1221,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:44.810-05:00",
+      "startDate" : "2022-05-24T15:34:41.724-05:00",
+      "position" : 31,
+      "practice" : false,
+      "identifier" : "NM_TEST_03_D",
+      "response" : 8,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 3071,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:46.793-05:00",
+      "startDate" : "2022-05-24T15:34:44.925-05:00",
+      "position" : 32,
+      "practice" : false,
+      "identifier" : "NM_TEST_03_E",
+      "response" : 1,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 1854,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:48.526-05:00",
+      "startDate" : "2022-05-24T15:34:46.909-05:00",
+      "position" : 33,
+      "practice" : false,
+      "identifier" : "NM_TEST_03_F",
+      "response" : 4,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 1504,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:50.527-05:00",
+      "startDate" : "2022-05-24T15:34:48.549-05:00",
+      "position" : 34,
+      "practice" : false,
+      "identifier" : "NM_TEST_03_G",
+      "response" : 7,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 1972,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:52.110-05:00",
+      "startDate" : "2022-05-24T15:34:50.642-05:00",
+      "position" : 35,
+      "practice" : false,
+      "identifier" : "NM_TEST_03_H",
+      "response" : 6,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 1454,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:53.777-05:00",
+      "startDate" : "2022-05-24T15:34:52.226-05:00",
+      "position" : 36,
+      "practice" : false,
+      "identifier" : "NM_TEST_03_I",
+      "response" : 5,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 1537,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:34:59.477-05:00",
+      "startDate" : "2022-05-24T15:34:53.979-05:00",
+      "position" : 37,
+      "practice" : false,
+      "identifier" : "NM_TEST_04_A",
+      "response" : 9,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 5121,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:35:00.977-05:00",
+      "startDate" : "2022-05-24T15:34:59.577-05:00",
+      "position" : 38,
+      "practice" : false,
+      "identifier" : "NM_TEST_04_B",
+      "response" : 1,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 1387,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:35:02.478-05:00",
+      "startDate" : "2022-05-24T15:35:01.093-05:00",
+      "position" : 39,
+      "practice" : false,
+      "identifier" : "NM_TEST_04_C",
+      "response" : 2,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 1370,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:35:04.928-05:00",
+      "startDate" : "2022-05-24T15:35:02.593-05:00",
+      "position" : 40,
+      "practice" : false,
+      "identifier" : "NM_TEST_04_D",
+      "response" : 4,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 2321,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:35:06.661-05:00",
+      "startDate" : "2022-05-24T15:35:05.010-05:00",
+      "position" : 41,
+      "practice" : false,
+      "identifier" : "NM_TEST_04_E",
+      "response" : 7,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 1637,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:35:07.928-05:00",
+      "startDate" : "2022-05-24T15:35:06.759-05:00",
+      "position" : 42,
+      "practice" : false,
+      "identifier" : "NM_TEST_04_F",
+      "response" : 2,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 1154,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:35:10.012-05:00",
+      "startDate" : "2022-05-24T15:35:08.010-05:00",
+      "position" : 43,
+      "practice" : false,
+      "identifier" : "NM_TEST_04_G",
+      "response" : 5,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 1987,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:35:11.661-05:00",
+      "startDate" : "2022-05-24T15:35:10.094-05:00",
+      "position" : 44,
+      "practice" : false,
+      "identifier" : "NM_TEST_04_H",
+      "response" : 6,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 1554,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:35:12.694-05:00",
+      "startDate" : "2022-05-24T15:35:11.760-05:00",
+      "position" : 45,
+      "practice" : false,
+      "identifier" : "NM_TEST_04_I",
+      "response" : 9,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 920,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:35:15.078-05:00",
+      "startDate" : "2022-05-24T15:35:12.947-05:00",
+      "position" : 46,
+      "practice" : false,
+      "identifier" : "NM_TEST_05_A",
+      "response" : 5,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 1737,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:35:16.428-05:00",
+      "startDate" : "2022-05-24T15:35:15.178-05:00",
+      "position" : 47,
+      "practice" : false,
+      "identifier" : "NM_TEST_05_B",
+      "response" : 8,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 1237,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:35:17.962-05:00",
+      "startDate" : "2022-05-24T15:35:16.577-05:00",
+      "position" : 48,
+      "practice" : false,
+      "identifier" : "NM_TEST_05_C",
+      "response" : 6,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 1370,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:35:20.629-05:00",
+      "startDate" : "2022-05-24T15:35:18.077-05:00",
+      "position" : 49,
+      "practice" : false,
+      "identifier" : "NM_TEST_05_D",
+      "response" : 4,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 2537,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:35:23.446-05:00",
+      "startDate" : "2022-05-24T15:35:20.710-05:00",
+      "position" : 50,
+      "practice" : false,
+      "identifier" : "NM_TEST_05_E",
+      "response" : 3,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 2720,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:35:25.079-05:00",
+      "startDate" : "2022-05-24T15:35:23.545-05:00",
+      "position" : 51,
+      "practice" : false,
+      "identifier" : "NM_TEST_05_F",
+      "response" : 1,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 1520,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:35:26.912-05:00",
+      "startDate" : "2022-05-24T15:35:25.194-05:00",
+      "position" : 52,
+      "practice" : false,
+      "identifier" : "NM_TEST_05_G",
+      "response" : 7,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 1704,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 1,
+      "endDate" : "2022-05-24T15:35:30.046-05:00",
+      "startDate" : "2022-05-24T15:35:27.011-05:00",
+      "position" : 53,
+      "practice" : false,
+      "identifier" : "NM_TEST_05_H",
+      "response" : 8,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 3021,
+      "instruction" : false
+    },
+    {
+      "wasInterrupted" : false,
+      "score" : 0,
+      "endDate" : "2022-05-24T15:35:31.396-05:00",
+      "startDate" : "2022-05-24T15:35:30.162-05:00",
+      "position" : 54,
+      "practice" : false,
+      "identifier" : "NM_TEST_05_I",
+      "response" : 6,
+      "type" : "numberMatchStepResult",
+      "responseTime" : 1221,
+      "instruction" : false
+    }
+  ]
+}

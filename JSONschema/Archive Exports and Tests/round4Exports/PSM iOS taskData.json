@@ -1,0 +1,2021 @@
+{
+  "taskRunUUID" : "9207098D-9DEB-4894-81D3-7E8A35CE6980",
+  "schemaIdentifier" : "MTB_Picture_Sequence_Memory",
+  "testVersion" : "1.2.0",
+  "stepHistory" : [
+    {
+      "endDate" : "2021-09-30T12:46:13.223-05:00",
+      "startDate" : "2021-09-30T12:46:09.346-05:00",
+      "identifier" : "PSM_MTB_INTRO",
+      "practice" : false,
+      "type" : "psmStepResult",
+      "didTimeout" : false,
+      "wasInterrupted" : false
+    },
+    {
+      "didTimeout" : false,
+      "endDate" : "2021-09-30T12:46:24.975-05:00",
+      "startDate" : "2021-09-30T12:46:13.223-05:00",
+      "identifier" : "PSM_MTB_DEMO_1",
+      "practice" : false,
+      "response" : 2,
+      "type" : "psmStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "didTimeout" : false,
+      "endDate" : "2021-09-30T12:46:26.870-05:00",
+      "startDate" : "2021-09-30T12:46:24.982-05:00",
+      "identifier" : "PSM_MTB_DEMO_2",
+      "practice" : false,
+      "response" : 2,
+      "type" : "psmStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "didTimeout" : false,
+      "endDate" : "2021-09-30T12:46:40.923-05:00",
+      "startDate" : "2021-09-30T12:46:26.877-05:00",
+      "identifier" : "PSM_MTB_DEMO_3",
+      "practice" : false,
+      "response" : 2,
+      "type" : "psmStepResult",
+      "wasInterrupted" : false
+    },
+    {
+      "endDate" : "2021-09-30T12:46:43.459-05:00",
+      "startDate" : "2021-09-30T12:46:40.933-05:00",
+      "identifier" : "PSM_MTB_TRANS_1",
+      "practice" : false,
+      "type" : "psmStepResult",
+      "didTimeout" : false,
+      "wasInterrupted" : false
+    },
+    {
+      "parentStepIdentifier" : "PSM_MTB_CAMPING_Trial1",
+      "score" : 1,
+      "endDate" : "2021-09-30T12:47:13.424-05:00",
+      "startDate" : "2021-09-30T12:46:43.977-05:00",
+      "sequenceNumber" : 1,
+      "didTimeout" : false,
+      "identifier" : "PSM_MTB_CAMPING_Trial1_Pic1",
+      "response" : 1,
+      "type" : "psmStepResult",
+      "practice" : true,
+      "wasInterrupted" : false
+    },
+    {
+      "parentStepIdentifier" : "PSM_MTB_CAMPING_Trial1",
+      "score" : 1,
+      "endDate" : "2021-09-30T12:47:13.432-05:00",
+      "startDate" : "2021-09-30T12:46:43.977-05:00",
+      "sequenceNumber" : 1,
+      "didTimeout" : false,
+      "identifier" : "PSM_MTB_CAMPING_Trial1_Pic2",
+      "response" : 2,
+      "type" : "psmStepResult",
+      "practice" : true,
+      "wasInterrupted" : false
+    },
+    {
+      "parentStepIdentifier" : "PSM_MTB_CAMPING_Trial1",
+      "score" : 1,
+      "endDate" : "2021-09-30T12:47:13.436-05:00",
+      "startDate" : "2021-09-30T12:46:43.977-05:00",
+      "sequenceNumber" : 1,
+      "didTimeout" : false,
+      "identifier" : "PSM_MTB_CAMPING_Trial1_Pic3",
+      "response" : 3,
+      "type" : "psmStepResult",
+      "practice" : true,
+      "wasInterrupted" : false
+    },
+    {
+      "parentStepIdentifier" : "PSM_MTB_CAMPING_Trial1",
+      "score" : 1,
+      "endDate" : "2021-09-30T12:47:13.439-05:00",
+      "startDate" : "2021-09-30T12:46:43.977-05:00",
+      "sequenceNumber" : 1,
+      "didTimeout" : false,
+      "identifier" : "PSM_MTB_CAMPING_Trial1_Pic4",
+      "response" : 4,
+      "type" : "psmStepResult",
+      "practice" : true,
+      "wasInterrupted" : false
+    },
+    {
+      "endDate" : "2021-09-30T12:47:16.478-05:00",
+      "startDate" : "2021-09-30T12:47:14.320-05:00",
+      "identifier" : "PSM_MTB_TRANS_2",
+      "practice" : false,
+      "type" : "psmStepResult",
+      "didTimeout" : false,
+      "wasInterrupted" : false
+    },
+    {
+      "sequenceNumber" : 1,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch1",
+      "endDate" : "2021-09-30T12:48:40.812-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial1_Pic1",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial1",
+      "startDate" : "2021-09-30T12:47:17.062-05:00",
+      "response" : 2,
+      "score" : 0,
+      "adjacentPairScoreName" : "adjacentPairs1"
+    },
+    {
+      "sequenceNumber" : 1,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch1",
+      "endDate" : "2021-09-30T12:48:40.822-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial1_Pic2",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial1",
+      "startDate" : "2021-09-30T12:47:17.062-05:00",
+      "response" : 1,
+      "score" : 0,
+      "adjacentPairScoreName" : "adjacentPairs1"
+    },
+    {
+      "sequenceNumber" : 1,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch1",
+      "endDate" : "2021-09-30T12:48:40.827-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial1_Pic3",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial1",
+      "startDate" : "2021-09-30T12:47:17.062-05:00",
+      "response" : 3,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs1"
+    },
+    {
+      "sequenceNumber" : 1,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch1",
+      "endDate" : "2021-09-30T12:48:40.832-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial1_Pic4",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial1",
+      "startDate" : "2021-09-30T12:47:17.062-05:00",
+      "response" : 4,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs1"
+    },
+    {
+      "sequenceNumber" : 1,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch1",
+      "endDate" : "2021-09-30T12:48:40.835-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial1_Pic5",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial1",
+      "startDate" : "2021-09-30T12:47:17.062-05:00",
+      "response" : 5,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs1"
+    },
+    {
+      "sequenceNumber" : 1,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch1",
+      "endDate" : "2021-09-30T12:48:40.839-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial1_Pic6",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial1",
+      "startDate" : "2021-09-30T12:47:17.062-05:00",
+      "response" : 6,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs1"
+    },
+    {
+      "sequenceNumber" : 1,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch1",
+      "endDate" : "2021-09-30T12:48:40.842-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial1_Pic7",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial1",
+      "startDate" : "2021-09-30T12:47:17.062-05:00",
+      "response" : 7,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs1"
+    },
+    {
+      "sequenceNumber" : 1,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch1",
+      "endDate" : "2021-09-30T12:48:40.845-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial1_Pic8",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial1",
+      "startDate" : "2021-09-30T12:47:17.062-05:00",
+      "response" : 8,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs1"
+    },
+    {
+      "sequenceNumber" : 1,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch1",
+      "endDate" : "2021-09-30T12:48:40.848-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial1_Pic9",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial1",
+      "startDate" : "2021-09-30T12:47:17.062-05:00",
+      "response" : 9,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs1"
+    },
+    {
+      "sequenceNumber" : 1,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch1",
+      "endDate" : "2021-09-30T12:48:40.851-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial1_Pic10",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial1",
+      "startDate" : "2021-09-30T12:47:17.062-05:00",
+      "response" : 10,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs1"
+    },
+    {
+      "sequenceNumber" : 1,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch1",
+      "endDate" : "2021-09-30T12:48:40.853-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial1_Pic11",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial1",
+      "startDate" : "2021-09-30T12:47:17.062-05:00",
+      "response" : 11,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs1"
+    },
+    {
+      "sequenceNumber" : 1,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch1",
+      "endDate" : "2021-09-30T12:48:40.855-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial1_Pic12",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial1",
+      "startDate" : "2021-09-30T12:47:17.062-05:00",
+      "response" : 12,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs1"
+    },
+    {
+      "sequenceNumber" : 1,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch1",
+      "endDate" : "2021-09-30T12:48:40.858-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial1_Pic13",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial1",
+      "startDate" : "2021-09-30T12:47:17.062-05:00",
+      "response" : 13,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs1"
+    },
+    {
+      "sequenceNumber" : 1,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch1",
+      "endDate" : "2021-09-30T12:48:40.861-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial1_Pic14",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial1",
+      "startDate" : "2021-09-30T12:47:17.062-05:00",
+      "response" : 14,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs1"
+    },
+    {
+      "endDate" : "2021-09-30T12:48:41.820-05:00",
+      "startDate" : "2021-09-30T12:48:40.863-05:00",
+      "identifier" : "PSM_MTB_TRANS_Live_Nicework",
+      "practice" : false,
+      "type" : "psmStepResult",
+      "didTimeout" : false,
+      "wasInterrupted" : false
+    },
+    {
+      "sequenceNumber" : 2,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch2",
+      "endDate" : "2021-09-30T12:50:06.786-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial2_Pic1",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial2",
+      "startDate" : "2021-09-30T12:48:42.355-05:00",
+      "response" : 1,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs2"
+    },
+    {
+      "sequenceNumber" : 2,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch2",
+      "endDate" : "2021-09-30T12:50:06.801-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial2_Pic2",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial2",
+      "startDate" : "2021-09-30T12:48:42.355-05:00",
+      "response" : 2,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs2"
+    },
+    {
+      "sequenceNumber" : 2,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch2",
+      "endDate" : "2021-09-30T12:50:06.809-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial2_Pic3",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial2",
+      "startDate" : "2021-09-30T12:48:42.355-05:00",
+      "response" : 3,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs2"
+    },
+    {
+      "sequenceNumber" : 2,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch2",
+      "endDate" : "2021-09-30T12:50:06.814-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial2_Pic4",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial2",
+      "startDate" : "2021-09-30T12:48:42.355-05:00",
+      "response" : 4,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs2"
+    },
+    {
+      "sequenceNumber" : 2,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch2",
+      "endDate" : "2021-09-30T12:50:06.819-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial2_Pic5",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial2",
+      "startDate" : "2021-09-30T12:48:42.355-05:00",
+      "response" : 5,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs2"
+    },
+    {
+      "sequenceNumber" : 2,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch2",
+      "endDate" : "2021-09-30T12:50:06.824-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial2_Pic6",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial2",
+      "startDate" : "2021-09-30T12:48:42.355-05:00",
+      "response" : 6,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs2"
+    },
+    {
+      "sequenceNumber" : 2,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch2",
+      "endDate" : "2021-09-30T12:50:06.828-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial2_Pic7",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial2",
+      "startDate" : "2021-09-30T12:48:42.355-05:00",
+      "response" : 7,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs2"
+    },
+    {
+      "sequenceNumber" : 2,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch2",
+      "endDate" : "2021-09-30T12:50:06.832-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial2_Pic8",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial2",
+      "startDate" : "2021-09-30T12:48:42.355-05:00",
+      "response" : 8,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs2"
+    },
+    {
+      "sequenceNumber" : 2,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch2",
+      "endDate" : "2021-09-30T12:50:06.835-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial2_Pic9",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial2",
+      "startDate" : "2021-09-30T12:48:42.355-05:00",
+      "response" : 9,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs2"
+    },
+    {
+      "sequenceNumber" : 2,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch2",
+      "endDate" : "2021-09-30T12:50:06.839-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial2_Pic10",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial2",
+      "startDate" : "2021-09-30T12:48:42.355-05:00",
+      "response" : 10,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs2"
+    },
+    {
+      "sequenceNumber" : 2,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch2",
+      "endDate" : "2021-09-30T12:50:06.842-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial2_Pic11",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial2",
+      "startDate" : "2021-09-30T12:48:42.355-05:00",
+      "response" : 11,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs2"
+    },
+    {
+      "sequenceNumber" : 2,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch2",
+      "endDate" : "2021-09-30T12:50:06.845-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial2_Pic12",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial2",
+      "startDate" : "2021-09-30T12:48:42.355-05:00",
+      "response" : 12,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs2"
+    },
+    {
+      "sequenceNumber" : 2,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch2",
+      "endDate" : "2021-09-30T12:50:06.848-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial2_Pic13",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial2",
+      "startDate" : "2021-09-30T12:48:42.355-05:00",
+      "response" : 13,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs2"
+    },
+    {
+      "sequenceNumber" : 2,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch2",
+      "endDate" : "2021-09-30T12:50:06.851-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial2_Pic14",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial2",
+      "startDate" : "2021-09-30T12:48:42.355-05:00",
+      "response" : 14,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs2"
+    }
+  ],
+  "locale" : "en_US",
+  "endDate" : "2021-09-30T12:50:07.340-05:00",
+  "scores" : {
+    "timeout" : "N",
+    "exactMatch2" : 14,
+    "adjacentPairs2" : 13,
+    "exactMatch1" : 12,
+    "adjacentPairs1" : 12,
+    "practiceSuccess" : 1
+  },
+  "taskStatus" : [
+    "completed"
+  ],
+  "startDate" : "2021-09-30T12:46:09.329-05:00",
+  "taskName" : "Picture Sequence MemoryV1",
+  "userInteractions" : [
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "PSM_MTB_INTRO",
+      "timestamp" : "2021-09-30T12:46:09.367-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "PSM_MTB_INTRO",
+      "timestamp" : "2021-09-30T12:46:09.372-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "PSM_MTB_INTRO",
+      "timestamp" : "2021-09-30T12:46:13.101-05:00",
+      "userInteractionIdentifier" : "View instructions"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "PSM_MTB_INTRO",
+      "timestamp" : "2021-09-30T12:46:13.218-05:00",
+      "userInteractionIdentifier" : "View instructions"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "PSM_MTB_DEMO_1",
+      "timestamp" : "2021-09-30T12:46:13.234-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "PSM_MTB_DEMO_1",
+      "timestamp" : "2021-09-30T12:46:13.555-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "PSM_MTB_DEMO_1",
+      "timestamp" : "2021-09-30T12:46:24.858-05:00",
+      "userInteractionIdentifier" : ">"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "PSM_MTB_DEMO_1",
+      "timestamp" : "2021-09-30T12:46:24.974-05:00",
+      "userInteractionIdentifier" : ">"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "PSM_MTB_DEMO_2",
+      "timestamp" : "2021-09-30T12:46:24.999-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "PSM_MTB_DEMO_2",
+      "timestamp" : "2021-09-30T12:46:26.752-05:00",
+      "userInteractionIdentifier" : ">"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "PSM_MTB_DEMO_2",
+      "timestamp" : "2021-09-30T12:46:26.868-05:00",
+      "userInteractionIdentifier" : ">"
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "PSM_MTB_DEMO_3",
+      "timestamp" : "2021-09-30T12:46:26.893-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "PSM_MTB_DEMO_3",
+      "timestamp" : "2021-09-30T12:46:40.805-05:00",
+      "userInteractionIdentifier" : ">"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "PSM_MTB_DEMO_3",
+      "timestamp" : "2021-09-30T12:46:40.921-05:00",
+      "userInteractionIdentifier" : ">"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "PSM_MTB_TRANS_1",
+      "timestamp" : "2021-09-30T12:46:40.942-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "PSM_MTB_TRANS_1",
+      "timestamp" : "2021-09-30T12:46:41.459-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "PSM_MTB_TRANS_1",
+      "timestamp" : "2021-09-30T12:46:43.249-05:00",
+      "userInteractionIdentifier" : "Practice"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "PSM_MTB_TRANS_1",
+      "timestamp" : "2021-09-30T12:46:43.457-05:00",
+      "userInteractionIdentifier" : "Practice"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "PSM_MTB_CAMPING_Trial1_Pic1",
+      "timestamp" : "2021-09-30T12:46:43.998-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "PSM_MTB_CAMPING_Trial1_Pic1",
+      "timestamp" : "2021-09-30T12:47:06.645-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "dragStart"
+      ],
+      "stepIdentifier" : "PSM_MTB_CAMPING_Trial1_Pic1",
+      "timestamp" : "2021-09-30T12:47:07.568-05:00",
+      "parent" : "scrambleZone",
+      "userInteractionIdentifier" : "PSM_MTB_CAMPING_Trial1_Pic1"
+    },
+    {
+      "controlEvent" : [
+        "drop"
+      ],
+      "stepIdentifier" : "PSM_MTB_CAMPING_Trial1_Pic1",
+      "timestamp" : "2021-09-30T12:47:08.343-05:00",
+      "parent" : "dropZone1",
+      "userInteractionIdentifier" : "PSM_MTB_CAMPING_Trial1_Pic1"
+    },
+    {
+      "controlEvent" : [
+        "dragStart"
+      ],
+      "stepIdentifier" : "PSM_MTB_CAMPING_Trial1_Pic2",
+      "timestamp" : "2021-09-30T12:47:08.743-05:00",
+      "parent" : "scrambleZone",
+      "userInteractionIdentifier" : "PSM_MTB_CAMPING_Trial1_Pic2"
+    },
+    {
+      "controlEvent" : [
+        "drop"
+      ],
+      "stepIdentifier" : "PSM_MTB_CAMPING_Trial1_Pic2",
+      "timestamp" : "2021-09-30T12:47:09.191-05:00",
+      "parent" : "dropZone2",
+      "userInteractionIdentifier" : "PSM_MTB_CAMPING_Trial1_Pic2"
+    },
+    {
+      "controlEvent" : [
+        "dragStart"
+      ],
+      "stepIdentifier" : "PSM_MTB_CAMPING_Trial1_Pic4",
+      "timestamp" : "2021-09-30T12:47:09.759-05:00",
+      "parent" : "scrambleZone",
+      "userInteractionIdentifier" : "PSM_MTB_CAMPING_Trial1_Pic4"
+    },
+    {
+      "controlEvent" : [
+        "drop"
+      ],
+      "stepIdentifier" : "PSM_MTB_CAMPING_Trial1_Pic4",
+      "timestamp" : "2021-09-30T12:47:10.248-05:00",
+      "parent" : "dropZone4",
+      "userInteractionIdentifier" : "PSM_MTB_CAMPING_Trial1_Pic4"
+    },
+    {
+      "controlEvent" : [
+        "dragStart"
+      ],
+      "stepIdentifier" : "PSM_MTB_CAMPING_Trial1_Pic3",
+      "timestamp" : "2021-09-30T12:47:11.481-05:00",
+      "parent" : "scrambleZone",
+      "userInteractionIdentifier" : "PSM_MTB_CAMPING_Trial1_Pic3"
+    },
+    {
+      "controlEvent" : [
+        "drop"
+      ],
+      "stepIdentifier" : "PSM_MTB_CAMPING_Trial1_Pic3",
+      "timestamp" : "2021-09-30T12:47:12.134-05:00",
+      "parent" : "dropZone3",
+      "userInteractionIdentifier" : "PSM_MTB_CAMPING_Trial1_Pic3"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "PSM_MTB_CAMPING_Trial1_Pic3",
+      "timestamp" : "2021-09-30T12:47:13.339-05:00",
+      "userInteractionIdentifier" : "Done"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "PSM_MTB_CAMPING_Trial1_Pic3",
+      "timestamp" : "2021-09-30T12:47:13.422-05:00",
+      "userInteractionIdentifier" : "Done"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "PSM_MTB_TRANS_2",
+      "timestamp" : "2021-09-30T12:47:14.333-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "PSM_MTB_TRANS_2",
+      "timestamp" : "2021-09-30T12:47:14.854-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "PSM_MTB_TRANS_2",
+      "timestamp" : "2021-09-30T12:47:16.377-05:00",
+      "userInteractionIdentifier" : "Start"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "PSM_MTB_TRANS_2",
+      "timestamp" : "2021-09-30T12:47:16.477-05:00",
+      "userInteractionIdentifier" : "Start"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic1",
+      "timestamp" : "2021-09-30T12:47:17.071-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic1",
+      "timestamp" : "2021-09-30T12:48:19.813-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "dragStart"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic1",
+      "timestamp" : "2021-09-30T12:48:21.035-05:00",
+      "parent" : "scrambleZone",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic1"
+    },
+    {
+      "controlEvent" : [
+        "drop"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic1",
+      "timestamp" : "2021-09-30T12:48:21.968-05:00",
+      "parent" : "dropZone1",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic1"
+    },
+    {
+      "controlEvent" : [
+        "dragStart"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic2",
+      "timestamp" : "2021-09-30T12:48:22.701-05:00",
+      "parent" : "scrambleZone",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic2"
+    },
+    {
+      "controlEvent" : [
+        "drop"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic2",
+      "timestamp" : "2021-09-30T12:48:23.270-05:00",
+      "parent" : "dropZone2",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic2"
+    },
+    {
+      "controlEvent" : [
+        "dragStart"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic3",
+      "timestamp" : "2021-09-30T12:48:24.845-05:00",
+      "parent" : "scrambleZone",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic3"
+    },
+    {
+      "controlEvent" : [
+        "drop"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic3",
+      "timestamp" : "2021-09-30T12:48:25.406-05:00",
+      "parent" : "dropZone3",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic3"
+    },
+    {
+      "controlEvent" : [
+        "dragStart"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic4",
+      "timestamp" : "2021-09-30T12:48:25.856-05:00",
+      "parent" : "scrambleZone",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic4"
+    },
+    {
+      "controlEvent" : [
+        "drop"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic4",
+      "timestamp" : "2021-09-30T12:48:26.248-05:00",
+      "parent" : "dropZone4",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic4"
+    },
+    {
+      "controlEvent" : [
+        "dragStart"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic11",
+      "timestamp" : "2021-09-30T12:48:26.651-05:00",
+      "parent" : "scrambleZone",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic11"
+    },
+    {
+      "controlEvent" : [
+        "drop"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic11",
+      "timestamp" : "2021-09-30T12:48:27.418-05:00",
+      "parent" : "dropZone11",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic11"
+    },
+    {
+      "controlEvent" : [
+        "dragStart"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic5",
+      "timestamp" : "2021-09-30T12:48:28.513-05:00",
+      "parent" : "scrambleZone",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic5"
+    },
+    {
+      "controlEvent" : [
+        "drop"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic5",
+      "timestamp" : "2021-09-30T12:48:29.072-05:00",
+      "parent" : "dropZone5",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic5"
+    },
+    {
+      "controlEvent" : [
+        "dragStart"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic13",
+      "timestamp" : "2021-09-30T12:48:29.582-05:00",
+      "parent" : "scrambleZone",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic13"
+    },
+    {
+      "controlEvent" : [
+        "drop"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic13",
+      "timestamp" : "2021-09-30T12:48:30.187-05:00",
+      "parent" : "dropZone13",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic13"
+    },
+    {
+      "controlEvent" : [
+        "dragStart"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic14",
+      "timestamp" : "2021-09-30T12:48:30.745-05:00",
+      "parent" : "scrambleZone",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic14"
+    },
+    {
+      "controlEvent" : [
+        "drop"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic14",
+      "timestamp" : "2021-09-30T12:48:31.306-05:00",
+      "parent" : "dropZone14",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic14"
+    },
+    {
+      "controlEvent" : [
+        "dragStart"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic9",
+      "timestamp" : "2021-09-30T12:48:31.985-05:00",
+      "parent" : "scrambleZone",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic9"
+    },
+    {
+      "controlEvent" : [
+        "drop"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic9",
+      "timestamp" : "2021-09-30T12:48:32.448-05:00",
+      "parent" : "dropZone9",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic9"
+    },
+    {
+      "controlEvent" : [
+        "dragStart"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic10",
+      "timestamp" : "2021-09-30T12:48:32.863-05:00",
+      "parent" : "scrambleZone",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic10"
+    },
+    {
+      "controlEvent" : [
+        "drop"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic10",
+      "timestamp" : "2021-09-30T12:48:33.635-05:00",
+      "parent" : "dropZone10",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic10"
+    },
+    {
+      "controlEvent" : [
+        "dragStart"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic8",
+      "timestamp" : "2021-09-30T12:48:34.431-05:00",
+      "parent" : "scrambleZone",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic8"
+    },
+    {
+      "controlEvent" : [
+        "drop"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic8",
+      "timestamp" : "2021-09-30T12:48:34.887-05:00",
+      "parent" : "dropZone8",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic8"
+    },
+    {
+      "controlEvent" : [
+        "dragStart"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic7",
+      "timestamp" : "2021-09-30T12:48:35.618-05:00",
+      "parent" : "scrambleZone",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic7"
+    },
+    {
+      "controlEvent" : [
+        "drop"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic7",
+      "timestamp" : "2021-09-30T12:48:36.071-05:00",
+      "parent" : "dropZone7",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic7"
+    },
+    {
+      "controlEvent" : [
+        "dragStart"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic6",
+      "timestamp" : "2021-09-30T12:48:36.535-05:00",
+      "parent" : "scrambleZone",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic6"
+    },
+    {
+      "controlEvent" : [
+        "drop"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic6",
+      "timestamp" : "2021-09-30T12:48:37.012-05:00",
+      "parent" : "dropZone6",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic6"
+    },
+    {
+      "controlEvent" : [
+        "dragStart"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic12",
+      "timestamp" : "2021-09-30T12:48:38.794-05:00",
+      "parent" : "scrambleZone",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic12"
+    },
+    {
+      "controlEvent" : [
+        "drop"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic12",
+      "timestamp" : "2021-09-30T12:48:39.832-05:00",
+      "parent" : "dropZone12",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic12"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic12",
+      "timestamp" : "2021-09-30T12:48:40.726-05:00",
+      "userInteractionIdentifier" : "Done"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial1_Pic12",
+      "timestamp" : "2021-09-30T12:48:40.810-05:00",
+      "userInteractionIdentifier" : "Done"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "PSM_MTB_TRANS_Live_Nicework",
+      "timestamp" : "2021-09-30T12:48:40.879-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "PSM_MTB_TRANS_Live_Nicework",
+      "timestamp" : "2021-09-30T12:48:41.390-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "PSM_MTB_TRANS_Live_Nicework",
+      "timestamp" : "2021-09-30T12:48:41.710-05:00",
+      "userInteractionIdentifier" : "Begin"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "PSM_MTB_TRANS_Live_Nicework",
+      "timestamp" : "2021-09-30T12:48:41.818-05:00",
+      "userInteractionIdentifier" : "Begin"
+    },
+    {
+      "controlEvent" : [
+        "stepBegins"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic1",
+      "timestamp" : "2021-09-30T12:48:42.372-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "uiEnabled"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic1",
+      "timestamp" : "2021-09-30T12:49:45.159-05:00",
+      "userInteractionIdentifier" : ""
+    },
+    {
+      "controlEvent" : [
+        "dragStart"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic1",
+      "timestamp" : "2021-09-30T12:49:46.629-05:00",
+      "parent" : "scrambleZone",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic1"
+    },
+    {
+      "controlEvent" : [
+        "drop"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic1",
+      "timestamp" : "2021-09-30T12:49:47.568-05:00",
+      "parent" : "dropZone1",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic1"
+    },
+    {
+      "controlEvent" : [
+        "dragStart"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic2",
+      "timestamp" : "2021-09-30T12:49:48.373-05:00",
+      "parent" : "scrambleZone",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic2"
+    },
+    {
+      "controlEvent" : [
+        "drop"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic2",
+      "timestamp" : "2021-09-30T12:49:49.087-05:00",
+      "parent" : "dropZone2",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic2"
+    },
+    {
+      "controlEvent" : [
+        "dragStart"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic3",
+      "timestamp" : "2021-09-30T12:49:49.763-05:00",
+      "parent" : "scrambleZone",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic3"
+    },
+    {
+      "controlEvent" : [
+        "drop"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic3",
+      "timestamp" : "2021-09-30T12:49:50.369-05:00",
+      "parent" : "dropZone3",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic3"
+    },
+    {
+      "controlEvent" : [
+        "dragStart"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic4",
+      "timestamp" : "2021-09-30T12:49:50.869-05:00",
+      "parent" : "scrambleZone",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic4"
+    },
+    {
+      "controlEvent" : [
+        "drop"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic4",
+      "timestamp" : "2021-09-30T12:49:51.413-05:00",
+      "parent" : "dropZone4",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic4"
+    },
+    {
+      "controlEvent" : [
+        "dragStart"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic5",
+      "timestamp" : "2021-09-30T12:49:52.146-05:00",
+      "parent" : "scrambleZone",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic5"
+    },
+    {
+      "controlEvent" : [
+        "drop"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic5",
+      "timestamp" : "2021-09-30T12:49:52.711-05:00",
+      "parent" : "dropZone5",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic5"
+    },
+    {
+      "controlEvent" : [
+        "dragStart"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic6",
+      "timestamp" : "2021-09-30T12:49:54.784-05:00",
+      "parent" : "scrambleZone",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic6"
+    },
+    {
+      "controlEvent" : [
+        "drop"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic6",
+      "timestamp" : "2021-09-30T12:49:55.977-05:00",
+      "parent" : "dropZone6",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic6"
+    },
+    {
+      "controlEvent" : [
+        "dragStart"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic7",
+      "timestamp" : "2021-09-30T12:49:56.630-05:00",
+      "parent" : "scrambleZone",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic7"
+    },
+    {
+      "controlEvent" : [
+        "drop"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic7",
+      "timestamp" : "2021-09-30T12:49:57.047-05:00",
+      "parent" : "dropZone7",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic7"
+    },
+    {
+      "controlEvent" : [
+        "dragStart"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic8",
+      "timestamp" : "2021-09-30T12:49:57.594-05:00",
+      "parent" : "scrambleZone",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic8"
+    },
+    {
+      "controlEvent" : [
+        "drop"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic8",
+      "timestamp" : "2021-09-30T12:49:58.200-05:00",
+      "parent" : "dropZone8",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic8"
+    },
+    {
+      "controlEvent" : [
+        "dragStart"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic9",
+      "timestamp" : "2021-09-30T12:49:58.667-05:00",
+      "parent" : "scrambleZone",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic9"
+    },
+    {
+      "controlEvent" : [
+        "drop"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic9",
+      "timestamp" : "2021-09-30T12:49:59.177-05:00",
+      "parent" : "dropZone9",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic9"
+    },
+    {
+      "controlEvent" : [
+        "dragStart"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic10",
+      "timestamp" : "2021-09-30T12:49:59.911-05:00",
+      "parent" : "scrambleZone",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic10"
+    },
+    {
+      "controlEvent" : [
+        "drop"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic10",
+      "timestamp" : "2021-09-30T12:50:00.453-05:00",
+      "parent" : "dropZone10",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic10"
+    },
+    {
+      "controlEvent" : [
+        "dragStart"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic11",
+      "timestamp" : "2021-09-30T12:50:00.964-05:00",
+      "parent" : "scrambleZone",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic11"
+    },
+    {
+      "controlEvent" : [
+        "drop"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic11",
+      "timestamp" : "2021-09-30T12:50:01.797-05:00",
+      "parent" : "dropZone11",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic11"
+    },
+    {
+      "controlEvent" : [
+        "dragStart"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic12",
+      "timestamp" : "2021-09-30T12:50:02.594-05:00",
+      "parent" : "scrambleZone",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic12"
+    },
+    {
+      "controlEvent" : [
+        "drop"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic12",
+      "timestamp" : "2021-09-30T12:50:03.586-05:00",
+      "parent" : "dropZone12",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic12"
+    },
+    {
+      "controlEvent" : [
+        "dragStart"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic13",
+      "timestamp" : "2021-09-30T12:50:04.082-05:00",
+      "parent" : "scrambleZone",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic13"
+    },
+    {
+      "controlEvent" : [
+        "drop"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic13",
+      "timestamp" : "2021-09-30T12:50:04.710-05:00",
+      "parent" : "dropZone13",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic13"
+    },
+    {
+      "controlEvent" : [
+        "dragStart"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic14",
+      "timestamp" : "2021-09-30T12:50:05.237-05:00",
+      "parent" : "scrambleZone",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic14"
+    },
+    {
+      "controlEvent" : [
+        "drop"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic14",
+      "timestamp" : "2021-09-30T12:50:05.821-05:00",
+      "parent" : "dropZone14",
+      "userInteractionIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic14"
+    },
+    {
+      "controlEvent" : [
+        "touchDown"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic14",
+      "timestamp" : "2021-09-30T12:50:06.718-05:00",
+      "userInteractionIdentifier" : "Done"
+    },
+    {
+      "controlEvent" : [
+        "touchUpInside"
+      ],
+      "stepIdentifier" : "PSM_MTB_FRIEND_Trial2_Pic14",
+      "timestamp" : "2021-09-30T12:50:06.784-05:00",
+      "userInteractionIdentifier" : "Done"
+    }
+  ],
+  "steps" : [
+    {
+      "position" : 1,
+      "endDate" : "2021-09-30T12:46:13.223-05:00",
+      "startDate" : "2021-09-30T12:46:09.346-05:00",
+      "identifier" : "PSM_MTB_INTRO",
+      "practice" : false,
+      "type" : "psmStepResult",
+      "didTimeout" : false,
+      "wasInterrupted" : false
+    },
+    {
+      "didTimeout" : false,
+      "position" : 2,
+      "endDate" : "2021-09-30T12:46:24.975-05:00",
+      "startDate" : "2021-09-30T12:46:13.223-05:00",
+      "identifier" : "PSM_MTB_DEMO_1",
+      "response" : 2,
+      "type" : "psmStepResult",
+      "practice" : false,
+      "wasInterrupted" : false
+    },
+    {
+      "didTimeout" : false,
+      "position" : 3,
+      "endDate" : "2021-09-30T12:46:26.870-05:00",
+      "startDate" : "2021-09-30T12:46:24.982-05:00",
+      "identifier" : "PSM_MTB_DEMO_2",
+      "response" : 2,
+      "type" : "psmStepResult",
+      "practice" : false,
+      "wasInterrupted" : false
+    },
+    {
+      "didTimeout" : false,
+      "position" : 4,
+      "endDate" : "2021-09-30T12:46:40.923-05:00",
+      "startDate" : "2021-09-30T12:46:26.877-05:00",
+      "identifier" : "PSM_MTB_DEMO_3",
+      "response" : 2,
+      "type" : "psmStepResult",
+      "practice" : false,
+      "wasInterrupted" : false
+    },
+    {
+      "position" : 5,
+      "endDate" : "2021-09-30T12:46:43.459-05:00",
+      "startDate" : "2021-09-30T12:46:40.933-05:00",
+      "identifier" : "PSM_MTB_TRANS_1",
+      "practice" : false,
+      "type" : "psmStepResult",
+      "didTimeout" : false,
+      "wasInterrupted" : false
+    },
+    {
+      "position" : 6,
+      "sequenceNumber" : 1,
+      "practice" : true,
+      "endDate" : "2021-09-30T12:47:13.424-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_CAMPING_Trial1_Pic1",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_CAMPING_Trial1",
+      "startDate" : "2021-09-30T12:46:43.977-05:00",
+      "response" : 1,
+      "score" : 1
+    },
+    {
+      "position" : 7,
+      "sequenceNumber" : 1,
+      "practice" : true,
+      "endDate" : "2021-09-30T12:47:13.432-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_CAMPING_Trial1_Pic2",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_CAMPING_Trial1",
+      "startDate" : "2021-09-30T12:46:43.977-05:00",
+      "response" : 2,
+      "score" : 1
+    },
+    {
+      "position" : 8,
+      "sequenceNumber" : 1,
+      "practice" : true,
+      "endDate" : "2021-09-30T12:47:13.436-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_CAMPING_Trial1_Pic3",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_CAMPING_Trial1",
+      "startDate" : "2021-09-30T12:46:43.977-05:00",
+      "response" : 3,
+      "score" : 1
+    },
+    {
+      "position" : 9,
+      "sequenceNumber" : 1,
+      "practice" : true,
+      "endDate" : "2021-09-30T12:47:13.439-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_CAMPING_Trial1_Pic4",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_CAMPING_Trial1",
+      "startDate" : "2021-09-30T12:46:43.977-05:00",
+      "response" : 4,
+      "score" : 1
+    },
+    {
+      "position" : 10,
+      "endDate" : "2021-09-30T12:47:16.478-05:00",
+      "startDate" : "2021-09-30T12:47:14.320-05:00",
+      "identifier" : "PSM_MTB_TRANS_2",
+      "practice" : false,
+      "type" : "psmStepResult",
+      "didTimeout" : false,
+      "wasInterrupted" : false
+    },
+    {
+      "position" : 11,
+      "sequenceNumber" : 1,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch1",
+      "endDate" : "2021-09-30T12:48:40.812-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial1_Pic1",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial1",
+      "startDate" : "2021-09-30T12:47:17.062-05:00",
+      "response" : 2,
+      "score" : 0,
+      "adjacentPairScoreName" : "adjacentPairs1"
+    },
+    {
+      "position" : 12,
+      "sequenceNumber" : 1,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch1",
+      "endDate" : "2021-09-30T12:48:40.822-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial1_Pic2",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial1",
+      "startDate" : "2021-09-30T12:47:17.062-05:00",
+      "response" : 1,
+      "score" : 0,
+      "adjacentPairScoreName" : "adjacentPairs1"
+    },
+    {
+      "position" : 13,
+      "sequenceNumber" : 1,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch1",
+      "endDate" : "2021-09-30T12:48:40.827-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial1_Pic3",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial1",
+      "startDate" : "2021-09-30T12:47:17.062-05:00",
+      "response" : 3,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs1"
+    },
+    {
+      "position" : 14,
+      "sequenceNumber" : 1,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch1",
+      "endDate" : "2021-09-30T12:48:40.832-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial1_Pic4",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial1",
+      "startDate" : "2021-09-30T12:47:17.062-05:00",
+      "response" : 4,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs1"
+    },
+    {
+      "position" : 15,
+      "sequenceNumber" : 1,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch1",
+      "endDate" : "2021-09-30T12:48:40.835-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial1_Pic5",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial1",
+      "startDate" : "2021-09-30T12:47:17.062-05:00",
+      "response" : 5,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs1"
+    },
+    {
+      "position" : 16,
+      "sequenceNumber" : 1,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch1",
+      "endDate" : "2021-09-30T12:48:40.839-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial1_Pic6",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial1",
+      "startDate" : "2021-09-30T12:47:17.062-05:00",
+      "response" : 6,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs1"
+    },
+    {
+      "position" : 17,
+      "sequenceNumber" : 1,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch1",
+      "endDate" : "2021-09-30T12:48:40.842-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial1_Pic7",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial1",
+      "startDate" : "2021-09-30T12:47:17.062-05:00",
+      "response" : 7,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs1"
+    },
+    {
+      "position" : 18,
+      "sequenceNumber" : 1,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch1",
+      "endDate" : "2021-09-30T12:48:40.845-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial1_Pic8",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial1",
+      "startDate" : "2021-09-30T12:47:17.062-05:00",
+      "response" : 8,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs1"
+    },
+    {
+      "position" : 19,
+      "sequenceNumber" : 1,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch1",
+      "endDate" : "2021-09-30T12:48:40.848-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial1_Pic9",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial1",
+      "startDate" : "2021-09-30T12:47:17.062-05:00",
+      "response" : 9,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs1"
+    },
+    {
+      "position" : 20,
+      "sequenceNumber" : 1,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch1",
+      "endDate" : "2021-09-30T12:48:40.851-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial1_Pic10",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial1",
+      "startDate" : "2021-09-30T12:47:17.062-05:00",
+      "response" : 10,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs1"
+    },
+    {
+      "position" : 21,
+      "sequenceNumber" : 1,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch1",
+      "endDate" : "2021-09-30T12:48:40.853-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial1_Pic11",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial1",
+      "startDate" : "2021-09-30T12:47:17.062-05:00",
+      "response" : 11,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs1"
+    },
+    {
+      "position" : 22,
+      "sequenceNumber" : 1,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch1",
+      "endDate" : "2021-09-30T12:48:40.855-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial1_Pic12",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial1",
+      "startDate" : "2021-09-30T12:47:17.062-05:00",
+      "response" : 12,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs1"
+    },
+    {
+      "position" : 23,
+      "sequenceNumber" : 1,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch1",
+      "endDate" : "2021-09-30T12:48:40.858-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial1_Pic13",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial1",
+      "startDate" : "2021-09-30T12:47:17.062-05:00",
+      "response" : 13,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs1"
+    },
+    {
+      "position" : 24,
+      "sequenceNumber" : 1,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch1",
+      "endDate" : "2021-09-30T12:48:40.861-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial1_Pic14",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial1",
+      "startDate" : "2021-09-30T12:47:17.062-05:00",
+      "response" : 14,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs1"
+    },
+    {
+      "position" : 25,
+      "endDate" : "2021-09-30T12:48:41.820-05:00",
+      "startDate" : "2021-09-30T12:48:40.863-05:00",
+      "identifier" : "PSM_MTB_TRANS_Live_Nicework",
+      "practice" : false,
+      "type" : "psmStepResult",
+      "didTimeout" : false,
+      "wasInterrupted" : false
+    },
+    {
+      "position" : 26,
+      "sequenceNumber" : 2,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch2",
+      "endDate" : "2021-09-30T12:50:06.786-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial2_Pic1",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial2",
+      "startDate" : "2021-09-30T12:48:42.355-05:00",
+      "response" : 1,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs2"
+    },
+    {
+      "position" : 27,
+      "sequenceNumber" : 2,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch2",
+      "endDate" : "2021-09-30T12:50:06.801-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial2_Pic2",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial2",
+      "startDate" : "2021-09-30T12:48:42.355-05:00",
+      "response" : 2,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs2"
+    },
+    {
+      "position" : 28,
+      "sequenceNumber" : 2,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch2",
+      "endDate" : "2021-09-30T12:50:06.809-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial2_Pic3",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial2",
+      "startDate" : "2021-09-30T12:48:42.355-05:00",
+      "response" : 3,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs2"
+    },
+    {
+      "position" : 29,
+      "sequenceNumber" : 2,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch2",
+      "endDate" : "2021-09-30T12:50:06.814-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial2_Pic4",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial2",
+      "startDate" : "2021-09-30T12:48:42.355-05:00",
+      "response" : 4,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs2"
+    },
+    {
+      "position" : 30,
+      "sequenceNumber" : 2,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch2",
+      "endDate" : "2021-09-30T12:50:06.819-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial2_Pic5",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial2",
+      "startDate" : "2021-09-30T12:48:42.355-05:00",
+      "response" : 5,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs2"
+    },
+    {
+      "position" : 31,
+      "sequenceNumber" : 2,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch2",
+      "endDate" : "2021-09-30T12:50:06.824-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial2_Pic6",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial2",
+      "startDate" : "2021-09-30T12:48:42.355-05:00",
+      "response" : 6,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs2"
+    },
+    {
+      "position" : 32,
+      "sequenceNumber" : 2,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch2",
+      "endDate" : "2021-09-30T12:50:06.828-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial2_Pic7",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial2",
+      "startDate" : "2021-09-30T12:48:42.355-05:00",
+      "response" : 7,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs2"
+    },
+    {
+      "position" : 33,
+      "sequenceNumber" : 2,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch2",
+      "endDate" : "2021-09-30T12:50:06.832-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial2_Pic8",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial2",
+      "startDate" : "2021-09-30T12:48:42.355-05:00",
+      "response" : 8,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs2"
+    },
+    {
+      "position" : 34,
+      "sequenceNumber" : 2,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch2",
+      "endDate" : "2021-09-30T12:50:06.835-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial2_Pic9",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial2",
+      "startDate" : "2021-09-30T12:48:42.355-05:00",
+      "response" : 9,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs2"
+    },
+    {
+      "position" : 35,
+      "sequenceNumber" : 2,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch2",
+      "endDate" : "2021-09-30T12:50:06.839-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial2_Pic10",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial2",
+      "startDate" : "2021-09-30T12:48:42.355-05:00",
+      "response" : 10,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs2"
+    },
+    {
+      "position" : 36,
+      "sequenceNumber" : 2,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch2",
+      "endDate" : "2021-09-30T12:50:06.842-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial2_Pic11",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial2",
+      "startDate" : "2021-09-30T12:48:42.355-05:00",
+      "response" : 11,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs2"
+    },
+    {
+      "position" : 37,
+      "sequenceNumber" : 2,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch2",
+      "endDate" : "2021-09-30T12:50:06.845-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial2_Pic12",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial2",
+      "startDate" : "2021-09-30T12:48:42.355-05:00",
+      "response" : 12,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs2"
+    },
+    {
+      "position" : 38,
+      "sequenceNumber" : 2,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch2",
+      "endDate" : "2021-09-30T12:50:06.848-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial2_Pic13",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial2",
+      "startDate" : "2021-09-30T12:48:42.355-05:00",
+      "response" : 13,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs2"
+    },
+    {
+      "position" : 39,
+      "sequenceNumber" : 2,
+      "practice" : false,
+      "exactMatchScoreName" : "exactMatch2",
+      "endDate" : "2021-09-30T12:50:06.851-05:00",
+      "type" : "psmStepResult",
+      "identifier" : "PSM_MTB_FRIEND_Trial2_Pic14",
+      "wasInterrupted" : false,
+      "didTimeout" : false,
+      "parentStepIdentifier" : "PSM_MTB_FRIEND_Trial2",
+      "startDate" : "2021-09-30T12:48:42.355-05:00",
+      "response" : 14,
+      "score" : 1,
+      "adjacentPairScoreName" : "adjacentPairs2"
+    }
+  ]
+}

@@ -1,0 +1,4018 @@
+{
+  "steps": [
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_INTRO",
+      "position": 1,
+      "startDate": "2022-05-24T16:41:59.296-05:00",
+      "endDate": "2022-05-24T16:42:00.676-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_DEMO_1",
+      "position": 2,
+      "startDate": "2022-05-24T16:42:00.682-05:00",
+      "endDate": "2022-05-24T16:42:04.425-05:00",
+      "response": 2
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_DEMO_2",
+      "position": 3,
+      "startDate": "2022-05-24T16:42:04.429-05:00",
+      "endDate": "2022-05-24T16:42:06.576-05:00",
+      "response": 2
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_SHAPE_PRAC_1_a",
+      "position": 4,
+      "startDate": "2022-05-24T16:42:06.581-05:00",
+      "endDate": "2022-05-24T16:42:08.719-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_SHAPE_PRAC_1_b",
+      "position": 5,
+      "startDate": "2022-05-24T16:42:08.722-05:00",
+      "endDate": "2022-05-24T16:42:09.728-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_SHAPE_PRAC_1_c",
+      "position": 6,
+      "startDate": "2022-05-24T16:42:09.730-05:00",
+      "endDate": "2022-05-24T16:42:16.571-05:00",
+      "practice": true,
+      "response": 1,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_SHAPE_PRAC_2_a",
+      "position": 7,
+      "startDate": "2022-05-24T16:42:16.578-05:00",
+      "endDate": "2022-05-24T16:42:18.706-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_SHAPE_PRAC_2_b",
+      "position": 8,
+      "startDate": "2022-05-24T16:42:18.709-05:00",
+      "endDate": "2022-05-24T16:42:19.716-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_SHAPE_PRAC_2_c",
+      "position": 9,
+      "startDate": "2022-05-24T16:42:19.718-05:00",
+      "endDate": "2022-05-24T16:42:21.755-05:00",
+      "practice": true,
+      "response": 2,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_DEMO_3",
+      "position": 10,
+      "startDate": "2022-05-24T16:42:21.762-05:00",
+      "endDate": "2022-05-24T16:42:25.460-05:00",
+      "response": 2
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_DEMO_4",
+      "position": 11,
+      "startDate": "2022-05-24T16:42:25.472-05:00",
+      "endDate": "2022-05-24T16:42:28.952-05:00",
+      "response": 2
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_COLOR_PRAC_1_a",
+      "position": 12,
+      "startDate": "2022-05-24T16:42:28.959-05:00",
+      "endDate": "2022-05-24T16:42:31.086-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_COLOR_PRAC_1_b",
+      "position": 13,
+      "startDate": "2022-05-24T16:42:31.090-05:00",
+      "endDate": "2022-05-24T16:42:32.095-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_COLOR_PRAC_1_c",
+      "position": 14,
+      "startDate": "2022-05-24T16:42:32.099-05:00",
+      "endDate": "2022-05-24T16:42:34.212-05:00",
+      "practice": true,
+      "response": 2,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_COLOR_PRAC_2_a",
+      "position": 15,
+      "startDate": "2022-05-24T16:42:34.222-05:00",
+      "endDate": "2022-05-24T16:42:36.348-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_COLOR_PRAC_2_b",
+      "position": 16,
+      "startDate": "2022-05-24T16:42:36.355-05:00",
+      "endDate": "2022-05-24T16:42:37.359-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_COLOR_PRAC_2_c",
+      "position": 17,
+      "startDate": "2022-05-24T16:42:37.363-05:00",
+      "endDate": "2022-05-24T16:42:39.413-05:00",
+      "practice": true,
+      "response": 1,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_INSTR_1",
+      "position": 18,
+      "startDate": "2022-05-24T16:42:39.417-05:00",
+      "endDate": "2022-05-24T16:42:45.960-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_PRAC_1_a",
+      "position": 19,
+      "startDate": "2022-05-24T16:42:45.969-05:00",
+      "endDate": "2022-05-24T16:42:48.097-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_PRAC_1_b",
+      "position": 20,
+      "startDate": "2022-05-24T16:42:48.102-05:00",
+      "endDate": "2022-05-24T16:42:49.107-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_PRAC_1_c",
+      "position": 21,
+      "startDate": "2022-05-24T16:42:49.110-05:00",
+      "endDate": "2022-05-24T16:42:52.568-05:00",
+      "practice": true,
+      "response": 2,
+      "score": 0
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_PRAC_2_a",
+      "position": 22,
+      "startDate": "2022-05-24T16:42:52.578-05:00",
+      "endDate": "2022-05-24T16:42:54.706-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_PRAC_2_b",
+      "position": 23,
+      "startDate": "2022-05-24T16:42:54.712-05:00",
+      "endDate": "2022-05-24T16:42:55.717-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_PRAC_2_c",
+      "position": 24,
+      "startDate": "2022-05-24T16:42:55.722-05:00",
+      "endDate": "2022-05-24T16:42:57.336-05:00",
+      "practice": true,
+      "response": 1,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_PRAC_3_a",
+      "position": 25,
+      "startDate": "2022-05-24T16:42:57.345-05:00",
+      "endDate": "2022-05-24T16:42:59.474-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_PRAC_3_b",
+      "position": 26,
+      "startDate": "2022-05-24T16:42:59.479-05:00",
+      "endDate": "2022-05-24T16:43:00.484-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_PRAC_3_c",
+      "position": 27,
+      "startDate": "2022-05-24T16:43:00.489-05:00",
+      "endDate": "2022-05-24T16:43:02.174-05:00",
+      "practice": true,
+      "response": 2,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRANS_1",
+      "position": 28,
+      "startDate": "2022-05-24T16:43:02.177-05:00",
+      "endDate": "2022-05-24T16:43:03.511-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_1_a",
+      "position": 29,
+      "startDate": "2022-05-24T16:43:03.519-05:00",
+      "endDate": "2022-05-24T16:43:04.946-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_1_b",
+      "position": 30,
+      "startDate": "2022-05-24T16:43:04.950-05:00",
+      "endDate": "2022-05-24T16:43:06.958-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_1_c",
+      "position": 31,
+      "startDate": "2022-05-24T16:43:06.962-05:00",
+      "endDate": "2022-05-24T16:43:07.625-05:00",
+      "practice": false,
+      "response": 2,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_2_a",
+      "position": 32,
+      "startDate": "2022-05-24T16:43:07.635-05:00",
+      "endDate": "2022-05-24T16:43:09.056-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_2_b",
+      "position": 33,
+      "startDate": "2022-05-24T16:43:09.059-05:00",
+      "endDate": "2022-05-24T16:43:11.064-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_2_c",
+      "position": 34,
+      "startDate": "2022-05-24T16:43:11.067-05:00",
+      "endDate": "2022-05-24T16:43:11.579-05:00",
+      "practice": false,
+      "response": 1,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_3_a",
+      "position": 35,
+      "startDate": "2022-05-24T16:43:11.592-05:00",
+      "endDate": "2022-05-24T16:43:13.723-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_3_b",
+      "position": 36,
+      "startDate": "2022-05-24T16:43:13.731-05:00",
+      "endDate": "2022-05-24T16:43:15.738-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_3_c",
+      "position": 37,
+      "startDate": "2022-05-24T16:43:15.742-05:00",
+      "endDate": "2022-05-24T16:43:16.654-05:00",
+      "practice": false,
+      "response": 1,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_4_a",
+      "position": 38,
+      "startDate": "2022-05-24T16:43:16.661-05:00",
+      "endDate": "2022-05-24T16:43:18.789-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_4_b",
+      "position": 39,
+      "startDate": "2022-05-24T16:43:18.795-05:00",
+      "endDate": "2022-05-24T16:43:20.802-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_4_c",
+      "position": 40,
+      "startDate": "2022-05-24T16:43:20.805-05:00",
+      "endDate": "2022-05-24T16:43:21.331-05:00",
+      "practice": false,
+      "response": 2,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_5_a",
+      "position": 41,
+      "startDate": "2022-05-24T16:43:21.343-05:00",
+      "endDate": "2022-05-24T16:43:23.468-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_5_b",
+      "position": 42,
+      "startDate": "2022-05-24T16:43:23.474-05:00",
+      "endDate": "2022-05-24T16:43:25.480-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_5_c",
+      "position": 43,
+      "startDate": "2022-05-24T16:43:25.484-05:00",
+      "endDate": "2022-05-24T16:43:26.607-05:00",
+      "practice": false,
+      "response": 1,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_6_a",
+      "position": 44,
+      "startDate": "2022-05-24T16:43:26.614-05:00",
+      "endDate": "2022-05-24T16:43:28.748-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_6_b",
+      "position": 45,
+      "startDate": "2022-05-24T16:43:28.752-05:00",
+      "endDate": "2022-05-24T16:43:30.755-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_6_c",
+      "position": 46,
+      "startDate": "2022-05-24T16:43:30.758-05:00",
+      "endDate": "2022-05-24T16:43:31.526-05:00",
+      "practice": false,
+      "response": 1,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_7_a",
+      "position": 47,
+      "startDate": "2022-05-24T16:43:31.534-05:00",
+      "endDate": "2022-05-24T16:43:32.959-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_7_b",
+      "position": 48,
+      "startDate": "2022-05-24T16:43:32.964-05:00",
+      "endDate": "2022-05-24T16:43:34.968-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_7_c",
+      "position": 49,
+      "startDate": "2022-05-24T16:43:34.973-05:00",
+      "endDate": "2022-05-24T16:43:35.670-05:00",
+      "practice": false,
+      "response": 2,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_8_a",
+      "position": 50,
+      "startDate": "2022-05-24T16:43:35.677-05:00",
+      "endDate": "2022-05-24T16:43:37.808-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_8_b",
+      "position": 51,
+      "startDate": "2022-05-24T16:43:37.819-05:00",
+      "endDate": "2022-05-24T16:43:39.822-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_8_c",
+      "position": 52,
+      "startDate": "2022-05-24T16:43:39.824-05:00",
+      "endDate": "2022-05-24T16:43:40.513-05:00",
+      "practice": false,
+      "response": 2,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_9_a",
+      "position": 53,
+      "startDate": "2022-05-24T16:43:40.520-05:00",
+      "endDate": "2022-05-24T16:43:42.650-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_9_b",
+      "position": 54,
+      "startDate": "2022-05-24T16:43:42.656-05:00",
+      "endDate": "2022-05-24T16:43:44.662-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_9_c",
+      "position": 55,
+      "startDate": "2022-05-24T16:43:44.666-05:00",
+      "endDate": "2022-05-24T16:43:45.898-05:00",
+      "practice": false,
+      "response": 1,
+      "score": 0
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_10_a",
+      "position": 56,
+      "startDate": "2022-05-24T16:43:45.906-05:00",
+      "endDate": "2022-05-24T16:43:47.331-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_10_b",
+      "position": 57,
+      "startDate": "2022-05-24T16:43:47.336-05:00",
+      "endDate": "2022-05-24T16:43:49.343-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_10_c",
+      "position": 58,
+      "startDate": "2022-05-24T16:43:49.347-05:00",
+      "endDate": "2022-05-24T16:43:50.204-05:00",
+      "practice": false,
+      "response": 1,
+      "score": 0
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_11_a",
+      "position": 59,
+      "startDate": "2022-05-24T16:43:50.212-05:00",
+      "endDate": "2022-05-24T16:43:51.636-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_11_b",
+      "position": 60,
+      "startDate": "2022-05-24T16:43:51.640-05:00",
+      "endDate": "2022-05-24T16:43:53.647-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_11_c",
+      "position": 61,
+      "startDate": "2022-05-24T16:43:53.652-05:00",
+      "endDate": "2022-05-24T16:43:54.256-05:00",
+      "practice": false,
+      "response": 2,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_12_a",
+      "position": 62,
+      "startDate": "2022-05-24T16:43:54.265-05:00",
+      "endDate": "2022-05-24T16:43:55.690-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_12_b",
+      "position": 63,
+      "startDate": "2022-05-24T16:43:55.696-05:00",
+      "endDate": "2022-05-24T16:43:57.702-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_12_c",
+      "position": 64,
+      "startDate": "2022-05-24T16:43:57.705-05:00",
+      "endDate": "2022-05-24T16:43:58.328-05:00",
+      "practice": false,
+      "response": 1,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_13_a",
+      "position": 65,
+      "startDate": "2022-05-24T16:43:58.337-05:00",
+      "endDate": "2022-05-24T16:44:00.464-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_13_b",
+      "position": 66,
+      "startDate": "2022-05-24T16:44:00.473-05:00",
+      "endDate": "2022-05-24T16:44:02.480-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_13_c",
+      "position": 67,
+      "startDate": "2022-05-24T16:44:02.483-05:00",
+      "endDate": "2022-05-24T16:44:03.363-05:00",
+      "practice": false,
+      "response": 2,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_14_a",
+      "position": 68,
+      "startDate": "2022-05-24T16:44:03.373-05:00",
+      "endDate": "2022-05-24T16:44:04.796-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_14_b",
+      "position": 69,
+      "startDate": "2022-05-24T16:44:04.800-05:00",
+      "endDate": "2022-05-24T16:44:06.805-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_14_c",
+      "position": 70,
+      "startDate": "2022-05-24T16:44:06.809-05:00",
+      "endDate": "2022-05-24T16:44:07.575-05:00",
+      "practice": false,
+      "response": 1,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_15_a",
+      "position": 71,
+      "startDate": "2022-05-24T16:44:07.584-05:00",
+      "endDate": "2022-05-24T16:44:09.710-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_15_b",
+      "position": 72,
+      "startDate": "2022-05-24T16:44:09.716-05:00",
+      "endDate": "2022-05-24T16:44:11.723-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_15_c",
+      "position": 73,
+      "startDate": "2022-05-24T16:44:11.726-05:00",
+      "endDate": "2022-05-24T16:44:12.619-05:00",
+      "practice": false,
+      "response": 2,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_16_a",
+      "position": 74,
+      "startDate": "2022-05-24T16:44:12.629-05:00",
+      "endDate": "2022-05-24T16:44:14.061-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_16_b",
+      "position": 75,
+      "startDate": "2022-05-24T16:44:14.067-05:00",
+      "endDate": "2022-05-24T16:44:16.070-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_16_c",
+      "position": 76,
+      "startDate": "2022-05-24T16:44:16.072-05:00",
+      "endDate": "2022-05-24T16:44:17.240-05:00",
+      "practice": false,
+      "response": 2,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_17_a",
+      "position": 77,
+      "startDate": "2022-05-24T16:44:17.248-05:00",
+      "endDate": "2022-05-24T16:44:18.672-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_17_b",
+      "position": 78,
+      "startDate": "2022-05-24T16:44:18.677-05:00",
+      "endDate": "2022-05-24T16:44:20.684-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_17_c",
+      "position": 79,
+      "startDate": "2022-05-24T16:44:20.687-05:00",
+      "endDate": "2022-05-24T16:44:21.576-05:00",
+      "practice": false,
+      "response": 1,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_18_a",
+      "position": 80,
+      "startDate": "2022-05-24T16:44:21.585-05:00",
+      "endDate": "2022-05-24T16:44:23.712-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_18_b",
+      "position": 81,
+      "startDate": "2022-05-24T16:44:23.717-05:00",
+      "endDate": "2022-05-24T16:44:25.725-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_18_c",
+      "position": 82,
+      "startDate": "2022-05-24T16:44:25.730-05:00",
+      "endDate": "2022-05-24T16:44:26.719-05:00",
+      "practice": false,
+      "response": 1,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_19_a",
+      "position": 83,
+      "startDate": "2022-05-24T16:44:26.729-05:00",
+      "endDate": "2022-05-24T16:44:28.858-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_19_b",
+      "position": 84,
+      "startDate": "2022-05-24T16:44:28.863-05:00",
+      "endDate": "2022-05-24T16:44:30.868-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_19_c",
+      "position": 85,
+      "startDate": "2022-05-24T16:44:30.872-05:00",
+      "endDate": "2022-05-24T16:44:31.757-05:00",
+      "practice": false,
+      "response": 1,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_20_a",
+      "position": 86,
+      "startDate": "2022-05-24T16:44:31.767-05:00",
+      "endDate": "2022-05-24T16:44:33.197-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_20_b",
+      "position": 87,
+      "startDate": "2022-05-24T16:44:33.201-05:00",
+      "endDate": "2022-05-24T16:44:35.206-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_20_c",
+      "position": 88,
+      "startDate": "2022-05-24T16:44:35.209-05:00",
+      "endDate": "2022-05-24T16:44:36.254-05:00",
+      "practice": false,
+      "response": 1,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_21_a",
+      "position": 89,
+      "startDate": "2022-05-24T16:44:36.263-05:00",
+      "endDate": "2022-05-24T16:44:37.685-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_21_b",
+      "position": 90,
+      "startDate": "2022-05-24T16:44:37.690-05:00",
+      "endDate": "2022-05-24T16:44:39.696-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_21_c",
+      "position": 91,
+      "startDate": "2022-05-24T16:44:39.701-05:00",
+      "endDate": "2022-05-24T16:44:40.573-05:00",
+      "practice": false,
+      "response": 2,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_22_a",
+      "position": 92,
+      "startDate": "2022-05-24T16:44:40.583-05:00",
+      "endDate": "2022-05-24T16:44:42.006-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_22_b",
+      "position": 93,
+      "startDate": "2022-05-24T16:44:42.011-05:00",
+      "endDate": "2022-05-24T16:44:44.017-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_22_c",
+      "position": 94,
+      "startDate": "2022-05-24T16:44:44.021-05:00",
+      "endDate": "2022-05-24T16:44:44.879-05:00",
+      "practice": false,
+      "response": 1,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_23_a",
+      "position": 95,
+      "startDate": "2022-05-24T16:44:44.889-05:00",
+      "endDate": "2022-05-24T16:44:46.315-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_23_b",
+      "position": 96,
+      "startDate": "2022-05-24T16:44:46.326-05:00",
+      "endDate": "2022-05-24T16:44:48.332-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_23_c",
+      "position": 97,
+      "startDate": "2022-05-24T16:44:48.340-05:00",
+      "endDate": "2022-05-24T16:44:49.184-05:00",
+      "practice": false,
+      "response": 1,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_24_a",
+      "position": 98,
+      "startDate": "2022-05-24T16:44:49.194-05:00",
+      "endDate": "2022-05-24T16:44:51.320-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_24_b",
+      "position": 99,
+      "startDate": "2022-05-24T16:44:51.324-05:00",
+      "endDate": "2022-05-24T16:44:53.328-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_24_c",
+      "position": 100,
+      "startDate": "2022-05-24T16:44:53.329-05:00",
+      "endDate": "2022-05-24T16:44:54.061-05:00",
+      "practice": false,
+      "response": 2,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_25_a",
+      "position": 101,
+      "startDate": "2022-05-24T16:44:54.072-05:00",
+      "endDate": "2022-05-24T16:44:56.204-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_25_b",
+      "position": 102,
+      "startDate": "2022-05-24T16:44:56.211-05:00",
+      "endDate": "2022-05-24T16:44:58.218-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_25_c",
+      "position": 103,
+      "startDate": "2022-05-24T16:44:58.222-05:00",
+      "endDate": "2022-05-24T16:44:59.049-05:00",
+      "practice": false,
+      "response": 1,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_26_a",
+      "position": 104,
+      "startDate": "2022-05-24T16:44:59.065-05:00",
+      "endDate": "2022-05-24T16:45:01.190-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_26_b",
+      "position": 105,
+      "startDate": "2022-05-24T16:45:01.196-05:00",
+      "endDate": "2022-05-24T16:45:03.200-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_26_c",
+      "position": 106,
+      "startDate": "2022-05-24T16:45:03.202-05:00",
+      "endDate": "2022-05-24T16:45:04.075-05:00",
+      "practice": false,
+      "response": 2,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_27_a",
+      "position": 107,
+      "startDate": "2022-05-24T16:45:04.086-05:00",
+      "endDate": "2022-05-24T16:45:05.508-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_27_b",
+      "position": 108,
+      "startDate": "2022-05-24T16:45:05.514-05:00",
+      "endDate": "2022-05-24T16:45:07.516-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_27_c",
+      "position": 109,
+      "startDate": "2022-05-24T16:45:07.518-05:00",
+      "endDate": "2022-05-24T16:45:08.038-05:00",
+      "practice": false,
+      "response": 2,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_28_a",
+      "position": 110,
+      "startDate": "2022-05-24T16:45:08.049-05:00",
+      "endDate": "2022-05-24T16:45:09.473-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_28_b",
+      "position": 111,
+      "startDate": "2022-05-24T16:45:09.479-05:00",
+      "endDate": "2022-05-24T16:45:11.484-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_28_c",
+      "position": 112,
+      "startDate": "2022-05-24T16:45:11.491-05:00",
+      "endDate": "2022-05-24T16:45:12.169-05:00",
+      "practice": false,
+      "response": 1,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_29_a",
+      "position": 113,
+      "startDate": "2022-05-24T16:45:12.185-05:00",
+      "endDate": "2022-05-24T16:45:13.609-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_29_b",
+      "position": 114,
+      "startDate": "2022-05-24T16:45:13.615-05:00",
+      "endDate": "2022-05-24T16:45:15.620-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_29_c",
+      "position": 115,
+      "startDate": "2022-05-24T16:45:15.623-05:00",
+      "endDate": "2022-05-24T16:45:16.424-05:00",
+      "practice": false,
+      "response": 2,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_30_a",
+      "position": 116,
+      "startDate": "2022-05-24T16:45:16.438-05:00",
+      "endDate": "2022-05-24T16:45:17.866-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_30_b",
+      "position": 117,
+      "startDate": "2022-05-24T16:45:17.869-05:00",
+      "endDate": "2022-05-24T16:45:19.874-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_30_c",
+      "position": 118,
+      "startDate": "2022-05-24T16:45:19.877-05:00",
+      "endDate": "2022-05-24T16:45:20.797-05:00",
+      "practice": false,
+      "response": 2,
+      "score": 1
+    }
+  ],
+  "testVersion": "1.4.0",
+  "userInteractions": [
+    {
+      "stepIdentifier": "MTBDCCS_INTRO",
+      "timestamp": "2022-05-24T16:41:59.315-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_INTRO",
+      "timestamp": "2022-05-24T16:41:59.324-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_INTRO",
+      "timestamp": "2022-05-24T16:42:00.625-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "View instructions"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_INTRO",
+      "timestamp": "2022-05-24T16:42:00.675-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "View instructions"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_DEMO_1",
+      "timestamp": "2022-05-24T16:42:00.698-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_DEMO_1",
+      "timestamp": "2022-05-24T16:42:00.715-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_DEMO_1",
+      "timestamp": "2022-05-24T16:42:04.315-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": ">"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_DEMO_1",
+      "timestamp": "2022-05-24T16:42:04.422-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": ">"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_DEMO_2",
+      "timestamp": "2022-05-24T16:42:04.435-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_DEMO_2",
+      "timestamp": "2022-05-24T16:42:04.443-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_DEMO_2",
+      "timestamp": "2022-05-24T16:42:06.467-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "Practice"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_DEMO_2",
+      "timestamp": "2022-05-24T16:42:06.574-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "Practice"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_SHAPE_PRAC_1_a",
+      "timestamp": "2022-05-24T16:42:06.602-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_SHAPE_PRAC_1_a",
+      "timestamp": "2022-05-24T16:42:06.613-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_SHAPE_PRAC_1_b",
+      "timestamp": "2022-05-24T16:42:08.733-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_SHAPE_PRAC_1_c",
+      "timestamp": "2022-05-24T16:42:09.730-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_SHAPE_PRAC_1_c",
+      "timestamp": "2022-05-24T16:42:11.668-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "leftButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_SHAPE_PRAC_1_c",
+      "timestamp": "2022-05-24T16:42:11.766-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "leftButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_SHAPE_PRAC_1_c",
+      "timestamp": "2022-05-24T16:42:16.454-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "Next"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_SHAPE_PRAC_1_c",
+      "timestamp": "2022-05-24T16:42:16.569-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "Next"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_SHAPE_PRAC_2_a",
+      "timestamp": "2022-05-24T16:42:16.585-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_SHAPE_PRAC_2_a",
+      "timestamp": "2022-05-24T16:42:16.600-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_SHAPE_PRAC_2_b",
+      "timestamp": "2022-05-24T16:42:18.711-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_SHAPE_PRAC_2_c",
+      "timestamp": "2022-05-24T16:42:19.725-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_SHAPE_PRAC_2_c",
+      "timestamp": "2022-05-24T16:42:20.632-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "rightButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_SHAPE_PRAC_2_c",
+      "timestamp": "2022-05-24T16:42:20.739-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "rightButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_SHAPE_PRAC_2_c",
+      "timestamp": "2022-05-24T16:42:21.637-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "Next"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_SHAPE_PRAC_2_c",
+      "timestamp": "2022-05-24T16:42:21.752-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "Next"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_DEMO_3",
+      "timestamp": "2022-05-24T16:42:21.769-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_DEMO_3",
+      "timestamp": "2022-05-24T16:42:21.784-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_DEMO_3",
+      "timestamp": "2022-05-24T16:42:25.358-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": ">"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_DEMO_3",
+      "timestamp": "2022-05-24T16:42:25.458-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": ">"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_DEMO_4",
+      "timestamp": "2022-05-24T16:42:25.478-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_DEMO_4",
+      "timestamp": "2022-05-24T16:42:25.488-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_DEMO_4",
+      "timestamp": "2022-05-24T16:42:28.817-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "Practice"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_DEMO_4",
+      "timestamp": "2022-05-24T16:42:28.949-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "Practice"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_COLOR_PRAC_1_a",
+      "timestamp": "2022-05-24T16:42:28.965-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_COLOR_PRAC_1_a",
+      "timestamp": "2022-05-24T16:42:28.980-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_COLOR_PRAC_1_b",
+      "timestamp": "2022-05-24T16:42:31.093-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_COLOR_PRAC_1_c",
+      "timestamp": "2022-05-24T16:42:32.099-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_COLOR_PRAC_1_c",
+      "timestamp": "2022-05-24T16:42:32.764-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "rightButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_COLOR_PRAC_1_c",
+      "timestamp": "2022-05-24T16:42:32.838-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "rightButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_COLOR_PRAC_1_c",
+      "timestamp": "2022-05-24T16:42:34.168-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "Next"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_COLOR_PRAC_1_c",
+      "timestamp": "2022-05-24T16:42:34.209-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "Next"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_COLOR_PRAC_2_a",
+      "timestamp": "2022-05-24T16:42:34.228-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_COLOR_PRAC_2_a",
+      "timestamp": "2022-05-24T16:42:34.241-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_COLOR_PRAC_2_b",
+      "timestamp": "2022-05-24T16:42:36.365-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_COLOR_PRAC_2_c",
+      "timestamp": "2022-05-24T16:42:37.367-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_COLOR_PRAC_2_c",
+      "timestamp": "2022-05-24T16:42:38.181-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "leftButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_COLOR_PRAC_2_c",
+      "timestamp": "2022-05-24T16:42:38.263-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "leftButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_COLOR_PRAC_2_c",
+      "timestamp": "2022-05-24T16:42:39.310-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "Next"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_COLOR_PRAC_2_c",
+      "timestamp": "2022-05-24T16:42:39.409-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "Next"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_INSTR_1",
+      "timestamp": "2022-05-24T16:42:39.421-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_INSTR_1",
+      "timestamp": "2022-05-24T16:42:39.433-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_INSTR_1",
+      "timestamp": "2022-05-24T16:42:45.868-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "Practice"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_INSTR_1",
+      "timestamp": "2022-05-24T16:42:45.959-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "Practice"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_PRAC_1_a",
+      "timestamp": "2022-05-24T16:42:45.974-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_PRAC_1_a",
+      "timestamp": "2022-05-24T16:42:45.991-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_PRAC_1_b",
+      "timestamp": "2022-05-24T16:42:48.110-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_PRAC_1_c",
+      "timestamp": "2022-05-24T16:42:49.115-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_PRAC_1_c",
+      "timestamp": "2022-05-24T16:42:50.679-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "rightButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_PRAC_1_c",
+      "timestamp": "2022-05-24T16:42:50.786-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "rightButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_PRAC_1_c",
+      "timestamp": "2022-05-24T16:42:52.458-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "Next"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_PRAC_1_c",
+      "timestamp": "2022-05-24T16:42:52.564-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "Next"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_PRAC_2_a",
+      "timestamp": "2022-05-24T16:42:52.584-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_PRAC_2_a",
+      "timestamp": "2022-05-24T16:42:52.598-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_PRAC_2_b",
+      "timestamp": "2022-05-24T16:42:54.715-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_PRAC_2_c",
+      "timestamp": "2022-05-24T16:42:55.722-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_PRAC_2_c",
+      "timestamp": "2022-05-24T16:42:56.280-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "leftButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_PRAC_2_c",
+      "timestamp": "2022-05-24T16:42:56.354-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "leftButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_PRAC_2_c",
+      "timestamp": "2022-05-24T16:42:57.236-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "Next"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_PRAC_2_c",
+      "timestamp": "2022-05-24T16:42:57.335-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "Next"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_PRAC_3_a",
+      "timestamp": "2022-05-24T16:42:57.351-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_PRAC_3_a",
+      "timestamp": "2022-05-24T16:42:57.366-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_PRAC_3_b",
+      "timestamp": "2022-05-24T16:42:59.485-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_PRAC_3_c",
+      "timestamp": "2022-05-24T16:43:00.491-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_PRAC_3_c",
+      "timestamp": "2022-05-24T16:43:00.991-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "rightButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_PRAC_3_c",
+      "timestamp": "2022-05-24T16:43:01.124-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "rightButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_PRAC_3_c",
+      "timestamp": "2022-05-24T16:43:02.088-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "Next"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_PRAC_3_c",
+      "timestamp": "2022-05-24T16:43:02.171-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "Next"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRANS_1",
+      "timestamp": "2022-05-24T16:43:02.181-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRANS_1",
+      "timestamp": "2022-05-24T16:43:02.194-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRANS_1",
+      "timestamp": "2022-05-24T16:43:03.419-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "Start"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRANS_1",
+      "timestamp": "2022-05-24T16:43:03.509-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "Start"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_1_a",
+      "timestamp": "2022-05-24T16:43:03.527-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_1_a",
+      "timestamp": "2022-05-24T16:43:03.540-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_1_b",
+      "timestamp": "2022-05-24T16:43:04.954-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_1_c",
+      "timestamp": "2022-05-24T16:43:06.962-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_1_c",
+      "timestamp": "2022-05-24T16:43:07.555-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "rightButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_1_c",
+      "timestamp": "2022-05-24T16:43:07.622-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "rightButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_2_a",
+      "timestamp": "2022-05-24T16:43:07.643-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_2_a",
+      "timestamp": "2022-05-24T16:43:07.652-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_2_b",
+      "timestamp": "2022-05-24T16:43:09.065-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_2_c",
+      "timestamp": "2022-05-24T16:43:11.073-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_2_c",
+      "timestamp": "2022-05-24T16:43:11.519-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "leftButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_2_c",
+      "timestamp": "2022-05-24T16:43:11.575-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "leftButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_3_a",
+      "timestamp": "2022-05-24T16:43:11.602-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_3_a",
+      "timestamp": "2022-05-24T16:43:11.618-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_3_b",
+      "timestamp": "2022-05-24T16:43:13.735-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_3_c",
+      "timestamp": "2022-05-24T16:43:15.744-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_3_c",
+      "timestamp": "2022-05-24T16:43:16.569-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "leftButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_3_c",
+      "timestamp": "2022-05-24T16:43:16.652-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "leftButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_4_a",
+      "timestamp": "2022-05-24T16:43:16.668-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_4_a",
+      "timestamp": "2022-05-24T16:43:16.683-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_4_b",
+      "timestamp": "2022-05-24T16:43:18.802-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_4_c",
+      "timestamp": "2022-05-24T16:43:20.805-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_4_c",
+      "timestamp": "2022-05-24T16:43:21.230-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "rightButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_4_c",
+      "timestamp": "2022-05-24T16:43:21.329-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "rightButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_5_a",
+      "timestamp": "2022-05-24T16:43:21.350-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_5_a",
+      "timestamp": "2022-05-24T16:43:21.361-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_5_b",
+      "timestamp": "2022-05-24T16:43:23.480-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_5_c",
+      "timestamp": "2022-05-24T16:43:25.490-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_5_c",
+      "timestamp": "2022-05-24T16:43:26.522-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "leftButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_5_c",
+      "timestamp": "2022-05-24T16:43:26.604-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "leftButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_6_a",
+      "timestamp": "2022-05-24T16:43:26.622-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_6_a",
+      "timestamp": "2022-05-24T16:43:26.640-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_6_b",
+      "timestamp": "2022-05-24T16:43:28.758-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_6_c",
+      "timestamp": "2022-05-24T16:43:30.764-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_6_c",
+      "timestamp": "2022-05-24T16:43:31.456-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "leftButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_6_c",
+      "timestamp": "2022-05-24T16:43:31.521-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "leftButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_7_a",
+      "timestamp": "2022-05-24T16:43:31.541-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_7_a",
+      "timestamp": "2022-05-24T16:43:31.554-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_7_b",
+      "timestamp": "2022-05-24T16:43:32.968-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_7_c",
+      "timestamp": "2022-05-24T16:43:34.974-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_7_c",
+      "timestamp": "2022-05-24T16:43:35.569-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "rightButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_7_c",
+      "timestamp": "2022-05-24T16:43:35.668-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "rightButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_8_a",
+      "timestamp": "2022-05-24T16:43:35.684-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_8_a",
+      "timestamp": "2022-05-24T16:43:35.701-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_8_b",
+      "timestamp": "2022-05-24T16:43:37.827-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_8_c",
+      "timestamp": "2022-05-24T16:43:39.827-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_8_c",
+      "timestamp": "2022-05-24T16:43:40.404-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "rightButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_8_c",
+      "timestamp": "2022-05-24T16:43:40.512-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "rightButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_9_a",
+      "timestamp": "2022-05-24T16:43:40.527-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_9_a",
+      "timestamp": "2022-05-24T16:43:40.544-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_9_b",
+      "timestamp": "2022-05-24T16:43:42.661-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_9_c",
+      "timestamp": "2022-05-24T16:43:44.666-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_9_c",
+      "timestamp": "2022-05-24T16:43:45.813-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "leftButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_9_c",
+      "timestamp": "2022-05-24T16:43:45.895-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "leftButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_10_a",
+      "timestamp": "2022-05-24T16:43:45.913-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_10_a",
+      "timestamp": "2022-05-24T16:43:45.927-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_10_b",
+      "timestamp": "2022-05-24T16:43:47.340-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_10_c",
+      "timestamp": "2022-05-24T16:43:49.351-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_10_c",
+      "timestamp": "2022-05-24T16:43:50.116-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "leftButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_10_c",
+      "timestamp": "2022-05-24T16:43:50.198-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "leftButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_11_a",
+      "timestamp": "2022-05-24T16:43:50.219-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_11_a",
+      "timestamp": "2022-05-24T16:43:50.231-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_11_b",
+      "timestamp": "2022-05-24T16:43:51.645-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_11_c",
+      "timestamp": "2022-05-24T16:43:53.652-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_11_c",
+      "timestamp": "2022-05-24T16:43:54.213-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "rightButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_11_c",
+      "timestamp": "2022-05-24T16:43:54.254-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "rightButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_12_a",
+      "timestamp": "2022-05-24T16:43:54.273-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_12_a",
+      "timestamp": "2022-05-24T16:43:54.286-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_12_b",
+      "timestamp": "2022-05-24T16:43:55.700-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_12_c",
+      "timestamp": "2022-05-24T16:43:57.711-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_12_c",
+      "timestamp": "2022-05-24T16:43:58.243-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "leftButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_12_c",
+      "timestamp": "2022-05-24T16:43:58.325-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "leftButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_13_a",
+      "timestamp": "2022-05-24T16:43:58.345-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_13_a",
+      "timestamp": "2022-05-24T16:43:58.356-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_13_b",
+      "timestamp": "2022-05-24T16:44:00.474-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_13_c",
+      "timestamp": "2022-05-24T16:44:02.487-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_13_c",
+      "timestamp": "2022-05-24T16:44:03.237-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "rightButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_13_c",
+      "timestamp": "2022-05-24T16:44:03.360-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "rightButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_14_a",
+      "timestamp": "2022-05-24T16:44:03.381-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_14_a",
+      "timestamp": "2022-05-24T16:44:03.391-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_14_b",
+      "timestamp": "2022-05-24T16:44:04.805-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_14_c",
+      "timestamp": "2022-05-24T16:44:06.814-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_14_c",
+      "timestamp": "2022-05-24T16:44:07.482-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "leftButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_14_c",
+      "timestamp": "2022-05-24T16:44:07.573-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "leftButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_15_a",
+      "timestamp": "2022-05-24T16:44:07.592-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_15_a",
+      "timestamp": "2022-05-24T16:44:07.603-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_15_b",
+      "timestamp": "2022-05-24T16:44:09.723-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_15_c",
+      "timestamp": "2022-05-24T16:44:11.726-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_15_c",
+      "timestamp": "2022-05-24T16:44:12.476-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "rightButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_15_c",
+      "timestamp": "2022-05-24T16:44:12.617-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "rightButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_16_a",
+      "timestamp": "2022-05-24T16:44:12.637-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_16_a",
+      "timestamp": "2022-05-24T16:44:12.655-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_16_b",
+      "timestamp": "2022-05-24T16:44:14.075-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_16_c",
+      "timestamp": "2022-05-24T16:44:16.078-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_16_c",
+      "timestamp": "2022-05-24T16:44:17.120-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "rightButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_16_c",
+      "timestamp": "2022-05-24T16:44:17.236-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "rightButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_17_a",
+      "timestamp": "2022-05-24T16:44:17.256-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_17_a",
+      "timestamp": "2022-05-24T16:44:17.268-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_17_b",
+      "timestamp": "2022-05-24T16:44:18.687-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_17_c",
+      "timestamp": "2022-05-24T16:44:20.688-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_17_c",
+      "timestamp": "2022-05-24T16:44:21.490-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "leftButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_17_c",
+      "timestamp": "2022-05-24T16:44:21.573-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "leftButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_18_a",
+      "timestamp": "2022-05-24T16:44:21.594-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_18_a",
+      "timestamp": "2022-05-24T16:44:21.605-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_18_b",
+      "timestamp": "2022-05-24T16:44:23.727-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_18_c",
+      "timestamp": "2022-05-24T16:44:25.730-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_18_c",
+      "timestamp": "2022-05-24T16:44:26.619-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "leftButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_18_c",
+      "timestamp": "2022-05-24T16:44:26.718-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "leftButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_19_a",
+      "timestamp": "2022-05-24T16:44:26.738-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_19_a",
+      "timestamp": "2022-05-24T16:44:26.750-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_19_b",
+      "timestamp": "2022-05-24T16:44:28.867-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_19_c",
+      "timestamp": "2022-05-24T16:44:30.872-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_19_c",
+      "timestamp": "2022-05-24T16:44:31.656-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "leftButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_19_c",
+      "timestamp": "2022-05-24T16:44:31.754-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "leftButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_20_a",
+      "timestamp": "2022-05-24T16:44:31.775-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_20_a",
+      "timestamp": "2022-05-24T16:44:31.793-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_20_b",
+      "timestamp": "2022-05-24T16:44:33.206-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_20_c",
+      "timestamp": "2022-05-24T16:44:35.215-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_20_c",
+      "timestamp": "2022-05-24T16:44:36.158-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "leftButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_20_c",
+      "timestamp": "2022-05-24T16:44:36.249-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "leftButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_21_a",
+      "timestamp": "2022-05-24T16:44:36.271-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_21_a",
+      "timestamp": "2022-05-24T16:44:36.281-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_21_b",
+      "timestamp": "2022-05-24T16:44:37.694-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_21_c",
+      "timestamp": "2022-05-24T16:44:39.703-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_21_c",
+      "timestamp": "2022-05-24T16:44:40.464-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "rightButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_21_c",
+      "timestamp": "2022-05-24T16:44:40.571-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "rightButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_22_a",
+      "timestamp": "2022-05-24T16:44:40.591-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_22_a",
+      "timestamp": "2022-05-24T16:44:40.602-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_22_b",
+      "timestamp": "2022-05-24T16:44:42.016-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_22_c",
+      "timestamp": "2022-05-24T16:44:44.022-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_22_c",
+      "timestamp": "2022-05-24T16:44:44.803-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "leftButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_22_c",
+      "timestamp": "2022-05-24T16:44:44.877-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "leftButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_23_a",
+      "timestamp": "2022-05-24T16:44:44.897-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_23_a",
+      "timestamp": "2022-05-24T16:44:44.909-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_23_b",
+      "timestamp": "2022-05-24T16:44:46.330-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_23_c",
+      "timestamp": "2022-05-24T16:44:48.340-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_23_c",
+      "timestamp": "2022-05-24T16:44:49.092-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "leftButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_23_c",
+      "timestamp": "2022-05-24T16:44:49.182-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "leftButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_24_a",
+      "timestamp": "2022-05-24T16:44:49.202-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_24_a",
+      "timestamp": "2022-05-24T16:44:49.213-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_24_b",
+      "timestamp": "2022-05-24T16:44:51.332-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_24_c",
+      "timestamp": "2022-05-24T16:44:53.336-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_24_c",
+      "timestamp": "2022-05-24T16:44:53.936-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "rightButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_24_c",
+      "timestamp": "2022-05-24T16:44:54.060-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "rightButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_25_a",
+      "timestamp": "2022-05-24T16:44:54.080-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_25_a",
+      "timestamp": "2022-05-24T16:44:54.097-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_25_b",
+      "timestamp": "2022-05-24T16:44:56.212-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_25_c",
+      "timestamp": "2022-05-24T16:44:58.226-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_25_c",
+      "timestamp": "2022-05-24T16:44:58.955-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "leftButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_25_c",
+      "timestamp": "2022-05-24T16:44:59.045-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "leftButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_26_a",
+      "timestamp": "2022-05-24T16:44:59.073-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_26_a",
+      "timestamp": "2022-05-24T16:44:59.085-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_26_b",
+      "timestamp": "2022-05-24T16:45:01.205-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_26_c",
+      "timestamp": "2022-05-24T16:45:03.204-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_26_c",
+      "timestamp": "2022-05-24T16:45:03.949-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "rightButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_26_c",
+      "timestamp": "2022-05-24T16:45:04.073-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "rightButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_27_a",
+      "timestamp": "2022-05-24T16:45:04.095-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_27_a",
+      "timestamp": "2022-05-24T16:45:04.102-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_27_b",
+      "timestamp": "2022-05-24T16:45:05.517-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_27_c",
+      "timestamp": "2022-05-24T16:45:07.519-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_27_c",
+      "timestamp": "2022-05-24T16:45:07.920-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "rightButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_27_c",
+      "timestamp": "2022-05-24T16:45:08.036-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "rightButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_28_a",
+      "timestamp": "2022-05-24T16:45:08.057-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_28_a",
+      "timestamp": "2022-05-24T16:45:08.068-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_28_b",
+      "timestamp": "2022-05-24T16:45:09.481-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_28_c",
+      "timestamp": "2022-05-24T16:45:11.491-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_28_c",
+      "timestamp": "2022-05-24T16:45:12.076-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "leftButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_28_c",
+      "timestamp": "2022-05-24T16:45:12.167-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "leftButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_29_a",
+      "timestamp": "2022-05-24T16:45:12.194-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_29_a",
+      "timestamp": "2022-05-24T16:45:12.205-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_29_b",
+      "timestamp": "2022-05-24T16:45:13.620-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_29_c",
+      "timestamp": "2022-05-24T16:45:15.624-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_29_c",
+      "timestamp": "2022-05-24T16:45:16.339-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "rightButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_29_c",
+      "timestamp": "2022-05-24T16:45:16.422-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "rightButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_30_a",
+      "timestamp": "2022-05-24T16:45:16.447-05:00",
+      "controlEvent": [
+        "stepBegins"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_30_a",
+      "timestamp": "2022-05-24T16:45:16.461-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_30_b",
+      "timestamp": "2022-05-24T16:45:17.874-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_30_c",
+      "timestamp": "2022-05-24T16:45:19.881-05:00",
+      "controlEvent": [
+        "uiEnabled"
+      ],
+      "userInteractionIdentifier": ""
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_30_c",
+      "timestamp": "2022-05-24T16:45:20.694-05:00",
+      "controlEvent": [
+        "touchDown"
+      ],
+      "userInteractionIdentifier": "rightButton"
+    },
+    {
+      "stepIdentifier": "MTBDCCS_MIXED_TRIAL_30_c",
+      "timestamp": "2022-05-24T16:45:20.793-05:00",
+      "controlEvent": [
+        "touchUpInside"
+      ],
+      "userInteractionIdentifier": "rightButton"
+    }
+  ],
+  "taskStatus": [
+    "completed"
+  ],
+  "locale": "en-US",
+  "startDate": "2022-05-24T16:41:59.290-05:00",
+  "endDate": "2022-05-24T16:45:20.808-05:00",
+  "taskName": "Dimensional Change Card Sort",
+  "stepHistory": [
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_INTRO",
+      "position": 1,
+      "startDate": "2022-05-24T16:41:59.296-05:00",
+      "endDate": "2022-05-24T16:42:00.676-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_DEMO_1",
+      "position": 2,
+      "startDate": "2022-05-24T16:42:00.682-05:00",
+      "endDate": "2022-05-24T16:42:04.425-05:00",
+      "response": 2
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_DEMO_2",
+      "position": 3,
+      "startDate": "2022-05-24T16:42:04.429-05:00",
+      "endDate": "2022-05-24T16:42:06.576-05:00",
+      "response": 2
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_SHAPE_PRAC_1_a",
+      "position": 4,
+      "startDate": "2022-05-24T16:42:06.581-05:00",
+      "endDate": "2022-05-24T16:42:08.719-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_SHAPE_PRAC_1_b",
+      "position": 5,
+      "startDate": "2022-05-24T16:42:08.722-05:00",
+      "endDate": "2022-05-24T16:42:09.728-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_SHAPE_PRAC_1_c",
+      "position": 6,
+      "startDate": "2022-05-24T16:42:09.730-05:00",
+      "endDate": "2022-05-24T16:42:16.571-05:00",
+      "practice": true,
+      "response": 1,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_SHAPE_PRAC_2_a",
+      "position": 7,
+      "startDate": "2022-05-24T16:42:16.578-05:00",
+      "endDate": "2022-05-24T16:42:18.706-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_SHAPE_PRAC_2_b",
+      "position": 8,
+      "startDate": "2022-05-24T16:42:18.709-05:00",
+      "endDate": "2022-05-24T16:42:19.716-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_SHAPE_PRAC_2_c",
+      "position": 9,
+      "startDate": "2022-05-24T16:42:19.718-05:00",
+      "endDate": "2022-05-24T16:42:21.755-05:00",
+      "practice": true,
+      "response": 2,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_DEMO_3",
+      "position": 10,
+      "startDate": "2022-05-24T16:42:21.762-05:00",
+      "endDate": "2022-05-24T16:42:25.460-05:00",
+      "response": 2
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_DEMO_4",
+      "position": 11,
+      "startDate": "2022-05-24T16:42:25.472-05:00",
+      "endDate": "2022-05-24T16:42:28.952-05:00",
+      "response": 2
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_COLOR_PRAC_1_a",
+      "position": 12,
+      "startDate": "2022-05-24T16:42:28.959-05:00",
+      "endDate": "2022-05-24T16:42:31.086-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_COLOR_PRAC_1_b",
+      "position": 13,
+      "startDate": "2022-05-24T16:42:31.090-05:00",
+      "endDate": "2022-05-24T16:42:32.095-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_COLOR_PRAC_1_c",
+      "position": 14,
+      "startDate": "2022-05-24T16:42:32.099-05:00",
+      "endDate": "2022-05-24T16:42:34.212-05:00",
+      "practice": true,
+      "response": 2,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_COLOR_PRAC_2_a",
+      "position": 15,
+      "startDate": "2022-05-24T16:42:34.222-05:00",
+      "endDate": "2022-05-24T16:42:36.348-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_COLOR_PRAC_2_b",
+      "position": 16,
+      "startDate": "2022-05-24T16:42:36.355-05:00",
+      "endDate": "2022-05-24T16:42:37.359-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_COLOR_PRAC_2_c",
+      "position": 17,
+      "startDate": "2022-05-24T16:42:37.363-05:00",
+      "endDate": "2022-05-24T16:42:39.413-05:00",
+      "practice": true,
+      "response": 1,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_INSTR_1",
+      "position": 18,
+      "startDate": "2022-05-24T16:42:39.417-05:00",
+      "endDate": "2022-05-24T16:42:45.960-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_PRAC_1_a",
+      "position": 19,
+      "startDate": "2022-05-24T16:42:45.969-05:00",
+      "endDate": "2022-05-24T16:42:48.097-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_PRAC_1_b",
+      "position": 20,
+      "startDate": "2022-05-24T16:42:48.102-05:00",
+      "endDate": "2022-05-24T16:42:49.107-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_PRAC_1_c",
+      "position": 21,
+      "startDate": "2022-05-24T16:42:49.110-05:00",
+      "endDate": "2022-05-24T16:42:52.568-05:00",
+      "practice": true,
+      "response": 2,
+      "score": 0
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_PRAC_2_a",
+      "position": 22,
+      "startDate": "2022-05-24T16:42:52.578-05:00",
+      "endDate": "2022-05-24T16:42:54.706-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_PRAC_2_b",
+      "position": 23,
+      "startDate": "2022-05-24T16:42:54.712-05:00",
+      "endDate": "2022-05-24T16:42:55.717-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_PRAC_2_c",
+      "position": 24,
+      "startDate": "2022-05-24T16:42:55.722-05:00",
+      "endDate": "2022-05-24T16:42:57.336-05:00",
+      "practice": true,
+      "response": 1,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_PRAC_3_a",
+      "position": 25,
+      "startDate": "2022-05-24T16:42:57.345-05:00",
+      "endDate": "2022-05-24T16:42:59.474-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_PRAC_3_b",
+      "position": 26,
+      "startDate": "2022-05-24T16:42:59.479-05:00",
+      "endDate": "2022-05-24T16:43:00.484-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_PRAC_3_c",
+      "position": 27,
+      "startDate": "2022-05-24T16:43:00.489-05:00",
+      "endDate": "2022-05-24T16:43:02.174-05:00",
+      "practice": true,
+      "response": 2,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRANS_1",
+      "position": 28,
+      "startDate": "2022-05-24T16:43:02.177-05:00",
+      "endDate": "2022-05-24T16:43:03.511-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_1_a",
+      "position": 29,
+      "startDate": "2022-05-24T16:43:03.519-05:00",
+      "endDate": "2022-05-24T16:43:04.946-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_1_b",
+      "position": 30,
+      "startDate": "2022-05-24T16:43:04.950-05:00",
+      "endDate": "2022-05-24T16:43:06.958-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_1_c",
+      "position": 31,
+      "startDate": "2022-05-24T16:43:06.962-05:00",
+      "endDate": "2022-05-24T16:43:07.625-05:00",
+      "practice": false,
+      "response": 2,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_2_a",
+      "position": 32,
+      "startDate": "2022-05-24T16:43:07.635-05:00",
+      "endDate": "2022-05-24T16:43:09.056-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_2_b",
+      "position": 33,
+      "startDate": "2022-05-24T16:43:09.059-05:00",
+      "endDate": "2022-05-24T16:43:11.064-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_2_c",
+      "position": 34,
+      "startDate": "2022-05-24T16:43:11.067-05:00",
+      "endDate": "2022-05-24T16:43:11.579-05:00",
+      "practice": false,
+      "response": 1,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_3_a",
+      "position": 35,
+      "startDate": "2022-05-24T16:43:11.592-05:00",
+      "endDate": "2022-05-24T16:43:13.723-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_3_b",
+      "position": 36,
+      "startDate": "2022-05-24T16:43:13.731-05:00",
+      "endDate": "2022-05-24T16:43:15.738-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_3_c",
+      "position": 37,
+      "startDate": "2022-05-24T16:43:15.742-05:00",
+      "endDate": "2022-05-24T16:43:16.654-05:00",
+      "practice": false,
+      "response": 1,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_4_a",
+      "position": 38,
+      "startDate": "2022-05-24T16:43:16.661-05:00",
+      "endDate": "2022-05-24T16:43:18.789-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_4_b",
+      "position": 39,
+      "startDate": "2022-05-24T16:43:18.795-05:00",
+      "endDate": "2022-05-24T16:43:20.802-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_4_c",
+      "position": 40,
+      "startDate": "2022-05-24T16:43:20.805-05:00",
+      "endDate": "2022-05-24T16:43:21.331-05:00",
+      "practice": false,
+      "response": 2,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_5_a",
+      "position": 41,
+      "startDate": "2022-05-24T16:43:21.343-05:00",
+      "endDate": "2022-05-24T16:43:23.468-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_5_b",
+      "position": 42,
+      "startDate": "2022-05-24T16:43:23.474-05:00",
+      "endDate": "2022-05-24T16:43:25.480-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_5_c",
+      "position": 43,
+      "startDate": "2022-05-24T16:43:25.484-05:00",
+      "endDate": "2022-05-24T16:43:26.607-05:00",
+      "practice": false,
+      "response": 1,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_6_a",
+      "position": 44,
+      "startDate": "2022-05-24T16:43:26.614-05:00",
+      "endDate": "2022-05-24T16:43:28.748-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_6_b",
+      "position": 45,
+      "startDate": "2022-05-24T16:43:28.752-05:00",
+      "endDate": "2022-05-24T16:43:30.755-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_6_c",
+      "position": 46,
+      "startDate": "2022-05-24T16:43:30.758-05:00",
+      "endDate": "2022-05-24T16:43:31.526-05:00",
+      "practice": false,
+      "response": 1,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_7_a",
+      "position": 47,
+      "startDate": "2022-05-24T16:43:31.534-05:00",
+      "endDate": "2022-05-24T16:43:32.959-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_7_b",
+      "position": 48,
+      "startDate": "2022-05-24T16:43:32.964-05:00",
+      "endDate": "2022-05-24T16:43:34.968-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_7_c",
+      "position": 49,
+      "startDate": "2022-05-24T16:43:34.973-05:00",
+      "endDate": "2022-05-24T16:43:35.670-05:00",
+      "practice": false,
+      "response": 2,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_8_a",
+      "position": 50,
+      "startDate": "2022-05-24T16:43:35.677-05:00",
+      "endDate": "2022-05-24T16:43:37.808-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_8_b",
+      "position": 51,
+      "startDate": "2022-05-24T16:43:37.819-05:00",
+      "endDate": "2022-05-24T16:43:39.822-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_8_c",
+      "position": 52,
+      "startDate": "2022-05-24T16:43:39.824-05:00",
+      "endDate": "2022-05-24T16:43:40.513-05:00",
+      "practice": false,
+      "response": 2,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_9_a",
+      "position": 53,
+      "startDate": "2022-05-24T16:43:40.520-05:00",
+      "endDate": "2022-05-24T16:43:42.650-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_9_b",
+      "position": 54,
+      "startDate": "2022-05-24T16:43:42.656-05:00",
+      "endDate": "2022-05-24T16:43:44.662-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_9_c",
+      "position": 55,
+      "startDate": "2022-05-24T16:43:44.666-05:00",
+      "endDate": "2022-05-24T16:43:45.898-05:00",
+      "practice": false,
+      "response": 1,
+      "score": 0
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_10_a",
+      "position": 56,
+      "startDate": "2022-05-24T16:43:45.906-05:00",
+      "endDate": "2022-05-24T16:43:47.331-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_10_b",
+      "position": 57,
+      "startDate": "2022-05-24T16:43:47.336-05:00",
+      "endDate": "2022-05-24T16:43:49.343-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_10_c",
+      "position": 58,
+      "startDate": "2022-05-24T16:43:49.347-05:00",
+      "endDate": "2022-05-24T16:43:50.204-05:00",
+      "practice": false,
+      "response": 1,
+      "score": 0
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_11_a",
+      "position": 59,
+      "startDate": "2022-05-24T16:43:50.212-05:00",
+      "endDate": "2022-05-24T16:43:51.636-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_11_b",
+      "position": 60,
+      "startDate": "2022-05-24T16:43:51.640-05:00",
+      "endDate": "2022-05-24T16:43:53.647-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_11_c",
+      "position": 61,
+      "startDate": "2022-05-24T16:43:53.652-05:00",
+      "endDate": "2022-05-24T16:43:54.256-05:00",
+      "practice": false,
+      "response": 2,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_12_a",
+      "position": 62,
+      "startDate": "2022-05-24T16:43:54.265-05:00",
+      "endDate": "2022-05-24T16:43:55.690-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_12_b",
+      "position": 63,
+      "startDate": "2022-05-24T16:43:55.696-05:00",
+      "endDate": "2022-05-24T16:43:57.702-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_12_c",
+      "position": 64,
+      "startDate": "2022-05-24T16:43:57.705-05:00",
+      "endDate": "2022-05-24T16:43:58.328-05:00",
+      "practice": false,
+      "response": 1,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_13_a",
+      "position": 65,
+      "startDate": "2022-05-24T16:43:58.337-05:00",
+      "endDate": "2022-05-24T16:44:00.464-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_13_b",
+      "position": 66,
+      "startDate": "2022-05-24T16:44:00.473-05:00",
+      "endDate": "2022-05-24T16:44:02.480-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_13_c",
+      "position": 67,
+      "startDate": "2022-05-24T16:44:02.483-05:00",
+      "endDate": "2022-05-24T16:44:03.363-05:00",
+      "practice": false,
+      "response": 2,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_14_a",
+      "position": 68,
+      "startDate": "2022-05-24T16:44:03.373-05:00",
+      "endDate": "2022-05-24T16:44:04.796-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_14_b",
+      "position": 69,
+      "startDate": "2022-05-24T16:44:04.800-05:00",
+      "endDate": "2022-05-24T16:44:06.805-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_14_c",
+      "position": 70,
+      "startDate": "2022-05-24T16:44:06.809-05:00",
+      "endDate": "2022-05-24T16:44:07.575-05:00",
+      "practice": false,
+      "response": 1,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_15_a",
+      "position": 71,
+      "startDate": "2022-05-24T16:44:07.584-05:00",
+      "endDate": "2022-05-24T16:44:09.710-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_15_b",
+      "position": 72,
+      "startDate": "2022-05-24T16:44:09.716-05:00",
+      "endDate": "2022-05-24T16:44:11.723-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_15_c",
+      "position": 73,
+      "startDate": "2022-05-24T16:44:11.726-05:00",
+      "endDate": "2022-05-24T16:44:12.619-05:00",
+      "practice": false,
+      "response": 2,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_16_a",
+      "position": 74,
+      "startDate": "2022-05-24T16:44:12.629-05:00",
+      "endDate": "2022-05-24T16:44:14.061-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_16_b",
+      "position": 75,
+      "startDate": "2022-05-24T16:44:14.067-05:00",
+      "endDate": "2022-05-24T16:44:16.070-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_16_c",
+      "position": 76,
+      "startDate": "2022-05-24T16:44:16.072-05:00",
+      "endDate": "2022-05-24T16:44:17.240-05:00",
+      "practice": false,
+      "response": 2,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_17_a",
+      "position": 77,
+      "startDate": "2022-05-24T16:44:17.248-05:00",
+      "endDate": "2022-05-24T16:44:18.672-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_17_b",
+      "position": 78,
+      "startDate": "2022-05-24T16:44:18.677-05:00",
+      "endDate": "2022-05-24T16:44:20.684-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_17_c",
+      "position": 79,
+      "startDate": "2022-05-24T16:44:20.687-05:00",
+      "endDate": "2022-05-24T16:44:21.576-05:00",
+      "practice": false,
+      "response": 1,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_18_a",
+      "position": 80,
+      "startDate": "2022-05-24T16:44:21.585-05:00",
+      "endDate": "2022-05-24T16:44:23.712-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_18_b",
+      "position": 81,
+      "startDate": "2022-05-24T16:44:23.717-05:00",
+      "endDate": "2022-05-24T16:44:25.725-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_18_c",
+      "position": 82,
+      "startDate": "2022-05-24T16:44:25.730-05:00",
+      "endDate": "2022-05-24T16:44:26.719-05:00",
+      "practice": false,
+      "response": 1,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_19_a",
+      "position": 83,
+      "startDate": "2022-05-24T16:44:26.729-05:00",
+      "endDate": "2022-05-24T16:44:28.858-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_19_b",
+      "position": 84,
+      "startDate": "2022-05-24T16:44:28.863-05:00",
+      "endDate": "2022-05-24T16:44:30.868-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_19_c",
+      "position": 85,
+      "startDate": "2022-05-24T16:44:30.872-05:00",
+      "endDate": "2022-05-24T16:44:31.757-05:00",
+      "practice": false,
+      "response": 1,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_20_a",
+      "position": 86,
+      "startDate": "2022-05-24T16:44:31.767-05:00",
+      "endDate": "2022-05-24T16:44:33.197-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_20_b",
+      "position": 87,
+      "startDate": "2022-05-24T16:44:33.201-05:00",
+      "endDate": "2022-05-24T16:44:35.206-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_20_c",
+      "position": 88,
+      "startDate": "2022-05-24T16:44:35.209-05:00",
+      "endDate": "2022-05-24T16:44:36.254-05:00",
+      "practice": false,
+      "response": 1,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_21_a",
+      "position": 89,
+      "startDate": "2022-05-24T16:44:36.263-05:00",
+      "endDate": "2022-05-24T16:44:37.685-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_21_b",
+      "position": 90,
+      "startDate": "2022-05-24T16:44:37.690-05:00",
+      "endDate": "2022-05-24T16:44:39.696-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_21_c",
+      "position": 91,
+      "startDate": "2022-05-24T16:44:39.701-05:00",
+      "endDate": "2022-05-24T16:44:40.573-05:00",
+      "practice": false,
+      "response": 2,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_22_a",
+      "position": 92,
+      "startDate": "2022-05-24T16:44:40.583-05:00",
+      "endDate": "2022-05-24T16:44:42.006-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_22_b",
+      "position": 93,
+      "startDate": "2022-05-24T16:44:42.011-05:00",
+      "endDate": "2022-05-24T16:44:44.017-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_22_c",
+      "position": 94,
+      "startDate": "2022-05-24T16:44:44.021-05:00",
+      "endDate": "2022-05-24T16:44:44.879-05:00",
+      "practice": false,
+      "response": 1,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_23_a",
+      "position": 95,
+      "startDate": "2022-05-24T16:44:44.889-05:00",
+      "endDate": "2022-05-24T16:44:46.315-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_23_b",
+      "position": 96,
+      "startDate": "2022-05-24T16:44:46.326-05:00",
+      "endDate": "2022-05-24T16:44:48.332-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_23_c",
+      "position": 97,
+      "startDate": "2022-05-24T16:44:48.340-05:00",
+      "endDate": "2022-05-24T16:44:49.184-05:00",
+      "practice": false,
+      "response": 1,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_24_a",
+      "position": 98,
+      "startDate": "2022-05-24T16:44:49.194-05:00",
+      "endDate": "2022-05-24T16:44:51.320-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_24_b",
+      "position": 99,
+      "startDate": "2022-05-24T16:44:51.324-05:00",
+      "endDate": "2022-05-24T16:44:53.328-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_24_c",
+      "position": 100,
+      "startDate": "2022-05-24T16:44:53.329-05:00",
+      "endDate": "2022-05-24T16:44:54.061-05:00",
+      "practice": false,
+      "response": 2,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_25_a",
+      "position": 101,
+      "startDate": "2022-05-24T16:44:54.072-05:00",
+      "endDate": "2022-05-24T16:44:56.204-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_25_b",
+      "position": 102,
+      "startDate": "2022-05-24T16:44:56.211-05:00",
+      "endDate": "2022-05-24T16:44:58.218-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_25_c",
+      "position": 103,
+      "startDate": "2022-05-24T16:44:58.222-05:00",
+      "endDate": "2022-05-24T16:44:59.049-05:00",
+      "practice": false,
+      "response": 1,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_26_a",
+      "position": 104,
+      "startDate": "2022-05-24T16:44:59.065-05:00",
+      "endDate": "2022-05-24T16:45:01.190-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_26_b",
+      "position": 105,
+      "startDate": "2022-05-24T16:45:01.196-05:00",
+      "endDate": "2022-05-24T16:45:03.200-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_26_c",
+      "position": 106,
+      "startDate": "2022-05-24T16:45:03.202-05:00",
+      "endDate": "2022-05-24T16:45:04.075-05:00",
+      "practice": false,
+      "response": 2,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_27_a",
+      "position": 107,
+      "startDate": "2022-05-24T16:45:04.086-05:00",
+      "endDate": "2022-05-24T16:45:05.508-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_27_b",
+      "position": 108,
+      "startDate": "2022-05-24T16:45:05.514-05:00",
+      "endDate": "2022-05-24T16:45:07.516-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_27_c",
+      "position": 109,
+      "startDate": "2022-05-24T16:45:07.518-05:00",
+      "endDate": "2022-05-24T16:45:08.038-05:00",
+      "practice": false,
+      "response": 2,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_28_a",
+      "position": 110,
+      "startDate": "2022-05-24T16:45:08.049-05:00",
+      "endDate": "2022-05-24T16:45:09.473-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_28_b",
+      "position": 111,
+      "startDate": "2022-05-24T16:45:09.479-05:00",
+      "endDate": "2022-05-24T16:45:11.484-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_28_c",
+      "position": 112,
+      "startDate": "2022-05-24T16:45:11.491-05:00",
+      "endDate": "2022-05-24T16:45:12.169-05:00",
+      "practice": false,
+      "response": 1,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_29_a",
+      "position": 113,
+      "startDate": "2022-05-24T16:45:12.185-05:00",
+      "endDate": "2022-05-24T16:45:13.609-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_29_b",
+      "position": 114,
+      "startDate": "2022-05-24T16:45:13.615-05:00",
+      "endDate": "2022-05-24T16:45:15.620-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_29_c",
+      "position": 115,
+      "startDate": "2022-05-24T16:45:15.623-05:00",
+      "endDate": "2022-05-24T16:45:16.424-05:00",
+      "practice": false,
+      "response": 2,
+      "score": 1
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_30_a",
+      "position": 116,
+      "startDate": "2022-05-24T16:45:16.438-05:00",
+      "endDate": "2022-05-24T16:45:17.866-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_30_b",
+      "position": 117,
+      "startDate": "2022-05-24T16:45:17.869-05:00",
+      "endDate": "2022-05-24T16:45:19.874-05:00"
+    },
+    {
+      "type": "edu.northwestern.mobiletoolbox.common.data.MtbStepResult",
+      "identifier": "MTBDCCS_MIXED_TRIAL_30_c",
+      "position": 118,
+      "startDate": "2022-05-24T16:45:19.877-05:00",
+      "endDate": "2022-05-24T16:45:20.797-05:00",
+      "practice": false,
+      "response": 2,
+      "score": 1
+    }
+  ],
+  "taskRunUUID": "dc8ea1d3-b915-43c9-908e-f72a15593389",
+  "schemaIdentifier": "EF_DCCS",
+  "scores": {
+    "rawScore": 28,
+    "nAnticipationLive": 0,
+    "nAnticipationPractice": 0,
+    "accuracy": 0.9333333333333333
+  }
+}

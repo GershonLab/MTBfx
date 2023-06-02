@@ -119,7 +119,7 @@ dichEngine <- function(iparFull, uFull, calib, lastAdmin, targetProb=0.5, minNI=
         }
         if(verbose) cat(as.character(nGiven), "\t","testItem", "\t", paste0("V",test.item[length(test.item)]), "\n",
                         as.character(nGiven), "\t","rnd.exp", "\t", rnd.exp[length(rnd.exp)], "\n",
-                        as.character(nGiven), "\t","test.exp","\t",test.exp[length(test.exp)], fill=TRUE)
+                        as.character(nGiven), "\t","test.exp","\t",unlist(test.exp[length(test.exp)]), fill=TRUE)
         if(test.exp[length(test.exp)] >= rnd.exp[length(rnd.exp)]){                    # administer the item if passes exposure control rules
           itemAvail[test.item[length(test.item)]] <- FALSE
           admin.TF <- c(admin.TF, TRUE)
@@ -137,7 +137,7 @@ dichEngine <- function(iparFull, uFull, calib, lastAdmin, targetProb=0.5, minNI=
                                                ifelse(interimScores[nGiven,'Theta'] + sign(tmp$Theta)*stepVal > maxTheta, maxTheta,
                                                       interimScores[nGiven,'Theta'] + sign(tmp$Theta)*stepVal)),nonML_se)
       } else if(tmp$iter >= maxCycles){
-        for(i in c(-.5,.5,-1,1,-1.5,1.5)){
+        for(i in c(-.5,.5,-1,1,-1.5,1.5, -2, 2, -3, 3, -6, 6, -10, 10, -15, 15)){
           tmp2 <- MLE_xPL(ipar=iparFull[admin.ItemID,], u=resp, crit=critScore, maxIter=maxCycles,
                           minTheta=minTheta, maxTheta=maxTheta, st_th=i)
           if(tmp2$iter < maxCycles){
@@ -189,7 +189,7 @@ dichEngine <- function(iparFull, uFull, calib, lastAdmin, targetProb=0.5, minNI=
           }
           if(verbose) cat(as.character(nGiven), "\t","testItem", "\t", paste0("C",test.item[length(test.item)]), "\n",
                           as.character(nGiven), "\t","rnd.exp", "\t", rnd.exp[length(rnd.exp)], "\n",
-                          as.character(nGiven), "\t","test.exp","\t",test.exp[length(test.exp)], fill=TRUE)
+                          as.character(nGiven), "\t","test.exp","\t",unlist(test.exp[length(test.exp)]), fill=TRUE)
           if(test.exp[length(test.exp)] >= rnd.exp[length(rnd.exp)]){                    # administer the item if passes exposure control rules
             itemAvailSplit[['1']][test.item[length(test.item)]] <- FALSE
             admin.TF <- c(admin.TF, TRUE)
@@ -209,7 +209,7 @@ dichEngine <- function(iparFull, uFull, calib, lastAdmin, targetProb=0.5, minNI=
                                                  ifelse(interimScores[nGiven,'Theta'] + sign(tmp$Theta)*stepVal > maxTheta, maxTheta,
                                                         interimScores[nGiven,'Theta'] + sign(tmp$Theta)*stepVal)),nonML_se)
         } else if(tmp$iter >= maxCycles){
-          for(i in c(-.5,.5,-1,1,-1.5,1.5)){
+          for(i in c(-.5,.5,-1,1,-1.5,1.5, -2, 2, -3, 3, -6, 6, -10, 10, -15, 15)){
             tmp2 <- MLE_xPL(ipar=ipar_Split[['1']][admin.ItemID[which(admin_type == 'Calibrated')],],
                             u=resp[which(admin_type == 'Calibrated')],
                             crit=critScore, maxIter=maxCycles, minTheta=minTheta, maxTheta=maxTheta, st_th=i)
