@@ -122,8 +122,7 @@
    },
    "schemaIdentifier":{
      "type": "string",
-     "description": "this is the identifier for the unique schema. It is a hyperlink stored as a string, which points to the relevant JSON schema on the MobileToolbox github page.",
-     "pattern": "^(https|http|HTTPS|HTTP):\/\/(www\.)?(github|GITHUB|GitHub)\.com\/MobileToolbox[^\s]*$",
+     "description": "this is the identifier for the unique schema."
    },
    "testVersion": {
      "description": "The task version administered in this record. Note that this is a number stored as a string",
