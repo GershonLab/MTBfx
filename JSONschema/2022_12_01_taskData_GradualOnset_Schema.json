@@ -1,0 +1,603 @@
+{
+ "$schema": "http://json-schema.org/draft-07/schema#",
+ "$id": "sharedSchema_for_Gradual_Onset",
+ "title": "Combined MTB Schema for Gradual Onset",
+ "description": "This schema combines all elements of the Android and iOS versions of the Mobile Toolbox Gradual Onset tests into a single schema.",
+ "type": "object",
+ "definitions":{
+   "timemarks":{
+     "type": "string",
+     "format": "date-time",
+     "description": "The timestamp when an event occurred, following ISO 8601 formatting conventions"
+   },
+   "stepIdentifier":{
+     "type": "string",
+     "description": "This is an identifier for various steps. It may be the step identifier, the identifier for an individual image, or for the parent step under which all images occur. It is used within `interactions`, `steps`, and `stepHistory` for various purposes."
+   },
+   "userInteractionIdentifier":{
+     "type": "string",
+     "description": "This was formerly called `identifier`, but has been renamed for clarity. It is used within interactions to indicate the UI element with which the person is interacting."
+   },
+   
+    "responseTime":{
+     "type": "number",
+     "default": 0,
+     "minimum": 0,
+     "description": "Time, in milliseconds, for a response to occur"
+   },
+   "controlEvent":{
+     "type": "array",
+     "maxItems": 1,
+     "description": "This is used within interactions to record the type of event that is occurring. It is an enumerated field.",
+     "items":[
+       {"type": "string"},
+       {"enum": ["stepBegins","interrupted","resumed","uiEnabled","touchDown","touchUpInside","touchUpOutside","keypress","setSelection"]}
+       ]
+   },
+   
+   "practice": {
+     "type": "boolean",
+     "default": false,
+     "description": "An indicator for whether this item is a practice item [TRUE] or a live item [FALSE]."
+   },
+   
+   "wasInterrupted": {
+     "type": "boolean",
+     "default": false,
+     "description": "An indicator for whether an interruption occurred on this item."
+   },
+   "trialType":{
+     "type": "string",
+     "description": "The type of trial this is",
+     "examples":["test"]
+   },
+   "trialImg":{
+     "type": "string",
+     "description": "The image used in the trial",
+     "examples":["city7"]
+   },
+   "trialLen":{
+     "type": "integer",
+     "minimum": 0,
+     "description": "Trial length"
+   },
+   "go":{
+     "type": "integer",
+     "minimum": 0,
+     "description": "Which go?"
+   },
+   "correctStr":{
+     "type": "string",
+     "description": "Correct type Str",
+     "examples":["omissionError"]
+   },
+   "correctInt":{
+     "type": "integer",
+     "description": "Correct type Int"
+     
+   },
+   "responseTypeStr":{
+     "type": "string",
+     "description": "Type of response in Gradual Onset",
+     "examples":["omissionOrCorrectResponseWithdrawal"]
+   },
+   "responseTypeInt":{
+     "type": "integer",
+     "description": "Type of response in Gradual Onset"
+     
+   },
+   "responseCode":{
+     "type": "integer",
+     "minimum": 0,
+     "description": "Response code for Gradual Onset"
+   },
+   "state":{
+     "type": "string",
+     "description": "State for Gradual Onset",
+     "examples":["NA"]
+   },
+   "percentImage":{
+     "type": "integer",
+     "minimum": 0,
+     "description": "Image percent for Gradual Onset"
+   },
+   "stepResultType":{
+     "type": "string",
+     "description": "The type of result this is",
+     "examples":["spellingStepresult","mfsStepResult","mssStepResult"]
+   },
+   "itemScore": {
+     "type": "integer",
+     "default": 1,
+     "minimum": 0,
+     "maximum": 1,
+     "description": "The score is an indicator for whether an item is correct and thus scored as 1 or incorrect and scored as 0."
+   },
+   "trial":{
+     "type": "integer",
+     "minimum": 1,
+     "description": "Trial number"
+   },
+   
+   "responseInt": {
+     "type": "integer",
+     "description": "This is the int-int schema, whereby the response is a string and the score is an integer. Often this is the position on the screen for a response. With current measures, it is limited to 0 to 18, which is wider than most tasks need but should adequately cover all current measures.",
+     "minimum": 0,
+     "maximum": 26
+   }
+   
+   
+ },
+ "properties":{
+   "startDate": {"$ref": "#/definitions/timemarks"},
+   "endDate": {"$ref": "#/definitions/timemarks"},
+   "taskStatus":{
+     "type": "array",
+     "description": "completion status for the task.",
+     "maxItems": 1,
+     "items":[
+       {"type":"string"},
+       {"enum": ["complete","willNotComplete","partiallyComplete"]}
+	    ]
+   },
+   "locale":{
+     "type": "string",
+     "description": "localization for the phone on which the task was administered - note that this is metadata passed by the app and thus not enumerated herein",
+     "default": "en-us"
+   },
+   "taskName": {
+     "type": "string",
+     "description": "This is the test/task name as administered. It will be automatically provided as part of metadata and as such is not enumerated herein"
+   },
+   "schemaIdentifier":{
+     "type": "string",
+     "description": "this is the identifier for the unique schema. It is currently an array with length one, but will eventually be a hyperlink stored as a string, which points to the relevant JSON schema.",
+     "$comment": "This will eventually be enumerated for the relevant URLs."
+   },
+   "testVersion": {
+     "description": "The version of MFS administered in this record. Note that this is a number stored as a string",
+     "type": "string"
+   },
+   "scores": {
+     "type": "object",
+     "description": "This is a series of key-value pairs for scores calculated on-device. These are task-specific and as such not specified herein (or at least not yet)."
+   },
+   "taskRunUUID":{
+     "type": "string",
+     "format": "uuid",
+     "description": "This is a global identifier"
+   },
+   "userInteractions":{
+     "type": "array",
+     "description": "List validation for user interactions. This records screen progression, UI events, and button actions on a step-by-step basis",
+     "items":{
+       "oneOf": [
+         {
+           "type": "object",
+           "description": "Standard user interactions for most measures",
+           "properties":{
+             "stepIdentifier":{"$ref": "#/definitions/stepIdentifier"},
+             "timestamp": {"$ref": "#/definitions/timemarks"},
+             "controlEvent":{"$ref": "#/definitions/controlEvent"},
+             "userInteractionIdentifier":{"$ref": "#/definitions/userInteractionIdentifier"}
+           },
+           "additionalProperties": false,
+           "required": ["stepIdentifier","timestamp","controlEvent","userInteractionIdentifier"]
+         }
+         
+	      ]
+     }
+   },
+   
+   "steps":{
+     "type": "array",
+     "description": "This records all of the items/steps administered during this assessment. It records the response and score",
+     "additionalItems": false,
+     "items":{
+       "oneOf": [
+         
+         {
+             "type": "object",
+             "description": "Gradual Onset Type 1 Android",
+             "properties":{
+               "type":{"$ref": "#/definitions/stepResultType"},
+               "identifier": {"$ref": "#/definitions/stepIdentifier"},
+               "trial": {"$ref": "#/definitions/trial"},
+               "startDate": {"$ref": "#/definitions/timemarks"},
+               "endDate": {"$ref": "#/definitions/timemarks"},
+               "response": {"$ref": "#/definitions/responseInt"},
+               "practice": {"$ref": "#/definitions/practice"},
+               "wasInterrupted":{"$ref": "#/definitions/wasInterrupted"}
+            },
+            "required": ["type","identifier","startDate","endDate","response","practice","wasInterrupted"],
+            "additionalProperties": false
+         },
+         {
+             "type": "object",
+             "description": "Gradual Onset Type 2 Android",
+             "properties":{
+               "type":{"$ref": "#/definitions/stepResultType"},
+               "identifier": {"$ref": "#/definitions/stepIdentifier"},
+               "trial": {"$ref": "#/definitions/trial"},
+               "startDate": {"$ref": "#/definitions/timemarks"},
+               "endDate": {"$ref": "#/definitions/timemarks"},
+               "practice": {"$ref": "#/definitions/practice"},
+               "wasInterrupted":{"$ref": "#/definitions/wasInterrupted"}
+            },
+            "required": ["type","identifier","trial","startDate","endDate","practice", "wasInterrupted" ],
+            "additionalProperties": false
+         },
+         {
+             "type": "object",
+             "description": "Gradual Onset Type 3 Android",
+             "properties":{
+               "type":{"$ref": "#/definitions/stepResultType"},
+               "identifier": {"$ref": "#/definitions/stepIdentifier"},
+               "trial": {"$ref": "#/definitions/trial"},
+               "startDate": {"$ref": "#/definitions/timemarks"},
+               "endDate": {"$ref": "#/definitions/timemarks"},
+               "response": {"$ref": "#/definitions/responseInt"},
+               "score": {"$ref": "#/definitions/itemScore"},
+               "practice": {"$ref": "#/definitions/practice"},
+               "rt": {"$ref": "#/definitions/responseTime"},
+               "wasInterrupted":{"$ref": "#/definitions/wasInterrupted"}
+            },
+            "required": ["type","identifier","startDate","endDate","score","response","practice","rt", "wasInterrupted" ],
+            "additionalProperties": false
+         },
+         {
+             "type": "object",
+             "description": "Gradual Onset Type 4 Android",
+             "properties":{
+               "type":{"$ref": "#/definitions/stepResultType"},
+               "identifier": {"$ref": "#/definitions/stepIdentifier"},
+               "trial": {"$ref": "#/definitions/trial"},
+               "startDate": {"$ref": "#/definitions/timemarks"},
+               "endDate": {"$ref": "#/definitions/timemarks"},
+               "practice": {"$ref": "#/definitions/practice"},
+               "rt": {"$ref": "#/definitions/responseTime"},
+               "wasInterrupted":{"$ref": "#/definitions/wasInterrupted"}
+              
+            },
+            "required": ["type","identifier","startDate","endDate","practice","rt", "wasInterrupted" ],
+            "additionalProperties": false
+         },
+         {
+             "type": "object",
+             "description": "Gradual Onset Type 5 Android",
+             "properties":{
+               "type":{"$ref": "#/definitions/stepResultType"},
+               "identifier": {"$ref": "#/definitions/stepIdentifier"},
+               "trial": {"$ref": "#/definitions/trial"},
+               "startDate": {"$ref": "#/definitions/timemarks"},
+               "endDate": {"$ref": "#/definitions/timemarks"},
+               "response": {"$ref": "#/definitions/responseInt"},
+               "score": {"$ref": "#/definitions/itemScore"},
+               "practice": {"$ref": "#/definitions/practice"},
+               "rt": {"$ref": "#/definitions/responseTime"},
+               "trialType": {"$ref": "#/definitions/trialType"},
+               "trialImg": {"$ref": "#/definitions/trialImg"},
+               "trialLen": {"$ref": "#/definitions/trialLen"},
+               "go": {"$ref": "#/definitions/go"},
+               "correct": {"$ref": "#/definitions/correctInt"},
+               "responseType": {"$ref": "#/definitions/responseTypeInt"},
+               "responseCode": {"$ref": "#/definitions/responseCode"},
+               "state": {"$ref": "#/definitions/state"},
+               "percentImage": {"$ref": "#/definitions/percentImage"},
+               "wasInterrupted":{"$ref": "#/definitions/wasInterrupted"}
+            },
+            "required": ["type","identifier","trial", "startDate","endDate","response","score","practice","rt","trialType","trialImg",
+                 "trialLen", "go","correct","responseType","responseCode",
+                 "state","percentImage" , "wasInterrupted"  ],
+            "additionalProperties": false
+         },
+         {
+             "type": "object",
+             "description": "Gradual Onset Type 1 iOS",
+             "properties":{
+               "correct": {"$ref": "#/definitions/correctInt"},
+               "endDate": {"$ref": "#/definitions/timemarks"},
+               "go": {"$ref": "#/definitions/go"},
+               "identifier": {"$ref": "#/definitions/stepIdentifier"},
+               "percentImage": {"$ref": "#/definitions/percentImage"},
+               "responseCode": {"$ref": "#/definitions/responseCode"},
+               "responseType": {"$ref": "#/definitions/responseTypeInt"},
+               "rt": {"$ref": "#/definitions/responseTime"},
+               "startDate": {"$ref": "#/definitions/timemarks"},
+               "state": {"$ref": "#/definitions/state"},
+               "trialImg": {"$ref": "#/definitions/trialImg"},
+               "trialLen": {"$ref": "#/definitions/trialLen"},
+               "trialType": {"$ref": "#/definitions/trialType"},
+               "type":{"$ref": "#/definitions/stepResultType"},
+               "wasInterrupted": {"$ref": "#/definitions/wasInterrupted"}
+            },
+            "required": ["correct","endDate","go","identifier","percentImage","responseCode","responseType","rt","startDate","state","trialImg","trialLen","trialType","type","wasInterrupted"   ],
+            "additionalProperties": false
+         },
+         {
+             "type": "object",
+             "description": "Gradual Onset Type 2 iOS",
+             "properties":{
+               "correct": {"$ref": "#/definitions/correctInt"},
+               "endDate": {"$ref": "#/definitions/timemarks"},
+               "go": {"$ref": "#/definitions/go"},
+               "identifier": {"$ref": "#/definitions/stepIdentifier"},
+               "percentImage": {"$ref": "#/definitions/percentImage"},
+               "response": {"$ref": "#/definitions/responseInt"},
+               "responseCode": {"$ref": "#/definitions/responseCode"},
+               "responseType": {"$ref": "#/definitions/responseTypeInt"},
+               "rt": {"$ref": "#/definitions/responseTime"},
+               "startDate": {"$ref": "#/definitions/timemarks"},
+               "state": {"$ref": "#/definitions/state"},
+               "trialImg": {"$ref": "#/definitions/trialImg"},
+               "trialLen": {"$ref": "#/definitions/trialLen"},
+               "trialType": {"$ref": "#/definitions/trialType"},
+               "type":{"$ref": "#/definitions/stepResultType"},
+               "wasInterrupted": {"$ref": "#/definitions/wasInterrupted"}
+            },
+            "required": ["correct","endDate","go","identifier","percentImage","response","responseCode","responseType","rt","startDate","state","trialImg","trialLen","trialType","type","wasInterrupted"   ],
+            "additionalProperties": false
+         },
+         {
+             "type": "object",
+             "description": "Gradual Onset Type 3 iOS",
+             "properties":{
+               "correct": {"$ref": "#/definitions/correctInt"},
+               "endDate": {"$ref": "#/definitions/timemarks"},
+               "go": {"$ref": "#/definitions/go"},
+               "identifier": {"$ref": "#/definitions/stepIdentifier"},
+               "percentImage": {"$ref": "#/definitions/percentImage"},
+               "response": {"$ref": "#/definitions/responseInt"},
+               "responseCode": {"$ref": "#/definitions/responseCode"},
+               "responseType": {"$ref": "#/definitions/responseTypeInt"},
+               "rt": {"$ref": "#/definitions/responseTime"},
+               "score": {"$ref": "#/definitions/itemScore"},
+               "startDate": {"$ref": "#/definitions/timemarks"},
+               "state": {"$ref": "#/definitions/state"},
+               "trialImg": {"$ref": "#/definitions/trialImg"},
+               "trialLen": {"$ref": "#/definitions/trialLen"},
+               "trialType": {"$ref": "#/definitions/trialType"},
+               "type":{"$ref": "#/definitions/stepResultType"},
+               "wasInterrupted": {"$ref": "#/definitions/wasInterrupted"}
+            },
+            "required": ["correct","endDate","go","identifier","percentImage","response","responseCode","responseType","rt","score","startDate","state","trialImg","trialLen","trialType","type","wasInterrupted"   ],
+            "additionalProperties": false
+         },
+         {
+             "type": "object",
+             "description": "Gradual Onset Type 4 iOS",
+             "properties":{
+               "correct": {"$ref": "#/definitions/correctInt"},
+               "endDate": {"$ref": "#/definitions/timemarks"},
+               "go": {"$ref": "#/definitions/go"},
+               "identifier": {"$ref": "#/definitions/stepIdentifier"},
+               "percentImage": {"$ref": "#/definitions/percentImage"},
+               "response": {"$ref": "#/definitions/responseInt"},
+               "responseCode": {"$ref": "#/definitions/responseCode"},
+               "responseType": {"$ref": "#/definitions/responseTypeInt"},
+               "rt": {"$ref": "#/definitions/responseTime"},
+               "score": {"$ref": "#/definitions/itemScore"},
+               "startDate": {"$ref": "#/definitions/timemarks"},
+               "trial": {"$ref": "#/definitions/trial"},
+               "state": {"$ref": "#/definitions/state"},
+               "trialImg": {"$ref": "#/definitions/trialImg"},
+               "trialLen": {"$ref": "#/definitions/trialLen"},
+               "trialType": {"$ref": "#/definitions/trialType"},
+               "type":{"$ref": "#/definitions/stepResultType"},
+               "wasInterrupted": {"$ref": "#/definitions/wasInterrupted"}
+            },
+            "required": ["correct","endDate","go","identifier","percentImage","response","responseCode","responseType","rt","score","startDate","state","trial", "trialImg","trialLen","trialType","type","wasInterrupted"   ],
+            "additionalProperties": false
+         }
+      ]
+     }
+   },
+   "stepHistory":{
+     "type": "array",
+     "description": "This records all of the items/steps administered presented or considered during this assessment. It records the response and score if an examinee got to that point; it also records items that may not have been completed, e.g. due to an interruption. It is identical to or a superset of the `steps` field",
+     "additionalItems": false,
+     "items":{
+       "oneOf": [
+         
+         {
+             "type": "object",
+             "description": "Gradual Onset Type 1 Android",
+             "properties":{
+               "type":{"$ref": "#/definitions/stepResultType"},
+               "identifier": {"$ref": "#/definitions/stepIdentifier"},
+               "trial": {"$ref": "#/definitions/trial"},
+               "startDate": {"$ref": "#/definitions/timemarks"},
+               "endDate": {"$ref": "#/definitions/timemarks"},
+               "response": {"$ref": "#/definitions/responseInt"},
+               "practice": {"$ref": "#/definitions/practice"},
+               "wasInterrupted":{"$ref": "#/definitions/wasInterrupted"}
+            },
+            "required": ["type","identifier","startDate","endDate","response","practice","wasInterrupted"],
+            "additionalProperties": false
+         },
+         {
+             "type": "object",
+             "description": "Gradual Onset Type 2 Android",
+             "properties":{
+               "type":{"$ref": "#/definitions/stepResultType"},
+               "identifier": {"$ref": "#/definitions/stepIdentifier"},
+               "trial": {"$ref": "#/definitions/trial"},
+               "startDate": {"$ref": "#/definitions/timemarks"},
+               "endDate": {"$ref": "#/definitions/timemarks"},
+               "practice": {"$ref": "#/definitions/practice"},
+               "wasInterrupted":{"$ref": "#/definitions/wasInterrupted"}
+               
+            },
+            "required": ["type","identifier","trial","startDate","endDate","practice","wasInterrupted"],
+            "additionalProperties": false
+         },
+         {
+             "type": "object",
+             "description": "Gradual Onset Type 3 Android",
+             "properties":{
+               "type":{"$ref": "#/definitions/stepResultType"},
+               "identifier": {"$ref": "#/definitions/stepIdentifier"},
+               "trial": {"$ref": "#/definitions/trial"},
+               "startDate": {"$ref": "#/definitions/timemarks"},
+               "endDate": {"$ref": "#/definitions/timemarks"},
+               "response": {"$ref": "#/definitions/responseInt"},
+               "score": {"$ref": "#/definitions/itemScore"},
+               "practice": {"$ref": "#/definitions/practice"},
+               "rt": {"$ref": "#/definitions/responseTime"},
+               "wasInterrupted":{"$ref": "#/definitions/wasInterrupted"}
+            },
+            "required": ["type","identifier","startDate","endDate","score","response","practice","rt","wasInterrupted"],
+            "additionalProperties": false
+         },
+         {
+             "type": "object",
+             "description": "Gradual Onset Type 4 Android",
+             "properties":{
+               "type":{"$ref": "#/definitions/stepResultType"},
+               "identifier": {"$ref": "#/definitions/stepIdentifier"},
+               "trial": {"$ref": "#/definitions/trial"},
+               "startDate": {"$ref": "#/definitions/timemarks"},
+               "endDate": {"$ref": "#/definitions/timemarks"},
+               "practice": {"$ref": "#/definitions/practice"},
+               "rt": {"$ref": "#/definitions/responseTime"},
+               "wasInterrupted":{"$ref": "#/definitions/wasInterrupted"}
+              
+            },
+            "required": ["type","identifier","startDate","endDate","practice","rt","wasInterrupted"],
+            "additionalProperties": false
+         },
+         {
+             "type": "object",
+             "description": "Gradual Onset Type 5 Android",
+             "properties":{
+               "type":{"$ref": "#/definitions/stepResultType"},
+               "identifier": {"$ref": "#/definitions/stepIdentifier"},
+               "trial": {"$ref": "#/definitions/trial"},
+               "startDate": {"$ref": "#/definitions/timemarks"},
+               "endDate": {"$ref": "#/definitions/timemarks"},
+               "response": {"$ref": "#/definitions/responseInt"},
+               "score": {"$ref": "#/definitions/itemScore"},
+               "practice": {"$ref": "#/definitions/practice"},
+               "rt": {"$ref": "#/definitions/responseTime"},
+               "trialType": {"$ref": "#/definitions/trialType"},
+               "trialImg": {"$ref": "#/definitions/trialImg"},
+               "trialLen": {"$ref": "#/definitions/trialLen"},
+               "go": {"$ref": "#/definitions/go"},
+               "correct": {"$ref": "#/definitions/correctInt"},
+               "responseType": {"$ref": "#/definitions/responseTypeInt"},
+               "responseCode": {"$ref": "#/definitions/responseCode"},
+               "state": {"$ref": "#/definitions/state"},
+               "percentImage": {"$ref": "#/definitions/percentImage"},
+               "wasInterrupted":{"$ref": "#/definitions/wasInterrupted"}
+            },
+            "required": ["type","identifier","trial", "startDate","endDate","response","score","practice","rt","trialType","trialImg",
+                 "trialLen", "go","correct","responseType","responseCode",
+                 "state","percentImage" ,"wasInterrupted"  ],
+            "additionalProperties": false
+         },
+         {
+             "type": "object",
+             "description": "Gradual Onset Type 1 iOS",
+             "properties":{
+               "correct": {"$ref": "#/definitions/correctInt"},
+               "endDate": {"$ref": "#/definitions/timemarks"},
+               "go": {"$ref": "#/definitions/go"},
+               "identifier": {"$ref": "#/definitions/stepIdentifier"},
+               "percentImage": {"$ref": "#/definitions/percentImage"},
+               "responseCode": {"$ref": "#/definitions/responseCode"},
+               "responseType": {"$ref": "#/definitions/responseTypeInt"},
+               "rt": {"$ref": "#/definitions/responseTime"},
+               "startDate": {"$ref": "#/definitions/timemarks"},
+               "state": {"$ref": "#/definitions/state"},
+               "trialImg": {"$ref": "#/definitions/trialImg"},
+               "trialLen": {"$ref": "#/definitions/trialLen"},
+               "trialType": {"$ref": "#/definitions/trialType"},
+               "type":{"$ref": "#/definitions/stepResultType"},
+               "wasInterrupted": {"$ref": "#/definitions/wasInterrupted"}
+            },
+            "required": ["correct","endDate","go","identifier","percentImage","responseCode","responseType","rt","startDate","state","trialImg","trialLen","trialType","type","wasInterrupted"   ],
+            "additionalProperties": false
+         },
+         {
+             "type": "object",
+             "description": "Gradual Onset Type 2 iOS",
+             "properties":{
+               "correct": {"$ref": "#/definitions/correctInt"},
+               "endDate": {"$ref": "#/definitions/timemarks"},
+               "go": {"$ref": "#/definitions/go"},
+               "identifier": {"$ref": "#/definitions/stepIdentifier"},
+               "percentImage": {"$ref": "#/definitions/percentImage"},
+               "response": {"$ref": "#/definitions/responseInt"},
+               "responseCode": {"$ref": "#/definitions/responseCode"},
+               "responseType": {"$ref": "#/definitions/responseTypeInt"},
+               "rt": {"$ref": "#/definitions/responseTime"},
+               "startDate": {"$ref": "#/definitions/timemarks"},
+               "state": {"$ref": "#/definitions/state"},
+               "trialImg": {"$ref": "#/definitions/trialImg"},
+               "trialLen": {"$ref": "#/definitions/trialLen"},
+               "trialType": {"$ref": "#/definitions/trialType"},
+               "type":{"$ref": "#/definitions/stepResultType"},
+               "wasInterrupted": {"$ref": "#/definitions/wasInterrupted"}
+            },
+            "required": ["correct","endDate","go","identifier","percentImage","response","responseCode","responseType","rt","startDate","state","trialImg","trialLen","trialType","type","wasInterrupted"   ],
+            "additionalProperties": false
+         },
+         {
+             "type": "object",
+             "description": "Gradual Onset Type 3 iOS",
+             "properties":{
+               "correct": {"$ref": "#/definitions/correctInt"},
+               "endDate": {"$ref": "#/definitions/timemarks"},
+               "go": {"$ref": "#/definitions/go"},
+               "identifier": {"$ref": "#/definitions/stepIdentifier"},
+               "percentImage": {"$ref": "#/definitions/percentImage"},
+               "response": {"$ref": "#/definitions/responseInt"},
+               "responseCode": {"$ref": "#/definitions/responseCode"},
+               "responseType": {"$ref": "#/definitions/responseTypeInt"},
+               "rt": {"$ref": "#/definitions/responseTime"},
+               "score": {"$ref": "#/definitions/itemScore"},
+               "startDate": {"$ref": "#/definitions/timemarks"},
+               "state": {"$ref": "#/definitions/state"},
+               "trialImg": {"$ref": "#/definitions/trialImg"},
+               "trialLen": {"$ref": "#/definitions/trialLen"},
+               "trialType": {"$ref": "#/definitions/trialType"},
+               "type":{"$ref": "#/definitions/stepResultType"},
+               "wasInterrupted": {"$ref": "#/definitions/wasInterrupted"}
+            },
+            "required": ["correct","endDate","go","identifier","percentImage","response","responseCode","responseType","rt","score","startDate","state","trialImg","trialLen","trialType","type","wasInterrupted"   ],
+            "additionalProperties": false
+         },
+         {
+             "type": "object",
+             "description": "Gradual Onset Type 4 iOS",
+             "properties":{
+               "correct": {"$ref": "#/definitions/correctInt"},
+               "endDate": {"$ref": "#/definitions/timemarks"},
+               "go": {"$ref": "#/definitions/go"},
+               "identifier": {"$ref": "#/definitions/stepIdentifier"},
+               "percentImage": {"$ref": "#/definitions/percentImage"},
+               "response": {"$ref": "#/definitions/responseInt"},
+               "responseCode": {"$ref": "#/definitions/responseCode"},
+               "responseType": {"$ref": "#/definitions/responseTypeInt"},
+               "rt": {"$ref": "#/definitions/responseTime"},
+               "score": {"$ref": "#/definitions/itemScore"},
+               "startDate": {"$ref": "#/definitions/timemarks"},
+               "trial": {"$ref": "#/definitions/trial"},
+               "state": {"$ref": "#/definitions/state"},
+               "trialImg": {"$ref": "#/definitions/trialImg"},
+               "trialLen": {"$ref": "#/definitions/trialLen"},
+               "trialType": {"$ref": "#/definitions/trialType"},
+               "type":{"$ref": "#/definitions/stepResultType"},
+               "wasInterrupted": {"$ref": "#/definitions/wasInterrupted"}
+            },
+            "required": ["correct","endDate","go","identifier","percentImage","response","responseCode","responseType","rt","score","startDate","state","trial", "trialImg","trialLen","trialType","type","wasInterrupted"   ],
+            "additionalProperties": false
+         }
+      ]
+     }
+   }
+ },
+ "additionalProperties": false,
+ "required": ["startDate","endDate","taskStatus","schemaIdentifier","testVersion","userInteractions","steps","stepHistory", "taskRunUUID"],
+ "$comment": "The additional properties field is set to FALSE so that extra elements are not allowed. All required portions of a test occur in all exports."
+}
